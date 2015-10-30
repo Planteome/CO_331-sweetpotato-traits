@@ -1,0 +1,2529 @@
+format-version: 1.2
+date: 30:10:2015 11:29
+saved-by: rsimon
+auto-generated-by: cropont 0.0.1
+default-namespace: SweetpotatoTrait
+
+[Term]
+id: CO_331:0000000
+name: CGIAR sweetpotato trait ontology
+namespace: SweetpotatoTrait
+def: "A controlled vocabulary to describe each trait as a distinguishable, characteristic, quality or phenotypic feature of a developing or mature sweetpotato plant." []
+
+[Term]
+id: CO_331:0000001
+name: Agronomic trait
+namespace: SweetpotatoTrait
+def: "A characteristic in a sweetpotato plant that will add economic value to agricultural production." [CO_334:0000001 ""]
+is_a: CO_331:0000000 ! CGIAR sweetpotato trait ontology
+
+[Term]
+id: CO_331:0000002
+name: Morphological trait
+namespace: SweetpotatoTrait
+def: "Physical attributes that describe the shape or form of sweetpotato plant." [CO_334:0000002 ""]
+is_a: CO_331:0000000 ! CGIAR sweetpotato trait ontology
+
+[Term]
+id: CO_331:0000003
+name: Physiological trait
+namespace: SweetpotatoTrait
+def: "Characteristics related to the functioning of living sweetpotato." [CO_334:0000003 ""]
+is_a: CO_331:0000000 ! CGIAR sweetpotato trait ontology
+
+[Term]
+id: CO_331:0000004
+name: Quality trait
+namespace: SweetpotatoTrait
+def: "A characteristic or distinguishing feature of sweetpotato related to its utilization after harvest." [CO_334:0000004 ""]
+is_a: CO_331:0000000 ! CGIAR sweetpotato trait ontology
+
+[Term]
+id: CO_331:0000005
+name: Biotic stress trait
+namespace: SweetpotatoTrait
+def: "Response in terms of resistance, susceptibility or tolerance to biotic stress." [CO_334:0000005 ""]
+is_a: CO_331:0000000 ! CGIAR sweetpotato trait ontology
+
+[Typedef]
+id: derives_from
+name: derives_from
+namespace: SweetpotatoTrait
+
+[Typedef]
+id: method_of
+name: method_of
+
+[Typedef]
+id: variable_of
+name: variable_of
+
+[Typedef]
+id: scale_of
+name: scale_of
+
+[Term]
+id: CO_331:1000001
+name: Number of plants planted
+namespace: SweetpotatoTrait
+def: "Number of plants planted." [Grueneberg2010:Def_11 ""]
+comment: | Entity: Plot | Attribute: Plants planted | Trait status: Recommended.
+synonym: "PltPld" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000002
+name: Number of plants established
+namespace: SweetpotatoTrait
+def: "Number of plants established." [Grueneberg2010:Def_12 ""]
+comment: | Entity: Plot | Attribute: Plants established | Trait status: Recommended.
+synonym: "PltEst" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000003
+name: Virus symptoms 1
+namespace: SweetpotatoTrait
+def: "Virus symptoms evaluation, early." [Grueneberg2010:Def_13 ""]
+comment: | Entity: Plant | Attribute: Symptom Virus | Trait status: Recommended.
+synonym: "VirSm1" EXACT []
+is_a: CO_331:0000005 ! Biotic stress trait
+
+[Term]
+id: CO_331:1000004
+name: Virus symptoms 2
+namespace: SweetpotatoTrait
+def: "Virus symptoms evaluation, late." [Grueneberg2010:Def_14 ""]
+comment: | Entity: Plant | Attribute: Symptom Virus | Trait status: Recommended.
+synonym: "VirSm2" EXACT []
+is_a: CO_331:0000005 ! Biotic stress trait
+
+[Term]
+id: CO_331:1000005
+name: Vine vigor 1
+namespace: SweetpotatoTrait
+def: "Vine vigor evaluation, early." [Grueneberg2010:Def_17 ""]
+comment: | Entity: Plant | Attribute: Vine Vigor | Trait status: Recommended.
+synonym: "VinVg1" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000006
+name: Early Blight: (Alternaria) 1
+namespace: SweetpotatoTrait
+def: "Alternaria symptoms evaluation, early." [Grueneberg2010:Def_15 ""]
+comment: | Entity: Plant | Attribute: Symptom Alternaria | Trait status: Recommended.
+synonym: "AltSm1" EXACT []
+is_a: CO_331:0000005 ! Biotic stress trait
+
+[Term]
+id: CO_331:1000007
+name: Early Blight: (Alternaria) 2
+namespace: SweetpotatoTrait
+def: "Alternaria symptoms evaluation, late." [Grueneberg2010:Def_16 ""]
+comment: | Entity: Plant | Attribute: Symptom Alternaria | Trait status: Recommended.
+synonym: "Altsm2" EXACT []
+is_a: CO_331:0000005 ! Biotic stress trait
+
+[Term]
+id: CO_331:1000008
+name: Number of plants harvested
+namespace: SweetpotatoTrait
+def: "Number of plants harvested." [Grueneberg2010:Def_18 ""]
+comment: | Entity: Plot | Attribute: Plants harvested | Trait status: Recommended.
+synonym: "PltHrv" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000009
+name: Number of plants with storage roots
+namespace: SweetpotatoTrait
+def: "Number of plants with storage roots." [Grueneberg2010:Def_19 ""]
+comment: | Entity: Plot | Attribute: Plants with roots | Trait status: Recommended.
+synonym: "PltRts" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000010
+name: Number of commercial storage roots/plot
+namespace: SweetpotatoTrait
+def: "Number of commercial storage roots/plot." [Grueneberg2010:Def_20 ""]
+comment: | Entity: Plant | Attribute: Roots commercial quantity | Trait status: Recommended.
+synonym: "PltCRt" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000011
+name: Number of non-commercial storage roots/plot
+namespace: SweetpotatoTrait
+def: "Number of non-commercial storage roots/plot." [Grueneberg2010:Def_21 ""]
+comment: | Entity: Plant | Attribute: Roots non-commercial quantity | Trait status: Recommended.
+synonym: "PltNCR" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000012
+name: Weight of commercial storage roots/net plot in kg
+namespace: SweetpotatoTrait
+def: "Weight of commercial storage roots/net plot in kg." [Grueneberg2010:Def_22 ""]
+comment: | Entity: Plot | Attribute: Roots commercial weight | Trait status: Recommended.
+synonym: "RtsCWt" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000013
+name: Weight of non-commercial storage roots/net plot in kg
+namespace: SweetpotatoTrait
+def: "Weight of non-commercial storage roots/net plot in kg." [Grueneberg2010:Def_23 ""]
+comment: | Entity: Plot | Attribute: Roots non-commercial weight | Trait status: Recommended.
+synonym: "RtsNCW" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000014
+name: Weight of vines/net plot in kg
+namespace: SweetpotatoTrait
+def: "Weight of vines/net plot in kg." [Grueneberg2010:Def_24 ""]
+comment: | Entity: Plot | Attribute: Vines weight | Trait status: Recommended.
+synonym: "VnsWgt" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000015
+name: Predominant Skin color
+namespace: SweetpotatoTrait
+def: "Many freshly harvested storage roots should be washed and dried prior to evaluation. The most representative skin color observed in the cultivar should be recorded." [Huaman1991:Def_4.2.4.1 "", Grueneberg2010:Def_25 ""]
+comment: | Entity: Root | Attribute: Skin color | Trait status: Recommended.
+synonym: "SknCol" EXACT []
+is_a: CO_331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:1000016
+name: Predominant Flesh color
+namespace: SweetpotatoTrait
+def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots." [Huaman1991:Def_4.2.5.1 "", Grueneberg2010:Def_26 ""]
+comment: | Entity: Root | Attribute: Flesh color | Trait status: Recommended.
+synonym: "FlsCol" EXACT []
+is_a: CO_331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:1000017
+name: Storage root size
+namespace: SweetpotatoTrait
+def: "Overall assessment of storage root size based on inspection of the harvested roots." [Grueneberg2010:Def_27 ""]
+comment: | Entity: Root | Attribute: Size | Trait status: Recommended.
+synonym: "RtsSiz" EXACT []
+is_a: CO_331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:1000018
+name: Storage root form
+namespace: SweetpotatoTrait
+def: "Overall assessment of storage root size based on inspection of the harvested roots." [Grueneberg2010:Def_28 ""]
+comment: | Entity: Root | Attribute: Form | Trait status: Recommended.
+synonym: "RtsFrm" EXACT []
+is_a: CO_331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:1000019
+name: Storage root damages
+namespace: SweetpotatoTrait
+def: "Overall assessment of storage root size based on inspection of the harvested roots." [Grueneberg2010:Def_29 ""]
+comment: | Entity: Root | Attribute: Symptom Damage | Trait status: Recommended.
+synonym: "RtsDam" EXACT []
+is_a: CO_331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:1000020
+name: Reaction to sweet potato weevil 1
+namespace: SweetpotatoTrait
+def: "Overall assessment of weevil damage based on inspection of the harvested roots; early. Use a 1 to 9 scale." [Huaman1991:Def_8.1.1 "", Grueneberg2010:Def_29 ""]
+comment: | Entity: Root | Attribute: Symptom Weevil | Trait status: Recommended.
+synonym: "WvlSm1" EXACT []
+is_a: CO_331:0000005 ! Biotic stress trait
+
+[Term]
+id: CO_331:1000021
+name: Fresh weight of storage root samples
+namespace: SweetpotatoTrait
+def: "Fresh weight of storage root samples." [Grueneberg2010:Def_31 ""]
+comment: | Entity: Root | Attribute: Fresh weight | Trait status: Recommended.
+synonym: "RtsFWt" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000022
+name: Dry weight of storage root samples
+namespace: SweetpotatoTrait
+def: "Dry weight of storage root samples." [Grueneberg2010:Def_32 ""]
+comment: | Entity: Root | Attribute: Dry weight | Trait status: Recommended.
+synonym: "RtsDWt" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000023
+name: Fresh weight of vines
+namespace: SweetpotatoTrait
+def: "Fresh weight of vines." [CloneSelector2015:Def_10 ""]
+comment: | Entity: Vine | Attribute: Fresh weight | Trait status: Recommended.
+synonym: "VinFWt" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000024
+name: Dry weight of vines
+namespace: SweetpotatoTrait
+def: "Dry weight of vines." [CloneSelector2015:Def_11 ""]
+comment: | Entity: Vine | Attribute: Dry weight | Trait status: Recommended.
+synonym: "VinDWt" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000025
+name: Fibers in cooked samples 1
+namespace: SweetpotatoTrait
+def: "Fibers in cooked samples." [Grueneberg2010:Def_34 ""]
+comment: | Entity: Root flesh | Attribute: Fiber cooked | Trait status: Recommended.
+synonym: "FlsFb1" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000026
+name: Storage root sweetness 1
+namespace: SweetpotatoTrait
+def: "Storage root sweetness." [Grueneberg2010:Def_35 ""]
+comment: | Entity: Root flesh | Attribute: Sweetness cooked | Trait status: Recommended.
+synonym: "FlsSw1" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000027
+name: Storage root texture 1
+namespace: SweetpotatoTrait
+def: "Storage root texture." [Grueneberg2010:Def_36 ""]
+comment: | Entity: Root flesh | Attribute: Texture cooked | Trait status: Recommended.
+synonym: "FlsTx1" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000028
+name: Overall taste of cooked sample 1
+namespace: SweetpotatoTrait
+def: "Overall taste of cooked sample." [Grueneberg2010:Def_37 ""]
+comment: | Entity: Root flesh | Attribute: Taste cooked | Trait status: Recommended.
+synonym: "FlsTs1" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000029
+name: Overall appearance of cooked sample 1
+namespace: SweetpotatoTrait
+def: "Overall appearance of cooked sample." [Grueneberg2010:Def_38 ""]
+comment: | Entity: Root flesh | Attribute: Appearance cooked | Trait status: Recommended.
+synonym: "FlsAp1" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000030
+name: Plot size at harvest
+namespace: SweetpotatoTrait
+def: "Plot size at harvest." [CloneSelector2015:Def_12 ""]
+comment: | Entity: Plot | Attribute: Size | Trait status: Recommended.
+synonym: "PltSzh" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000031
+name: Vine vigor 2
+namespace: SweetpotatoTrait
+def: "Vine vigor evaluation, late." [CloneSelector2015:Def_09 ""]
+comment: | Entity: Vine | Attribute: Vigor | Trait status: Recommended.
+synonym: "VinVg2" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000032
+name: Virus symptoms 3
+namespace: SweetpotatoTrait
+def: "Virus symptoms evaluation, very late." [CloneSelector2015:Def_14 ""]
+comment: | Entity: Plant | Attribute: Symptom | Trait status: Recommended.
+synonym: "VirSm3" EXACT []
+is_a: CO_331:0000005 ! Biotic stress trait
+
+[Term]
+id: CO_331:1000033
+name: Reaction to sweet potato weevil 2
+namespace: SweetpotatoTrait
+def: "Overall assessment of weevil damage based on inspection of the harvested roots; late. Use a 1 to 9 scale." [CloneSelector2015:Def_13 ""]
+comment: | Entity: Plant | Attribute: Symptom | Trait status: Recommended.
+synonym: "WvlSm2" EXACT []
+is_a: CO_331:0000005 ! Biotic stress trait
+
+[Term]
+id: CO_331:1000034
+name: Fibers in cooked samples 2
+namespace: SweetpotatoTrait
+def: "Fibers in cooked samples." [CloneSelector2015:Def_15 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsFb2" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000035
+name: Storage root sweetness 2
+namespace: SweetpotatoTrait
+def: "Storage root sweetness." [CloneSelector2015:Def_16 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsSw2" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000036
+name: Storage root texture 2
+namespace: SweetpotatoTrait
+def: "Storage root texture." [CloneSelector2015:Def_17 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsTx2" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000037
+name: Overall taste of cooked sample 2
+namespace: SweetpotatoTrait
+def: "Overall taste of cooked sample." [CloneSelector2015:Def_18 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsTs2" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000038
+name: Overall appearance of cooked sample 2
+namespace: SweetpotatoTrait
+def: "Overall appearance of cooked sample." [CloneSelector2015:Def_19 ""]
+comment: | Entity: Root flesh | Attribute: Appearance | Trait status: Recommended.
+synonym: "FlsAp2" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000039
+name: Sprouting ability
+namespace: SweetpotatoTrait
+def: "Sprouting ability." [Huaman1991:Def_6.2.8 ""]
+comment: | Entity: Root | Attribute: Ability | Trait status: Recommended.
+synonym: "RtsSpA" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000040
+name: Protein content
+namespace: SweetpotatoTrait
+def: "Protein content." [Huaman1991:Def_6.2.2 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsPrt" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000041
+name: Content of iron on dry weight basis
+namespace: SweetpotatoTrait
+def: "Content of iron on dry weight basis." [CloneSelector2015:Def_01 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsFe" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000042
+name: Content of zinc on dry weight basis
+namespace: SweetpotatoTrait
+def: "Content of zinc on dry weight basis." [CloneSelector2015:Def_02 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsZn" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000043
+name: Content of calcium on dry weight basis
+namespace: SweetpotatoTrait
+def: "Content of calcium on dry weight basis." [CloneSelector2015:Def_20 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsCa" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000044
+name: Content of magnesium on dry weight basis
+namespace: SweetpotatoTrait
+def: "Content of magnesium on dry weight basis." [CloneSelector2015:Def_21 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsMg" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000045
+name: Beta carotene content
+namespace: SweetpotatoTrait
+def: "Beta carotene content." [CloneSelector2015:Def_03 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsBtC" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000046
+name: Total carotenoids
+namespace: SweetpotatoTrait
+def: "Total carotenoids content." [Huaman1991:Def_6.2.6 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsTtC" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000047
+name: Storage root starch content
+namespace: SweetpotatoTrait
+def: "Storage root starch content evaluated in percentage dry weight." [Huaman1991:Def_6.2.4 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsSta" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000048
+name: Fructose content
+namespace: SweetpotatoTrait
+def: "Fructose content." [CloneSelector2015:Def_04 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsFru" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000049
+name: Glucose content
+namespace: SweetpotatoTrait
+def: "Glucose content." [CloneSelector2015:Def_05 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsGlu" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000050
+name: Sucrose content
+namespace: SweetpotatoTrait
+def: "Sucrose content." [CloneSelector2015:Def_06 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsSuc" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000051
+name: Maltose content
+namespace: SweetpotatoTrait
+def: "Maltose content." [CloneSelector2015:Def_07 ""]
+comment: | Entity: Root flesh | Attribute: Quality | Trait status: Recommended.
+synonym: "FlsMal" EXACT []
+is_a: CO_331:0000004 ! Quality trait
+
+[Term]
+id: CO_331:1000052
+name: Yield of total roots per hectar
+namespace: SweetpotatoTrait
+def: "Yield evaluated in the harvest." [Grueneberg2010:Def_38 ""]
+comment: | Entity: Plant | Attribute: Yield | Trait status: Recommended.
+synonym: "RtsYld" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000053
+name: Storage root dry matter content
+namespace: SweetpotatoTrait
+def: "Storage root dry matter content." [Grueneberg2010:Def_39 ""]
+comment: | Entity: Root | Attribute: Yield | Trait status: Recommended.
+synonym: "RtsDMC" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000054
+name: Survival index
+namespace: SweetpotatoTrait
+def: "Survival index." [Grueneberg2010:Def_40 ""]
+comment: | Entity: Plant | Attribute: Yield | Trait status: Recommended.
+synonym: "IdxSrv" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:1000055
+name: Harvest index
+namespace: SweetpotatoTrait
+def: "Harvest index evaluation." [Grueneberg2010:Def_41 ""]
+comment: | Entity: Plant | Attribute: Yield | Trait status: Recommended.
+synonym: "IdxHrv" EXACT []
+is_a: CO_331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:8000001
+name: Counting:Recording planting materials
+namespace: SweetpotatoMethod
+def: "Counting plants/vines planted." [Grueneberg2010:Def_11 ""]
+relationship: method_of CO_331:1000001 ! Number of plants planted
+
+[Term]
+id: CO_331:8000002
+name: Counting:Evaluation of plants after emergence
+namespace: SweetpotatoMethod
+def: "Counting of established plants." [Grueneberg2010:Def_12 ""]
+relationship: method_of CO_331:1000002 ! Number of plants established
+
+[Term]
+id: CO_331:8000003
+name: Estimation:Virus symptoms evaluation
+namespace: SweetpotatoMethod
+def: "Visual categorization." [Grueneberg2010:Def_13 ""]
+relationship: method_of CO_331:1000003 ! Virus symptoms 1
+relationship: method_of CO_331:1000004 ! Virus symptoms 2
+relationship: method_of CO_331:1000032 ! Virus symptoms 3
+
+[Term]
+id: CO_331:8000005
+name: Estimation:Observation of plant vigour
+namespace: SweetpotatoMethod
+def: "Visual categorization." [Grueneberg2010:Def_17 ""]
+relationship: method_of CO_331:1000005 ! Vine vigor 1
+relationship: method_of CO_331:1000031 ! Vine vigor 2
+
+[Term]
+id: CO_331:8000006
+name: Estimation:Early Blight Evaluation: (Alternaria)
+namespace: SweetpotatoMethod
+def: "Visual categorization." [Grueneberg2010:Def_15 ""]
+relationship: method_of CO_331:1000006 ! Early Blight: (Alternaria) 1
+relationship: method_of CO_331:1000007 ! Early Blight: (Alternaria) 2
+
+[Term]
+id: CO_331:8000008
+name: Counting:Evaluation of plants
+namespace: SweetpotatoMethod
+def: "Visual categorization." [Grueneberg2010:Def_18 ""]
+relationship: method_of CO_331:1000008 ! Number of plants harvested
+relationship: method_of CO_331:1000009 ! Number of plants with storage roots
+
+[Term]
+id: CO_331:8000010
+name: Counting:Evaluation of roots
+namespace: SweetpotatoMethod
+def: "Visual categorization." [Grueneberg2010:Def_20 ""]
+relationship: method_of CO_331:1000010 ! Number of commercial storage roots/plot
+relationship: method_of CO_331:1000011 ! Number of non-commercial storage roots/plot
+
+[Term]
+id: CO_331:8000012
+name: Measurement:Measurements of root mass
+namespace: SweetpotatoMethod
+def: "Measured using scales." [Grueneberg2010:Def_22 ""]
+relationship: method_of CO_331:1000012 ! Weight of commercial storage roots/net plot in kg
+relationship: method_of CO_331:1000013 ! Weight of non-commercial storage roots/net plot in kg
+
+[Term]
+id: CO_331:8000013
+name: Measurement:Measurements of vine mass
+namespace: SweetpotatoMethod
+def: "Measured using scales." [Grueneberg2010:Def_24 ""]
+relationship: method_of CO_331:1000014 ! Weight of vines/net plot in kg
+
+[Term]
+id: CO_331:8000014
+name: Estimation:Observation of predominant Skin color
+namespace: SweetpotatoMethod
+def: "Visual categorization." [Huaman1991:Def_4.2.4.1 "", Grueneberg2010:Def_25 ""]
+relationship: method_of CO_331:1000015 ! Predominant Skin color
+
+[Term]
+id: CO_331:8000016
+name: Estimation:Observation of predominant Flesh color
+namespace: SweetpotatoMethod
+def: "Visual categorization." [Huaman1991:Def_4.2.5.1 "", Grueneberg2010:Def_26 ""]
+relationship: method_of CO_331:1000016 ! Predominant Flesh color
+
+[Term]
+id: CO_331:8000017
+name: Estimation:Storage root size - Method
+namespace: SweetpotatoMethod
+def: "Overall assessment of storage root size based on inspection of the harvested roots.  Use a 1 to 9 scale." [Grueneberg2010:Def_27 ""]
+relationship: method_of CO_331:1000017 ! Storage root size
+
+[Term]
+id: CO_331:8000018
+name: Estimation:Storage root form - Method
+namespace: SweetpotatoMethod
+def: "Overall assessment of storage root form based on inspection of the harvested roots. Use a 1 to 9 scale." [Grueneberg2010:Def_28 ""]
+relationship: method_of CO_331:1000018 ! Storage root form
+
+[Term]
+id: CO_331:8000019
+name: Estimation:Storage root damage.
+namespace: SweetpotatoMethod
+def: "Overall assessment of damage based on inspection of the harvested roots. Use a 1 to 9 scale." [Grueneberg2010:Def_29 ""]
+relationship: method_of CO_331:1000019 ! Storage root damages
+
+[Term]
+id: CO_331:8000020
+name: Estimation:Weevil damage evaluation
+namespace: SweetpotatoMethod
+def: "Overall assessment of weevil damage based on inspection of the harvested roots. Use a 1 to 9 scale." [Huaman1991:Def_8.1.1 "", Grueneberg2010:Def_29 ""]
+relationship: method_of CO_331:1000020 ! Reaction to sweet potato weevil 1
+relationship: method_of CO_331:1000033 ! Reaction to sweet potato weevil 2
+
+[Term]
+id: CO_331:8000021
+name: Measurement:Measurements of fresh root mass
+namespace: SweetpotatoMethod
+def: "Fresh weight of storage root samples (roughly 200g recommended sample size)." [Grueneberg2010:Def_31 ""]
+relationship: method_of CO_331:1000021 ! Fresh weight of storage root samples
+
+[Term]
+id: CO_331:8000022
+name: Measurement:Measurements of dry root mass
+namespace: SweetpotatoMethod
+def: "Dry weight of storage root samples." [Grueneberg2010:Def_32 ""]
+relationship: method_of CO_331:1000022 ! Dry weight of storage root samples
+
+[Term]
+id: CO_331:8000023
+name: Measurement:Measurements of fresh vine mass
+namespace: SweetpotatoMethod
+def: "Fresh weight of vines." [CloneSelector2015:Def_10 ""]
+relationship: method_of CO_331:1000023 ! Fresh weight of vines
+
+[Term]
+id: CO_331:8000024
+name: Measurement:Measurements of dry vine mass
+namespace: SweetpotatoMethod
+def: "Dry weight of vines." [CloneSelector2015:Def_11 ""]
+relationship: method_of CO_331:1000024 ! Dry weight of vines
+
+[Term]
+id: CO_331:8000025
+name: Estimation:Evaluation of cooked samples for fibers
+namespace: SweetpotatoMethod
+def: "Fibers in cooked storage root samples assessed by inspection and tasting. Use a 1 to 9 scale." [Grueneberg2010:Def_34 ""]
+relationship: method_of CO_331:1000025 ! Fibers in cooked samples 1
+relationship: method_of CO_331:1000034 ! Fibers in cooked samples 2
+
+[Term]
+id: CO_331:8000026
+name: Estimation:Evaluation of cooked samples for sweetness
+namespace: SweetpotatoMethod
+def: "Storage root sweetness in cooked samples, determined by taste test.  Use a 1 to 9 scale." [Grueneberg2010:Def_35 ""]
+relationship: method_of CO_331:1000026 ! Storage root sweetness 1
+relationship: method_of CO_331:1000035 ! Storage root sweetness 2
+
+[Term]
+id: CO_331:8000027
+name: Estimation:Evaluation of cooked samples for texture
+namespace: SweetpotatoMethod
+def: "Storage root texture in cooked samples, determined by taste test. Use a 1 to 9 scale." [Grueneberg2010:Def_36 ""]
+relationship: method_of CO_331:1000027 ! Storage root texture 1
+relationship: method_of CO_331:1000036 ! Storage root texture 2
+
+[Term]
+id: CO_331:8000028
+name: Estimation:Evaluation of cooked samples for taste
+namespace: SweetpotatoMethod
+def: "Overall taste of cooked samples assessed using a 1 to 9 scale." [Grueneberg2010:Def_37 ""]
+relationship: method_of CO_331:1000028 ! Overall taste of cooked sample 1
+relationship: method_of CO_331:1000037 ! Overall taste of cooked sample 2
+
+[Term]
+id: CO_331:8000029
+name: Estimation:Evaluation of cooked samples for appearance
+namespace: SweetpotatoMethod
+def: "Appearance of cooked samples assessed using a 1 to 9 scale." [Grueneberg2010:Def_38 ""]
+relationship: method_of CO_331:1000029 ! Overall appearance of cooked sample 1
+relationship: method_of CO_331:1000038 ! Overall appearance of cooked sample 2
+
+[Term]
+id: CO_331:8000030
+name: Measurement:Evaluation of plot size
+namespace: SweetpotatoMethod
+def: "Net plot size at harvest." [CloneSelector2015:Def_12 ""]
+relationship: method_of CO_331:1000030 ! Plot size at harvest
+
+[Term]
+id: CO_331:8000039
+name: Estimation:Evaluation of roots for sprouting ability
+namespace: SweetpotatoMethod
+def: "Overall assessment using a scale of 1 to 9." [Huaman1991:Def_6.2.8 ""]
+relationship: method_of CO_331:1000039 ! Sprouting ability
+
+[Term]
+id: CO_331:8000040
+name: Measurement:Protein content - Method
+namespace: SweetpotatoMethod
+def: "Protein content." [Huaman1991:Def_6.2.2 ""]
+relationship: method_of CO_331:1000040 ! Protein content
+
+[Term]
+id: CO_331:8000041
+name: Measurement:Content of iron in dry weight basis - Method
+namespace: SweetpotatoMethod
+def: "The mineral concentrations (Fe, Zn, Ca, K, Na, Mg and P) are determined by inductively coupled plasma--optical emission spectrophotometry (ICP-OES) using a Radial View." [CloneSelector2015:Def_01 ""]
+relationship: method_of CO_331:1000041 ! Content of iron on dry weight basis
+
+[Term]
+id: CO_331:8000042
+name: Measurement:Content of zinc in dry weight basis - Method
+namespace: SweetpotatoMethod
+def: "The mineral concentrations (Fe, Zn, Ca, K, Na, Mg and P) are determined by inductively coupled plasma--optical emission spectrophotometry (ICP-OES) using a Radial View." [CloneSelector2015:Def_02 ""]
+relationship: method_of CO_331:1000042 ! Content of zinc on dry weight basis
+
+[Term]
+id: CO_331:8000043
+name: Measurement:Content of calcium in dry weight basis - Method
+namespace: SweetpotatoMethod
+def: "The mineral concentrations (Fe, Zn, Ca, K, Na, Mg and P) are determined by inductively coupled plasma--optical emission spectrophotometry (ICP-OES) using a Radial View." [CloneSelector2015:Def_20 ""]
+relationship: method_of CO_331:1000043 ! Content of calcium on dry weight basis
+
+[Term]
+id: CO_331:8000044
+name: Measurement:Content of magnesium in dry weight basis - Method
+namespace: SweetpotatoMethod
+def: "The mineral concentrations (Fe, Zn, Ca, K, Na, Mg and P) are determined by inductively coupled plasma--optical emission spectrophotometry (ICP-OES) using a Radial View." [CloneSelector2015:Def_21 ""]
+relationship: method_of CO_331:1000044 ! Content of magnesium on dry weight basis
+
+[Term]
+id: CO_331:8000045
+name: Measurement:Beta carotene content - Method
+namespace: SweetpotatoMethod
+def: "For b-carotene analysis, 15 milliliters of the extract are transferred to a tube and dried with nitrogen gas. Immediately before injection, the residue is redissolved in 1 ml of HPLC grade acetone filtered through a 0.22-mm PTFE syringe filter directly into sample vials, and 10 ml is injected into the HPLC. Separation is carried out on a YMC C30 polymeric column (3 mm, 4.6 mm _ 250 mm) using as mobile phase an isocratic elution methanol: methyl-tert-butyl-eter (80:20) with a flow rate set as 0.8 ml/ min." [CloneSelector2015:Def_03 ""]
+relationship: method_of CO_331:1000045 ! Beta carotene content
+
+[Term]
+id: CO_331:8000046
+name: Measurement:Total carotenoids - Method
+namespace: SweetpotatoMethod
+def: "The total carotenoid content is calculated using the absorbance value measured in a spectrophotometer at 450 nm and the extinction coefficient of b-carotene in petroleum ether ." [Huaman1991:Def_6.2.6 ""]
+relationship: method_of CO_331:1000046 ! Total carotenoids
+
+[Term]
+id: CO_331:8000047
+name: Measurement:Storage root starch content - Method
+namespace: SweetpotatoMethod
+def: "Pharr, D.M. Y Sox, H.N. 198." [Huaman1991:Def_6.2.4 ""]
+relationship: method_of CO_331:1000047 ! Storage root starch content
+
+[Term]
+id: CO_331:8000048
+name: Measurement:Fructose content - Method
+namespace: SweetpotatoMethod
+def: "Miller, Gail Lorenz (1959)." [CloneSelector2015:Def_04 ""]
+relationship: method_of CO_331:1000048 ! Fructose content
+
+[Term]
+id: CO_331:8000049
+name: Measurement:Glucose content - Method
+namespace: SweetpotatoMethod
+def: "Miller, Gail Lorenz (1959)." [CloneSelector2015:Def_05 ""]
+relationship: method_of CO_331:1000049 ! Glucose content
+
+[Term]
+id: CO_331:8000050
+name: Measurement:Sucrose content - Method
+namespace: SweetpotatoMethod
+def: "Miller, Gail Lorenz (1959)." [CloneSelector2015:Def_06 ""]
+relationship: method_of CO_331:1000050 ! Sucrose content
+
+[Term]
+id: CO_331:8000051
+name: Measurement:Maltose content - Method
+namespace: SweetpotatoMethod
+def: "Miller, Gail Lorenz (1959)." [CloneSelector2015:Def_07 ""]
+relationship: method_of CO_331:1000051 ! Maltose content
+
+[Term]
+id: CO_331:8000052
+name: Computation:Estimated yield per hectare - Method
+namespace: SweetpotatoMethod
+def: "(Weight total of root/ plot size)*10." [Grueneberg2010:Def_38 ""]
+relationship: method_of CO_331:1000052 ! Yield of total roots per hectar
+
+[Term]
+id: CO_331:8000053
+name: Computation:Storage root dry matter content - Method
+namespace: SweetpotatoMethod
+def: "Fresh weight / dry weight * 100." [Grueneberg2010:Def_39 ""]
+relationship: method_of CO_331:1000053 ! Storage root dry matter content
+
+[Term]
+id: CO_331:8000054
+name: Computation:Survival index - Method
+namespace: SweetpotatoMethod
+def: "Number of plants harvested / number of plants sown." [Grueneberg2010:Def_40 ""]
+relationship: method_of CO_331:1000054 ! Survival index
+
+[Term]
+id: CO_331:8000055
+name: Computation:Harvest index evaluation  - Method
+namespace: SweetpotatoMethod
+def: "100*total root weight/total root weight + foliage weight." [Grueneberg2010:Def_41 ""]
+relationship: method_of CO_331:1000055 ! Harvest index
+
+[Term]
+id: CO_331:9000001
+name: Numerical:plants/plot
+namespace: SweetpotatoScale
+comment: | Decimal places: 0 | Lower limit: 0.
+relationship: scale_of CO_331:8000001 ! Counting: Recording planting materials
+relationship: scale_of CO_331:8000002 ! Counting: Evaluation of plants after emergence
+relationship: scale_of CO_331:8000008 ! Counting: Evaluation of plants
+
+[Term]
+id: CO_331:9000005
+name: Numerical:roots/net plot
+namespace: SweetpotatoScale
+comment: | Decimal places: 0 | Lower limit: 0.
+relationship: scale_of CO_331:8000010 ! Counting: Evaluation of roots
+
+[Term]
+id: CO_331:9000006
+name: Numerical:kg/net plot
+namespace: SweetpotatoScale
+comment: | Decimal places: 1 | Lower limit: 0.
+relationship: scale_of CO_331:8000012 ! Measurement: Measurements of root mass
+relationship: scale_of CO_331:8000013 ! Measurement: Measurements of vine mass
+
+[Term]
+id: CO_331:9000012
+name: Numerical:g
+namespace: SweetpotatoScale
+comment: | Decimal places: 2 | Lower limit: 0.
+relationship: scale_of CO_331:8000021 ! Measurement: Measurements of fresh root mass
+relationship: scale_of CO_331:8000022 ! Measurement: Measurements of dry root mass
+relationship: scale_of CO_331:8000023 ! Measurement: Measurements of fresh vine mass
+relationship: scale_of CO_331:8000024 ! Measurement: Measurements of dry vine mass
+
+[Term]
+id: CO_331:9000021
+name: Numerical:m^2
+namespace: SweetpotatoScale
+comment: | Decimal places: 2 | Lower limit: 0.
+relationship: scale_of CO_331:8000030 ! Measurement: Evaluation of plot size
+
+[Term]
+id: CO_331:9000023
+name: Continuous:%
+namespace: SweetpotatoScale
+comment: | Decimal places: 2 | Lower limit: 0 | Upper limit: 100.
+relationship: scale_of CO_331:8000040 ! Measurement: Protein content - Method
+relationship: scale_of CO_331:8000047 ! Measurement: Storage root starch content - Method
+relationship: scale_of CO_331:8000048 ! Measurement: Fructose content - Method
+relationship: scale_of CO_331:8000049 ! Measurement: Glucose content - Method
+relationship: scale_of CO_331:8000050 ! Measurement: Sucrose content - Method
+relationship: scale_of CO_331:8000051 ! Measurement: Maltose content - Method
+relationship: scale_of CO_331:8000053 ! Computation: Storage root dry matter content - Method
+relationship: scale_of CO_331:8000054 ! Computation: Survival index - Method
+relationship: scale_of CO_331:8000055 ! Computation: Harvest index evaluation  - Method
+
+[Term]
+id: CO_331:9000024
+name: Continuous:mg/100g
+namespace: SweetpotatoScale
+comment: | Decimal places: 2 | Lower limit: 0.
+relationship: scale_of CO_331:8000041 ! Measurement: Content of iron in dry weight basis - Method
+relationship: scale_of CO_331:8000042 ! Measurement: Content of zinc in dry weight basis - Method
+relationship: scale_of CO_331:8000043 ! Measurement: Content of calcium in dry weight basis - Method
+relationship: scale_of CO_331:8000044 ! Measurement: Content of magnesium in dry weight basis - Method
+relationship: scale_of CO_331:8000045 ! Measurement: Beta carotene content - Method
+relationship: scale_of CO_331:8000046 ! Measurement: Total carotenoids - Method
+
+[Term]
+id: CO_331:9000025
+name: Continuous:t/ha
+namespace: SweetpotatoScale
+comment: | Decimal places: 2 | Lower limit: 0.
+relationship: scale_of CO_331:8000052 ! Computation: Estimated yield per hectare - Method
+
+[Term]
+id: CO_331:9000002
+name: Ordinal:VirSym 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000003 ! Estimation: Virus symptoms evaluation
+
+[Term]
+id: CO_331:9000002:1
+name: no virus symptoms
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000002 ! Ordinal:VirSym 9 pt. scale
+
+[Term]
+id: CO_331:9000002:2
+name: unclear virus symptoms
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000002 ! Ordinal:VirSym 9 pt. scale
+
+[Term]
+id: CO_331:9000002:3
+name: Clear virus symptoms < 5% of plants per plot
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000002 ! Ordinal:VirSym 9 pt. scale
+
+[Term]
+id: CO_331:9000002:4
+name: Clear virus symptoms at 6 to 15% of plants per plot
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000002 ! Ordinal:VirSym 9 pt. scale
+
+[Term]
+id: CO_331:9000002:5
+name: Clear virus symptoms at 16 to 33% of plants per plot
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000002 ! Ordinal:VirSym 9 pt. scale
+
+[Term]
+id: CO_331:9000002:6
+name: Clear virus symptoms at 34 to 66% of plants per plot (more than 1/3 less than 2/3)
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000002 ! Ordinal:VirSym 9 pt. scale
+
+[Term]
+id: CO_331:9000002:7
+name: Clear virus symptoms at 67 to 99 % of plants per plot (2/3 to almost all)
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000002 ! Ordinal:VirSym 9 pt. scale
+
+[Term]
+id: CO_331:9000002:8
+name: Clear virus symptoms at all plants per plot (not stunted)
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000002 ! Ordinal:VirSym 9 pt. scale
+
+[Term]
+id: CO_331:9000002:9
+name: Severe virus symptoms in all plants per plot (stunted).
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000002 ! Ordinal:VirSym 9 pt. scale
+
+[Term]
+id: CO_331:9000003
+name: Ordinal:VinVgr 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000005 ! Estimation: Observation of plant vigour
+
+[Term]
+id: CO_331:9000003:1
+name: nearly no vines
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000003 ! Ordinal:VinVgr 9 pt. scale
+
+[Term]
+id: CO_331:9000003:2
+name: weak vines
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000003 ! Ordinal:VinVgr 9 pt. scale
+
+[Term]
+id: CO_331:9000003:3
+name: weak to medium strong vines, medium thick stems, and long internode distances
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000003 ! Ordinal:VinVgr 9 pt. scale
+
+[Term]
+id: CO_331:9000003:4
+name: medium strong vines, medium thick stems, and medium internode distances
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000003 ! Ordinal:VinVgr 9 pt. scale
+
+[Term]
+id: CO_331:9000003:5
+name: medium strong vines, thick  vines, and long internode distances
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000003 ! Ordinal:VinVgr 9 pt. scale
+
+[Term]
+id: CO_331:9000003:6
+name: medium strong vines, thick stems, and medium internode distances
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000003 ! Ordinal:VinVgr 9 pt. scale
+
+[Term]
+id: CO_331:9000003:7
+name: strong vines, thick stems, short internode distances, and medium-long vines
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000003 ! Ordinal:VinVgr 9 pt. scale
+
+[Term]
+id: CO_331:9000003:8
+name: strong vines, thick stems, short internode distances, and long vines,
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000003 ! Ordinal:VinVgr 9 pt. scale
+
+[Term]
+id: CO_331:9000003:9
+name: very strong vine strength, thick stems, short internode distances, and very long vines
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000003 ! Ordinal:VinVgr 9 pt. scale
+
+[Term]
+id: CO_331:9000004
+name: Ordinal:ErlyBlt 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000006 ! Estimation: Early Blight Evaluation: (Alternaria)
+
+[Term]
+id: CO_331:9000004:1
+name: no symptoms
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000004 ! Ordinal:ErlyBlt 9 pt. scale
+
+[Term]
+id: CO_331:9000004:2
+name: Unclear symptoms
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000004 ! Ordinal:ErlyBlt 9 pt. scale
+
+[Term]
+id: CO_331:9000004:3
+name: Clear symptoms at <5% per plot
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000004 ! Ordinal:ErlyBlt 9 pt. scale
+
+[Term]
+id: CO_331:9000004:4
+name: Clear symptoms at 6 to 15% of plants per plot
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000004 ! Ordinal:ErlyBlt 9 pt. scale
+
+[Term]
+id: CO_331:9000004:5
+name: Clear symptoms at 16 to 33% of plants per plot (less than 1/3)
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000004 ! Ordinal:ErlyBlt 9 pt. scale
+
+[Term]
+id: CO_331:9000004:6
+name: Clear symptoms at 34 to 66% of plants per plot (more than 1/3
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000004 ! Ordinal:ErlyBlt 9 pt. scale
+
+[Term]
+id: CO_331:9000004:7
+name: Clear symptoms at 67 to 99 % of plants per plot (2/3 to almost all)
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000004 ! Ordinal:ErlyBlt 9 pt. scale
+
+[Term]
+id: CO_331:9000004:8
+name: Clear symptoms at all plants (not fully defoliated)
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000004 ! Ordinal:ErlyBlt 9 pt. scale
+
+[Term]
+id: CO_331:9000004:9
+name: Severe symptoms at all plants per plot (fully defoliated)
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000004 ! Ordinal:ErlyBlt 9 pt. scale
+
+[Term]
+id: CO_331:9000007
+name: Nominal:PrdSknCol 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000014 ! Estimation: Observation of predominant Skin color
+
+[Term]
+id: CO_331:9000007:1
+name: white
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000007 ! Nominal:PrdSknCol 9 pt. scale
+
+[Term]
+id: CO_331:9000007:2
+name: cream
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000007 ! Nominal:PrdSknCol 9 pt. scale
+
+[Term]
+id: CO_331:9000007:3
+name: yellow
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000007 ! Nominal:PrdSknCol 9 pt. scale
+
+[Term]
+id: CO_331:9000007:4
+name: orange
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000007 ! Nominal:PrdSknCol 9 pt. scale
+
+[Term]
+id: CO_331:9000007:5
+name: brownish orange
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000007 ! Nominal:PrdSknCol 9 pt. scale
+
+[Term]
+id: CO_331:9000007:6
+name: pink
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000007 ! Nominal:PrdSknCol 9 pt. scale
+
+[Term]
+id: CO_331:9000007:7
+name: red
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000007 ! Nominal:PrdSknCol 9 pt. scale
+
+[Term]
+id: CO_331:9000007:8
+name: purple-red
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000007 ! Nominal:PrdSknCol 9 pt. scale
+
+[Term]
+id: CO_331:9000007:9
+name: dark purple
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000007 ! Nominal:PrdSknCol 9 pt. scale
+
+[Term]
+id: CO_331:9000008
+name: Nominal:PrdFlshCol 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000016 ! Estimation: Observation of predominant Flesh color
+
+[Term]
+id: CO_331:9000008:1
+name: white
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000008 ! Nominal:PrdFlshCol 9 pt. scale
+
+[Term]
+id: CO_331:9000008:2
+name: cream
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000008 ! Nominal:PrdFlshCol 9 pt. scale
+
+[Term]
+id: CO_331:9000008:3
+name: dark cream
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000008 ! Nominal:PrdFlshCol 9 pt. scale
+
+[Term]
+id: CO_331:9000008:4
+name: pale yellow
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000008 ! Nominal:PrdFlshCol 9 pt. scale
+
+[Term]
+id: CO_331:9000008:5
+name: dark yellow
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000008 ! Nominal:PrdFlshCol 9 pt. scale
+
+[Term]
+id: CO_331:9000008:6
+name: pale orange
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000008 ! Nominal:PrdFlshCol 9 pt. scale
+
+[Term]
+id: CO_331:9000008:7
+name: intermediate orange
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000008 ! Nominal:PrdFlshCol 9 pt. scale
+
+[Term]
+id: CO_331:9000008:8
+name: dark orange
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000008 ! Nominal:PrdFlshCol 9 pt. scale
+
+[Term]
+id: CO_331:9000008:9
+name: strongly pigmented with anthocyanins
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000008 ! Nominal:PrdFlshCol 9 pt. scale
+
+[Term]
+id: CO_331:9000009
+name: Ordinal:RtSize 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000017 ! Estimation: Storage root size - Method
+
+[Term]
+id: CO_331:9000009:1
+name: excellent
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000009 ! Ordinal:RtSize 9 pt. scale
+
+[Term]
+id: CO_331:9000009:2
+name: excellent to good
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000009 ! Ordinal:RtSize 9 pt. scale
+
+[Term]
+id: CO_331:9000009:3
+name: good
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000009 ! Ordinal:RtSize 9 pt. scale
+
+[Term]
+id: CO_331:9000009:4
+name: good to fair
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000009 ! Ordinal:RtSize 9 pt. scale
+
+[Term]
+id: CO_331:9000009:5
+name: fair
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000009 ! Ordinal:RtSize 9 pt. scale
+
+[Term]
+id: CO_331:9000009:6
+name: fair to poor
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000009 ! Ordinal:RtSize 9 pt. scale
+
+[Term]
+id: CO_331:9000009:7
+name: poor
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000009 ! Ordinal:RtSize 9 pt. scale
+
+[Term]
+id: CO_331:9000009:8
+name: poor to terrible
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000009 ! Ordinal:RtSize 9 pt. scale
+
+[Term]
+id: CO_331:9000009:9
+name: terrible
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000009 ! Ordinal:RtSize 9 pt. scale
+
+[Term]
+id: CO_331:9000010
+name: Ordinal:RtForm 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000018 ! Estimation: Storage root form - Method
+
+[Term]
+id: CO_331:9000010:1
+name: excellent
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000010 ! Ordinal:RtForm 9 pt. scale
+
+[Term]
+id: CO_331:9000010:2
+name: excellent to good
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000010 ! Ordinal:RtForm 9 pt. scale
+
+[Term]
+id: CO_331:9000010:3
+name: good
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000010 ! Ordinal:RtForm 9 pt. scale
+
+[Term]
+id: CO_331:9000010:4
+name: good to fair
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000010 ! Ordinal:RtForm 9 pt. scale
+
+[Term]
+id: CO_331:9000010:5
+name: fair
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000010 ! Ordinal:RtForm 9 pt. scale
+
+[Term]
+id: CO_331:9000010:6
+name: fair to poor
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000010 ! Ordinal:RtForm 9 pt. scale
+
+[Term]
+id: CO_331:9000010:7
+name: poor
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000010 ! Ordinal:RtForm 9 pt. scale
+
+[Term]
+id: CO_331:9000010:8
+name: poor to terrible
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000010 ! Ordinal:RtForm 9 pt. scale
+
+[Term]
+id: CO_331:9000010:9
+name: terrible
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000010 ! Ordinal:RtForm 9 pt. scale
+
+[Term]
+id: CO_331:9000011
+name: Ordinal:RtDam 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000019 ! Estimation: Storage root damage.
+relationship: scale_of CO_331:8000020 ! Estimation: Weevil damage evaluation
+relationship: scale_of CO_331:8000003 ! Estimation: Evaluation of plants for virus symptoms
+
+[Term]
+id: CO_331:9000011:1
+name: no damage
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000011 ! Ordinal:RtDam 9 pt. scale
+
+[Term]
+id: CO_331:9000011:2
+name: very minor
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000011 ! Ordinal:RtDam 9 pt. scale
+
+[Term]
+id: CO_331:9000011:3
+name: minor
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000011 ! Ordinal:RtDam 9 pt. scale
+
+[Term]
+id: CO_331:9000011:4
+name: minor to moderate
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000011 ! Ordinal:RtDam 9 pt. scale
+
+[Term]
+id: CO_331:9000011:5
+name: moderate
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000011 ! Ordinal:RtDam 9 pt. scale
+
+[Term]
+id: CO_331:9000011:6
+name: moderate to heavy
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000011 ! Ordinal:RtDam 9 pt. scale
+
+[Term]
+id: CO_331:9000011:7
+name: heavy
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000011 ! Ordinal:RtDam 9 pt. scale
+
+[Term]
+id: CO_331:9000011:8
+name: heavy to severe damage
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000011 ! Ordinal:RtDam 9 pt. scale
+
+[Term]
+id: CO_331:9000011:9
+name: severe damage
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000011 ! Ordinal:RtDam 9 pt. scale
+
+[Term]
+id: CO_331:9000013
+name: Ordinal:RtFbr 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000025 ! Estimation: Evaluation of cooked samples for fibers
+
+[Term]
+id: CO_331:9000013:1
+name: non-fibrous
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000013 ! Ordinal:RtFbr 9 pt. scale
+
+[Term]
+id: CO_331:9000013:2
+name: non-fibrous to slightly fibrous
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000013 ! Ordinal:RtFbr 9 pt. scale
+
+[Term]
+id: CO_331:9000013:3
+name: slightly fibrous
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000013 ! Ordinal:RtFbr 9 pt. scale
+
+[Term]
+id: CO_331:9000013:4
+name: slightly to moderately fibrous
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000013 ! Ordinal:RtFbr 9 pt. scale
+
+[Term]
+id: CO_331:9000013:5
+name: moderately fibrous
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000013 ! Ordinal:RtFbr 9 pt. scale
+
+[Term]
+id: CO_331:9000013:6
+name: moderately fibrous to fibrous
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000013 ! Ordinal:RtFbr 9 pt. scale
+
+[Term]
+id: CO_331:9000013:7
+name: fibrous
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000013 ! Ordinal:RtFbr 9 pt. scale
+
+[Term]
+id: CO_331:9000013:8
+name: fibrous to very fibrous
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000013 ! Ordinal:RtFbr 9 pt. scale
+
+[Term]
+id: CO_331:9000013:9
+name: very fibrous
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000013 ! Ordinal:RtFbr 9 pt. scale
+
+[Term]
+id: CO_331:9000014
+name: Ordinal:RtSwt 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000026 ! Estimation: Evaluation of cooked samples for sweetness
+
+[Term]
+id: CO_331:9000014:1
+name: non-sweet
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000014 ! Ordinal:RtSwt 9 pt. scale
+
+[Term]
+id: CO_331:9000014:2
+name: non-sweet to slightly sweet
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000014 ! Ordinal:RtSwt 9 pt. scale
+
+[Term]
+id: CO_331:9000014:3
+name: slightly sweet
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000014 ! Ordinal:RtSwt 9 pt. scale
+
+[Term]
+id: CO_331:9000014:4
+name: slightly to moderately sweet
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000014 ! Ordinal:RtSwt 9 pt. scale
+
+[Term]
+id: CO_331:9000014:5
+name: moderately sweet
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000014 ! Ordinal:RtSwt 9 pt. scale
+
+[Term]
+id: CO_331:9000014:6
+name: moderately sweet to sweet
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000014 ! Ordinal:RtSwt 9 pt. scale
+
+[Term]
+id: CO_331:9000014:7
+name: sweet
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000014 ! Ordinal:RtSwt 9 pt. scale
+
+[Term]
+id: CO_331:9000014:8
+name: sweet to very sweet
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000014 ! Ordinal:RtSwt 9 pt. scale
+
+[Term]
+id: CO_331:9000014:9
+name: very sweet
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000014 ! Ordinal:RtSwt 9 pt. scale
+
+[Term]
+id: CO_331:9000015
+name: Ordinal:RtStr 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000027 ! Estimation: Evaluation of cooked samples for texture
+
+[Term]
+id: CO_331:9000015:1
+name: very moist
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000015 ! Ordinal:RtStr 9 pt. scale
+
+[Term]
+id: CO_331:9000015:2
+name: very moist to moist
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000015 ! Ordinal:RtStr 9 pt. scale
+
+[Term]
+id: CO_331:9000015:3
+name: moist
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000015 ! Ordinal:RtStr 9 pt. scale
+
+[Term]
+id: CO_331:9000015:4
+name: moist to moderately dry
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000015 ! Ordinal:RtStr 9 pt. scale
+
+[Term]
+id: CO_331:9000015:5
+name: moderately dry
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000015 ! Ordinal:RtStr 9 pt. scale
+
+[Term]
+id: CO_331:9000015:6
+name: moderately dry to dry
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000015 ! Ordinal:RtStr 9 pt. scale
+
+[Term]
+id: CO_331:9000015:7
+name: dry
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000015 ! Ordinal:RtStr 9 pt. scale
+
+[Term]
+id: CO_331:9000015:8
+name: dry to very dry
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000015 ! Ordinal:RtStr 9 pt. scale
+
+[Term]
+id: CO_331:9000015:9
+name: very dry
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000015 ! Ordinal:RtStr 9 pt. scale
+
+[Term]
+id: CO_331:9000016
+name: Ordinal:RtTst 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000028 ! Estimation: Evaluation of cooked samples for taste
+
+[Term]
+id: CO_331:9000016:1
+name: excellent
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000016 ! Ordinal:RtTst 9 pt. scale
+
+[Term]
+id: CO_331:9000016:2
+name: excellent to good
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000016 ! Ordinal:RtTst 9 pt. scale
+
+[Term]
+id: CO_331:9000016:3
+name: good
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000016 ! Ordinal:RtTst 9 pt. scale
+
+[Term]
+id: CO_331:9000016:4
+name: good to fair
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000016 ! Ordinal:RtTst 9 pt. scale
+
+[Term]
+id: CO_331:9000016:5
+name: fair
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000016 ! Ordinal:RtTst 9 pt. scale
+
+[Term]
+id: CO_331:9000016:6
+name: fair to poor
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000016 ! Ordinal:RtTst 9 pt. scale
+
+[Term]
+id: CO_331:9000016:7
+name: poor
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000016 ! Ordinal:RtTst 9 pt. scale
+
+[Term]
+id: CO_331:9000016:8
+name: poor to terrible
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000016 ! Ordinal:RtTst 9 pt. scale
+
+[Term]
+id: CO_331:9000016:9
+name: terrible
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000016 ! Ordinal:RtTst 9 pt. scale
+
+[Term]
+id: CO_331:9000017
+name: Ordinal:RtApr 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000029 ! Estimation: Evaluation of cooked samples for appearance
+
+[Term]
+id: CO_331:9000017:1
+name: very appealing
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000017 ! Ordinal:RtApr 9 pt. scale
+
+[Term]
+id: CO_331:9000017:2
+name: very appealing to appealing
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000017 ! Ordinal:RtApr 9 pt. scale
+
+[Term]
+id: CO_331:9000017:3
+name: appealing
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000017 ! Ordinal:RtApr 9 pt. scale
+
+[Term]
+id: CO_331:9000017:4
+name: appealing to somewhat appealing
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000017 ! Ordinal:RtApr 9 pt. scale
+
+[Term]
+id: CO_331:9000017:5
+name: somewhat appealing
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000017 ! Ordinal:RtApr 9 pt. scale
+
+[Term]
+id: CO_331:9000017:6
+name: somewhat appealing to unappealing
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000017 ! Ordinal:RtApr 9 pt. scale
+
+[Term]
+id: CO_331:9000017:7
+name: unappealing
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000017 ! Ordinal:RtApr 9 pt. scale
+
+[Term]
+id: CO_331:9000017:8
+name: unappealing to very unappealing
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000017 ! Ordinal:RtApr 9 pt. scale
+
+[Term]
+id: CO_331:9000017:9
+name: very unappealing
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000017 ! Ordinal:RtApr 9 pt. scale
+
+[Term]
+id: CO_331:9000022
+name: Ordinal:RtSprt 9 pt. scale
+namespace: SweetpotatoScale
+relationship: scale_of CO_331:8000039 ! Estimation: Evaluation of roots for sprouting ability
+
+[Term]
+id: CO_331:9000022:1
+name: excellent
+namespace: SweetpotatoScale
+synonym: "1" EXACT []
+is_a: CO_331:9000022 ! Ordinal:RtSprt 9 pt. scale
+
+[Term]
+id: CO_331:9000022:2
+name: excellent to good
+namespace: SweetpotatoScale
+synonym: "2" EXACT []
+is_a: CO_331:9000022 ! Ordinal:RtSprt 9 pt. scale
+
+[Term]
+id: CO_331:9000022:3
+name: good
+namespace: SweetpotatoScale
+synonym: "3" EXACT []
+is_a: CO_331:9000022 ! Ordinal:RtSprt 9 pt. scale
+
+[Term]
+id: CO_331:9000022:4
+name: good to fair
+namespace: SweetpotatoScale
+synonym: "4" EXACT []
+is_a: CO_331:9000022 ! Ordinal:RtSprt 9 pt. scale
+
+[Term]
+id: CO_331:9000022:5
+name: fair
+namespace: SweetpotatoScale
+synonym: "5" EXACT []
+is_a: CO_331:9000022 ! Ordinal:RtSprt 9 pt. scale
+
+[Term]
+id: CO_331:9000022:6
+name: fair to poor
+namespace: SweetpotatoScale
+synonym: "6" EXACT []
+is_a: CO_331:9000022 ! Ordinal:RtSprt 9 pt. scale
+
+[Term]
+id: CO_331:9000022:7
+name: poor
+namespace: SweetpotatoScale
+synonym: "7" EXACT []
+is_a: CO_331:9000022 ! Ordinal:RtSprt 9 pt. scale
+
+[Term]
+id: CO_331:9000022:8
+name: poor to terrible
+namespace: SweetpotatoScale
+synonym: "8" EXACT []
+is_a: CO_331:9000022 ! Ordinal:RtSprt 9 pt. scale
+
+[Term]
+id: CO_331:9000022:9
+name: terrible
+namespace: SweetpotatoScale
+synonym: "9" EXACT []
+is_a: CO_331:9000022 ! Ordinal:RtSprt 9 pt. scale
+
+[Term]
+id: CO_331:2000001
+name: PltPld_Ct_plot
+namespace: SweetpotatoVariable
+def: "Number of plants planted." [Grueneberg2010:Def_11 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: W01 | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "NOPS" EXACT []
+relationship: variable_of CO_331:1000001 ! "Number of plants planted." [Grueneberg2010:Def_11 ""]
+relationship: variable_of CO_331:8000001 ! Counting: Recording planting materials
+relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
+
+[Term]
+id: CO_331:2000002
+name: PltEst_Ct_plot
+namespace: SweetpotatoVariable
+def: "Number of plants established." [Grueneberg2010:Def_12 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: W06 | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "NOPE" EXACT []
+relationship: variable_of CO_331:1000002 ! "Number of plants established." [Grueneberg2010:Def_12 ""]
+relationship: variable_of CO_331:8000002 ! Counting: Evaluation of plants after emergence
+relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
+
+[Term]
+id: CO_331:2000003
+name: VirSm1_Et_1to9
+namespace: SweetpotatoVariable
+def: "Virus symptoms 1." [Grueneberg2010:Def_13 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: W06 | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "VIR1" EXACT []
+relationship: variable_of CO_331:1000003 ! "Virus symptoms 1." [Grueneberg2010:Def_13 ""]
+relationship: variable_of CO_331:8000003 ! Estimation: Virus symptoms evaluation
+relationship: variable_of CO_331:9000002 ! Ordinal: VirSym 9 pt. scale
+
+[Term]
+id: CO_331:2000004
+name: VirSm2_Et_1to9
+namespace: SweetpotatoVariable
+def: "Virus symptoms 2." [Grueneberg2010:Def_14 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: W13 | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "VIR2" EXACT []
+relationship: variable_of CO_331:1000004 ! "Virus symptoms 2." [Grueneberg2010:Def_14 ""]
+relationship: variable_of CO_331:8000003 ! Estimation: Virus symptoms evaluation
+relationship: variable_of CO_331:9000002 ! Ordinal: VirSym 9 pt. scale
+
+[Term]
+id: CO_331:2000005
+name: VinVg1_Et_1to9
+namespace: SweetpotatoVariable
+def: "Vine vigor 1." [Grueneberg2010:Def_17 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: W06 | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "VV1" EXACT []
+relationship: variable_of CO_331:1000005 ! "Vine vigor 1." [Grueneberg2010:Def_17 ""]
+relationship: variable_of CO_331:8000005 ! Estimation: Observation of plant vigour
+relationship: variable_of CO_331:9000003 ! Ordinal: VinVgr 9 pt. scale
+
+[Term]
+id: CO_331:2000006
+name: AltSm1_Et_1to9
+namespace: SweetpotatoVariable
+def: "Early Blight: (Alternaria) 1." [Grueneberg2010:Def_15 ""]
+comment: | Context of use: Characterizing stocks,  Evaluation in Trials | Growth stage: W06 | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "ALT1" EXACT []
+synonym: "AS" EXACT []
+relationship: variable_of CO_331:1000006 ! "Early Blight: (Alternaria) 1." [Grueneberg2010:Def_15 ""]
+relationship: variable_of CO_331:8000006 ! Estimation: Early Blight Evaluation: (Alternaria)
+relationship: variable_of CO_331:9000004 ! Ordinal: ErlyBlt 9 pt. scale
+
+[Term]
+id: CO_331:2000007
+name: Altsm2_Et_1to9
+namespace: SweetpotatoVariable
+def: "Early Blight: (Alternaria) 2." [Grueneberg2010:Def_16 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: W13 | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "ALT2" EXACT []
+relationship: variable_of CO_331:1000007 ! "Early Blight: (Alternaria) 2." [Grueneberg2010:Def_16 ""]
+relationship: variable_of CO_331:8000006 ! Estimation: Early Blight Evaluation: (Alternaria)
+relationship: variable_of CO_331:9000004 ! Ordinal: ErlyBlt 9 pt. scale
+
+[Term]
+id: CO_331:2000008
+name: PltHrv_Ct_plot
+namespace: SweetpotatoVariable
+def: "Number of plants harvested." [Grueneberg2010:Def_18 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "NOPH" EXACT []
+relationship: variable_of CO_331:1000008 ! "Number of plants harvested." [Grueneberg2010:Def_18 ""]
+relationship: variable_of CO_331:8000008 ! Counting: Evaluation of plants
+relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
+
+[Term]
+id: CO_331:2000009
+name: PltRts_Ct_plot
+namespace: SweetpotatoVariable
+def: "Number of plants with storage roots." [Grueneberg2010:Def_19 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "NOPR" EXACT []
+relationship: variable_of CO_331:1000009 ! "Number of plants with storage roots." [Grueneberg2010:Def_19 ""]
+relationship: variable_of CO_331:8000008 ! Counting: Evaluation of plants
+relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
+
+[Term]
+id: CO_331:2000010
+name: PltCRt_Ct_plot
+namespace: SweetpotatoVariable
+def: "Number of commercial storage roots/plot." [Grueneberg2010:Def_20 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "NOCR" EXACT []
+relationship: variable_of CO_331:1000010 ! "Number of commercial storage roots/plot." [Grueneberg2010:Def_20 ""]
+relationship: variable_of CO_331:8000010 ! Counting: Evaluation of roots
+relationship: variable_of CO_331:9000005 ! Numerical: roots/net plot
+
+[Term]
+id: CO_331:2000011
+name: PltNCR_Ct_plot
+namespace: SweetpotatoVariable
+def: "Number of non-commercial storage roots/plot." [Grueneberg2010:Def_21 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "NONC" EXACT []
+relationship: variable_of CO_331:1000011 ! "Number of non-commercial storage roots/plot." [Grueneberg2010:Def_21 ""]
+relationship: variable_of CO_331:8000010 ! Counting: Evaluation of roots
+relationship: variable_of CO_331:9000005 ! Numerical: roots/net plot
+
+[Term]
+id: CO_331:2000012
+name: RtsCWt_Ms_kgplot
+namespace: SweetpotatoVariable
+def: "Weight of commercial storage roots/net plot in kg." [Grueneberg2010:Def_22 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "CRW" EXACT []
+relationship: variable_of CO_331:1000012 ! "Weight of commercial storage roots/net plot in kg." [Grueneberg2010:Def_22 ""]
+relationship: variable_of CO_331:8000012 ! Measurement: Measurements of root mass
+relationship: variable_of CO_331:9000006 ! Numerical: kg/net plot
+
+[Term]
+id: CO_331:2000013
+name: RtsNCW_Ms_kgplot
+namespace: SweetpotatoVariable
+def: "Weight of non-commercial storage roots/net plot in kg." [Grueneberg2010:Def_23 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "NCRW" EXACT []
+relationship: variable_of CO_331:1000013 ! "Weight of non-commercial storage roots/net plot in kg." [Grueneberg2010:Def_23 ""]
+relationship: variable_of CO_331:8000012 ! Measurement: Measurements of root mass
+relationship: variable_of CO_331:9000006 ! Numerical: kg/net plot
+
+[Term]
+id: CO_331:2000014
+name: VnsWgt_Ms_kgplot
+namespace: SweetpotatoVariable
+def: "Weight of vines/net plot in kg." [Grueneberg2010:Def_24 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "VW" EXACT []
+relationship: variable_of CO_331:1000014 ! "Weight of vines/net plot in kg." [Grueneberg2010:Def_24 ""]
+relationship: variable_of CO_331:8000013 ! Measurement: Measurements of vine mass
+relationship: variable_of CO_331:9000006 ! Numerical: kg/net plot
+
+[Term]
+id: CO_331:2000015
+name: SknCol_Et_1to9
+namespace: SweetpotatoVariable
+def: "Predominant Skin color." [Huaman1991:Def_4.2.4.1 "", Grueneberg2010:Def_25 ""]
+comment: | Context of use: Characterizing stocks,  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: Z. Huam?n | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "RTSKN1" EXACT []
+synonym: "SCOL" EXACT []
+relationship: variable_of CO_331:1000015 ! "Predominant Skin color." [Huaman1991:Def_4.2.4.1 "", Grueneberg2010:Def_25 ""]
+relationship: variable_of CO_331:8000014 ! Estimation: Observation of predominant Skin color
+relationship: variable_of CO_331:9000007 ! Nominal: PrdSknCol 9 pt. scale
+
+[Term]
+id: CO_331:2000016
+name: FlsCol_Et_1to9
+namespace: SweetpotatoVariable
+def: "Predominant Flesh color." [Huaman1991:Def_4.2.5.1 "", Grueneberg2010:Def_26 ""]
+comment: | Context of use: Characterizing stocks,  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: Z. Huam?n | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "RTFSH1" EXACT []
+synonym: "FCOL" EXACT []
+relationship: variable_of CO_331:1000016 ! "Predominant Flesh color." [Huaman1991:Def_4.2.5.1 "", Grueneberg2010:Def_26 ""]
+relationship: variable_of CO_331:8000016 ! Estimation: Observation of predominant Flesh color
+relationship: variable_of CO_331:9000008 ! Nominal: PrdFlshCol 9 pt. scale
+
+[Term]
+id: CO_331:2000017
+name: RtsSiz_Et_1to9
+namespace: SweetpotatoVariable
+def: "Storage root size." [Grueneberg2010:Def_27 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "RS" EXACT []
+relationship: variable_of CO_331:1000017 ! "Storage root size." [Grueneberg2010:Def_27 ""]
+relationship: variable_of CO_331:8000017 ! Estimation: Storage root size - Method
+relationship: variable_of CO_331:9000009 ! Ordinal: RtSize 9 pt. scale
+
+[Term]
+id: CO_331:2000018
+name: RtsFrm_Et_1to9
+namespace: SweetpotatoVariable
+def: "Storage root form." [Grueneberg2010:Def_28 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "RF" EXACT []
+relationship: variable_of CO_331:1000018 ! "Storage root form." [Grueneberg2010:Def_28 ""]
+relationship: variable_of CO_331:8000018 ! Estimation: Storage root form - Method
+relationship: variable_of CO_331:9000010 ! Ordinal: RtForm 9 pt. scale
+
+[Term]
+id: CO_331:2000019
+name: RtsDam_Et_1to9
+namespace: SweetpotatoVariable
+def: "Storage root damages." [Grueneberg2010:Def_29 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "DAMR" EXACT []
+relationship: variable_of CO_331:1000019 ! "Storage root damages." [Grueneberg2010:Def_29 ""]
+relationship: variable_of CO_331:8000019 ! Estimation: Storage root damage.
+relationship: variable_of CO_331:9000011 ! Ordinal: RtDam 9 pt. scale
+
+[Term]
+id: CO_331:2000020
+name: WvlSm1_Et_1to9
+namespace: SweetpotatoVariable
+def: "Reaction to sweet potato weevil 1." [Huaman1991:Def_8.1.1 "", Grueneberg2010:Def_29 ""]
+comment: | Context of use: Characterizing stocks,  Evaluation in Trials | Growth stage: all | Variable status: Recommended | Scientist: Z. Huam?n | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "WED1" EXACT []
+synonym: "WED" EXACT []
+relationship: variable_of CO_331:1000020 ! "Reaction to sweet potato weevil 1." [Huaman1991:Def_8.1.1 "", Grueneberg2010:Def_29 ""]
+relationship: variable_of CO_331:8000020 ! Estimation: Weevil damage evaluation
+relationship: variable_of CO_331:9000011 ! Ordinal: RtDam 9 pt. scale
+
+[Term]
+id: CO_331:2000021
+name: RtsFWt_Ms_g
+namespace: SweetpotatoVariable
+def: "Fresh weight of storage root samples." [Grueneberg2010:Def_31 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "DMF" EXACT []
+relationship: variable_of CO_331:1000021 ! "Fresh weight of storage root samples." [Grueneberg2010:Def_31 ""]
+relationship: variable_of CO_331:8000021 ! Measurement: Measurements of fresh root mass
+relationship: variable_of CO_331:9000012 ! Numerical: g
+
+[Term]
+id: CO_331:2000022
+name: RtsDWt_Ms_g
+namespace: SweetpotatoVariable
+def: "Dry weight of storage root samples." [Grueneberg2010:Def_32 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "DMD" EXACT []
+relationship: variable_of CO_331:1000022 ! "Dry weight of storage root samples." [Grueneberg2010:Def_32 ""]
+relationship: variable_of CO_331:8000022 ! Measurement: Measurements of dry root mass
+relationship: variable_of CO_331:9000012 ! Numerical: g
+
+[Term]
+id: CO_331:2000023
+name: VinFWt_Ms_g
+namespace: SweetpotatoVariable
+def: "Fresh weight of vines." [CloneSelector2015:Def_10 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "DMFV" EXACT []
+relationship: variable_of CO_331:1000023 ! "Fresh weight of vines." [CloneSelector2015:Def_10 ""]
+relationship: variable_of CO_331:8000023 ! Measurement: Measurements of fresh vine mass
+relationship: variable_of CO_331:9000012 ! Numerical: g
+
+[Term]
+id: CO_331:2000024
+name: VinDWt_Ms_g
+namespace: SweetpotatoVariable
+def: "Dry weight of vines." [CloneSelector2015:Def_11 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "DMDV" EXACT []
+relationship: variable_of CO_331:1000024 ! "Dry weight of vines." [CloneSelector2015:Def_11 ""]
+relationship: variable_of CO_331:8000024 ! Measurement: Measurements of dry vine mass
+relationship: variable_of CO_331:9000012 ! Numerical: g
+
+[Term]
+id: CO_331:2000025
+name: FlsFb1_Et_1to9
+namespace: SweetpotatoVariable
+def: "Fibers in cooked samples 1." [Grueneberg2010:Def_34 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "COOF1" EXACT []
+relationship: variable_of CO_331:1000025 ! "Fibers in cooked samples 1." [Grueneberg2010:Def_34 ""]
+relationship: variable_of CO_331:8000025 ! Estimation: Evaluation of cooked samples for fibers
+relationship: variable_of CO_331:9000013 ! Ordinal: RtFbr 9 pt. scale
+
+[Term]
+id: CO_331:2000026
+name: FlsSw1_Et_1to9
+namespace: SweetpotatoVariable
+def: "Storage root sweetness 1." [Grueneberg2010:Def_35 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "COOSU1" EXACT []
+relationship: variable_of CO_331:1000026 ! "Storage root sweetness 1." [Grueneberg2010:Def_35 ""]
+relationship: variable_of CO_331:8000026 ! Estimation: Evaluation of cooked samples for sweetness
+relationship: variable_of CO_331:9000014 ! Ordinal: RtSwt 9 pt. scale
+
+[Term]
+id: CO_331:2000027
+name: FlsTx1_Et_1to9
+namespace: SweetpotatoVariable
+def: "Storage root texture 1." [Grueneberg2010:Def_36 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "COOST1" EXACT []
+relationship: variable_of CO_331:1000027 ! "Storage root texture 1." [Grueneberg2010:Def_36 ""]
+relationship: variable_of CO_331:8000027 ! Estimation: Evaluation of cooked samples for texture
+relationship: variable_of CO_331:9000015 ! Ordinal: RtStr 9 pt. scale
+
+[Term]
+id: CO_331:2000028
+name: FlsTs1_Et_1to9
+namespace: SweetpotatoVariable
+def: "Overall taste of cooked sample 1." [Grueneberg2010:Def_37 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "COOT1" EXACT []
+relationship: variable_of CO_331:1000028 ! "Overall taste of cooked sample 1." [Grueneberg2010:Def_37 ""]
+relationship: variable_of CO_331:8000028 ! Estimation: Evaluation of cooked samples for taste
+relationship: variable_of CO_331:9000016 ! Ordinal: RtTst 9 pt. scale
+
+[Term]
+id: CO_331:2000029
+name: FlsAp1_Et_1to9
+namespace: SweetpotatoVariable
+def: "Overall appearance of cooked sample 1." [Grueneberg2010:Def_38 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "COOAP1" EXACT []
+relationship: variable_of CO_331:1000029 ! "Overall appearance of cooked sample 1." [Grueneberg2010:Def_38 ""]
+relationship: variable_of CO_331:8000029 ! Estimation: Evaluation of cooked samples for appearance
+relationship: variable_of CO_331:9000017 ! Ordinal: RtApr 9 pt. scale
+
+[Term]
+id: CO_331:2000030
+name: PltSzh_Ms_sqm
+namespace: SweetpotatoVariable
+def: "Plot size at harvest." [CloneSelector2015:Def_12 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "PS2" EXACT []
+relationship: variable_of CO_331:1000030 ! "Plot size at harvest." [CloneSelector2015:Def_12 ""]
+relationship: variable_of CO_331:8000030 ! Measurement: Evaluation of plot size
+relationship: variable_of CO_331:9000021 ! Numerical: m^2
+
+[Term]
+id: CO_331:2000031
+name: VinVg2_Et_1to9
+namespace: SweetpotatoVariable
+def: "Vine vigor 2." [CloneSelector2015:Def_09 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: W13 | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "VV2" EXACT []
+relationship: variable_of CO_331:1000031 ! "Vine vigor 2." [CloneSelector2015:Def_09 ""]
+relationship: variable_of CO_331:8000005 ! Estimation: Evaluation of plants for vine vigor
+relationship: variable_of CO_331:9000003 ! Ordinal: VinVgr 9 pt. scale
+
+[Term]
+id: CO_331:2000032
+name: VirSm3_Et_1to9
+namespace: SweetpotatoVariable
+def: "Virus symptoms 3." [CloneSelector2015:Def_14 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: all | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "VIR3" EXACT []
+relationship: variable_of CO_331:1000032 ! "Virus symptoms 3." [CloneSelector2015:Def_14 ""]
+relationship: variable_of CO_331:8000003 ! Estimation: Evaluation of plants for virus symptoms
+relationship: variable_of CO_331:9000011 ! Ordinal: RtDam 9 pt. scale
+
+[Term]
+id: CO_331:2000033
+name: WvlSm2_Et_1to9
+namespace: SweetpotatoVariable
+def: "Reaction to sweet potato weevil 2." [CloneSelector2015:Def_13 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: all | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "WED2" EXACT []
+relationship: variable_of CO_331:1000033 ! "Reaction to sweet potato weevil 2." [CloneSelector2015:Def_13 ""]
+relationship: variable_of CO_331:8000020 ! Estimation: Evaluation of plants for weevil symptoms
+relationship: variable_of CO_331:9000011 ! Ordinal: SES 9 pt. scale
+
+[Term]
+id: CO_331:2000034
+name: FlsFb2_Et_1to9
+namespace: SweetpotatoVariable
+def: "Fibers in cooked samples 2." [CloneSelector2015:Def_15 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "COOF2" EXACT []
+relationship: variable_of CO_331:1000034 ! "Fibers in cooked samples 2." [CloneSelector2015:Def_15 ""]
+relationship: variable_of CO_331:8000025 ! Estimation: Evaluation of cooked samples for fibers
+relationship: variable_of CO_331:9000013 ! Ordinal: RtFbr 9 pt. scale
+
+[Term]
+id: CO_331:2000035
+name: FlsSw2_Et_1to9
+namespace: SweetpotatoVariable
+def: "Storage root sweetness 2." [CloneSelector2015:Def_16 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "COOSU2" EXACT []
+relationship: variable_of CO_331:1000035 ! "Storage root sweetness 2." [CloneSelector2015:Def_16 ""]
+relationship: variable_of CO_331:8000026 ! Estimation: Evaluation of cooked samples for sweetness
+relationship: variable_of CO_331:9000014 ! Ordinal: RtSwt 9 pt. scale
+
+[Term]
+id: CO_331:2000036
+name: FlsTx2_Et_1to9
+namespace: SweetpotatoVariable
+def: "Storage root texture 2." [CloneSelector2015:Def_17 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "COOST2" EXACT []
+relationship: variable_of CO_331:1000036 ! "Storage root texture 2." [CloneSelector2015:Def_17 ""]
+relationship: variable_of CO_331:8000027 ! Estimation: Evaluation of cooked samples for texture
+relationship: variable_of CO_331:9000015 ! Ordinal: RtStr 9 pt. scale
+
+[Term]
+id: CO_331:2000037
+name: FlsTs2_Et_1to9
+namespace: SweetpotatoVariable
+def: "Overall taste of cooked sample 2." [CloneSelector2015:Def_18 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "COOT2" EXACT []
+relationship: variable_of CO_331:1000037 ! "Overall taste of cooked sample 2." [CloneSelector2015:Def_18 ""]
+relationship: variable_of CO_331:8000028 ! Estimation: Evaluation of cooked samples for taste
+relationship: variable_of CO_331:9000016 ! Ordinal: RtTst 9 pt. scale
+
+[Term]
+id: CO_331:2000038
+name: FlsAp2_Et_1to9
+namespace: SweetpotatoVariable
+def: "Overall appearance of cooked sample 2." [CloneSelector2015:Def_19 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "COOAP2" EXACT []
+relationship: variable_of CO_331:1000038 ! "Overall appearance of cooked sample 2." [CloneSelector2015:Def_19 ""]
+relationship: variable_of CO_331:8000029 ! Estimation: Evaluation of cooked samples for appearance
+relationship: variable_of CO_331:9000017 ! Ordinal: RtApr 9 pt. scale
+
+[Term]
+id: CO_331:2000039
+name: RtsSpA_Et_1to9
+namespace: SweetpotatoVariable
+def: "Sprouting ability." [CloneSelector2015:Def_03 "", Huaman1991:Def_6.2.8 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Post-harvest | Variable status: Recommended | Scientist: Z. Huam?n | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "RSPR" EXACT []
+relationship: variable_of CO_331:1000039 ! "Sprouting ability." [CloneSelector2015:Def_03 "", Huaman1991:Def_6.2.8 ""]
+relationship: variable_of CO_331:8000039 ! Estimation: Evaluation of roots for sprouting ability
+relationship: variable_of CO_331:9000022 ! Ordinal: RtSprt 9 pt. scale
+
+[Term]
+id: CO_331:2000040
+name: FlsPrt_Ms_pct
+namespace: SweetpotatoVariable
+def: "Protein content." [CloneSelector2015:Def_08 "", Huaman1991:Def_6.2.2 ""]
+comment: | Context of use: Characterizing stocks,  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: Z. Huam?n | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "PRO" EXACT []
+synonym: "PROTEIN" EXACT []
+relationship: variable_of CO_331:1000040 ! "Protein content." [CloneSelector2015:Def_08 "", Huaman1991:Def_6.2.2 ""]
+relationship: variable_of CO_331:8000040 ! Measurement: Protein content - Method
+relationship: variable_of CO_331:9000023 ! Continuous: %
+
+[Term]
+id: CO_331:2000041
+name: FlsFe_Ms_mg100g
+namespace: SweetpotatoVariable
+def: "Content of iron on dry weight basis." [CloneSelector2015:Def_01 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "Fe" EXACT []
+relationship: variable_of CO_331:1000041 ! "Content of iron on dry weight basis." [CloneSelector2015:Def_01 ""]
+relationship: variable_of CO_331:8000041 ! Measurement: Content of iron in dry weight basis - Method
+relationship: variable_of CO_331:9000024 ! Continuous: mg/100g
+
+[Term]
+id: CO_331:2000042
+name: FlsZn_Ms_mg100g
+namespace: SweetpotatoVariable
+def: "Content of zinc on dry weight basis." [CloneSelector2015:Def_02 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "Zn" EXACT []
+relationship: variable_of CO_331:1000042 ! "Content of zinc on dry weight basis." [CloneSelector2015:Def_02 ""]
+relationship: variable_of CO_331:8000042 ! Measurement: Content of zinc in dry weight basis - Method
+relationship: variable_of CO_331:9000024 ! Continuous: mg/100g
+
+[Term]
+id: CO_331:2000043
+name: FlsCa_Ms_mg100g
+namespace: SweetpotatoVariable
+def: "Content of calcium on dry weight basis." [CloneSelector2015:Def_20 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "Ca" EXACT []
+relationship: variable_of CO_331:1000043 ! "Content of calcium on dry weight basis." [CloneSelector2015:Def_20 ""]
+relationship: variable_of CO_331:8000043 ! Measurement: Content of calcium in dry weight basis - Method
+relationship: variable_of CO_331:9000024 ! Continuous: mg/100g
+
+[Term]
+id: CO_331:2000044
+name: FlsMg_Ms_mg100g
+namespace: SweetpotatoVariable
+def: "Content of magnesium on dry weight basis." [CloneSelector2015:Def_21 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "Mg" EXACT []
+relationship: variable_of CO_331:1000044 ! "Content of magnesium on dry weight basis." [CloneSelector2015:Def_21 ""]
+relationship: variable_of CO_331:8000044 ! Measurement: Content of magnesium in dry weight basis - Method
+relationship: variable_of CO_331:9000024 ! Continuous: mg/100g
+
+[Term]
+id: CO_331:2000045
+name: FlsBtC_Ms_mg100g
+namespace: SweetpotatoVariable
+def: "Beta carotene content." [CloneSelector2015:Def_03 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "BC" EXACT []
+relationship: variable_of CO_331:1000045 ! "Beta carotene content." [CloneSelector2015:Def_03 ""]
+relationship: variable_of CO_331:8000045 ! Measurement: Beta carotene content - Method
+relationship: variable_of CO_331:9000024 ! Continuous: mg/100g
+
+[Term]
+id: CO_331:2000046
+name: FlsTtC_Ms_mg100g
+namespace: SweetpotatoVariable
+def: "Total carotenoids." [Huaman1991:Def_6.2.6 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: Z. Huam?n | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "TC" EXACT []
+relationship: variable_of CO_331:1000046 ! "Total carotenoids." [Huaman1991:Def_6.2.6 ""]
+relationship: variable_of CO_331:8000046 ! Measurement: Total carotenoids - Method
+relationship: variable_of CO_331:9000024 ! Continuous: mg/100g
+
+[Term]
+id: CO_331:2000047
+name: FlsSta_Ms_pct
+namespace: SweetpotatoVariable
+def: "Storage root starch content." [Huaman1991:Def_6.2.4 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: Z. Huam?n | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "STAR" EXACT []
+relationship: variable_of CO_331:1000047 ! "Storage root starch content." [Huaman1991:Def_6.2.4 ""]
+relationship: variable_of CO_331:8000047 ! Measurement: Storage root starch content - Method
+relationship: variable_of CO_331:9000023 ! Continuous: %
+
+[Term]
+id: CO_331:2000048
+name: FlsFru_Ms_pct
+namespace: SweetpotatoVariable
+def: "Fructose content." [CloneSelector2015:Def_04 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "FRUC" EXACT []
+relationship: variable_of CO_331:1000048 ! "Fructose content." [CloneSelector2015:Def_04 ""]
+relationship: variable_of CO_331:8000048 ! Measurement: Fructose content - Method
+relationship: variable_of CO_331:9000023 ! Continuous: %
+
+[Term]
+id: CO_331:2000049
+name: FlsGlu_Ms_pct
+namespace: SweetpotatoVariable
+def: "Glucose content." [CloneSelector2015:Def_05 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "GLUC" EXACT []
+relationship: variable_of CO_331:1000049 ! "Glucose content." [CloneSelector2015:Def_05 ""]
+relationship: variable_of CO_331:8000049 ! Measurement: Glucose content - Method
+relationship: variable_of CO_331:9000023 ! Continuous: %
+
+[Term]
+id: CO_331:2000050
+name: FlsSuc_Ms_pct
+namespace: SweetpotatoVariable
+def: "Sucrose content." [CloneSelector2015:Def_06 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "SUCR" EXACT []
+relationship: variable_of CO_331:1000050 ! "Sucrose content." [CloneSelector2015:Def_06 ""]
+relationship: variable_of CO_331:8000050 ! Measurement: Sucrose content - Method
+relationship: variable_of CO_331:9000023 ! Continuous: %
+
+[Term]
+id: CO_331:2000051
+name: FlsMal_Ms_pct
+namespace: SweetpotatoVariable
+def: "Maltose content." [CloneSelector2015:Def_07 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "MALT" EXACT []
+relationship: variable_of CO_331:1000051 ! "Maltose content." [CloneSelector2015:Def_07 ""]
+relationship: variable_of CO_331:8000051 ! Measurement: Maltose content - Method
+relationship: variable_of CO_331:9000023 ! Continuous: %
+
+[Term]
+id: CO_331:2000052
+name: RtsYld_Cp_tha
+namespace: SweetpotatoVariable
+def: "Yield of total roots per hectar." [Grueneberg2010:Def_38 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "RYTHA" EXACT []
+relationship: variable_of CO_331:1000052 ! "Yield of total roots per hectar." [Grueneberg2010:Def_38 ""]
+relationship: variable_of CO_331:8000052 ! Computation: Estimated yield per hectare - Method
+relationship: variable_of CO_331:9000025 ! Continuous: t/ha
+relationship: derives_from CO_331:2000012 ! RtsCWt_Ms_kgplot (CRW)
+relationship: derives_from CO_331:2000013 ! RtsNCW_Ms_kgplot (NCRW)
+relationship: derives_from CO_331:2000030 ! PltSzh_Ms_sqm (PS2)
+
+[Term]
+id: CO_331:2000053
+name: RtsDMC_Cp_pct
+namespace: SweetpotatoVariable
+def: "Storage root dry matter content." [Grueneberg2010:Def_39 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "DM" EXACT []
+relationship: variable_of CO_331:1000053 ! "Storage root dry matter content." [Grueneberg2010:Def_39 ""]
+relationship: variable_of CO_331:8000053 ! Computation: Storage root dry matter content - Method
+relationship: variable_of CO_331:9000023 ! Continuous: %
+relationship: derives_from CO_331:2000021 ! RtsFWt_Ms_g (DMF)
+relationship: derives_from CO_331:2000022 ! RtsDWt_Ms_g (DMD)
+
+[Term]
+id: CO_331:2000054
+name: IdxSrv_Cp_pct
+namespace: SweetpotatoVariable
+def: "Survival index." [Grueneberg2010:Def_40 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "SHI" EXACT []
+relationship: variable_of CO_331:1000054 ! "Survival index." [Grueneberg2010:Def_40 ""]
+relationship: variable_of CO_331:8000054 ! Computation: Survival index - Method
+relationship: variable_of CO_331:9000023 ! Continuous: %
+relationship: derives_from CO_331:2000008 ! PltHrv_Ct_plot (NOPH)
+relationship: derives_from CO_331:2000001 ! PltPld_Ct_plot (NOPS)
+
+[Term]
+id: CO_331:2000055
+name: IdxHrv_Cp_pct
+namespace: SweetpotatoVariable
+def: "Harvest index." [Grueneberg2010:Def_41 ""]
+comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
+synonym: "HI" EXACT []
+relationship: variable_of CO_331:1000055 ! "Harvest index." [Grueneberg2010:Def_41 ""]
+relationship: variable_of CO_331:8000055 ! Computation: Harvest index evaluation  - Method
+relationship: variable_of CO_331:9000023 ! Continuous: %
+relationship: derives_from CO_331:2000012 ! RtsCWt_Ms_kgplot (CRW)
+relationship: derives_from CO_331:2000013 ! RtsNCW_Ms_kgplot (NCRW)
+relationship: derives_from CO_331:2000014 ! VnsWgt_Ms_kgplot (VW)
+
