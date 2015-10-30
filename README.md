@@ -3,6 +3,7 @@
 Focal point for requesting new terms: Reinhard Simon (CIP)
 
 The following conventions are being used:
+
 1. ID ranges for high level groupings of traits: CO_331:0000001 - CO_331:0999999
 2. ID ranges for Traits     CO_331:1xxxxxx
 3. ID ranges for Variables: CO_331:2xxxxxx
@@ -18,10 +19,12 @@ The following conventions are being used:
 
 
 The following observations:
+
 1. Identifiers in xrefs must be using only English alphabet characters (no extended characters allowed by OBO-editor)
 2. The list of variables corresponds currenlty to those commonly used in sweetpotato trials. It will be expanded shortly to a larger list of 175+ variables.
 
 TODOs in curation:
+
 1. Cross referencing to other ontologies
 2. Clearer separation of trait, method and variable definitions.
 
