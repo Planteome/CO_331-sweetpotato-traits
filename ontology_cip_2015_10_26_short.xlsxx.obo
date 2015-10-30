@@ -1,8 +1,8 @@
 format-version: 1.2
-date: 30:10:2015 11:29
+date: 30:10:2015 12:53
 saved-by: rsimon
 auto-generated-by: cropont 0.0.1
-default-namespace: SweetpotatoTrait
+default-namespace: SweetpototatoTrait
 
 [Term]
 id: CO_331:0000000
@@ -1909,7 +1909,7 @@ is_a: CO_331:9000022 ! Ordinal:RtSprt 9 pt. scale
 
 [Term]
 id: CO_331:2000001
-name: PltPld_Ct_plot
+name: PltPld_Ct_plplot
 namespace: SweetpotatoVariable
 def: "Number of plants planted." [Grueneberg2010:Def_11 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: W01 | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -1920,7 +1920,7 @@ relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
 
 [Term]
 id: CO_331:2000002
-name: PltEst_Ct_plot
+name: PltEst_Ct_plplot
 namespace: SweetpotatoVariable
 def: "Number of plants established." [Grueneberg2010:Def_12 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: W06 | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -1987,7 +1987,7 @@ relationship: variable_of CO_331:9000004 ! Ordinal: ErlyBlt 9 pt. scale
 
 [Term]
 id: CO_331:2000008
-name: PltHrv_Ct_plot
+name: PltHrv_Ct_plplot
 namespace: SweetpotatoVariable
 def: "Number of plants harvested." [Grueneberg2010:Def_18 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -1998,7 +1998,7 @@ relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
 
 [Term]
 id: CO_331:2000009
-name: PltRts_Ct_plot
+name: PltRts_Ct_plplot
 namespace: SweetpotatoVariable
 def: "Number of plants with storage roots." [Grueneberg2010:Def_19 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2009,7 +2009,7 @@ relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
 
 [Term]
 id: CO_331:2000010
-name: PltCRt_Ct_plot
+name: PltCRt_Ct_plplot
 namespace: SweetpotatoVariable
 def: "Number of commercial storage roots/plot." [Grueneberg2010:Def_20 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2020,7 +2020,7 @@ relationship: variable_of CO_331:9000005 ! Numerical: roots/net plot
 
 [Term]
 id: CO_331:2000011
-name: PltNCR_Ct_plot
+name: PltNCR_Ct_plplot
 namespace: SweetpotatoVariable
 def: "Number of non-commercial storage roots/plot." [Grueneberg2010:Def_21 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Gr?neberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2510,8 +2510,8 @@ synonym: "SHI" EXACT []
 relationship: variable_of CO_331:1000054 ! "Survival index." [Grueneberg2010:Def_40 ""]
 relationship: variable_of CO_331:8000054 ! Computation: Survival index - Method
 relationship: variable_of CO_331:9000023 ! Continuous: %
-relationship: derives_from CO_331:2000008 ! PltHrv_Ct_plot (NOPH)
-relationship: derives_from CO_331:2000001 ! PltPld_Ct_plot (NOPS)
+relationship: derives_from CO_331:2000008 ! PltHrv_Ct_plplot (NOPH)
+relationship: derives_from CO_331:2000001 ! PltPld_Ct_plplot (NOPS)
 
 [Term]
 id: CO_331:2000055
