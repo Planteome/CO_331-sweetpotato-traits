@@ -1,1 +1,1 @@
-# ibp-sweatpotato-traits
+# ibp-sweetpotato-traits
