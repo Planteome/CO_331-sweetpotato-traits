@@ -1909,7 +1909,7 @@ is_a: CO_331:9000022 ! Ordinal:RtSprt 9 pt. scale
 
 [Term]
 id: CO_331:2000001
-name: Number of plants planted
+name: variable Number of plants planted
 namespace: SweetpotatoVariable
 def: "Number of plants planted." [Grueneberg2010:Def_11 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: W01 | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -1921,7 +1921,7 @@ relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
 
 [Term]
 id: CO_331:2000002
-name: Number of plants established
+name: variable Number of plants established
 namespace: SweetpotatoVariable
 def: "Number of plants established." [Grueneberg2010:Def_12 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: W06 | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -1933,7 +1933,7 @@ relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
 
 [Term]
 id: CO_331:2000003
-name: Virus symptoms 1
+name: variable Virus symptoms 1
 namespace: SweetpotatoVariable
 def: "Virus symptoms 1." [Grueneberg2010:Def_13 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: W06 | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -1945,7 +1945,7 @@ relationship: variable_of CO_331:9000002 ! Ordinal: VirSym 9 pt. scale
 
 [Term]
 id: CO_331:2000004
-name: Virus symptoms 2
+name: variable Virus symptoms 2
 namespace: SweetpotatoVariable
 def: "Virus symptoms 2." [Grueneberg2010:Def_14 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: W13 | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -1957,7 +1957,7 @@ relationship: variable_of CO_331:9000002 ! Ordinal: VirSym 9 pt. scale
 
 [Term]
 id: CO_331:2000005
-name: Vine vigor 1
+name: variable Vine vigor 1
 namespace: SweetpotatoVariable
 def: "Vine vigor 1." [Grueneberg2010:Def_17 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: W06 | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -1969,7 +1969,7 @@ relationship: variable_of CO_331:9000003 ! Ordinal: VinVgr 9 pt. scale
 
 [Term]
 id: CO_331:2000006
-name: Early Blight: (Alternaria) 1
+name: variable Early Blight: (Alternaria) 1
 namespace: SweetpotatoVariable
 def: "Early Blight: (Alternaria) 1." [Grueneberg2010:Def_15 ""]
 comment: | Context of use: Characterizing stocks,  Evaluation in Trials | Growth stage: W06 | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -1982,7 +1982,7 @@ relationship: variable_of CO_331:9000004 ! Ordinal: ErlyBlt 9 pt. scale
 
 [Term]
 id: CO_331:2000007
-name: Early Blight: (Alternaria) 2
+name: variable Early Blight: (Alternaria) 2
 namespace: SweetpotatoVariable
 def: "Early Blight: (Alternaria) 2." [Grueneberg2010:Def_16 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: W13 | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -1994,7 +1994,7 @@ relationship: variable_of CO_331:9000004 ! Ordinal: ErlyBlt 9 pt. scale
 
 [Term]
 id: CO_331:2000008
-name: Number of plants harvested
+name: variable Number of plants harvested
 namespace: SweetpotatoVariable
 def: "Number of plants harvested." [Grueneberg2010:Def_18 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2006,7 +2006,7 @@ relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
 
 [Term]
 id: CO_331:2000009
-name: Number of plants with storage roots
+name: variable Number of plants with storage roots
 namespace: SweetpotatoVariable
 def: "Number of plants with storage roots." [Grueneberg2010:Def_19 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2018,7 +2018,7 @@ relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
 
 [Term]
 id: CO_331:2000010
-name: Number of commercial storage roots/plot
+name: variable Number of commercial storage roots/plot
 namespace: SweetpotatoVariable
 def: "Number of commercial storage roots/plot." [Grueneberg2010:Def_20 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2030,7 +2030,7 @@ relationship: variable_of CO_331:9000005 ! Numerical: roots/net plot
 
 [Term]
 id: CO_331:2000011
-name: Number of non-commercial storage roots/plot
+name: variable Number of non-commercial storage roots/plot
 namespace: SweetpotatoVariable
 def: "Number of non-commercial storage roots/plot." [Grueneberg2010:Def_21 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2042,7 +2042,7 @@ relationship: variable_of CO_331:9000005 ! Numerical: roots/net plot
 
 [Term]
 id: CO_331:2000012
-name: Weight of commercial storage roots/net plot in kg
+name: variable Weight of commercial storage roots/net plot in kg
 namespace: SweetpotatoVariable
 def: "Weight of commercial storage roots/net plot in kg." [Grueneberg2010:Def_22 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2054,7 +2054,7 @@ relationship: variable_of CO_331:9000006 ! Numerical: kg/net plot
 
 [Term]
 id: CO_331:2000013
-name: Weight of non-commercial storage roots/net plot in kg
+name: variable Weight of non-commercial storage roots/net plot in kg
 namespace: SweetpotatoVariable
 def: "Weight of non-commercial storage roots/net plot in kg." [Grueneberg2010:Def_23 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2066,7 +2066,7 @@ relationship: variable_of CO_331:9000006 ! Numerical: kg/net plot
 
 [Term]
 id: CO_331:2000014
-name: Weight of vines/net plot in kg
+name: variable Weight of vines/net plot in kg
 namespace: SweetpotatoVariable
 def: "Weight of vines/net plot in kg." [Grueneberg2010:Def_24 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2078,7 +2078,7 @@ relationship: variable_of CO_331:9000006 ! Numerical: kg/net plot
 
 [Term]
 id: CO_331:2000015
-name: Predominant Skin color
+name: variable Predominant Skin color
 namespace: SweetpotatoVariable
 def: "Predominant Skin color." [Huaman1991:Def_4.2.4.1 "", Grueneberg2010:Def_25 ""]
 comment: | Context of use: Characterizing stocks,  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: Z. Huaman | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2091,7 +2091,7 @@ relationship: variable_of CO_331:9000007 ! Nominal: PrdSknCol 9 pt. scale
 
 [Term]
 id: CO_331:2000016
-name: Predominant Flesh color
+name: variable Predominant Flesh color
 namespace: SweetpotatoVariable
 def: "Predominant Flesh color." [Huaman1991:Def_4.2.5.1 "", Grueneberg2010:Def_26 ""]
 comment: | Context of use: Characterizing stocks,  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: Z. Huaman | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2104,7 +2104,7 @@ relationship: variable_of CO_331:9000008 ! Nominal: PrdFlshCol 9 pt. scale
 
 [Term]
 id: CO_331:2000017
-name: Storage root size
+name: variable Storage root size
 namespace: SweetpotatoVariable
 def: "Storage root size." [Grueneberg2010:Def_27 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2116,7 +2116,7 @@ relationship: variable_of CO_331:9000009 ! Ordinal: RtSize 9 pt. scale
 
 [Term]
 id: CO_331:2000018
-name: Storage root form
+name: variable Storage root form
 namespace: SweetpotatoVariable
 def: "Storage root form." [Grueneberg2010:Def_28 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2128,7 +2128,7 @@ relationship: variable_of CO_331:9000010 ! Ordinal: RtForm 9 pt. scale
 
 [Term]
 id: CO_331:2000019
-name: Storage root damages
+name: variable Storage root damages
 namespace: SweetpotatoVariable
 def: "Storage root damages." [Grueneberg2010:Def_29 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2140,7 +2140,7 @@ relationship: variable_of CO_331:9000011 ! Ordinal: RtDam 9 pt. scale
 
 [Term]
 id: CO_331:2000020
-name: Reaction to sweet potato weevil 1
+name: variable Reaction to sweet potato weevil 1
 namespace: SweetpotatoVariable
 def: "Reaction to sweet potato weevil 1." [Huaman1991:Def_8.1.1 "", Grueneberg2010:Def_29 ""]
 comment: | Context of use: Characterizing stocks,  Evaluation in Trials | Growth stage: all | Variable status: Recommended | Scientist: Z. Huaman | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2153,7 +2153,7 @@ relationship: variable_of CO_331:9000011 ! Ordinal: RtDam 9 pt. scale
 
 [Term]
 id: CO_331:2000021
-name: Fresh weight of storage root samples
+name: variable Fresh weight of storage root samples
 namespace: SweetpotatoVariable
 def: "Fresh weight of storage root samples." [Grueneberg2010:Def_31 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2165,7 +2165,7 @@ relationship: variable_of CO_331:9000012 ! Numerical: g
 
 [Term]
 id: CO_331:2000022
-name: Dry weight of storage root samples
+name: variable Dry weight of storage root samples
 namespace: SweetpotatoVariable
 def: "Dry weight of storage root samples." [Grueneberg2010:Def_32 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2177,7 +2177,7 @@ relationship: variable_of CO_331:9000012 ! Numerical: g
 
 [Term]
 id: CO_331:2000023
-name: Fresh weight of vines
+name: variable Fresh weight of vines
 namespace: SweetpotatoVariable
 def: "Fresh weight of vines." [CloneSelector2015:Def_10 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2189,7 +2189,7 @@ relationship: variable_of CO_331:9000012 ! Numerical: g
 
 [Term]
 id: CO_331:2000024
-name: Dry weight of vines
+name: variable Dry weight of vines
 namespace: SweetpotatoVariable
 def: "Dry weight of vines." [CloneSelector2015:Def_11 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2201,7 +2201,7 @@ relationship: variable_of CO_331:9000012 ! Numerical: g
 
 [Term]
 id: CO_331:2000025
-name: Fibers in cooked samples 1
+name: variable Fibers in cooked samples 1
 namespace: SweetpotatoVariable
 def: "Fibers in cooked samples 1." [Grueneberg2010:Def_34 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2213,7 +2213,7 @@ relationship: variable_of CO_331:9000013 ! Ordinal: RtFbr 9 pt. scale
 
 [Term]
 id: CO_331:2000026
-name: Storage root sweetness 1
+name: variable Storage root sweetness 1
 namespace: SweetpotatoVariable
 def: "Storage root sweetness 1." [Grueneberg2010:Def_35 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2225,7 +2225,7 @@ relationship: variable_of CO_331:9000014 ! Ordinal: RtSwt 9 pt. scale
 
 [Term]
 id: CO_331:2000027
-name: Storage root texture 1
+name: variable Storage root texture 1
 namespace: SweetpotatoVariable
 def: "Storage root texture 1." [Grueneberg2010:Def_36 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2237,7 +2237,7 @@ relationship: variable_of CO_331:9000015 ! Ordinal: RtStr 9 pt. scale
 
 [Term]
 id: CO_331:2000028
-name: Overall taste of cooked sample 1
+name: variable Overall taste of cooked sample 1
 namespace: SweetpotatoVariable
 def: "Overall taste of cooked sample 1." [Grueneberg2010:Def_37 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2249,7 +2249,7 @@ relationship: variable_of CO_331:9000016 ! Ordinal: RtTst 9 pt. scale
 
 [Term]
 id: CO_331:2000029
-name: Overall appearance of cooked sample 1
+name: variable Overall appearance of cooked sample 1
 namespace: SweetpotatoVariable
 def: "Overall appearance of cooked sample 1." [Grueneberg2010:Def_38 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2261,7 +2261,7 @@ relationship: variable_of CO_331:9000017 ! Ordinal: RtApr 9 pt. scale
 
 [Term]
 id: CO_331:2000030
-name: Plot size at harvest
+name: variable Plot size at harvest
 namespace: SweetpotatoVariable
 def: "Plot size at harvest." [CloneSelector2015:Def_12 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2273,7 +2273,7 @@ relationship: variable_of CO_331:9000021 ! Numerical: m^2
 
 [Term]
 id: CO_331:2000031
-name: Vine vigor 2
+name: variable Vine vigor 2
 namespace: SweetpotatoVariable
 def: "Vine vigor 2." [CloneSelector2015:Def_09 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: W13 | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2285,7 +2285,7 @@ relationship: variable_of CO_331:9000003 ! Ordinal: VinVgr 9 pt. scale
 
 [Term]
 id: CO_331:2000032
-name: Virus symptoms 3
+name: variable Virus symptoms 3
 namespace: SweetpotatoVariable
 def: "Virus symptoms 3." [CloneSelector2015:Def_14 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: all | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2297,7 +2297,7 @@ relationship: variable_of CO_331:9000011 ! Ordinal: RtDam 9 pt. scale
 
 [Term]
 id: CO_331:2000033
-name: Reaction to sweet potato weevil 2
+name: variable Reaction to sweet potato weevil 2
 namespace: SweetpotatoVariable
 def: "Reaction to sweet potato weevil 2." [CloneSelector2015:Def_13 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: all | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2309,7 +2309,7 @@ relationship: variable_of CO_331:9000011 ! Ordinal: SES 9 pt. scale
 
 [Term]
 id: CO_331:2000034
-name: Fibers in cooked samples 2
+name: variable Fibers in cooked samples 2
 namespace: SweetpotatoVariable
 def: "Fibers in cooked samples 2." [CloneSelector2015:Def_15 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2321,7 +2321,7 @@ relationship: variable_of CO_331:9000013 ! Ordinal: RtFbr 9 pt. scale
 
 [Term]
 id: CO_331:2000035
-name: Storage root sweetness 2
+name: variable Storage root sweetness 2
 namespace: SweetpotatoVariable
 def: "Storage root sweetness 2." [CloneSelector2015:Def_16 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2333,7 +2333,7 @@ relationship: variable_of CO_331:9000014 ! Ordinal: RtSwt 9 pt. scale
 
 [Term]
 id: CO_331:2000036
-name: Storage root texture 2
+name: variable Storage root texture 2
 namespace: SweetpotatoVariable
 def: "Storage root texture 2." [CloneSelector2015:Def_17 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2345,7 +2345,7 @@ relationship: variable_of CO_331:9000015 ! Ordinal: RtStr 9 pt. scale
 
 [Term]
 id: CO_331:2000037
-name: Overall taste of cooked sample 2
+name: variable Overall taste of cooked sample 2
 namespace: SweetpotatoVariable
 def: "Overall taste of cooked sample 2." [CloneSelector2015:Def_18 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2357,7 +2357,7 @@ relationship: variable_of CO_331:9000016 ! Ordinal: RtTst 9 pt. scale
 
 [Term]
 id: CO_331:2000038
-name: Overall appearance of cooked sample 2
+name: variable Overall appearance of cooked sample 2
 namespace: SweetpotatoVariable
 def: "Overall appearance of cooked sample 2." [CloneSelector2015:Def_19 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2369,7 +2369,7 @@ relationship: variable_of CO_331:9000017 ! Ordinal: RtApr 9 pt. scale
 
 [Term]
 id: CO_331:2000039
-name: Sprouting ability
+name: variable Sprouting ability
 namespace: SweetpotatoVariable
 def: "Sprouting ability." [CloneSelector2015:Def_03 "", Huaman1991:Def_6.2.8 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Post-harvest | Variable status: Recommended | Scientist: Z. Huaman | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2381,7 +2381,7 @@ relationship: variable_of CO_331:9000022 ! Ordinal: RtSprt 9 pt. scale
 
 [Term]
 id: CO_331:2000040
-name: Protein content
+name: variable Protein content
 namespace: SweetpotatoVariable
 def: "Protein content." [CloneSelector2015:Def_08 "", Huaman1991:Def_6.2.2 ""]
 comment: | Context of use: Characterizing stocks,  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: Z. Huaman | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2394,7 +2394,7 @@ relationship: variable_of CO_331:9000023 ! Continuous: %
 
 [Term]
 id: CO_331:2000041
-name: Content of iron on dry weight basis
+name: variable Content of iron on dry weight basis
 namespace: SweetpotatoVariable
 def: "Content of iron on dry weight basis." [CloneSelector2015:Def_01 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2406,7 +2406,7 @@ relationship: variable_of CO_331:9000024 ! Continuous: mg/100g
 
 [Term]
 id: CO_331:2000042
-name: Content of zinc on dry weight basis
+name: variable Content of zinc on dry weight basis
 namespace: SweetpotatoVariable
 def: "Content of zinc on dry weight basis." [CloneSelector2015:Def_02 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2418,7 +2418,7 @@ relationship: variable_of CO_331:9000024 ! Continuous: mg/100g
 
 [Term]
 id: CO_331:2000043
-name: Content of calcium on dry weight basis
+name: variable Content of calcium on dry weight basis
 namespace: SweetpotatoVariable
 def: "Content of calcium on dry weight basis." [CloneSelector2015:Def_20 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2430,7 +2430,7 @@ relationship: variable_of CO_331:9000024 ! Continuous: mg/100g
 
 [Term]
 id: CO_331:2000044
-name: Content of magnesium on dry weight basis
+name: variable Content of magnesium on dry weight basis
 namespace: SweetpotatoVariable
 def: "Content of magnesium on dry weight basis." [CloneSelector2015:Def_21 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2442,7 +2442,7 @@ relationship: variable_of CO_331:9000024 ! Continuous: mg/100g
 
 [Term]
 id: CO_331:2000045
-name: Beta carotene content
+name: variable Beta carotene content
 namespace: SweetpotatoVariable
 def: "Beta carotene content." [CloneSelector2015:Def_03 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2454,7 +2454,7 @@ relationship: variable_of CO_331:9000024 ! Continuous: mg/100g
 
 [Term]
 id: CO_331:2000046
-name: Total carotenoids
+name: variable Total carotenoids
 namespace: SweetpotatoVariable
 def: "Total carotenoids." [Huaman1991:Def_6.2.6 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: Z. Huaman | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2466,7 +2466,7 @@ relationship: variable_of CO_331:9000024 ! Continuous: mg/100g
 
 [Term]
 id: CO_331:2000047
-name: Storage root starch content
+name: variable Storage root starch content
 namespace: SweetpotatoVariable
 def: "Storage root starch content." [Huaman1991:Def_6.2.4 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: Z. Huaman | Institution: CIP, FAO, IPGRI | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2478,7 +2478,7 @@ relationship: variable_of CO_331:9000023 ! Continuous: %
 
 [Term]
 id: CO_331:2000048
-name: Fructose content
+name: variable Fructose content
 namespace: SweetpotatoVariable
 def: "Fructose content." [CloneSelector2015:Def_04 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2490,7 +2490,7 @@ relationship: variable_of CO_331:9000023 ! Continuous: %
 
 [Term]
 id: CO_331:2000049
-name: Glucose content
+name: variable Glucose content
 namespace: SweetpotatoVariable
 def: "Glucose content." [CloneSelector2015:Def_05 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2502,7 +2502,7 @@ relationship: variable_of CO_331:9000023 ! Continuous: %
 
 [Term]
 id: CO_331:2000050
-name: Sucrose content
+name: variable Sucrose content
 namespace: SweetpotatoVariable
 def: "Sucrose content." [CloneSelector2015:Def_06 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2514,7 +2514,7 @@ relationship: variable_of CO_331:9000023 ! Continuous: %
 
 [Term]
 id: CO_331:2000051
-name: Maltose content
+name: variable Maltose content
 namespace: SweetpotatoVariable
 def: "Maltose content." [CloneSelector2015:Def_07 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2526,7 +2526,7 @@ relationship: variable_of CO_331:9000023 ! Continuous: %
 
 [Term]
 id: CO_331:2000052
-name: Yield of total roots per hectar
+name: variable Yield of total roots per hectar
 namespace: SweetpotatoVariable
 def: "Yield of total roots per hectar." [Grueneberg2010:Def_38 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2535,13 +2535,13 @@ synonym: "RtsYld_Cp_tha" EXACT []
 relationship: variable_of CO_331:1000052 ! "Yield of total roots per hectar." [Grueneberg2010:Def_38 ""]
 relationship: variable_of CO_331:8000052 ! Computation: Estimated yield per hectare - Method
 relationship: variable_of CO_331:9000025 ! Continuous: t/ha
-relationship: derives_from CO_331:2000012 ! Weight of commercial storage roots/net plot in kg (CRW)
-relationship: derives_from CO_331:2000013 ! Weight of non-commercial storage roots/net plot in kg (NCRW)
-relationship: derives_from CO_331:2000030 ! Plot size at harvest (PS2)
+relationship: derives_from CO_331:2000012 ! variable Weight of commercial storage roots/net plot in kg (CRW)
+relationship: derives_from CO_331:2000013 ! variable Weight of non-commercial storage roots/net plot in kg (NCRW)
+relationship: derives_from CO_331:2000030 ! variable Plot size at harvest (PS2)
 
 [Term]
 id: CO_331:2000053
-name: Storage root dry matter content
+name: variable Storage root dry matter content
 namespace: SweetpotatoVariable
 def: "Storage root dry matter content." [Grueneberg2010:Def_39 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2550,12 +2550,12 @@ synonym: "RtsDMC_Cp_pct" EXACT []
 relationship: variable_of CO_331:1000053 ! "Storage root dry matter content." [Grueneberg2010:Def_39 ""]
 relationship: variable_of CO_331:8000053 ! Computation: Storage root dry matter content - Method
 relationship: variable_of CO_331:9000023 ! Continuous: %
-relationship: derives_from CO_331:2000021 ! Fresh weight of storage root samples (DMF)
-relationship: derives_from CO_331:2000022 ! Dry weight of storage root samples (DMD)
+relationship: derives_from CO_331:2000021 ! variable Fresh weight of storage root samples (DMF)
+relationship: derives_from CO_331:2000022 ! variable Dry weight of storage root samples (DMD)
 
 [Term]
 id: CO_331:2000054
-name: Survival index
+name: variable Survival index
 namespace: SweetpotatoVariable
 def: "Survival index." [Grueneberg2010:Def_40 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2564,12 +2564,12 @@ synonym: "IdxSrv_Cp_pct" EXACT []
 relationship: variable_of CO_331:1000054 ! "Survival index." [Grueneberg2010:Def_40 ""]
 relationship: variable_of CO_331:8000054 ! Computation: Survival index - Method
 relationship: variable_of CO_331:9000023 ! Continuous: %
-relationship: derives_from CO_331:2000008 ! Number of plants harvested (NOPH)
-relationship: derives_from CO_331:2000001 ! Number of plants planted (NOPS)
+relationship: derives_from CO_331:2000008 ! variable Number of plants harvested (NOPH)
+relationship: derives_from CO_331:2000001 ! variable Number of plants planted (NOPS)
 
 [Term]
 id: CO_331:2000055
-name: Harvest index
+name: variable Harvest index
 namespace: SweetpotatoVariable
 def: "Harvest index." [Grueneberg2010:Def_41 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2578,7 +2578,7 @@ synonym: "IdxHrv_Cp_pct" EXACT []
 relationship: variable_of CO_331:1000055 ! "Harvest index." [Grueneberg2010:Def_41 ""]
 relationship: variable_of CO_331:8000055 ! Computation: Harvest index evaluation  - Method
 relationship: variable_of CO_331:9000023 ! Continuous: %
-relationship: derives_from CO_331:2000012 ! Weight of commercial storage roots/net plot in kg (CRW)
-relationship: derives_from CO_331:2000013 ! Weight of non-commercial storage roots/net plot in kg (NCRW)
-relationship: derives_from CO_331:2000014 ! Weight of vines/net plot in kg (VW)
+relationship: derives_from CO_331:2000012 ! variable Weight of commercial storage roots/net plot in kg (CRW)
+relationship: derives_from CO_331:2000013 ! variable Weight of non-commercial storage roots/net plot in kg (NCRW)
+relationship: derives_from CO_331:2000014 ! variable Weight of vines/net plot in kg (VW)
 
