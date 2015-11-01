@@ -1908,7 +1908,7 @@ is_a: CO_331:9000022 ! Ordinal:RtSprt 9 pt. scale
 
 [Term]
 id: CO_331:2000001
-name: Plants planted counting number
+name: Plants planted counting number per plot
 namespace: SweetpotatoVariable
 def: "Number of plants planted." [Grueneberg2010:Def_11 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: W01 | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -1920,7 +1920,7 @@ relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
 
 [Term]
 id: CO_331:2000002
-name: Plants established counting number
+name: Plants established counting number per plot
 namespace: SweetpotatoVariable
 def: "Number of plants established." [Grueneberg2010:Def_12 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: W06 | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -1993,7 +1993,7 @@ relationship: variable_of CO_331:9000004 ! Ordinal: ErlyBlt 9 pt. scale
 
 [Term]
 id: CO_331:2000008
-name: Plants harvested counting number
+name: Plants harvested counting number per plot
 namespace: SweetpotatoVariable
 def: "Number of plants harvested." [Grueneberg2010:Def_18 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2005,7 +2005,7 @@ relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
 
 [Term]
 id: CO_331:2000009
-name: Plants with storage roots counting number
+name: Plants with storage roots counting number per plot
 namespace: SweetpotatoVariable
 def: "Number of plants with storage roots." [Grueneberg2010:Def_19 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2017,7 +2017,7 @@ relationship: variable_of CO_331:9000001 ! Numerical: plants/plot
 
 [Term]
 id: CO_331:2000010
-name: Number of commercial storage roots counting number
+name: Number of commercial storage roots counting number per plot
 namespace: SweetpotatoVariable
 def: "Number of commercial storage roots/plot." [Grueneberg2010:Def_20 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2029,7 +2029,7 @@ relationship: variable_of CO_331:9000005 ! Numerical: roots/net plot
 
 [Term]
 id: CO_331:2000011
-name: Number of non-commercial storage roots counting number
+name: Number of non-commercial storage roots counting number per plot
 namespace: SweetpotatoVariable
 def: "Number of non-commercial storage roots/plot." [Grueneberg2010:Def_21 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
@@ -2260,7 +2260,7 @@ relationship: variable_of CO_331:9000017 ! Ordinal: RtApr 9 pt. scale
 
 [Term]
 id: CO_331:2000030
-name: Plot size at harvest measuring square meter
+name: Plot size at harvest measuring square meter of net plot
 namespace: SweetpotatoVariable
 def: "Plot size at harvest." [CloneSelector2015:Def_12 ""]
 comment: | Context of use:  Evaluation in Trials | Growth stage: Harvest | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
