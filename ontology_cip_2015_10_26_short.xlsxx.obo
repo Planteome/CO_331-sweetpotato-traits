@@ -883,7 +883,7 @@ relationship: scale_of CO_331:8000010 ! Counting: Evaluation of roots
 id: CO_331:9000006
 name: Numerical:kg/net plot
 namespace: SweetpotatoScale
-comment: | Decimal places: 1 | Lower limit: 0.
+comment: | Decimal places: 2 | Lower limit: 0.
 relationship: scale_of CO_331:8000012 ! Measurement: Measurements of root mass
 relationship: scale_of CO_331:8000013 ! Measurement: Measurements of vine mass
 
@@ -908,7 +908,7 @@ relationship: scale_of CO_331:8000030 ! Measurement: Evaluation of plot size
 id: CO_331:9000023
 name: Continuous:%
 namespace: SweetpotatoScale
-comment: | Decimal places: 2 | Lower limit: 0 | Upper limit: 100.
+comment: | Decimal places: 1 | Lower limit: 0 | Upper limit: 100.
 relationship: scale_of CO_331:8000040 ! Measurement: Protein content - Method
 relationship: scale_of CO_331:8000047 ! Measurement: Storage root starch content - Method
 relationship: scale_of CO_331:8000048 ! Measurement: Fructose content - Method
