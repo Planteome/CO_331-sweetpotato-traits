@@ -2,6 +2,7 @@
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/to/releases/2015-07-09/to.owl" uri="http://purl.obofoundry.org/obo/to.owl"/>
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1447379632910" name="http://purl.obolibrary.org/obo/TEMP" uri="SweetPotato.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1447458011270" name="http://purl.obolibrary.org/obo/TEMP" uri="SweetPotato.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1447458011270" name="shadowed:http://purl.obolibrary.org/obo/TEMP" uri="test/obo2owltest.owl"/>
     </group>
 </catalog>

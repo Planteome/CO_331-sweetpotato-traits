@@ -23,7 +23,6 @@
         <oboInOwl:hasOBOFormatVersion rdf:datatype="&xsd;string">1.2</oboInOwl:hasOBOFormatVersion>
         <oboInOwl:default-namespace rdf:datatype="&xsd;string">cco</oboInOwl:default-namespace>
         <oboInOwl:auto-generated-by rdf:datatype="&xsd;string">java</oboInOwl:auto-generated-by>
-        <owl:imports rdf:resource="&obo;to/releases/2015-07-09/to.owl"/>
     </owl:Ontology>
     
 
@@ -157,7 +156,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000001">
         <rdfs:label rdf:datatype="&xsd;string">Number of plants planted</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000371"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000001</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Number of plants planted</obo:IAO_0000115>
@@ -172,7 +170,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000002">
         <rdfs:label rdf:datatype="&xsd;string">Number of plants established</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000371"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000002</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Number of plants established</obo:IAO_0000115>
@@ -187,7 +184,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000003">
         <rdfs:label rdf:datatype="&xsd;string">Virus symptoms 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000148"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Biotic_stress_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000003</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">SweetpotatoTrait</oboInOwl:hasOBONamespace>
@@ -202,7 +198,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000004">
         <rdfs:label rdf:datatype="&xsd;string">Virus symptoms 2</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000148"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Biotic_stress_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000004</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">SweetpotatoTrait</oboInOwl:hasOBONamespace>
@@ -217,7 +212,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000005">
         <rdfs:label rdf:datatype="&xsd;string">Vine vigor 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000296"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000005</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">SweetpotatoTrait</oboInOwl:hasOBONamespace>
@@ -232,7 +226,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000006">
         <rdfs:label rdf:datatype="&xsd;string">Early Blight: (Alternaria) 1</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000664"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Biotic_stress_trait"/>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">AltSm1</oboInOwl:hasExactSynonym>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Alternaria symptoms evaluation, early</obo:IAO_0000115>
@@ -247,7 +240,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000007">
         <rdfs:label rdf:datatype="&xsd;string">Early Blight: (Alternaria) 2</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000664"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Biotic_stress_trait"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Alternaria symptoms evaluation, late</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">Altsm2</oboInOwl:hasExactSynonym>
@@ -262,7 +254,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000008">
         <rdfs:label rdf:datatype="&xsd;string">Number of plants harvested</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000371"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000008</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Number of plants harvested</obo:IAO_0000115>
@@ -277,7 +268,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000009">
         <rdfs:label rdf:datatype="&xsd;string">Number of plants with storage roots</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000371"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000009</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Number of plants with storage roots</obo:IAO_0000115>
@@ -292,7 +282,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000010">
         <rdfs:label rdf:datatype="&xsd;string">Number of commercial storage roots/plot</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000371"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000010</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Number of commercial storage roots/plot</obo:IAO_0000115>
@@ -307,7 +296,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000011">
         <rdfs:label rdf:datatype="&xsd;string">Number of non-commercial storage roots/plot</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000371"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000011</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Number of non-commercial storage roots/plot</obo:IAO_0000115>
@@ -364,7 +352,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000015">
         <rdfs:label rdf:datatype="&xsd;string">Predominant Skin color</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000065"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Morphological_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000015</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Many freshly harvested storage roots should be washed and dried prior to evaluation. The most representative skin color observed in the cultivar should be recorded</obo:IAO_0000115>
@@ -379,7 +366,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000016">
         <rdfs:label rdf:datatype="&xsd;string">Predominant Flesh color</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000065"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Morphological_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000016</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">FlsCol</oboInOwl:hasExactSynonym>
@@ -394,7 +380,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000017">
         <rdfs:label rdf:datatype="&xsd;string">Storage root size</rdfs:label>
-        <owl:equivalentClass rdf:resource="&obo;TO_0000227"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Morphological_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000017</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Overall assessment of storage root size based on inspection of the harvested roots</obo:IAO_0000115>
@@ -409,7 +394,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000018">
         <rdfs:label rdf:datatype="&xsd;string">Storage root form</rdfs:label>
-        <owl:equivalentClass rdf:resource="&obo;TO_0002710"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Morphological_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000018</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Overall assessment of storage root size based on inspection of the harvested roots</obo:IAO_0000115>
@@ -424,7 +408,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000019">
         <rdfs:label rdf:datatype="&xsd;string">Storage root damages</rdfs:label>
-        <owl:equivalentClass rdf:resource="&obo;TO_0000198"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Morphological_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000019</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Overall assessment of storage root size based on inspection of the harvested roots</obo:IAO_0000115>
@@ -439,7 +422,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000021">
         <rdfs:label rdf:datatype="&xsd;string">Fresh weight of storage root samples</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000578"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000021</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Fresh weight of storage root samples</obo:IAO_0000115>
@@ -562,11 +544,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CO_331_1000030 -->
+
+    <owl:Class rdf:about="&obo;CO_331_1000030">
+        <rdfs:label rdf:datatype="&xsd;string">Plot size at harvest</rdfs:label>
+        <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
+        <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000030</oboInOwl:id>
+        <obo:IAO_0000115 rdf:datatype="&xsd;string">Plot size at harvest</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">PltSzh</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">SweetpotatoTrait</oboInOwl:hasOBONamespace>
+        <oboInOwl:created_by rdf:datatype="&xsd;string">W. Grueneberg</oboInOwl:created_by>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CO_331_1000031 -->
 
     <owl:Class rdf:about="&obo;CO_331_1000031">
         <rdfs:label rdf:datatype="&xsd;string">Vine vigor 2</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000296"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000031</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">SweetpotatoTrait</oboInOwl:hasOBONamespace>
@@ -581,7 +576,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000032">
         <rdfs:label rdf:datatype="&xsd;string">Virus symptoms 3</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000148"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Biotic_stress_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000032</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">SweetpotatoTrait</oboInOwl:hasOBONamespace>
@@ -680,7 +674,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000040">
         <rdfs:label rdf:datatype="&xsd;string">Protein content</rdfs:label>
-        <owl:equivalentClass rdf:resource="&obo;TO_0000598"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Quality_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000040</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">FlsPrt</oboInOwl:hasExactSynonym>
@@ -695,7 +688,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000041">
         <rdfs:label rdf:datatype="&xsd;string">Content of iron on dry weight basis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0020089"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Quality_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000041</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Content of iron on dry weight basis</obo:IAO_0000115>
@@ -710,7 +702,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000042">
         <rdfs:label rdf:datatype="&xsd;string">Content of zinc on dry weight basis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0020090"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Quality_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000042</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Content of zinc on dry weight basis</obo:IAO_0000115>
@@ -725,7 +716,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000043">
         <rdfs:label rdf:datatype="&xsd;string">Content of calcium on dry weight basis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0006047"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Quality_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000043</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Content of calcium on dry weight basis</obo:IAO_0000115>
@@ -740,7 +730,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000044">
         <rdfs:label rdf:datatype="&xsd;string">Content of magnesium on dry weight basis</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0006044"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Quality_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000044</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Content of magnesium on dry weight basis</obo:IAO_0000115>
@@ -755,7 +744,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000045">
         <rdfs:label rdf:datatype="&xsd;string">Beta carotene content</rdfs:label>
-        <owl:equivalentClass rdf:resource="&obo;TO_0002695"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Quality_trait"/>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Beta carotene content</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000045</oboInOwl:id>
@@ -770,7 +758,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000046">
         <rdfs:label rdf:datatype="&xsd;string">Total carotenoids</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0002695"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Quality_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000046</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">FlsTtC</oboInOwl:hasExactSynonym>
@@ -799,7 +786,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000048">
         <rdfs:label rdf:datatype="&xsd;string">Fructose content</rdfs:label>
-        <owl:equivalentClass rdf:resource="&obo;TO_0006005"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Quality_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000048</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">FlsFru</oboInOwl:hasExactSynonym>
@@ -814,7 +800,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000049">
         <rdfs:label rdf:datatype="&xsd;string">Glucose content</rdfs:label>
-        <owl:equivalentClass rdf:resource="&obo;TO_0000300"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Quality_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000049</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">FlsGlu</oboInOwl:hasExactSynonym>
@@ -857,7 +842,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000052">
         <rdfs:label rdf:datatype="&xsd;string">Yield of total roots per hectar</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000371"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000052</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">RtsYld</oboInOwl:hasExactSynonym>
@@ -872,7 +856,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000053">
         <rdfs:label rdf:datatype="&xsd;string">Storage root dry matter content</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000078"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000053</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">RtsDMC</oboInOwl:hasExactSynonym>
@@ -887,7 +870,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000054">
         <rdfs:label rdf:datatype="&xsd;string">Survival index</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000371"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000054</oboInOwl:id>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">IdxSrv</oboInOwl:hasExactSynonym>
@@ -902,7 +884,6 @@
 
     <owl:Class rdf:about="&obo;CO_331_1000055">
         <rdfs:label rdf:datatype="&xsd;string">Harvest index</rdfs:label>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000371"/>
         <rdfs:subClassOf rdf:resource="&obo;CO_331#_Agronomic_trait"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:1000055</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Harvest index evaluation</obo:IAO_0000115>
@@ -920,12 +901,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000001"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -933,6 +908,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000001</oboInOwl:id>
@@ -949,6 +930,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -956,12 +943,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000002"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000002</oboInOwl:id>
@@ -978,6 +959,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -985,12 +972,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000003</oboInOwl:id>
@@ -1007,12 +988,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000003"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1020,6 +995,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_9000002"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000004</oboInOwl:id>
@@ -1042,13 +1023,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000005"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000003"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000005</oboInOwl:id>
@@ -1071,13 +1052,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000004"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000006"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">ALT1, AS</oboInOwl:hasExactSynonym>
@@ -1094,13 +1075,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000006"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000004"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1123,12 +1104,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1136,6 +1111,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_9000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000008</oboInOwl:id>
@@ -1152,13 +1133,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000009"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000001"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1210,12 +1191,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000005"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1223,6 +1198,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000011"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000005"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000011</oboInOwl:id>
@@ -1239,13 +1220,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000012"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000012"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1268,12 +1249,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000012"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_9000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1281,6 +1256,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000013"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000013</oboInOwl:id>
@@ -1303,13 +1284,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000014"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000006"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000014</oboInOwl:id>
@@ -1326,12 +1307,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000014"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000015"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1339,6 +1314,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_9000007"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000015</oboInOwl:id>
@@ -1355,12 +1336,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000008"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1368,6 +1343,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000016</oboInOwl:id>
@@ -1413,7 +1394,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000010"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000018"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1425,7 +1406,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000018"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000010"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000018</oboInOwl:id>
@@ -1442,13 +1423,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000011"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000019"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000019"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000011"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1500,12 +1481,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000022"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_9000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1513,6 +1488,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000022</oboInOwl:id>
@@ -1529,7 +1510,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000023"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1541,7 +1522,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000023"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000023</oboInOwl:id>
@@ -1616,13 +1597,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000026"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000026"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1645,6 +1626,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000027"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1652,12 +1639,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_9000015"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">COOST1</oboInOwl:hasExactSynonym>
@@ -1674,6 +1655,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000016"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1681,12 +1668,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000028"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000016"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">COOT1</oboInOwl:hasExactSynonym>
@@ -1703,7 +1684,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000029"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1715,7 +1696,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000029"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000029"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">COOAP1</oboInOwl:hasExactSynonym>
@@ -1732,13 +1713,19 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000021"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000021"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000030"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000030</oboInOwl:id>
@@ -1755,7 +1742,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000003"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000031"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1767,7 +1754,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000031"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000031</oboInOwl:id>
@@ -1813,13 +1800,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000034"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000013"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000034"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1842,13 +1829,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000026"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000014"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1871,7 +1858,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000036"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000027"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1883,7 +1870,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000027"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000036"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">COOST2</oboInOwl:hasExactSynonym>
@@ -1900,13 +1887,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000028"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000037"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000037"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1958,7 +1945,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000039"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000022"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1970,7 +1957,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000022"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000039"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000039</oboInOwl:id>
@@ -1987,7 +1974,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000040"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1999,7 +1986,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000040"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000040</oboInOwl:id>
@@ -2022,13 +2009,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000041"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000041"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000041</oboInOwl:id>
@@ -2045,13 +2032,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000042"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000024"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2074,12 +2061,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000043"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_9000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2087,6 +2068,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000043"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000043</oboInOwl:id>
@@ -2103,7 +2090,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000024"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2115,7 +2102,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000044"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000044</oboInOwl:id>
@@ -2132,12 +2119,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000045"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2145,6 +2126,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_9000024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:hasExactSynonym rdf:datatype="&xsd;string">BC</oboInOwl:hasExactSynonym>
@@ -2161,12 +2148,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000024"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000046"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2174,6 +2155,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000046"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000046</oboInOwl:id>
@@ -2225,13 +2212,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000023"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000048"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000048"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000048</oboInOwl:id>
@@ -2248,7 +2235,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000049"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2260,7 +2247,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000049"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000049"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000049</oboInOwl:id>
@@ -2277,6 +2264,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000050"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_9000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2284,12 +2277,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000050"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000050"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000050</oboInOwl:id>
@@ -2306,12 +2293,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000051"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2319,6 +2300,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_9000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000051</oboInOwl:id>
@@ -2335,6 +2322,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2342,12 +2335,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_9000025"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000052"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000052</oboInOwl:id>
@@ -2364,6 +2351,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000023"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_1000053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2371,12 +2364,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000053"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000053</oboInOwl:id>
@@ -2393,6 +2380,12 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -2400,12 +2393,6 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_9000023"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000054"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000054</oboInOwl:id>
@@ -2422,7 +2409,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000055"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2434,7 +2421,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#variable_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_9000023"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:2000055</oboInOwl:id>
@@ -2485,13 +2472,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#method_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000004"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000003"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#method_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000003"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000004"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2537,13 +2524,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#method_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000006"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#method_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000007"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000006"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:8000006</oboInOwl:id>
@@ -2560,13 +2547,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#method_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000008"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000009"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#method_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000009"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000008"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:8000008</oboInOwl:id>
@@ -2606,13 +2593,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#method_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000012"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#method_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000013"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:8000012</oboInOwl:id>
@@ -2822,13 +2809,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#method_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000035"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000026"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#method_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000026"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000035"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:8000026</oboInOwl:id>
@@ -2911,6 +2898,12 @@
 
     <owl:Class rdf:about="&obo;CO_331_8000030">
         <rdfs:label rdf:datatype="&xsd;string">Evaluation of plot size</rdfs:label>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#method_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_1000030"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:8000030</oboInOwl:id>
         <obo:IAO_0000115 rdf:datatype="&xsd;string">Net plot size at harvest.</obo:IAO_0000115>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">SweetpotatoMethod</oboInOwl:hasOBONamespace>
@@ -3214,13 +3207,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000002"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000001"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000002"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3306,13 +3299,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000012"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000013"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000013"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000012"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:9000006</oboInOwl:id>
@@ -3420,12 +3413,6 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000024"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000023"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -3433,6 +3420,12 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
                 <owl:someValuesFrom rdf:resource="&obo;CO_331_8000022"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:9000012</oboInOwl:id>
@@ -3560,13 +3553,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000040"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000053"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000051"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3578,13 +3571,19 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000047"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000055"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000053"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000054"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000047"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3602,13 +3601,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000055"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000054"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000051"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:9000023</oboInOwl:id>
@@ -3624,19 +3617,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000043"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000045"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000042"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000044"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3648,7 +3629,19 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
-                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000044"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000043"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="&obo;TEMP#scale_of"/>
+                <owl:someValuesFrom rdf:resource="&obo;CO_331_8000045"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3689,64 +3682,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/TO_0000198 -->
-
-    <rdf:Description rdf:about="&obo;TO_0000198"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TO_0000227 -->
-
-    <rdf:Description rdf:about="&obo;TO_0000227"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TO_0000300 -->
-
-    <rdf:Description rdf:about="&obo;TO_0000300"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TO_0000328 -->
-
-    <rdf:Description rdf:about="&obo;TO_0000328">
-        <owl:equivalentClass rdf:resource="&obo;CO_331#_Quality_trait"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TO_0000578 -->
-
-    <rdf:Description rdf:about="&obo;TO_0000578">
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000644"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TO_0000598 -->
-
-    <rdf:Description rdf:about="&obo;TO_0000598"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TO_0002695 -->
-
-    <rdf:Description rdf:about="&obo;TO_0002695"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TO_0002710 -->
-
-    <rdf:Description rdf:about="&obo;TO_0002710"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/TO_0006005 -->
-
-    <rdf:Description rdf:about="&obo;TO_0006005"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CO_331#_Agronomic_trait -->
 
     <owl:Class rdf:about="&obo;CO_331#_Agronomic_trait">
@@ -3774,7 +3709,6 @@
     <owl:Class rdf:about="&obo;CO_331#_Morphological_trait">
         <rdfs:label rdf:datatype="&xsd;string">Morphological_trait</rdfs:label>
         <rdfs:subClassOf rdf:resource="&obo;CO_331_Trait"/>
-        <rdfs:subClassOf rdf:resource="&obo;TO_0000065"/>
         <oboInOwl:id rdf:datatype="&xsd;string">CO_331:Morphological_trait</oboInOwl:id>
         <oboInOwl:hasOBONamespace rdf:datatype="&xsd;string">SweetpotatoTrait</oboInOwl:hasOBONamespace>
     </owl:Class>
@@ -3793,5 +3727,5 @@
 
 
 
-<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 3.5.3.20150903-2211) http://owlapi.sourceforge.net -->
 
