@@ -49,17 +49,249 @@ name: Abiotic stress trait
 namespace: SweetpotatoTrait
 def: "Response in terms of resistance, susceptibility or tolerance to abiotic stress." []
 is_a: CO_0331:0000000 ! CGIAR sweetpotato trait ontology
-created_by: vagrant
-creation_date: 2016-08-23T18:05:49Z
+
+[Term]
+id: CO_331:0000069
+name: Storage Root Shape (primary)
+namespace: SweetpotatoTrait
+def: "Storage Root Shape described from longitudinal sections made about the middle of freshly harvested storage roots" [Huaman1991:Def_4.2.1]
+comment: | Entity: Root | Attribute: Shape | Trait status: Recommended.
+synonym: "RtShpP" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000441
+name: Storage Root Shape (secondary)
+namespace: SweetpotatoTrait
+def: "Storage Root Shape described from latitudinal sections made about the middle of freshly harvested storage roots" [Huaman1991:Def_4.2.1]
+comment: | Entity: Root | Attribute: Shape | Trait status: Recommended.
+synonym: "RtShpS" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000409
+name: Storage Root Shape Uniformity
+namespace: SweetpotatoTrait
+def: "Storage Root Shape uniformity within a single plant or plot" [Huaman1991:Def_6.1.4]
+comment: | Entity: Root | Attribute: Uniformity | Trait status: Recommended.
+synonym: "RtShpU" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000410
+name: Storage Root Stalk
+namespace: SweetpotatoTrait
+def: "Length of stalk joining the storage roots to the stems" [Huaman1991:Def_6.1.2]
+comment: | Entity: Root | Attribute: Length of stalk | Trait status: Recommended.
+synonym: "RtStlk" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000411
+name: Storage Root Attachment
+namespace: SweetpotatoTrait
+def: "Ability of storage roots to remain attached to stem after digging and forcible shaking roots off" [NCSU2016]
+comment: | Entity: Root | Attribute: Attachment | Trait status: Recommended.
+synonym: "RtAtt" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000412
+name: Length to Diameter Ratio of roots
+namespace: SweetpotatoTrait
+def: "Ratio of the length of a storage root to its diameter of the average of all storage roots in a single plant or plot" [NCSU2016]
+comment: | Entity: Root | Attribute: Length-to-diameter | Trait status: Recommended.
+synonym: "RtLDR" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000413
+name: Skin Color of roots
+namespace: SweetpotatoTrait
+def: "The most representative skin color observed is recorded" [Huaman1991:Def_4.2.4.1]
+comment: | Entity: Storage root skin | Attribute: color | Trait status: Recommended.
+synonym: "RtSknCol" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000414
+name: Skin Texture of roots
+namespace: SweetpotatoTrait
+def: "Storage root skin feel, appearance, or consistency by visual observation and touch" [NCSU2016]
+comment: | Entity: Root skin | Attribute: texture | Trait status: Recommended.
+synonym: "RtSknTxt" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000415
+name: Flesh Color (carotenoids)
+namespace: SweetpotatoTrait
+def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots" [NCSU2016]
+comment: | Entity: Storage root flesh | Attribute: predominant color | Trait status: Recommended.
+synonym: "RtFlsColC" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000416
+name: Flesh Color (anthocyanins)
+namespace: SweetpotatoTrait
+def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots" [NCSU2016]
+comment: | Entity: Storage root flesh | Attribute: Secondary color | Trait status: Recommended.
+synonym: "RtFlsColA" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000417
+name: Deep of eyes of roots
+namespace: SweetpotatoTrait
+def: "Observation of how deep or shallow predominant eyes or adventitious buds are at the storage root skin interface" [NCSU2016]
+comment: | Entity: Root eye | Attribute: depth | Trait status: Recommended.
+synonym: "RtAdvB" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000418
+name: Number of Lenticels
+namespace: SweetpotatoTrait
+def: "Overall assessment of visible lenticels at the storage root interface" [NCSU2016]
+comment: | Entity: Root | Attribute: Number of lenticels | Trait status: Recommended.
+synonym: "RtLtcl" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000419
+name: Reaction to Streptomyces Soil Rot
+namespace: SweetpotatoTrait
+def: "Streptomyces ipomoeae symptom evaluation" [Huaman1991:Def_8.4.1]
+comment: | Entity: Root | Attribute: Reaction to Streoptomuces ipomomoea | Trait status: Recommended.
+synonym: "RnPSR" EXACT []
+is_a: CO_0331:0000005 ! Biotic stress trait
+
+[Term]
+id: CO_331:0000420
+name: Reaction to Root Knot Nematode Meloidogyne spp
+namespace: SweetpotatoTrait
+def: "Reaction to Root-knot nematode Meloidogyne spp. symptom evaluation" [Huaman1991:Def_8.2.1]
+comment: | Entity: Root | Attribute: Reaction to Root-knot nematode Meloidogyne sp | Trait status: Recommended.
+synonym: "RnMgRKN" EXACT []
+is_a: CO_0331:0000005 ! Biotic stress trait
+
+[Term]
+id: CO_331:0000422
+name: Reaction to Fusarium oxysporum
+namespace: SweetpotatoTrait
+def: "Reaction to Fusarium oxysporum batatas symptom evaluation" [Huaman1991:Def_8.3.1]
+comment: | Entity: Root | Attribute: Reaction to Fusarium oxysporum | Trait status: Recommended.
+synonym: "RnFR" EXACT []
+is_a: CO_0331:0000005 ! Biotic stress trait
 
 [Term]
 id: CO_331:0000423
-name: Storage root defects
+name: Storage Root Defects
 namespace: SweetpotatoTrait
 def: "Type and/or name of visible storage root defect" [Huaman1991:Def_4.2.2]
 comment: | Entity: Root | Attribute: defect | Trait status: Recommended.
 synonym: "RtDam" EXACT []
 is_a: CO_0331:0000006 ! Abiotic stress trait
+
+[Term]
+id: CO_331:0000424
+name: Relative Storage Root Yield
+namespace: SweetpotatoTrait
+def: "Overall visual assessment of storage root yield" [NCSU2016]
+comment: | Entity: Root | Attribute: overall | Trait status: Recommended.
+synonym: "RtYldR" EXACT []
+is_a: CO_0331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:0000425
+name: Storage Root Yield relative to check
+namespace: SweetpotatoTrait
+def: "Overall calculation of relative root yield" [NCSU2016]
+comment: | Entity: Root | Attribute: relative yield | Trait status: Recommended.
+synonym: "RtYldChk" EXACT []
+is_a: CO_0331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:0000426
+name: Storage Root Appearance
+namespace: SweetpotatoTrait
+def: "Overall visual assessment of storage root yield appearance" [NCSU2016]
+comment: | Entity: Root | Attribute: relative size | Trait status: Recommended.
+synonym: "RtApr" EXACT []
+is_a: CO_0331:0000002 ! Morphological trait
+
+[Term]
+id: CO_331:0000427
+name: Growing season
+namespace: SweetpotatoTrait
+def: "Overall visual assessment of storage root size relative to harvest date and/or total growing season" [NCSU2016]
+comment: | Entity: Root | Attribute: root yield relative to harvest date | Trait status: Recommended.
+synonym: "PtMtSs" EXACT []
+is_a: CO_0331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:0000428
+name: Amylose content
+namespace: SweetpotatoTrait
+def: "Amylose content in sweetpotato" [NCSU2016]
+comment: | Entity: Root flesh | Attribute: Amylose content | Trait status: Recommended.
+synonym: "RtFlsAmy" EXACT []
+is_a: CO_0331:0000003 ! Biochemical trait
+
+[Term]
+id: CO_331:0000429
+name: Asparagine content
+namespace: SweetpotatoTrait
+def: "peonidin content of purple flesh sweetpotato" [NCSU2016]
+comment: | Entity: Root flesh | Attribute: Asparagine content | Trait status: Recommended.
+synonym: "RtFlsAsp" EXACT []
+is_a: CO_0331:0000003 ! Biochemical trait
+
+[Term]
+id: CO_331:0000430
+name: Cyanidin content
+namespace: SweetpotatoTrait
+def: "Cyanidin content, it is a pigment found in the purple flesh sweetpotato (PFSP)." [NCSU2016]
+comment: | Entity: Root flesh | Attribute: Cyanidin content | Trait status: Recommended.
+synonym: "RtFlsCya" EXACT []
+is_a: CO_0331:0000003 ! Biochemical trait
+
+[Term]
+id: CO_331:0000431
+name: Total Monomeric Anthocyanin content
+namespace: SweetpotatoTrait
+def: "Total Monomeric Anthocyanins content of purple flesh sweetpotato" [NCSU2016]
+comment: | Entity: Root flesh | Attribute: Anthocyanin content | Trait status: Recommended.
+synonym: "RtFlsAntM" EXACT []
+is_a: CO_0331:0000003 ! Biochemical trait
+
+[Term]
+id: CO_331:0000432
+name: Peonidin content
+namespace: SweetpotatoTrait
+def: "Peonidin content of purple flesh sweetpotato" [NCSU2016]
+comment: | Entity: Root flesh | Attribute: Peonidin content | Trait status: Recommended.
+synonym: "RtFlsPeo" EXACT []
+is_a: CO_0331:0000003 ! Biochemical trait
+
+[Term]
+id: CO_331:0000433
+name: Anthocyanin content
+namespace: SweetpotatoTrait
+def: "Anthocyanin content of purple flesh sweetpotato" [NCSU2016]
+comment: | Entity: Root flesh | Attribute: Anthocyanin content | Trait status: Recommended.
+synonym: "RtFlsAnt" EXACT []
+is_a: CO_0331:0000003 ! Biochemical trait
+
+[Term]
+id: CO_331:0000434
+name: Phenol content
+namespace: SweetpotatoTrait
+def: "Phenol content of purple flesh sweetpotato" [NCSU2016]
+comment: | Entity: Root flesh | Attribute: Phenol content | Trait status: Recommended.
+synonym: "RtFlsPhe" EXACT []
+is_a: CO_0331:0000003 ! Biochemical trait
 
 [Term]
 id: CO_0331:1000001
@@ -557,13 +789,247 @@ synonym: "IdxHrv" EXACT []
 is_a: CO_0331:0000001 ! Agronomic trait
 
 [Term]
+id: CO_331:0000774
+name: Storage Root Shape primary estimating 1-8
+namespace: SweetpotatoTrait
+def: "Storage Root Shape described from longitudinal sections made about the middle of freshly harvested storage roots" [Huaman1991:Def_4.2.1]
+synonym: "RTSHP1" EXACT []
+synonym: "RtShpP_Et_1to8" EXACT []
+relationship: variable_of CO_331:0000069 ! Storage Root Shape (primary)
+
+[Term]
+id: CO_331:0000775
+name: Storage Root Shape secondary estimating 1-8
+namespace: SweetpotatoTrait
+def: "Storage Root Shape described from latitudinal sections made about the middle of freshly harvested storage roots" [Huaman1991:Def_4.2.1]
+synonym: "RTSHP2" EXACT []
+synonym: "RtShpS_Et_1to8" EXACT []
+relationship: variable_of CO_331:0000441 ! Storage Root Shape (secondary)
+
+[Term]
+id: CO_331:0000776
+name: Storage Root Shape Uniformity estimating 1-9
+namespace: SweetpotatoTrait
+def: "Storage Root Shape uniformity within a single plant or plot" [Huaman1991:Def_6.1.4]
+synonym: "RTSHPU" EXACT []
+synonym: "RtShpU_Et_1to9" EXACT []
+relationship: variable_of CO_331:0000409 ! Storage Root Shape Uniformity
+
+[Term]
+id: CO_331:0000777
+name: Storage Root Stalk estimating 0-9
+namespace: SweetpotatoTrait
+def: "Length of stalk joining the storage roots to the stems" [Huaman1991:Def_6.1.2]
+synonym: "RTSTALK" EXACT []
+synonym: "RtStlk_Et_1to9" EXACT []
+relationship: variable_of CO_331:0000410 ! Storage Root Stalk
+
+[Term]
+id: CO_331:0000778
+name: Storage Root Attachment estimating 0-9
+namespace: SweetpotatoTrait
+def: "Ability of storage roots to remain attached to stem after digging and forcible shaking roots off" [NCSU2016]
+synonym: "RTATTACH" EXACT []
+synonym: "RtAtt_Et_1to9" EXACT []
+relationship: variable_of CO_331:0000411 ! Storage Root Attachment
+
+[Term]
+id: CO_331:0000779
+name: Length to Diameter Ratio computation
+namespace: SweetpotatoTrait
+def: "Ratio of the length of a storage root to its diameter of the average of all storage roots in a single plant or plot" [NCSU2016]
+synonym: "LDR" EXACT []
+synonym: "RtLDR_Cp_ratio" EXACT []
+relationship: variable_of CO_331:0000412 ! Length to Diameter Ratio of roots
+
+[Term]
+id: CO_331:0000780
+name: Skin Color estimating 1-12
+namespace: SweetpotatoTrait
+def: "The most representative skin color observed is recorded" [Huaman1991:Def_4.2.4.1]
+synonym: "SKINCOLOR" EXACT []
+synonym: "RtSknCol_Et_1to12" EXACT []
+relationship: variable_of CO_331:0000413 ! Skin Color of roots
+
+[Term]
+id: CO_331:0000781
+name: Skin Texture estimating 1-9
+namespace: SweetpotatoTrait
+def: "Storage root skin feel, appearance, or consistency by visual observation and touch" [NCSU2016]
+synonym: "RTSKNTEX" EXACT []
+synonym: "RtSknTxt_Et_1to9" EXACT []
+relationship: variable_of CO_331:0000414 ! Skin Texture of roots
+
+[Term]
+id: CO_331:0000782
+name: Flesh Color Carotenoids estimating 0-4
+namespace: SweetpotatoTrait
+def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots" [NCSU2016]
+synonym: "RTFLESH1" EXACT []
+synonym: "RtFlsColC_Et_0to4" EXACT []
+relationship: variable_of CO_331:0000415 ! Flesh Color (carotenoids)
+
+[Term]
+id: CO_331:0000783
+name: Flesh Color Anthocyanins estimating 0-4
+namespace: SweetpotatoTrait
+def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots" [NCSU2016]
+synonym: "RTFLESH2" EXACT []
+synonym: "RtFlsColA_Et_0to4" EXACT []
+relationship: variable_of CO_331:0000416 ! Flesh Color (anthocyanins)
+
+[Term]
+id: CO_331:0000784
+name: Adventitious buds estimating 1-9
+namespace: SweetpotatoTrait
+def: "Observation of how deep or shallow predominant eyes or adventitious buds are at the storage root skin interface" [NCSU2016]
+synonym: "EYES" EXACT []
+synonym: "RtAdvB_Et_1to9" EXACT []
+relationship: variable_of CO_331:0000417 ! Deep of eyes of roots
+
+[Term]
+id: CO_331:0000785
+name: Lenticels estimating 1-9
+namespace: SweetpotatoTrait
+def: "Overall assessment of visible lenticels at the storage root interface" [NCSU2016]
+synonym: "LENTS" EXACT []
+synonym: "RtLtcl_Et_1to9" EXACT []
+relationship: variable_of CO_331:0000418 ! Number of Lenticels
+
+[Term]
+id: CO_331:0000786
+name: Streptomyces Soil Rot estimating 0-5
+namespace: SweetpotatoTrait
+def: "Streptomyces ipomoeae symptom evaluation" [Huaman1991:Def_8.4.1]
+synonym: "SSR" EXACT []
+synonym: "RnPSR_Et_0to5" EXACT []
+relationship: variable_of CO_331:0000419 ! Reaction to Streptomyces Soil Rot
+
+[Term]
+id: CO_331:0000787
+name: Root Knot Nematode Meloidogyne estimating 0-5
+namespace: SweetpotatoTrait
+def: "Reaction to Root-knot nematode Meloidogyne spp. symptom evaluation" [Huaman1991:Def_8.2.1]
+synonym: "RKN" EXACT []
+synonym: "RnMgRKN_Et_0to5" EXACT []
+relationship: variable_of CO_331:0000420 ! Reaction to Root Knot Nematode Meloidogyne spp
+
+[Term]
+id: CO_331:0000789
+name: Reaction to Fusarium Wilt estimating 0-5
+namespace: SweetpotatoTrait
+def: "Reaction to Fusarium oxysporum batatas symptom evaluation" [Huaman1991:Def_8.3.1]
+synonym: "FWILT" EXACT []
+synonym: "RnFR_Et_0to5" EXACT []
+relationship: variable_of CO_331:0000422 ! Reaction to Fusarium oxysporum
+
+[Term]
 id: CO_331:0000790
-name: Storage root defects estimating 1-14
+name: Storage Root Defects estimating 1-14
 namespace: SweetpotatoTrait
 def: "Type and/or name of visible storage root defect" [Huaman1991:Def_4.2.2]
 synonym: "RTDEF" EXACT []
 synonym: "RtDam_Et_1to14" EXACT []
-relationship: variable_of CO_331:0000423 ! Storage root defects
+relationship: variable_of CO_331:0000423 ! Storage Root Defects
+
+[Term]
+id: CO_331:0000791
+name: Relative Storage Root Yield estimating 1-9
+namespace: SweetpotatoTrait
+def: "Overall visual assessment of storage root yield" [NCSU2016]
+synonym: "RTRYIELD" EXACT []
+synonym: "RtYldR_Et_1to9" EXACT []
+relationship: variable_of CO_331:0000424 ! Relative Storage Root Yield
+
+[Term]
+id: CO_331:0000792
+name: Yield as percent of check
+namespace: SweetpotatoTrait
+def: "Overall calculation of relative root yield" [NCSU2016]
+synonym: "RTYLDPCT" EXACT []
+synonym: "RtYldChk_Cp_pct" EXACT []
+relationship: variable_of CO_331:0000425 ! Storage Root Yield relative to check
+
+[Term]
+id: CO_331:0000793
+name: Storage Root Appearance estimating 1-9
+namespace: SweetpotatoTrait
+def: "Overall visual assessment of storage root yield appearance" [NCSU2016]
+synonym: "RTAPPEAR" EXACT []
+synonym: "RtApr_Et_1to9" EXACT []
+relationship: variable_of CO_331:0000426 ! Storage Root Appearance
+
+[Term]
+id: CO_331:0000794
+name: Season maturity estimating 0-4
+namespace: SweetpotatoTrait
+def: "Overall visual assessment of storage root size relative to harvest date and/or total growing season" [NCSU2016]
+synonym: "SEASON" EXACT []
+synonym: "PtMtSs_Et_0to4" EXACT []
+relationship: variable_of CO_331:0000427 ! Growing season
+
+[Term]
+id: CO_331:0000795
+name: Amylose content measuring mg per g DW
+namespace: SweetpotatoTrait
+def: "Amylose content in sweetpotato" [NCSU2016]
+synonym: "AMY" EXACT []
+synonym: "RtFlsAmy_Ms_mgpergDW" EXACT []
+relationship: variable_of CO_331:0000428 ! Amylose content
+
+[Term]
+id: CO_331:0000796
+name: Asparagine content measuring mg per g DW
+namespace: SweetpotatoTrait
+def: "peonidin content of purple flesh sweetpotato" [NCSU2016]
+synonym: "ASP" EXACT []
+synonym: "RtFlsAsp_Ms_mgpergDW" EXACT []
+relationship: variable_of CO_331:0000429 ! Asparagine content
+
+[Term]
+id: CO_331:0000797
+name: Cyanidin content measuring mg per g DW
+namespace: SweetpotatoTrait
+def: "Cyanidin content, it is a pigment found in the purple flesh sweetpotato (PFSP)." [NCSU2016]
+synonym: "CYAN" EXACT []
+synonym: "RtFlsCya_Ms_mgpergDW" EXACT []
+relationship: variable_of CO_331:0000430 ! Cyanidin content
+
+[Term]
+id: CO_331:0000798
+name: Total Monomeric Anthocyanin content measuring mg per g DW
+namespace: SweetpotatoTrait
+def: "Total Monomeric Anthocyanins content of purple flesh sweetpotato" [NCSU2016]
+synonym: "TMA" EXACT []
+synonym: "RtFlsAntM_Ms_mgpergDW" EXACT []
+relationship: variable_of CO_331:0000431 ! Total Monomeric Anthocyanin content
+
+[Term]
+id: CO_331:0000799
+name: Peonidin content measuring mg per g DW
+namespace: SweetpotatoTrait
+def: "Peonidin content of purple flesh sweetpotato" [NCSU2016]
+synonym: "PEO" EXACT []
+synonym: "RtFlsPeo_Ms_mgpergDW" EXACT []
+relationship: variable_of CO_331:0000432 ! Peonidin content
+
+[Term]
+id: CO_331:0000800
+name: Anthocyanin content measuring mg per g DW
+namespace: SweetpotatoTrait
+def: "Anthocyanin content of purple flesh sweetpotato" [NCSU2016]
+synonym: "ANTHO" EXACT []
+synonym: "RtFlsAnt_Ms_mgpergDW" EXACT []
+relationship: variable_of CO_331:0000433 ! Anthocyanin content
+
+[Term]
+id: CO_331:0000801
+name: Phenol content measuring mg per g DW
+namespace: SweetpotatoTrait
+def: "Phenol content of purple flesh sweetpotato" [NCSU2016]
+synonym: "PHEN" EXACT []
+synonym: "RtFlsPhe_Ms_mgpergDW" EXACT []
+relationship: variable_of CO_331:0000434 ! Phenol content
 
 [Term]
 id: CO_0331:2000001
