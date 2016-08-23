@@ -53,6 +53,15 @@ created_by: vagrant
 creation_date: 2016-08-23T18:05:49Z
 
 [Term]
+id: CO_331:0000423
+name: Storage root defects
+namespace: SweetpotatoTrait
+def: "Type and/or name of visible storage root defect" [Huaman1991:Def_4.2.2]
+comment: | Entity: Root | Attribute: defect | Trait status: Recommended.
+synonym: "RtDam" EXACT []
+is_a: CO_0331:0000006 ! Abiotic stress trait
+
+[Term]
 id: CO_0331:1000001
 name: Number of plants planted
 namespace: SweetpotatoTrait
@@ -546,6 +555,15 @@ def: "Harvest index evaluation." [Grueneberg2010:Def_41]
 comment: | Entity: Plant | Attribute: Yield | Trait status: Recommended.
 synonym: "IdxHrv" EXACT []
 is_a: CO_0331:0000001 ! Agronomic trait
+
+[Term]
+id: CO_331:0000790
+name: Storage root defects estimating 1-14
+namespace: SweetpotatoTrait
+def: "Type and/or name of visible storage root defect" [Huaman1991:Def_4.2.2]
+synonym: "RTDEF" EXACT []
+synonym: "RtDam_Et_1to14" EXACT []
+relationship: variable_of CO_331:0000423 ! Storage root defects
 
 [Term]
 id: CO_0331:2000001
@@ -2591,4 +2609,3 @@ namespace: SweetpotatoTrait
 id: variable_of
 name: variable_of
 namespace: SweetpotatoTrait
-
