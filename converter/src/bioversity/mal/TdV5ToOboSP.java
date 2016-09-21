@@ -315,6 +315,7 @@ public class TdV5ToOboSP {
 						String traitName = rowInfo.get(rowStruct.indexOf("Trait name"));
 						String coId = rowInfo.get(rowStruct.indexOf("Trait ID"));
 						String def = rowInfo.get(rowStruct.indexOf("Trait description"));
+						String source = rowInfo.get(rowStruct.indexOf("Trait Xref"));
 						String category = rowInfo.get(rowStruct.indexOf("Trait class"));
 						String lang = rowInfo.get(rowStruct.indexOf("Language"));
 
@@ -352,7 +353,7 @@ public class TdV5ToOboSP {
 								ids.add(coId);
 
 									 ///Concept creation
-									Frame concept = m.setConcept(traitName.toLowerCase(), coId, def, cropID+":"+category, crop, lang);
+									Frame concept = m.setConcept(traitName.toLowerCase(), coId, def, cropID+":"+category, crop, lang, source);
 
 									///Add creator to concept
 								   if(!creator.isEmpty()){
@@ -525,10 +526,12 @@ public class TdV5ToOboSP {
 
 								String idVariable;
 								String varSyn = rowInfo.get(rowStruct.indexOf("Variable name"));
+								String varSyn2 = rowInfo.get(rowStruct.indexOf("Variable synonyms"));
+							//	String def = rowInfo.get(rowStruct.indexOf("Trait description"));
 								String varName = rowInfo.get(rowStruct.indexOf("Variable label"));
 								//String varDef = rowInfo.get(rowStruct.indexOf("Variable definition"));
 							//	String categoryVar = rowInfo.get(rowStruct.indexOf("Variable class"));
-				
+
 								//String categorical = rowInfo.get(rowStruct.indexOf("For Categorical: Name of rating scale"));
 								idVariable=rowInfo.get(rowStruct.indexOf("Variable ID"));
 
@@ -539,12 +542,15 @@ public class TdV5ToOboSP {
 								}
 
 								try{
-									Frame variable = m.setVariable(varName, idVariable, cropID+":Variable", coId, idMethod, idMeasure, crop, lang);
+									Frame variable = m.setVariable(varName, idVariable, def, cropID+":Variable", coId, idMethod, idMeasure, crop, lang);
 									//Frame variable = m.setVariable(varName, idVariable, cropID+":"+categoryVar, coId, idMethod, idMeasure, crop, lang);
 
 									if(varSyn!= null && !varSyn.isEmpty() && !varSyn.replaceAll("\"", "").isEmpty()){
 										   m.addAltLabel(varSyn, variable);
 									 }
+									 if(varSyn2!= null && !varSyn2.isEmpty() && !varSyn2.replaceAll("\"", "").isEmpty()){
+												m.addAltLabel(varSyn2, variable);
+										}
 //									if(varDef!= null && !varDef.isEmpty() && !varDef.replaceAll("\"", "").isEmpty()){
 //										m.addDef(varDef, variable);
 //									}
