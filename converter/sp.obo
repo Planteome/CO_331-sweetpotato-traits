@@ -6036,6 +6036,7 @@ name: measurements of root mass
 namespace: SweetpotatoMethod
 def: "Measured using scales" []
 is_a: CO_331:1000011 ! Measurement
+relationship: method_of CO_331:0000218 ! weight of commercial storage roots
 relationship: method_of CO_331:0000221 ! weight of non-commercial storage roots
 
 [Term]
@@ -9339,6 +9340,25 @@ is_a: CO_331:1000003 ! Variable
 relationship: variable_of CO_331:0000896 ! estimated marketable yield per hectare - method
 relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0000307 ! marketable root yield
+
+name: weight of commercial storage roots
+namespace: SweetpotatoTrait
+def: "Weight of root that are 12 to 20 cm long and at least 10 cm in diameter" []
+synonym: "RtCmW" EXACT []
+is_a: CO_325:1000008 ! Agronomic_trait
+created_by: W. Grueneberg
+
+[Term]
+id: CO_331:0000220
+name: Weight of commercial storage roots measuring kg per plot
+namespace: SweetpotatoVariable
+def: "Weight of root that are 12 to 20 cm long and at least 10 cm in diameter" []
+synonym: "CRW" EXACT []
+synonym: "RtCmW_Ms_kgplot" EXACT []
+is_a: CO_325:1000003 ! Variable
+relationship: variable_of CO_325:0000892 ! measurements of root mass
+relationship: variable_of CO_325:0000893 ! kg/plot
+relationship: variable_of CO_331:0000218 ! weight of commercial storage roots
 
 [Term]
 id: CO_331:0000221
