@@ -9341,6 +9341,8 @@ relationship: variable_of CO_331:0000896 ! estimated marketable yield per hectar
 relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0000307 ! marketable root yield
 
+[Term]
+id: CO_331:0000218
 name: weight of commercial storage roots
 namespace: SweetpotatoTrait
 def: "Weight of root that are 12 to 20 cm long and at least 10 cm in diameter" []
