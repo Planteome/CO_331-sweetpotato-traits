@@ -527,7 +527,19 @@ public class TdV5ToOboSP {
 								String idVariable;
 								String varSyn = rowInfo.get(rowStruct.indexOf("Variable name"));
 								String varSyn2 = rowInfo.get(rowStruct.indexOf("Variable synonyms"));
-							//	String def = rowInfo.get(rowStruct.indexOf("Trait description"));
+								String methodClass = rowInfo.get(rowStruct.indexOf("Method class"));
+								//System.out.println("methodClass = "+methodClass);
+								String defVariable = def.replace("\"", "") + ". ";
+								if (methodClass.equals("\"Estimation\"")) {
+									for(int i=1; i<16; i++){
+										String nextCategory = rowInfo.get(rowStruct.indexOf("Category "+i));
+										if (nextCategory != null && nextCategory.length() > 2) {
+											defVariable += nextCategory.replace("\"", "") + ", ";
+										}
+									}
+								}
+								defVariable = "\""+ defVariable.substring(0, defVariable.length() - 2) +"\"";
+								//System.out.println("defVariable = "+defVariable);
 								String varName = rowInfo.get(rowStruct.indexOf("Variable label"));
 								//String varDef = rowInfo.get(rowStruct.indexOf("Variable definition"));
 							//	String categoryVar = rowInfo.get(rowStruct.indexOf("Variable class"));
@@ -542,7 +554,7 @@ public class TdV5ToOboSP {
 								}
 
 								try{
-									Frame variable = m.setVariable(varName, idVariable, def, cropID+":Variable", coId, idMethod, idMeasure, crop, lang);
+									Frame variable = m.setVariable(varName, idVariable, defVariable, cropID+":Variable", coId, idMethod, idMeasure, crop, lang);
 									//Frame variable = m.setVariable(varName, idVariable, cropID+":"+categoryVar, coId, idMethod, idMeasure, crop, lang);
 
 									if(varSyn!= null && !varSyn.isEmpty() && !varSyn.replaceAll("\"", "").isEmpty()){
