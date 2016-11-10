@@ -528,9 +528,9 @@ public class TdV5ToOboSP {
 								String varSyn = rowInfo.get(rowStruct.indexOf("Variable name"));
 								String varSyn2 = rowInfo.get(rowStruct.indexOf("Variable synonyms"));
 								String methodClass = rowInfo.get(rowStruct.indexOf("Method class"));
-								//System.out.println("methodClass = "+methodClass);
 								String defVariable = def.replace("\"", "") + ". ";
-								if (methodClass.equals("\"Estimation\"")) {
+								String firstCategory = rowInfo.get(rowStruct.indexOf("Category 1"));
+								if (firstCategory != null && firstCategory.length() > 2) {
 									for(int i=1; i<16; i++){
 										String nextCategory = rowInfo.get(rowStruct.indexOf("Category "+i));
 										if (nextCategory != null && nextCategory.length() > 2) {

@@ -12135,7 +12135,7 @@ relationship: variable_of CO_331:0000408 ! appearance of hearbarium
 id: CO_331:0000774
 name: Storage Root Shape primary estimating 1-8
 namespace: SweetpotatoTrait
-def: "Storage Root Shape described from longitudinal sections made about the middle of freshly harvested storage roots" []
+def: "Storage Root Shape described from longitudinal sections made about the middle of freshly harvested storage roots. 1 = Round, 2 = Round elliptic, 3 = Elliptic, 4 = Long elliptic, 5 = Ovoid, 6 = Blocky (Oblong), 7 = Irregular, 8 = Asymmetric (tight hill)" []
 synonym: "RTSHP1" EXACT []
 synonym: "RtShpP_Et_1to8" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12147,7 +12147,7 @@ relationship: variable_of CO_331:0000069 ! storage root shape (primary)
 id: CO_331:0000775
 name: Storage Root Shape secondary estimating 1-8
 namespace: SweetpotatoTrait
-def: "Storage Root Shape described from latitudinal sections made about the middle of freshly harvested storage roots" []
+def: "Storage Root Shape described from latitudinal sections made about the middle of freshly harvested storage roots. 1 = Round, 2 = Round elliptic, 3 = Elliptic, 4 = Long elliptic, 5 = Ovoid, 6 = Blocky (Oblong), 7 = Irregular, 8 = Asymmetric (tight hill)" []
 synonym: "RTSHP2" EXACT []
 synonym: "RtShpS_Et_1to8" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12159,7 +12159,7 @@ relationship: variable_of CO_331:0000441 ! storage root shape (secondary)
 id: CO_331:0000776
 name: Storage Root Shape Uniformity estimating 1-9
 namespace: SweetpotatoTrait
-def: "Storage Root Shape uniformity within a single plant or plot" []
+def: "Storage Root Shape uniformity within a single plant or plot. 1 = Very Poor, 2 = Poor, 3 = Poor, 4.0, 5 = Moderate, 6.0, 7 = Good, 8.0, 9 = Excellent" []
 synonym: "RTSHPU" EXACT []
 synonym: "RtShpU_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12171,7 +12171,7 @@ relationship: variable_of CO_331:0000409 ! storage root shape uniformity
 id: CO_331:0000777
 name: Storage Root Stalk estimating 0-9
 namespace: SweetpotatoTrait
-def: "Length of stalk joining the storage roots to the stems" []
+def: "Length of stalk joining the storage roots to the stems. 0 = Sessile or absent, 1 = Very short (<2 cm), 3 = Short (2-5 cm), 5 = Intermediate (6-8 cm), 7 = Long (9-12 cm), 9 = Very long (>12 cm)" []
 synonym: "RTSTALK" EXACT []
 synonym: "RtStlk_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12183,7 +12183,7 @@ relationship: variable_of CO_331:0000410 ! storage root stalk
 id: CO_331:0000778
 name: Storage Root Attachement estimating 0-9
 namespace: SweetpotatoTrait
-def: "Ability of storage roots to remain attached to stem after digging and forcible shaking roots off" []
+def: "Ability of storage roots to remain attached to stem after digging and forcible shaking roots off. 1 = Very tight, 3 = Tight, 5 = Moderate, 6.0, 7 = Light, 8.0, 9 = Very Light" []
 synonym: "RtAtt_Et_1to9" EXACT []
 synonym: "RTATTACH" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12207,7 +12207,7 @@ relationship: variable_of CO_331:0000412 ! length to diameter ratio of roots
 id: CO_331:0000780
 name: Skin Color estimating 1-12
 namespace: SweetpotatoTrait
-def: "The most representative skin color observed is recorded" []
+def: "The most representative skin color observed is recorded. 1 = White, 2 = Cream, 3 = Yellow, 4 = Tan, 5 = Orange, 6 = Rose, 7 = Pink, 8 = Red, 9 = Light Purple, 10 = Purple, 11 = Dark Purple, 12 = Brown" []
 synonym: "RtSknCol_Et_1to12" EXACT []
 synonym: "SKINCOLOR" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12219,7 +12219,7 @@ relationship: variable_of CO_331:0000413 ! skin color of roots
 id: CO_331:0000781
 name: Skin Texture estimating 1-9
 namespace: SweetpotatoTrait
-def: "Storage root skin feel, appearance, or consistency by visual observation and touch" []
+def: "Storage root skin feel, appearance, or consistency by visual observation and touch. 1 = Very Rough, 2.0, 3 = Moderately Rough, 4.0, 5 = Moderately Smooth, 6.0, 7 = Smooth, 8.0, 9 = Very Smooth" []
 synonym: "RTSKNTEX" EXACT []
 synonym: "RtSknTxt_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12231,7 +12231,7 @@ relationship: variable_of CO_331:0000414 ! skin texture of roots
 id: CO_331:0000782
 name: Flesh Color Carotenoids estimating 0-4
 namespace: SweetpotatoTrait
-def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots" []
+def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots. 0 = White, 0.5, 1 = Cream, 2 = Yellow, 2.5 = Yellow with orange, 2.75 = Orange with yellow, 3 = Orange, 3.5 = Dark Orange, 4 = Very Dark Orange" []
 synonym: "RTFLESH1" EXACT []
 synonym: "RtFlsColC_Et_0to4" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12243,7 +12243,7 @@ relationship: variable_of CO_331:0000415 ! flesh color (carotenoids)
 id: CO_331:0000783
 name: Flesh Color Anthocyanins estimating 0-4
 namespace: SweetpotatoTrait
-def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots" []
+def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots. 0 = No Anthocyanins, 0.5, 1 = Light Purple, 1.5, 2 = Moderate Purple, 2.5, 3 = Dark Purple, 3.5, 4 = Very Dark Purple" []
 synonym: "RTFLESH2" EXACT []
 synonym: "RtFlsColA_Et_0to4" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12255,7 +12255,7 @@ relationship: variable_of CO_331:0000416 ! flesh color (anthocyanins)
 id: CO_331:0000784
 name: Adventitious buds estimating 1-9
 namespace: SweetpotatoTrait
-def: "Observation of how deep or shallow predominant eyes or adventitious buds are at the storage root skin interface" []
+def: "Observation of how deep or shallow predominant eyes or adventitious buds are at the storage root skin interface. 1 = Very Deep, 3 = Deep, 5 = Moderate, 7 = Shallow, 9 = Very Shallow" []
 synonym: "EYES" EXACT []
 synonym: "RtAdvB_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12267,7 +12267,7 @@ relationship: variable_of CO_331:0000417 ! deep of eyes of roots
 id: CO_331:0000785
 name: Lenticels estimating 1-9
 namespace: SweetpotatoTrait
-def: "Overall assessment of visible lenticels at the storage root interface" []
+def: "Overall assessment of visible lenticels at the storage root interface. 1 = Very Prominent, 2.0, 3 = Prominent, 4.0, 5 = Moderate, 6.0, 7 = Few, 8.0, 9 = None" []
 synonym: "LENTS" EXACT []
 synonym: "RtLtcl_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12279,7 +12279,7 @@ relationship: variable_of CO_331:0000418 ! number of lenticels
 id: CO_331:0000786
 name: Streptomyces Soil Rot estimating 0-5
 namespace: SweetpotatoTrait
-def: "Streptomyces ipomoeae symptom evaluation" []
+def: "Streptomyces ipomoeae symptom evaluation. 0 = Highly Susceptible, 1 = Susceptible, 2 = Moderately Susceptible, 3 =Moderately Resistant, 4 = Resistant, 5 = Highly Resistant" []
 synonym: "RnPSR_Et_0to5" EXACT []
 synonym: "SSR" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12291,7 +12291,7 @@ relationship: variable_of CO_331:0000419 ! reaction to streptomyces soil rot
 id: CO_331:0000787
 name: Root Knot Nematode  Meloidogyne estimating 0-5
 namespace: SweetpotatoTrait
-def: "Reaction to Root-knot nematode Meloidogyne spp. symptom evaluation" []
+def: "Reaction to Root-knot nematode Meloidogyne spp. symptom evaluation. 0 = Highly Susceptible, 1 = Susceptible, 2 = Moderately Susceptible, 3 =Moderately Resistant, 4 = Resistant, 5 = Highly Resistant" []
 synonym: "RKN" EXACT []
 synonym: "RnMgRKN_Et_0to5" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12303,7 +12303,7 @@ relationship: variable_of CO_331:0000420 ! reaction to root knot nematode meloid
 id: CO_331:0000788
 name: Root Knot Nematode  Meloidogyne incognita estimating 0-7
 namespace: SweetpotatoTrait
-def: "Reaction to Root-knot nematode Meloidogyne incognita symptom evaluation" []
+def: "Reaction to Root-knot nematode Meloidogyne incognita symptom evaluation. 1= highly resistant (HR), 2= Resistant (1-10%), 3 = Moderate resistant (MR)(11-25%), 4 = Susceptible (S) (26-75%), 5= (HS) Highly susceptible (>76%)" []
 synonym: "RKN, MELOI" EXACT []
 synonym: "RnMgIRKN_Et_0to7" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12315,7 +12315,7 @@ relationship: variable_of CO_331:0000421 ! reaction to root knot nematode meloid
 id: CO_331:0000789
 name: Reaction to Fusarium Wilt estimating 0-5
 namespace: SweetpotatoTrait
-def: "Reaction to Fusarium oxysporum batatas symptom evaluation" []
+def: "Reaction to Fusarium oxysporum batatas symptom evaluation. 0 = Highly Susceptible, 1 = Susceptible, 2 = Moderately Susceptible, 3 =Moderately Resistant, 4 = Resistant, 5 = Highly Resistant" []
 synonym: "FWILT" EXACT []
 synonym: "RnFR_Et_0to5" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12327,7 +12327,7 @@ relationship: variable_of CO_331:0000422 ! reaction to fusarium oxysporum
 id: CO_331:0000790
 name: Storage Root Defects estimating 1-14
 namespace: SweetpotatoTrait
-def: "Type and/or name of visible storage root defect" []
+def: "Type and/or name of visible storage root defect. 1 = Blisters (B), 2 = Tea Staining (TS), 3 = Air Cracking (AC), 4 = Bumpy (B), 5 = Cracking (CR), 6 = Early Season Cracking (ESC), 7 = Grooves (GR), 8 = Insect Damage (INS), 9 = LT = Excessive Latex, 10 = Skinning (SK), 11 = Sprouts (SPR), 12 = Striations (STR), 13 = Tails (T), 14 = Veins (VN)" []
 synonym: "RtDam_Et_1to14" EXACT []
 synonym: "RTDEF" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12339,7 +12339,7 @@ relationship: variable_of CO_331:0000423 ! storage root defects
 id: CO_331:0000791
 name: Relative Storage Root Yield estimating 1-9
 namespace: SweetpotatoTrait
-def: "Overall visual assessment of storage root yield" []
+def: "Overall visual assessment of storage root yield. 1 = Very Poor, 3 = Poor, 5 = Moderate, 7 = Good, 9 = Excellent" []
 synonym: "RTRYIELD" EXACT []
 synonym: "RtYldR_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12363,7 +12363,7 @@ relationship: variable_of CO_331:0000425 ! storage root yield relative to check
 id: CO_331:0000793
 name: Storage Root Appearance estimating 1-9
 namespace: SweetpotatoTrait
-def: "Overall visual assessment of storage root yield appearance" []
+def: "Overall visual assessment of storage root yield appearance. 1 = Very Poor, 3 = Poor, 4.0, 5 = Moderate, 6.0, 7 = Good, 8.0, 9 = Excellent" []
 synonym: "RTAPPEAR" EXACT []
 synonym: "RtApr_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variable
@@ -12375,7 +12375,7 @@ relationship: variable_of CO_331:0000426 ! storage root appearance
 id: CO_331:0000794
 name: Season maturity estimating 0-4
 namespace: SweetpotatoTrait
-def: "Overall visual assessment of storage root size relative to harvest date and/or total growing season" []
+def: "Overall visual assessment of storage root size relative to harvest date and/or total growing season. 0 = Late Season, 1 = Mid to Late Season, 2 = Mid Season, 3 = Early to Mid Season, 4 = Early Season" []
 synonym: "PtMtSs_Et_0to4" EXACT []
 synonym: "SEASON" EXACT []
 is_a: CO_331:1000003 ! Variable
