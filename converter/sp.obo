@@ -6129,7 +6129,7 @@ relationship: method_of CO_331:0000425 ! storage root yield relative to check
 
 [Term]
 id: CO_331:0000902
-name: estimation of craking roots
+name: estimation of cracking roots
 namespace: SweetpotatoMethod
 def: "Visual estimation" []
 is_a: CO_331:1000014 ! Estimation
@@ -9328,18 +9328,6 @@ is_a: CO_331:1000003 ! Variable
 relationship: variable_of CO_331:0000886 ! evaluation of roots
 relationship: variable_of CO_331:0000887 ! roots/plot
 relationship: variable_of CO_331:0000215 ! number of non-commercial storage roots
-
-[Term]
-id: CO_331:0000218
-name: Storage root total marketable yield weight computation tons per ha
-namespace: SweetpotatoTrait
-def: "Weight of root that are 12 to 20 cm long and at least 10 cm in diameter" []
-synonym: "RtCYld_Cp_tha" EXACT []
-synonym: "RYTHA" EXACT []
-is_a: CO_331:1000003 ! Variable
-relationship: variable_of CO_331:0000896 ! estimated marketable yield per hectare - method
-relationship: variable_of CO_331:0000897 ! t/ha
-relationship: variable_of CO_331:0000307 ! marketable root yield
 
 [Term]
 id: CO_331:0000218
