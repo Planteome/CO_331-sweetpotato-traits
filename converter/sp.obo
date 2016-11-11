@@ -9347,7 +9347,7 @@ name: weight of commercial storage roots
 namespace: SweetpotatoTrait
 def: "Weight of root that are 12 to 20 cm long and at least 10 cm in diameter" []
 synonym: "RtCmW" EXACT []
-is_a: CO_325:1000008 ! Agronomic_trait
+is_a: CO_331:1000008 ! Agronomic_trait
 created_by: W. Grueneberg
 
 [Term]
@@ -9357,9 +9357,9 @@ namespace: SweetpotatoTrait
 def: "Weight of root that are 12 to 20 cm long and at least 10 cm in diameter" []
 synonym: "CRW" EXACT []
 synonym: "RtCmW_Ms_kgplot" EXACT []
-is_a: CO_325:1000003 ! Variable
-relationship: variable_of CO_325:0000892 ! measurements of root mass
-relationship: variable_of CO_325:0000893 ! kg/plot
+is_a: CO_331:1000003 ! Variable
+relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000893 ! kg/plot
 relationship: variable_of CO_331:0000218 ! weight of commercial storage roots
 
 [Term]
