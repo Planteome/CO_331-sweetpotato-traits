@@ -9353,7 +9353,7 @@ created_by: W. Grueneberg
 [Term]
 id: CO_331:0000220
 name: Weight of commercial storage roots measuring kg per plot
-namespace: SweetpotatoVariable
+namespace: SweetpotatoTrait
 def: "Weight of root that are 12 to 20 cm long and at least 10 cm in diameter" []
 synonym: "CRW" EXACT []
 synonym: "RtCmW_Ms_kgplot" EXACT []
