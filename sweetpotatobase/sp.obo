@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:11:2016 20:53
+date: 30:11:2016 21:54
 saved-by: vagrant
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: SweetpotatoTrait
@@ -3236,9 +3236,19 @@ name: Storage Root Defects secondary estimating 1-18
 def: "Type and/or name of secondary visible storage root defect. 1 = Blisters (BLI), 2 = Tea Staining (TEA), 3 = Air Cracking (AIR), 4 = Bumpy (BUM), 5 = Cracking (CRA), 6 = Early Season Cracking (ESC), 7 = Grooves (GRV), 8 = Insect Damage (INS), 9 = Excessive Latex (LTX), 10 = Skinning (SKN), 11 = Sprouts (SPR), 12 = Striations (STR), 13 = Tails (TLS), 14 = Veins (VNS), 15 = Deep Eyes (DES), 16 = Misshapes (MIS), 17 = Secondary Roots (SRS), 18 = Tight Hills (THS)." []
 synonym: "RTDEF2" EXACT []
 synonym: "RtDefS_Et_1to18" EXACT []
-relationship: variable_of CO_331:0000812   ! storage root defects (secondary)
+relationship: variable_of CO_331:0000812 ! storage root defects (secondary)
 created_by: B. Ellerbrock
 creation_date: 2016-11-30T20:44:25Z
+
+[Term]
+id: CO_331:0000814
+name: Storage root total marketable yield weight computation tons per ha
+def: "Marketable root yield" []
+synonym: "RtCYld_Cp_tha" EXACT []
+synonym: "RYTHA" EXACT []
+relationship: variable_of CO_331:0000307 ! marketable root yield
+created_by: W. Grueneberg
+creation_date: 2016-11-30T21:23:23Z
 
 [Term]
 id: CO_331:1000004
