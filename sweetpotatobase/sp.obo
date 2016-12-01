@@ -1,5 +1,5 @@
 format-version: 1.2
-date: 30:11:2016 21:54
+date: 01:12:2016 04:15
 saved-by: vagrant
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: SweetpotatoTrait
@@ -3227,7 +3227,7 @@ name: storage root defects (secondary)
 def: "Type and/or name of secondary visible storage root defect" []
 synonym: "RtDefS" EXACT []
 is_a: CO_331:1000004 ! Abiotic_stress_trait
-created_by: B. Ellerbrock
+created_by: C. Yencho
 creation_date: 2016-11-30T20:41:53Z
 
 [Term]
@@ -3237,7 +3237,7 @@ def: "Type and/or name of secondary visible storage root defect. 1 = Blisters (B
 synonym: "RTDEF2" EXACT []
 synonym: "RtDefS_Et_1to18" EXACT []
 relationship: variable_of CO_331:0000812 ! storage root defects (secondary)
-created_by: B. Ellerbrock
+created_by: C. Yencho
 creation_date: 2016-11-30T20:44:25Z
 
 [Term]
@@ -3249,6 +3249,25 @@ synonym: "RYTHA" EXACT []
 relationship: variable_of CO_331:0000307 ! marketable root yield
 created_by: W. Grueneberg
 creation_date: 2016-11-30T21:23:23Z
+
+[Term]
+id: CO_331:0000815
+name: overall storage root disease symptoms
+def: "Overall storage root disease symptoms evaluation" []
+synonym: "RtDSm" EXACT []
+is_a: CO_331:1000005 ! Biotic_stress_trait
+created_by: C. Yencho
+creation_date: 2016-12-01T02:33:40Z
+
+[Term]
+id: CO_331:0000816
+name: Overall storage root disease symptoms estimating 1-9
+def: "Overall storage root disease symptoms evaluation. 1=Very poor, 3 = Poor, 5 = Moderate, 7 = Good, 9 = No disease" []
+synonym: "DISEASE" EXACT []
+synonym: "RtDSm_Et_1to9" EXACT []
+relationship: variable_of CO_331:0000815   ! overall storage root disease symptoms
+created_by: C. Yencho
+creation_date: 2016-12-01T04:02:09Z
 
 [Term]
 id: CO_331:1000004
