@@ -1,0 +1,435 @@
+package bioversity.mal;
+
+import java.io.BufferedReader;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.Row;
+import org.apache.poi.ss.usermodel.Sheet;
+import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.obolibrary.oboformat.model.Frame;
+
+public class TdV5ToOboSP {
+
+	private static List<ArrayList<String> > read(String dataFileName, ArrayList<String> oRowStruct) throws Exception{
+		ArrayList dataset = new ArrayList();
+		try{
+			BufferedReader reader = new BufferedReader( new FileReader( dataFileName ));
+
+			int lineNo = 0;
+			String line;
+
+
+			while( (line = reader.readLine()) != null ) {
+
+				//System.out.println("lineno="+lineNo);
+
+					if(lineNo==0){
+						//the first row is the data structure
+						//String[] attNames = line.split(";");
+						String[] attNames = line.split("\\$");
+
+						for(int i=0;i<attNames.length;i++){
+							oRowStruct.add(attNames[i].trim().replaceAll("\"", ""));
+						}
+					}else{
+						//the late rows are data content
+						ArrayList<String> row = new ArrayList<String>();
+
+							//String[] rowValues =  line.split(";");
+							String[] rowValues =  line.split("\\$");
+							for(int i=0;i<rowValues.length;i++){
+								row.add(rowValues[i]);
+							}
+							while(row.size()<oRowStruct.size()){
+								row.add(null);
+							}
+
+					if(row.size()!=oRowStruct.size()){
+						System.out.println("line no="+lineNo);
+                        System.out.println("oRowStruct size="+oRowStruct.size()+":"+oRowStruct);
+                        System.out.println("rowValues size="+row.size()+":"+row);
+						throw new Exception("Data structure attribute number is different row value number.");
+					}
+
+					dataset.add(row);
+
+					}
+				//}
+				lineNo++;
+			}
+			reader.close();
+		}catch(Exception e) {
+			e.printStackTrace();
+			throw e;
+		}
+		return dataset;
+	}
+
+	public static void main(String[] args){
+
+		/// args[0] = excel file
+		if(args.length != 2){
+
+				System.out.println("invalid number of arguments. Fist argument must be the excel TD version 5 and the second argument should be the obo file");
+		}else{
+
+			//creation of the temp file: csv file
+			File temp= null;
+			try {
+				temp = File.createTempFile("tempfiletest", ".tmp");
+			} catch (IOException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
+			}
+	        String path = temp.getAbsolutePath();
+	        xlsx(new File(args[0]), temp);
+
+			//String datafile = args[0]; //"/Users/marie-angeliquelaporte/Dropbox/toto.csv";
+
+			//read the data from data file to data structure
+			ArrayList<String> rowStruct = new ArrayList<String>();
+			List dataset = null;
+			try {
+				dataset = TdV5ToOboSP.read(path, rowStruct);
+				//System.out.println(rowStruct);
+
+				////build empty obo model
+				coModelTdToOBO m = new coModelTdToOBO();
+
+				///creation of specific properties
+				m.setProperty("variable_of");
+
+				//Crop
+				String crop= "";
+
+				///for checking if id already exists
+				ArrayList<String> ids = new ArrayList<String>();
+				ArrayList<String> duplicate = new ArrayList<String>();
+
+				////creation categories
+				Iterator it = dataset.iterator();
+				Set cat=new HashSet();
+				Set catV=new HashSet();
+
+				/// get the crop id
+				String cropID =  "CO_320";
+
+				//foreach line of the file
+				while(it.hasNext()){
+					ArrayList<String> rowInfo = (ArrayList<String>) it.next();
+					//System.out.println(rowInfo);
+
+					//get the superclasses
+					String category = rowInfo.get(rowStruct.indexOf("Trait class"));
+
+					//NO VAR CLASS FOR NOW
+					//String categoryV = rowInfo.get(rowStruct.indexOf("Variable class"));
+
+					//String lang = rowInfo.get(rowStruct.indexOf("Language of submission"));
+					String lang = rowInfo.get(rowStruct.indexOf("Language"));
+
+					if(rowInfo.get(rowStruct.indexOf("Trait ID"))==null){
+						continue;
+					}
+
+					if (cropID.isEmpty())
+						cropID = rowInfo.get(rowStruct.indexOf("Trait ID")).split(":")[0];
+
+					try{
+						if(crop.isEmpty()){
+							///A remplacer avec le vrai TD
+							crop = rowInfo.get(rowStruct.indexOf("Crop"));
+							//crop = "Cassava";
+						}
+					}catch(Exception e){
+						System.out.println(e + ": Crop is empty. You must complete the column Crop");
+						return;
+					}
+
+
+					//let's say that language will be english if empty
+					if(lang==null){
+						lang="en";
+					}
+
+
+					//add category if english
+					if(lang!=null && (lang.equalsIgnoreCase("\"en\"")||lang.equalsIgnoreCase("en"))
+							&& category!=null && !category.isEmpty() && !category.replaceAll("\"", "").isEmpty()){
+							cat.add(category.replaceAll(" ", "_"));
+					}
+
+					//NO VAR CLASS FOR NOW
+//					if(lang!=null && (lang.equalsIgnoreCase("\"en\"")||lang.equalsIgnoreCase("en"))
+//							&& categoryV!=null && !categoryV.isEmpty() && !categoryV.replaceAll("\"", "").isEmpty()){
+//						catV.add(categoryV.replace(" ", "_"));
+//					}
+				}
+
+				 ///to print line number when pb
+				 int rowNumber=1;
+
+				 //create IDs when empty
+				 int cpt = 1556; //last id in Rice is 1555, for method and scale
+				 //int cptmethod = 10000;
+				 //int cptscale = 100000;
+
+				 String zero = "000"; //id has 3 digits
+//				 String zeroM = "00"; //id has 3 digits
+//				 String zeroS = "0"; //id has 3 digits
+//				 String zeroC = ""; //id has 3 digits
+				 Map<String, String> traitMap = new HashMap<String, String>();
+				 //Map<String, String> varIDMap = new HashMap<String, String>();
+
+				//creation of the "roots" terms for trait, method and scale
+				Frame traitRootClass = m.setConcept("Rice Trait", "1000000", "", crop, cropID+":", "Trait", false);
+				Frame variableRootClass = m.setConcept("Variable", "1000003", "", crop, cropID+":", "Variable", false);
+
+				Iterator itCat = cat.iterator();
+				while(itCat.hasNext()){
+					String category = (String) itCat.next();
+					///Concept creation
+					category = category.replaceAll("\"", "");
+					if(category.equalsIgnoreCase("Abiotic stress")){
+						Frame concept = m.setConcept('Abiotic_stress_trait', "1000004", "", crop, cropID+":", "Rice Trait", true);
+					}else if(category.equalsIgnoreCase("Biotic stress")){
+						Frame concept = m.setConcept('Biotic_stress_trait', "1000005", "", crop, cropID+":", "Rice Trait", true);
+					}else if(category.equalsIgnoreCase("Phenological")){
+						Frame concept = m.setConcept('Phenological_trait', "1000006", "", crop, cropID+":", "Rice Trait", true);
+					}else if(category.equalsIgnoreCase("Quality")){
+						Frame concept = m.setConcept('Quality_trait', "1000007", "", crop, cropID+":", "Rice Trait", true);
+					}else if(category.equalsIgnoreCase("Agronomical")){
+						Frame concept = m.setConcept('Agronomic_trait', "1000008", "", crop, cropID+":", "Rice Trait", true);
+					}else if(category.equalsIgnoreCase("Biochemical")){
+						Frame concept = m.setConcept('Biochemical_trait', "1000009", "", crop, cropID+":", "Rice Trait", true);
+					}else if(category.equalsIgnoreCase("Morphological")){
+						Frame concept = m.setConcept('Morphological_trait', "1000010", "", crop, cropID+":", "Rice Trait", true);
+					}else if(category.equalsIgnoreCase("Fertility")){
+						Frame concept = m.setConcept('Fertility_trait', "1000011", "", crop, cropID+":", "Rice Trait", true);
+					}
+				}
+
+				ids.addAll(cat);
+				ids.addAll(catV);
+
+				///This time add the concepts
+				it = dataset.iterator();
+
+				////to remove duplicated method and scale
+
+				////creation traits, methods, scales, variables
+				while(it.hasNext()){
+					rowNumber++;
+					ArrayList<String> rowInfo = (ArrayList<String>) it.next();
+					//System.out.println(rowInfo);
+
+					//some variables can be obsolete
+					String keep = rowInfo.get(rowStruct.indexOf("Trait status"));
+
+					///CHANGE THAT LATER
+					if (keep!=null && keep.equalsIgnoreCase("toto")){
+						continue;
+					}else{
+						crop = rowInfo.get(rowStruct.indexOf("Crop"));
+						String traitName = rowInfo.get(rowStruct.indexOf("Trait name"));
+						String coId = rowInfo.get(rowStruct.indexOf("Trait ID"));
+						String def = rowInfo.get(rowStruct.indexOf("Trait description"));
+						String source = rowInfo.get(rowStruct.indexOf("Trait Xref"));
+						String category = rowInfo.get(rowStruct.indexOf("Trait class"));
+						String lang = rowInfo.get(rowStruct.indexOf("Language"));
+
+						//String organization = rowInfo.get(rowStruct.indexOf("Institution"));
+						String date = rowInfo.get(rowStruct.indexOf("Date"));
+						String abbrev = rowInfo.get(rowStruct.indexOf("Main trait abbreviation"));
+						String abbrevs = rowInfo.get(rowStruct.indexOf("Alternative trait abbreviations"));
+						String synonym = rowInfo.get(rowStruct.indexOf("Trait synonyms"));
+						//String usedFor = rowInfo.get(rowStruct.indexOf("How is this trait routinely used?"));
+						String creator = rowInfo.get(rowStruct.indexOf("Scientist"));
+						//System.out.println(lang);
+
+						if(lang!=null && (lang.equalsIgnoreCase("\"en\"")||lang.equalsIgnoreCase("en"))){
+							if(coId.isEmpty() || coId.replace("\"", "").isEmpty()){
+								if(traitMap.containsKey(traitName.trim().toLowerCase())){
+									coId = traitMap.get(traitName.trim().toLowerCase());
+								}else{
+									coId = cropID+":"+zero+cpt;//concatenate to create new ID
+									cpt++;
+									//add the id to the map
+									traitMap.put(traitName.trim().toLowerCase(), coId);
+								}
+							}
+							if( coId!=null){
+								//look for duplicate ids
+								if(ids.contains(coId)){
+									duplicate.add(coId);
+								}
+								if (coId.isEmpty() || coId.replace("\"", "").isEmpty()){
+									System.out.println("Line "+ rowNumber + " has been ignored because Trait ID was empty. Fill in this column ans re-run the script to have this line info in the output obo file!");
+									continue;
+								}
+
+								if(!ids.contains(coId)){
+								ids.add(coId);
+
+									 ///Concept creation
+									Frame concept = m.setConcept(traitName.toLowerCase(), coId, def, cropID+":"+category, crop, lang, source);
+
+									///Add creator to concept
+								   if(!creator.isEmpty()){
+								    	m.addCreatorToConcept(m.setCreator(creator), concept);
+								    }
+
+
+				//				    ///Add creation date to concept
+				//				    if(!date.isEmpty()){
+				//
+				//				    	m.addCreationDateToConcept(date, concept);
+				//				    }
+				//
+								    //add abbreviation and synonyms
+								    if(!abbrev.isEmpty() && !abbrev.replaceAll("\"", "").isEmpty()){
+								    	abbrev = abbrev.replaceAll("\"", "");
+								    	String[] abbrevTab = abbrev.split(",");
+								    	for(int k=0; k<abbrevTab.length; k++){
+								    		m.addAbbrevToConcept(abbrevTab[k], concept);
+								    	}
+								    }
+								    if(!abbrevs.isEmpty() && !abbrevs.replaceAll("\"", "").isEmpty()){
+								    	abbrevs = abbrevs.replaceAll("\"", "");
+								    	String[] abbrevTab = abbrevs.split(",");
+								    	for(int k=0; k<abbrevTab.length; k++){
+								    		m.addAbbrevToConcept(abbrevTab[k], concept);
+								    	}								    }
+
+								    if(!synonym.isEmpty() && !synonym.replaceAll("\"", "").isEmpty()){
+								    	synonym = synonym.replaceAll("\"", "");
+								    	String[] synTab = synonym.split(",");
+								    	for(int k=0; k<synTab.length; k++){
+								    		m.addAltLabel(synTab[k], concept);
+								    	}
+								    }
+								}
+
+								///////////////////////////////////////
+								//addVariable
+								///////////////////////////////////////
+
+
+								String idVariable;
+								String varSyn = rowInfo.get(rowStruct.indexOf("Variable name"));
+								String varSyn2 = rowInfo.get(rowStruct.indexOf("Variable synonyms"));
+							//	String methodClass = rowInfo.get(rowStruct.indexOf("Method class"));
+								String defVariable = def.replace("\"", "") + ". ";
+								String firstCategory = rowInfo.get(rowStruct.indexOf("Category 1"));
+								if (firstCategory != null && firstCategory.length() > 2) {
+									for(int i=1; i<14; i++){
+										String nextCategory = rowInfo.get(rowStruct.indexOf("Category "+i));
+										if (nextCategory != null && nextCategory.length() > 2) {
+											defVariable += nextCategory.replace("\"", "") + ", ";
+										}
+									}
+								}
+								defVariable = "\""+ defVariable.substring(0, defVariable.length() - 2) +"\"";
+								//System.out.println("defVariable = "+defVariable);
+								String varName = rowInfo.get(rowStruct.indexOf("Variable name"));
+								//String varDef = rowInfo.get(rowStruct.indexOf("Variable definition"));
+							//	String categoryVar = rowInfo.get(rowStruct.indexOf("Variable class"));
+
+								//String categorical = rowInfo.get(rowStruct.indexOf("For Categorical: Name of rating scale"));
+								idVariable=rowInfo.get(rowStruct.indexOf("Variable ID"));
+
+
+								if(idVariable.isEmpty() || idVariable.replaceAll("\"", "").isEmpty()){
+										idVariable = cropID+":"+zero+cpt;//concatenate to create new ID
+										cpt++;
+								}
+
+								try{
+									Frame variable = m.setVariable(varName, idVariable, defVariable, cropID+":Variable", coId, crop, lang);
+									//Frame variable = m.setVariable(varName, idVariable, cropID+":"+categoryVar, coId, idMethod, idMeasure, crop, lang);
+
+									if(varSyn!= null && !varSyn.isEmpty() && !varSyn.replaceAll("\"", "").isEmpty()){
+										   m.addAltLabel(varSyn, variable);
+									 }
+									 if(varSyn2!= null && !varSyn2.isEmpty() && !varSyn2.replaceAll("\"", "").isEmpty()){
+												m.addAltLabel(varSyn2, variable);
+										}
+//									if(varDef!= null && !varDef.isEmpty() && !varDef.replaceAll("\"", "").isEmpty()){
+//										m.addDef(varDef, variable);
+//									}
+
+								}catch(Exception e){
+									System.out.println("Variable hasn't been created for this line. Need to create the variable manually or fix the problem in the file and re-run the script, line: "+ rowNumber);
+								}
+								//System.out.println(traitName+ method+ scaleName+ varName);
+								//System.out.println("TOTOTAAAA!"+ variable);
+							}else{
+								System.out.println("Line "+ rowNumber + "has been ignored because Trait ID was empty. Fill in this column and re-run the script to have this line info in the output obo file!");
+								continue;
+							}
+						}
+					}
+				}
+
+				m.save(args[1]);//m.save("/Users/marie-angeliquelaporte/Desktop/TEST.obo");
+				System.out.println("FYI: List of duplicate IDs found in the file: "+duplicate);
+				boolean deleted = temp.delete();
+				if(!deleted){
+					temp.deleteOnExit();
+				}
+
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+	}
+
+	//xls to csv
+	private static void xlsx(File inputFile, File outputFile) {
+        // For storing data into CSV files
+        StringBuffer data = new StringBuffer();
+
+        try {
+            FileOutputStream fos = new FileOutputStream(outputFile);
+            // Get the workbook object for XLSX file
+            Workbook wBook = WorkbookFactory.create(new FileInputStream(inputFile));
+            // Get first sheet from the workbook
+            Sheet sheet = wBook.getSheetAt(1);
+           // Row row;
+            //Cell cell;
+
+            for(Row row : sheet) {
+            	   for(int cn=0; cn<row.getLastCellNum(); cn++) {
+            	       // If the cell is missing from the file, generate a blank one
+            	       // (Works by specifying a MissingCellPolicy)
+            	       Cell cell = row.getCell(cn, Row.CREATE_NULL_AS_BLANK);
+
+            	      // data.append("\""+cell.toString().trim() + "\""+ ";");
+            	       data.append("\""+cell.toString().trim() + "\""+ "$");
+            	   }
+            	   data.append("\r\n");
+            	}
+
+            fos.write(data.toString().getBytes());
+            fos.close();
+
+
+        } catch (Exception ioe) {
+            ioe.printStackTrace();
+        }
+    }
+}
