@@ -12,41 +12,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000999 ! visual estimation of the plant response to  hight soil temperature (40 °c)
 
 [Term]
-id: CO_331:00001000:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001000 ! rctstp 5 pt. scale
-
-[Term]
-id: CO_331:00001000:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001000 ! rctstp 5 pt. scale
-
-[Term]
-id: CO_331:00001000:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001000 ! rctstp 5 pt. scale
-
-[Term]
-id: CO_331:00001000:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001000 ! rctstp 5 pt. scale
-
-[Term]
-id: CO_331:00001000:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001000 ! rctstp 5 pt. scale
-
-[Term]
 id: CO_331:00001001
 name: visual estimation of the plant response to  west indian sweet potato weevil
 namespace: SweetpotatoMethod
@@ -60,41 +25,6 @@ name: rcwispw 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001001 ! visual estimation of the plant response to  west indian sweet potato weevil
-
-[Term]
-id: CO_331:00001002:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001002 ! rcwispw 5 pt. scale
-
-[Term]
-id: CO_331:00001002:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001002 ! rcwispw 5 pt. scale
-
-[Term]
-id: CO_331:00001002:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001002 ! rcwispw 5 pt. scale
-
-[Term]
-id: CO_331:00001002:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001002 ! rcwispw 5 pt. scale
-
-[Term]
-id: CO_331:00001002:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001002 ! rcwispw 5 pt. scale
 
 [Term]
 id: CO_331:00001003
@@ -112,41 +42,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001003 ! visual estimation of the plant response to  striped sweet potato weevil
 
 [Term]
-id: CO_331:00001004:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001004 ! rcsspw 5 pt. scale
-
-[Term]
-id: CO_331:00001004:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001004 ! rcsspw 5 pt. scale
-
-[Term]
-id: CO_331:00001004:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001004 ! rcsspw 5 pt. scale
-
-[Term]
-id: CO_331:00001004:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001004 ! rcsspw 5 pt. scale
-
-[Term]
-id: CO_331:00001004:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001004 ! rcsspw 5 pt. scale
-
-[Term]
 id: CO_331:00001005
 name: visual estimation of the plant response to  sweet potato wire worms
 namespace: SweetpotatoMethod
@@ -160,41 +55,6 @@ name: rcspww 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001005 ! visual estimation of the plant response to  sweet potato wire worms
-
-[Term]
-id: CO_331:00001006:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001006 ! rcspww 5 pt. scale
-
-[Term]
-id: CO_331:00001006:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001006 ! rcspww 5 pt. scale
-
-[Term]
-id: CO_331:00001006:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001006 ! rcspww 5 pt. scale
-
-[Term]
-id: CO_331:00001006:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001006 ! rcspww 5 pt. scale
-
-[Term]
-id: CO_331:00001006:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001006 ! rcspww 5 pt. scale
 
 [Term]
 id: CO_331:00001007
@@ -212,41 +72,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001007 ! visual estimation of the plant response to  wire worms
 
 [Term]
-id: CO_331:00001008:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001008 ! rcww 5 pt. scale
-
-[Term]
-id: CO_331:00001008:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001008 ! rcww 5 pt. scale
-
-[Term]
-id: CO_331:00001008:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001008 ! rcww 5 pt. scale
-
-[Term]
-id: CO_331:00001008:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001008 ! rcww 5 pt. scale
-
-[Term]
-id: CO_331:00001008:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001008 ! rcww 5 pt. scale
-
-[Term]
 id: CO_331:00001009
 name: visual estimation of the plant response to  sweet potato flea beetles
 namespace: SweetpotatoMethod
@@ -260,41 +85,6 @@ name: rcspfb 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001009 ! visual estimation of the plant response to  sweet potato flea beetles
-
-[Term]
-id: CO_331:00001010:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001010 ! rcspfb 5 pt. scale
-
-[Term]
-id: CO_331:00001010:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001010 ! rcspfb 5 pt. scale
-
-[Term]
-id: CO_331:00001010:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001010 ! rcspfb 5 pt. scale
-
-[Term]
-id: CO_331:00001010:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001010 ! rcspfb 5 pt. scale
-
-[Term]
-id: CO_331:00001010:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001010 ! rcspfb 5 pt. scale
 
 [Term]
 id: CO_331:00001011
@@ -312,41 +102,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001011 ! visual estimation of the plant response to  flea beetles
 
 [Term]
-id: CO_331:00001012:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001012 ! rcfb 5 pt. scale
-
-[Term]
-id: CO_331:00001012:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001012 ! rcfb 5 pt. scale
-
-[Term]
-id: CO_331:00001012:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001012 ! rcfb 5 pt. scale
-
-[Term]
-id: CO_331:00001012:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001012 ! rcfb 5 pt. scale
-
-[Term]
-id: CO_331:00001012:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001012 ! rcfb 5 pt. scale
-
-[Term]
 id: CO_331:00001013
 name: visual estimation of the plant response to  sweet potato leaf beetles
 namespace: SweetpotatoMethod
@@ -360,41 +115,6 @@ name: rcsplb 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001013 ! visual estimation of the plant response to  sweet potato leaf beetles
-
-[Term]
-id: CO_331:00001014:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001014 ! rcsplb 5 pt. scale
-
-[Term]
-id: CO_331:00001014:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001014 ! rcsplb 5 pt. scale
-
-[Term]
-id: CO_331:00001014:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001014 ! rcsplb 5 pt. scale
-
-[Term]
-id: CO_331:00001014:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001014 ! rcsplb 5 pt. scale
-
-[Term]
-id: CO_331:00001014:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001014 ! rcsplb 5 pt. scale
 
 [Term]
 id: CO_331:00001015
@@ -412,41 +132,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001015 ! visual estimation of the plant response to  beetles
 
 [Term]
-id: CO_331:00001016:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001016 ! rcbtl 5 pt. scale
-
-[Term]
-id: CO_331:00001016:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001016 ! rcbtl 5 pt. scale
-
-[Term]
-id: CO_331:00001016:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001016 ! rcbtl 5 pt. scale
-
-[Term]
-id: CO_331:00001016:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001016 ! rcbtl 5 pt. scale
-
-[Term]
-id: CO_331:00001016:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001016 ! rcbtl 5 pt. scale
-
-[Term]
 id: CO_331:00001017
 name: visual estimation of the root response to  grub worm
 namespace: SweetpotatoMethod
@@ -460,41 +145,6 @@ name: rcgrbw 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001017 ! visual estimation of the root response to  grub worm
-
-[Term]
-id: CO_331:00001018:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001018 ! rcgrbw 5 pt. scale
-
-[Term]
-id: CO_331:00001018:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001018 ! rcgrbw 5 pt. scale
-
-[Term]
-id: CO_331:00001018:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001018 ! rcgrbw 5 pt. scale
-
-[Term]
-id: CO_331:00001018:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001018 ! rcgrbw 5 pt. scale
-
-[Term]
-id: CO_331:00001018:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001018 ! rcgrbw 5 pt. scale
 
 [Term]
 id: CO_331:00001019
@@ -512,41 +162,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001019 ! visual estimation of the root response to  hornworm
 
 [Term]
-id: CO_331:00001020:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001020 ! rchrnw 5 pt. scale
-
-[Term]
-id: CO_331:00001020:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001020 ! rchrnw 5 pt. scale
-
-[Term]
-id: CO_331:00001020:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001020 ! rchrnw 5 pt. scale
-
-[Term]
-id: CO_331:00001020:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001020 ! rchrnw 5 pt. scale
-
-[Term]
-id: CO_331:00001020:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001020 ! rchrnw 5 pt. scale
-
-[Term]
 id: CO_331:00001021
 name: visual estimation of the plant response to  aphis
 namespace: SweetpotatoMethod
@@ -560,41 +175,6 @@ name: rcaph 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001021 ! visual estimation of the plant response to  aphis
-
-[Term]
-id: CO_331:00001022:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001022 ! rcaph 5 pt. scale
-
-[Term]
-id: CO_331:00001022:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001022 ! rcaph 5 pt. scale
-
-[Term]
-id: CO_331:00001022:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001022 ! rcaph 5 pt. scale
-
-[Term]
-id: CO_331:00001022:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001022 ! rcaph 5 pt. scale
-
-[Term]
-id: CO_331:00001022:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001022 ! rcaph 5 pt. scale
 
 [Term]
 id: CO_331:00001023
@@ -612,41 +192,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001023 ! visual estimation of the plant response to  sweet potato white fly
 
 [Term]
-id: CO_331:00001024:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001024 ! rcspwf 5 pt. scale
-
-[Term]
-id: CO_331:00001024:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001024 ! rcspwf 5 pt. scale
-
-[Term]
-id: CO_331:00001024:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001024 ! rcspwf 5 pt. scale
-
-[Term]
-id: CO_331:00001024:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001024 ! rcspwf 5 pt. scale
-
-[Term]
-id: CO_331:00001024:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001024 ! rcspwf 5 pt. scale
-
-[Term]
 id: CO_331:00001025
 name: visual estimation of the plant response to  sweet potato moth
 namespace: SweetpotatoMethod
@@ -660,41 +205,6 @@ name: rcspmth 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001025 ! visual estimation of the plant response to  sweet potato moth
-
-[Term]
-id: CO_331:00001026:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001026 ! rcspmth 5 pt. scale
-
-[Term]
-id: CO_331:00001026:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001026 ! rcspmth 5 pt. scale
-
-[Term]
-id: CO_331:00001026:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001026 ! rcspmth 5 pt. scale
-
-[Term]
-id: CO_331:00001026:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001026 ! rcspmth 5 pt. scale
-
-[Term]
-id: CO_331:00001026:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001026 ! rcspmth 5 pt. scale
 
 [Term]
 id: CO_331:00001027
@@ -712,41 +222,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001027 ! visual estimation of the plant response to  moth
 
 [Term]
-id: CO_331:00001028:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001028 ! rcmth 5 pt. scale
-
-[Term]
-id: CO_331:00001028:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001028 ! rcmth 5 pt. scale
-
-[Term]
-id: CO_331:00001028:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001028 ! rcmth 5 pt. scale
-
-[Term]
-id: CO_331:00001028:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001028 ! rcmth 5 pt. scale
-
-[Term]
-id: CO_331:00001028:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001028 ! rcmth 5 pt. scale
-
-[Term]
 id: CO_331:00001029
 name: visual estimation of the plant response to  sweet potato stem borer
 namespace: SweetpotatoMethod
@@ -760,41 +235,6 @@ name: rcspsb 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001029 ! visual estimation of the plant response to  sweet potato stem borer
-
-[Term]
-id: CO_331:00001030:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001030 ! rcspsb 5 pt. scale
-
-[Term]
-id: CO_331:00001030:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001030 ! rcspsb 5 pt. scale
-
-[Term]
-id: CO_331:00001030:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001030 ! rcspsb 5 pt. scale
-
-[Term]
-id: CO_331:00001030:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001030 ! rcspsb 5 pt. scale
-
-[Term]
-id: CO_331:00001030:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001030 ! rcspsb 5 pt. scale
 
 [Term]
 id: CO_331:00001031
@@ -812,41 +252,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001031 ! visual estimation of the plant response to  other insects
 
 [Term]
-id: CO_331:00001032:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001032 ! rcins 5 pt. scale
-
-[Term]
-id: CO_331:00001032:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001032 ! rcins 5 pt. scale
-
-[Term]
-id: CO_331:00001032:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001032 ! rcins 5 pt. scale
-
-[Term]
-id: CO_331:00001032:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001032 ! rcins 5 pt. scale
-
-[Term]
-id: CO_331:00001032:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001032 ! rcins 5 pt. scale
-
-[Term]
 id: CO_331:00001033
 name: visual estimation of the root response to  reniform nematode
 namespace: SweetpotatoMethod
@@ -860,41 +265,6 @@ name: rcrfn 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001033 ! visual estimation of the root response to  reniform nematode
-
-[Term]
-id: CO_331:00001034:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001034 ! rcrfn 5 pt. scale
-
-[Term]
-id: CO_331:00001034:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001034 ! rcrfn 5 pt. scale
-
-[Term]
-id: CO_331:00001034:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001034 ! rcrfn 5 pt. scale
-
-[Term]
-id: CO_331:00001034:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001034 ! rcrfn 5 pt. scale
-
-[Term]
-id: CO_331:00001034:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001034 ! rcrfn 5 pt. scale
 
 [Term]
 id: CO_331:00001035
@@ -912,41 +282,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001035 ! visual estimation of the root response to  sting nematode
 
 [Term]
-id: CO_331:00001036:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001036 ! rcstn 5 pt. scale
-
-[Term]
-id: CO_331:00001036:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001036 ! rcstn 5 pt. scale
-
-[Term]
-id: CO_331:00001036:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001036 ! rcstn 5 pt. scale
-
-[Term]
-id: CO_331:00001036:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001036 ! rcstn 5 pt. scale
-
-[Term]
-id: CO_331:00001036:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001036 ! rcstn 5 pt. scale
-
-[Term]
 id: CO_331:00001037
 name: visual estimation of the root response to  brown ring rot
 namespace: SweetpotatoMethod
@@ -960,41 +295,6 @@ name: rcbrr 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001037 ! visual estimation of the root response to  brown ring rot
-
-[Term]
-id: CO_331:00001038:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001038 ! rcbrr 5 pt. scale
-
-[Term]
-id: CO_331:00001038:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001038 ! rcbrr 5 pt. scale
-
-[Term]
-id: CO_331:00001038:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001038 ! rcbrr 5 pt. scale
-
-[Term]
-id: CO_331:00001038:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001038 ! rcbrr 5 pt. scale
-
-[Term]
-id: CO_331:00001038:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001038 ! rcbrr 5 pt. scale
 
 [Term]
 id: CO_331:00001039
@@ -1013,81 +313,11 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001039 ! visual estimation of the root response to  nematode
 
 [Term]
-id: CO_331:00001040:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001040 ! rcrln 5 pt. scale
-
-[Term]
-id: CO_331:00001040:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001040 ! rcrln 5 pt. scale
-
-[Term]
-id: CO_331:00001040:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001040 ! rcrln 5 pt. scale
-
-[Term]
-id: CO_331:00001040:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001040 ! rcrln 5 pt. scale
-
-[Term]
-id: CO_331:00001040:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001040 ! rcrln 5 pt. scale
-
-[Term]
 id: CO_331:00001041
 name: rcon 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001039 ! visual estimation of the root response to  nematode
-
-[Term]
-id: CO_331:00001041:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001041 ! rcon 5 pt. scale
-
-[Term]
-id: CO_331:00001041:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001041 ! rcon 5 pt. scale
-
-[Term]
-id: CO_331:00001041:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001041 ! rcon 5 pt. scale
-
-[Term]
-id: CO_331:00001041:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001041 ! rcon 5 pt. scale
-
-[Term]
-id: CO_331:00001041:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001041 ! rcon 5 pt. scale
 
 [Term]
 id: CO_331:00001042
@@ -1106,41 +336,6 @@ relationship: scale_of CO_331:00001042 ! visual estimation of the root response 
 relationship: scale_of CO_331:00001064 ! visual estimation of the plant response to  white rust
 
 [Term]
-id: CO_331:00001043:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001043 ! rcwr 5 pt. scale
-
-[Term]
-id: CO_331:00001043:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001043 ! rcwr 5 pt. scale
-
-[Term]
-id: CO_331:00001043:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001043 ! rcwr 5 pt. scale
-
-[Term]
-id: CO_331:00001043:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001043 ! rcwr 5 pt. scale
-
-[Term]
-id: CO_331:00001043:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001043 ! rcwr 5 pt. scale
-
-[Term]
 id: CO_331:00001044
 name: visual estimation of the root response to  fusarium surface rot
 namespace: SweetpotatoMethod
@@ -1154,41 +349,6 @@ name: rcfrs 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001044 ! visual estimation of the root response to  fusarium surface rot
-
-[Term]
-id: CO_331:00001045:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001045 ! rcfrs 5 pt. scale
-
-[Term]
-id: CO_331:00001045:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001045 ! rcfrs 5 pt. scale
-
-[Term]
-id: CO_331:00001045:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001045 ! rcfrs 5 pt. scale
-
-[Term]
-id: CO_331:00001045:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001045 ! rcfrs 5 pt. scale
-
-[Term]
-id: CO_331:00001045:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001045 ! rcfrs 5 pt. scale
 
 [Term]
 id: CO_331:00001046
@@ -1206,41 +366,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001046 ! visual estimation of the root response to  fusarium root rot
 
 [Term]
-id: CO_331:00001047:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001047 ! rcfrr 5 pt. scale
-
-[Term]
-id: CO_331:00001047:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001047 ! rcfrr 5 pt. scale
-
-[Term]
-id: CO_331:00001047:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001047 ! rcfrr 5 pt. scale
-
-[Term]
-id: CO_331:00001047:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001047 ! rcfrr 5 pt. scale
-
-[Term]
-id: CO_331:00001047:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001047 ! rcfrr 5 pt. scale
-
-[Term]
 id: CO_331:00001048
 name: visual estimation of the root response to  sclerotial blight and circular spot
 namespace: SweetpotatoMethod
@@ -1254,41 +379,6 @@ name: rcsbc 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001048 ! visual estimation of the root response to  sclerotial blight and circular spot
-
-[Term]
-id: CO_331:00001049:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001049 ! rcsbc 5 pt. scale
-
-[Term]
-id: CO_331:00001049:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001049 ! rcsbc 5 pt. scale
-
-[Term]
-id: CO_331:00001049:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001049 ! rcsbc 5 pt. scale
-
-[Term]
-id: CO_331:00001049:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001049 ! rcsbc 5 pt. scale
-
-[Term]
-id: CO_331:00001049:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001049 ! rcsbc 5 pt. scale
 
 [Term]
 id: CO_331:00001050
@@ -1306,41 +396,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001050 ! visual estimation of the root response to  black rot
 
 [Term]
-id: CO_331:00001051:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001051 ! rcbr 5 pt. scale
-
-[Term]
-id: CO_331:00001051:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001051 ! rcbr 5 pt. scale
-
-[Term]
-id: CO_331:00001051:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001051 ! rcbr 5 pt. scale
-
-[Term]
-id: CO_331:00001051:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001051 ! rcbr 5 pt. scale
-
-[Term]
-id: CO_331:00001051:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001051 ! rcbr 5 pt. scale
-
-[Term]
 id: CO_331:00001052
 name: visual estimation of the root response to  scurf
 namespace: SweetpotatoMethod
@@ -1354,41 +409,6 @@ name: rcscrf 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001052 ! visual estimation of the root response to  scurf
-
-[Term]
-id: CO_331:00001053:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001053 ! rcscrf 5 pt. scale
-
-[Term]
-id: CO_331:00001053:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001053 ! rcscrf 5 pt. scale
-
-[Term]
-id: CO_331:00001053:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001053 ! rcscrf 5 pt. scale
-
-[Term]
-id: CO_331:00001053:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001053 ! rcscrf 5 pt. scale
-
-[Term]
-id: CO_331:00001053:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001053 ! rcscrf 5 pt. scale
 
 [Term]
 id: CO_331:00001054
@@ -1406,41 +426,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001054 ! appearance of roots in response soft rot
 
 [Term]
-id: CO_331:00001055:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001055 ! rcsr 5 pt. scale
-
-[Term]
-id: CO_331:00001055:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001055 ! rcsr 5 pt. scale
-
-[Term]
-id: CO_331:00001055:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001055 ! rcsr 5 pt. scale
-
-[Term]
-id: CO_331:00001055:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001055 ! rcsr 5 pt. scale
-
-[Term]
-id: CO_331:00001055:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001055 ! rcsr 5 pt. scale
-
-[Term]
 id: CO_331:00001056
 name: appearance of roots in response java black rot
 namespace: SweetpotatoMethod
@@ -1454,41 +439,6 @@ name: rcjbr 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001056 ! appearance of roots in response java black rot
-
-[Term]
-id: CO_331:00001057:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001057 ! rcjbr 5 pt. scale
-
-[Term]
-id: CO_331:00001057:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001057 ! rcjbr 5 pt. scale
-
-[Term]
-id: CO_331:00001057:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001057 ! rcjbr 5 pt. scale
-
-[Term]
-id: CO_331:00001057:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001057 ! rcjbr 5 pt. scale
-
-[Term]
-id: CO_331:00001057:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001057 ! rcjbr 5 pt. scale
 
 [Term]
 id: CO_331:00001058
@@ -1506,41 +456,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001058 ! appearance of roots in response diaporthe dry rot
 
 [Term]
-id: CO_331:00001059:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001059 ! rcddr 5 pt. scale
-
-[Term]
-id: CO_331:00001059:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001059 ! rcddr 5 pt. scale
-
-[Term]
-id: CO_331:00001059:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001059 ! rcddr 5 pt. scale
-
-[Term]
-id: CO_331:00001059:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001059 ! rcddr 5 pt. scale
-
-[Term]
-id: CO_331:00001059:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001059 ! rcddr 5 pt. scale
-
-[Term]
 id: CO_331:00001060
 name: visual estimation of the plant response to  scab
 namespace: SweetpotatoMethod
@@ -1556,41 +471,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001060 ! visual estimation of the plant response to  scab
 
 [Term]
-id: CO_331:00001061:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001061 ! rcscb 5 pt. scale
-
-[Term]
-id: CO_331:00001061:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001061 ! rcscb 5 pt. scale
-
-[Term]
-id: CO_331:00001061:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001061 ! rcscb 5 pt. scale
-
-[Term]
-id: CO_331:00001061:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001061 ! rcscb 5 pt. scale
-
-[Term]
-id: CO_331:00001061:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001061 ! rcscb 5 pt. scale
-
-[Term]
 id: CO_331:00001062
 name: visual estimation of the plant response to  leaf spot
 namespace: SweetpotatoMethod
@@ -1604,41 +484,6 @@ name: rcls 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001062 ! visual estimation of the plant response to  leaf spot
-
-[Term]
-id: CO_331:00001063:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001063 ! rcls 5 pt. scale
-
-[Term]
-id: CO_331:00001063:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001063 ! rcls 5 pt. scale
-
-[Term]
-id: CO_331:00001063:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001063 ! rcls 5 pt. scale
-
-[Term]
-id: CO_331:00001063:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001063 ! rcls 5 pt. scale
-
-[Term]
-id: CO_331:00001063:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001063 ! rcls 5 pt. scale
 
 [Term]
 id: CO_331:00001064
@@ -1664,41 +509,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001065 ! visual estimation of the plant response to  foot rot
 
 [Term]
-id: CO_331:00001066:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001066 ! rcfr 5 pt. scale
-
-[Term]
-id: CO_331:00001066:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001066 ! rcfr 5 pt. scale
-
-[Term]
-id: CO_331:00001066:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001066 ! rcfr 5 pt. scale
-
-[Term]
-id: CO_331:00001066:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001066 ! rcfr 5 pt. scale
-
-[Term]
-id: CO_331:00001066:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001066 ! rcfr 5 pt. scale
-
-[Term]
 id: CO_331:00001067
 name: visual estimation of the plant response to  charcoal rot
 namespace: SweetpotatoMethod
@@ -1712,41 +522,6 @@ name: rccr 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001067 ! visual estimation of the plant response to  charcoal rot
-
-[Term]
-id: CO_331:00001068:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001068 ! rccr 5 pt. scale
-
-[Term]
-id: CO_331:00001068:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001068 ! rccr 5 pt. scale
-
-[Term]
-id: CO_331:00001068:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001068 ! rccr 5 pt. scale
-
-[Term]
-id: CO_331:00001068:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001068 ! rccr 5 pt. scale
-
-[Term]
-id: CO_331:00001068:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001068 ! rccr 5 pt. scale
 
 [Term]
 id: CO_331:00001069
@@ -1764,41 +539,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001069 ! visual estimation of the plant response to  other fungi
 
 [Term]
-id: CO_331:00001070:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001070 ! rcof 5 pt. scale
-
-[Term]
-id: CO_331:00001070:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001070 ! rcof 5 pt. scale
-
-[Term]
-id: CO_331:00001070:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001070 ! rcof 5 pt. scale
-
-[Term]
-id: CO_331:00001070:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001070 ! rcof 5 pt. scale
-
-[Term]
-id: CO_331:00001070:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001070 ! rcof 5 pt. scale
-
-[Term]
 id: CO_331:00001071
 name: visual estimation of the plant response to  pox or soil rot
 namespace: SweetpotatoMethod
@@ -1812,41 +552,6 @@ name: rcpsr 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001071 ! visual estimation of the plant response to  pox or soil rot
-
-[Term]
-id: CO_331:00001072:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001072 ! rcpsr 5 pt. scale
-
-[Term]
-id: CO_331:00001072:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001072 ! rcpsr 5 pt. scale
-
-[Term]
-id: CO_331:00001072:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001072 ! rcpsr 5 pt. scale
-
-[Term]
-id: CO_331:00001072:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001072 ! rcpsr 5 pt. scale
-
-[Term]
-id: CO_331:00001072:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001072 ! rcpsr 5 pt. scale
 
 [Term]
 id: CO_331:00001073
@@ -1864,41 +569,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001073 ! visual estimation of the plant response to  bacterial stem and root rot
 
 [Term]
-id: CO_331:00001074:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001074 ! rcbsrt 5 pt. scale
-
-[Term]
-id: CO_331:00001074:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001074 ! rcbsrt 5 pt. scale
-
-[Term]
-id: CO_331:00001074:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001074 ! rcbsrt 5 pt. scale
-
-[Term]
-id: CO_331:00001074:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001074 ! rcbsrt 5 pt. scale
-
-[Term]
-id: CO_331:00001074:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001074 ! rcbsrt 5 pt. scale
-
-[Term]
 id: CO_331:00001075
 name: visual estimation of the plant response to  bacterial wilt
 namespace: SweetpotatoMethod
@@ -1912,41 +582,6 @@ name: rcbw 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001075 ! visual estimation of the plant response to  bacterial wilt
-
-[Term]
-id: CO_331:00001076:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001076 ! rcbw 5 pt. scale
-
-[Term]
-id: CO_331:00001076:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001076 ! rcbw 5 pt. scale
-
-[Term]
-id: CO_331:00001076:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001076 ! rcbw 5 pt. scale
-
-[Term]
-id: CO_331:00001076:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001076 ! rcbw 5 pt. scale
-
-[Term]
-id: CO_331:00001076:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001076 ! rcbw 5 pt. scale
 
 [Term]
 id: CO_331:00001077
@@ -1964,41 +599,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001077 ! visual estimation of the plant response to  other bacteria
 
 [Term]
-id: CO_331:00001078:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001078 ! rcob 5 pt. scale
-
-[Term]
-id: CO_331:00001078:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001078 ! rcob 5 pt. scale
-
-[Term]
-id: CO_331:00001078:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001078 ! rcob 5 pt. scale
-
-[Term]
-id: CO_331:00001078:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001078 ! rcob 5 pt. scale
-
-[Term]
-id: CO_331:00001078:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001078 ! rcob 5 pt. scale
-
-[Term]
 id: CO_331:00001079
 name: visual estimation of the plant response to  sweet potato feathery mottle virus
 namespace: SweetpotatoMethod
@@ -2012,41 +612,6 @@ name: rcspmv 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001079 ! visual estimation of the plant response to  sweet potato feathery mottle virus
-
-[Term]
-id: CO_331:00001080:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001080 ! rcspmv 5 pt. scale
-
-[Term]
-id: CO_331:00001080:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001080 ! rcspmv 5 pt. scale
-
-[Term]
-id: CO_331:00001080:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001080 ! rcspmv 5 pt. scale
-
-[Term]
-id: CO_331:00001080:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001080 ! rcspmv 5 pt. scale
-
-[Term]
-id: CO_331:00001080:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001080 ! rcspmv 5 pt. scale
 
 [Term]
 id: CO_331:00001081
@@ -2064,41 +629,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001081 ! visual estimation of the plant response to  sweet potato mild mottle virus
 
 [Term]
-id: CO_331:00001082:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001082 ! rcspmmv 5 pt. scale
-
-[Term]
-id: CO_331:00001082:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001082 ! rcspmmv 5 pt. scale
-
-[Term]
-id: CO_331:00001082:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001082 ! rcspmmv 5 pt. scale
-
-[Term]
-id: CO_331:00001082:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001082 ! rcspmmv 5 pt. scale
-
-[Term]
-id: CO_331:00001082:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001082 ! rcspmmv 5 pt. scale
-
-[Term]
 id: CO_331:00001083
 name: visual estimation of the plant response to  sweet potato vein mottle virus
 namespace: SweetpotatoMethod
@@ -2112,41 +642,6 @@ name: rcspvmv 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001083 ! visual estimation of the plant response to  sweet potato vein mottle virus
-
-[Term]
-id: CO_331:00001084:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001084 ! rcspvmv 5 pt. scale
-
-[Term]
-id: CO_331:00001084:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001084 ! rcspvmv 5 pt. scale
-
-[Term]
-id: CO_331:00001084:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001084 ! rcspvmv 5 pt. scale
-
-[Term]
-id: CO_331:00001084:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001084 ! rcspvmv 5 pt. scale
-
-[Term]
-id: CO_331:00001084:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001084 ! rcspvmv 5 pt. scale
 
 [Term]
 id: CO_331:00001085
@@ -2164,41 +659,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001085 ! visual estimation of the plant response to  sweet potato virus disease complex
 
 [Term]
-id: CO_331:00001086:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001086 ! rcspvd 5 pt. scale
-
-[Term]
-id: CO_331:00001086:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001086 ! rcspvd 5 pt. scale
-
-[Term]
-id: CO_331:00001086:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001086 ! rcspvd 5 pt. scale
-
-[Term]
-id: CO_331:00001086:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001086 ! rcspvd 5 pt. scale
-
-[Term]
-id: CO_331:00001086:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001086 ! rcspvd 5 pt. scale
-
-[Term]
 id: CO_331:00001087
 name: visual estimation of the plant response to  other virus
 namespace: SweetpotatoMethod
@@ -2212,41 +672,6 @@ name: rcov 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001087 ! visual estimation of the plant response to  other virus
-
-[Term]
-id: CO_331:00001088:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001088 ! rcov 5 pt. scale
-
-[Term]
-id: CO_331:00001088:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001088 ! rcov 5 pt. scale
-
-[Term]
-id: CO_331:00001088:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001088 ! rcov 5 pt. scale
-
-[Term]
-id: CO_331:00001088:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001088 ! rcov 5 pt. scale
-
-[Term]
-id: CO_331:00001088:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001088 ! rcov 5 pt. scale
 
 [Term]
 id: CO_331:00001089
@@ -2264,41 +689,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001089 ! visual estimation of the plant response to  witches broom
 
 [Term]
-id: CO_331:00001090:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001090 ! rcwb 5 pt. scale
-
-[Term]
-id: CO_331:00001090:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001090 ! rcwb 5 pt. scale
-
-[Term]
-id: CO_331:00001090:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001090 ! rcwb 5 pt. scale
-
-[Term]
-id: CO_331:00001090:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001090 ! rcwb 5 pt. scale
-
-[Term]
-id: CO_331:00001090:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001090 ! rcwb 5 pt. scale
-
-[Term]
 id: CO_331:00001091
 name: visual estimation of the plant response to  to other mycoplasma
 namespace: SweetpotatoMethod
@@ -2312,41 +702,6 @@ name: rcom 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001091 ! visual estimation of the plant response to  to other mycoplasma
-
-[Term]
-id: CO_331:00001092:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001092 ! rcom 5 pt. scale
-
-[Term]
-id: CO_331:00001092:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001092 ! rcom 5 pt. scale
-
-[Term]
-id: CO_331:00001092:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001092 ! rcom 5 pt. scale
-
-[Term]
-id: CO_331:00001092:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001092 ! rcom 5 pt. scale
-
-[Term]
-id: CO_331:00001092:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001092 ! rcom 5 pt. scale
 
 [Term]
 id: CO_331:00001093
@@ -2421,62 +776,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001100 ! observation of most frequennt storage root shape
 
 [Term]
-id: CO_331:00001101:1
-name: Round
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001101 ! rtshpp 8 pt. scale
-
-[Term]
-id: CO_331:00001101:2
-name: Round elliptic
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:00001101 ! rtshpp 8 pt. scale
-
-[Term]
-id: CO_331:00001101:3
-name: Elliptic
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001101 ! rtshpp 8 pt. scale
-
-[Term]
-id: CO_331:00001101:4
-name: Long elliptic
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:00001101 ! rtshpp 8 pt. scale
-
-[Term]
-id: CO_331:00001101:5
-name: Ovoid
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001101 ! rtshpp 8 pt. scale
-
-[Term]
-id: CO_331:00001101:6
-name: Blocky (Oblong)
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:00001101 ! rtshpp 8 pt. scale
-
-[Term]
-id: CO_331:00001101:7
-name: Irregular
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001101 ! rtshpp 8 pt. scale
-
-[Term]
-id: CO_331:00001101:8
-name: Asymmetric (tight hill)
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:00001101 ! rtshpp 8 pt. scale
-
-[Term]
 id: CO_331:00001102
 name: observation of 2nd most frequent storage root shape
 namespace: SweetpotatoMethod
@@ -2492,62 +791,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001102 ! observation of 2nd most frequent storage root shape
 
 [Term]
-id: CO_331:00001103:1
-name: Round
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001103 ! rtshps 8 pt. scale
-
-[Term]
-id: CO_331:00001103:2
-name: Round elliptic
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:00001103 ! rtshps 8 pt. scale
-
-[Term]
-id: CO_331:00001103:3
-name: Elliptic
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001103 ! rtshps 8 pt. scale
-
-[Term]
-id: CO_331:00001103:4
-name: Long elliptic
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:00001103 ! rtshps 8 pt. scale
-
-[Term]
-id: CO_331:00001103:5
-name: Ovoid
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001103 ! rtshps 8 pt. scale
-
-[Term]
-id: CO_331:00001103:6
-name: Blocky (Oblong)
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:00001103 ! rtshps 8 pt. scale
-
-[Term]
-id: CO_331:00001103:7
-name: Irregular
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001103 ! rtshps 8 pt. scale
-
-[Term]
-id: CO_331:00001103:8
-name: Asymmetric (tight hill)
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:00001103 ! rtshps 8 pt. scale
-
-[Term]
 id: CO_331:00001104
 name: observation of an average or all storage roots within a single plant or plot (for example: if a single plant or plot presents several storage root shapes, it would be considered very poor shape uniformity and would receive a score of 1
 namespace: SweetpotatoMethod
@@ -2561,48 +804,6 @@ name: rtshpu 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001104 ! observation of an average or all storage roots within a single plant or plot (for example: if a single plant or plot presents several storage root shapes, it would be considered very poor shape uniformity and would receive a score of 1
-
-[Term]
-id: CO_331:00001105:1
-name: Very Poor
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001105 ! rtshpu 9 pt. scale
-
-[Term]
-id: CO_331:00001105:2
-name: Poor
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:00001105 ! rtshpu 9 pt. scale
-
-[Term]
-id: CO_331:00001105:3
-name: Poor
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001105 ! rtshpu 9 pt. scale
-
-[Term]
-id: CO_331:00001105:5
-name: Moderate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001105 ! rtshpu 9 pt. scale
-
-[Term]
-id: CO_331:00001105:7
-name: Good
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001105 ! rtshpu 9 pt. scale
-
-[Term]
-id: CO_331:00001105:9
-name: Excellent
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001105 ! rtshpu 9 pt. scale
 
 [Term]
 id: CO_331:00001106
@@ -2633,88 +834,11 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
 
 [Term]
-id: CO_331:00001107:0
-name: Sessile or absent
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:00001107 ! rtstlk 6 pt. scale
-
-[Term]
-id: CO_331:00001107:1
-name: Very short (<2 cm)
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001107 ! rtstlk 6 pt. scale
-
-[Term]
-id: CO_331:00001107:3
-name: Short (2-5 cm)
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001107 ! rtstlk 6 pt. scale
-
-[Term]
-id: CO_331:00001107:5
-name: Intermediate (6-8 cm)
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001107 ! rtstlk 6 pt. scale
-
-[Term]
-id: CO_331:00001107:7
-name: Long (9-12 cm)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001107 ! rtstlk 6 pt. scale
-
-[Term]
-id: CO_331:00001107:9
-name: Very long (>12 cm)
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001107 ! rtstlk 6 pt. scale
-
-[Term]
 id: CO_331:00001108
 name: rtatt 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
-
-[Term]
-id: CO_331:00001108:1
-name: Very tight
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001108 ! rtatt 9 pt. scale
-
-[Term]
-id: CO_331:00001108:3
-name: Tight
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001108 ! rtatt 9 pt. scale
-
-[Term]
-id: CO_331:00001108:5
-name: Moderate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001108 ! rtatt 9 pt. scale
-
-[Term]
-id: CO_331:00001108:7
-name: Light
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001108 ! rtatt 9 pt. scale
-
-[Term]
-id: CO_331:00001108:9
-name: Very Light
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001108 ! rtatt 9 pt. scale
 
 [Term]
 id: CO_331:00001109
@@ -2732,90 +856,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
 
 [Term]
-id: CO_331:00001110:1
-name: White
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001110 ! rtskncol 12 pt. scale
-
-[Term]
-id: CO_331:00001110:10
-name: Purple
-namespace: SweetpotatoScale
-synonym: "10" EXACT []
-is_a: CO_331:00001110 ! rtskncol 12 pt. scale
-
-[Term]
-id: CO_331:00001110:11
-name: Dark Purple
-namespace: SweetpotatoScale
-synonym: "11" EXACT []
-is_a: CO_331:00001110 ! rtskncol 12 pt. scale
-
-[Term]
-id: CO_331:00001110:12
-name: Brown
-namespace: SweetpotatoScale
-synonym: "12" EXACT []
-is_a: CO_331:00001110 ! rtskncol 12 pt. scale
-
-[Term]
-id: CO_331:00001110:2
-name: Cream
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:00001110 ! rtskncol 12 pt. scale
-
-[Term]
-id: CO_331:00001110:3
-name: Yellow
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001110 ! rtskncol 12 pt. scale
-
-[Term]
-id: CO_331:00001110:4
-name: Tan
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:00001110 ! rtskncol 12 pt. scale
-
-[Term]
-id: CO_331:00001110:5
-name: Orange
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001110 ! rtskncol 12 pt. scale
-
-[Term]
-id: CO_331:00001110:6
-name: Rose
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:00001110 ! rtskncol 12 pt. scale
-
-[Term]
-id: CO_331:00001110:7
-name: Pink
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001110 ! rtskncol 12 pt. scale
-
-[Term]
-id: CO_331:00001110:8
-name: Red
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:00001110 ! rtskncol 12 pt. scale
-
-[Term]
-id: CO_331:00001110:9
-name: Light Purple
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001110 ! rtskncol 12 pt. scale
-
-[Term]
 id: CO_331:00001111
 name: rtskntxt 9 pt. scale
 namespace: SweetpotatoScale
@@ -2823,67 +863,11 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
 
 [Term]
-id: CO_331:00001111:1
-name: Very Rough
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001111 ! rtskntxt 9 pt. scale
-
-[Term]
-id: CO_331:00001111:3
-name: Moderately Rough
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001111 ! rtskntxt 9 pt. scale
-
-[Term]
-id: CO_331:00001111:5
-name: Moderately Smooth
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001111 ! rtskntxt 9 pt. scale
-
-[Term]
-id: CO_331:00001111:7
-name: Smooth
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001111 ! rtskntxt 9 pt. scale
-
-[Term]
-id: CO_331:00001111:9
-name: Very Smooth
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001111 ! rtskntxt 9 pt. scale
-
-[Term]
 id: CO_331:00001112
 name: rtflscolc 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
-
-[Term]
-id: CO_331:00001112:0
-name: White
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:00001112 ! rtflscolc 9 pt. scale
-
-[Term]
-id: CO_331:00001112:1
-name: Cream
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001112 ! rtflscolc 9 pt. scale
-
-[Term]
-id: CO_331:00001112:2
-name: Yellow
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:00001112 ! rtflscolc 9 pt. scale
 
 [Term]
 id: CO_331:00001112:2.5
@@ -2900,24 +884,10 @@ synonym: "2.75" EXACT []
 is_a: CO_331:00001112 ! rtflscolc 9 pt. scale
 
 [Term]
-id: CO_331:00001112:3
-name: Orange
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001112 ! rtflscolc 9 pt. scale
-
-[Term]
 id: CO_331:00001112:3.5
 name: Dark Orange
 namespace: SweetpotatoScale
 synonym: "3.5" EXACT []
-is_a: CO_331:00001112 ! rtflscolc 9 pt. scale
-
-[Term]
-id: CO_331:00001112:4
-name: Very Dark Orange
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
 is_a: CO_331:00001112 ! rtflscolc 9 pt. scale
 
 [Term]
@@ -2928,41 +898,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
 
 [Term]
-id: CO_331:00001113:0
-name: No Anthocyanins
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:00001113 ! rtflscola 9 pt. scale
-
-[Term]
-id: CO_331:00001113:1
-name: Light Purple
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001113 ! rtflscola 9 pt. scale
-
-[Term]
-id: CO_331:00001113:2
-name: Moderate Purple
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:00001113 ! rtflscola 9 pt. scale
-
-[Term]
-id: CO_331:00001113:3
-name: Dark Purple
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001113 ! rtflscola 9 pt. scale
-
-[Term]
-id: CO_331:00001113:4
-name: Very Dark Purple
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:00001113 ! rtflscola 9 pt. scale
-
-[Term]
 id: CO_331:00001114
 name: rtadvb 5 pt. scale
 namespace: SweetpotatoScale
@@ -2970,81 +905,11 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
 
 [Term]
-id: CO_331:00001114:1
-name: Very Deep
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001114 ! rtadvb 5 pt. scale
-
-[Term]
-id: CO_331:00001114:3
-name: Deep
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001114 ! rtadvb 5 pt. scale
-
-[Term]
-id: CO_331:00001114:5
-name: Moderate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001114 ! rtadvb 5 pt. scale
-
-[Term]
-id: CO_331:00001114:7
-name: Shallow
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001114 ! rtadvb 5 pt. scale
-
-[Term]
-id: CO_331:00001114:9
-name: Very Shallow
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001114 ! rtadvb 5 pt. scale
-
-[Term]
 id: CO_331:00001115
 name: ses 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
-
-[Term]
-id: CO_331:00001115:1
-name: Very Prominent
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001115 ! ses 9 pt. scale
-
-[Term]
-id: CO_331:00001115:3
-name: Prominent
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001115 ! ses 9 pt. scale
-
-[Term]
-id: CO_331:00001115:5
-name: Moderate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001115 ! ses 9 pt. scale
-
-[Term]
-id: CO_331:00001115:7
-name: Few
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001115 ! ses 9 pt. scale
-
-[Term]
-id: CO_331:00001115:9
-name: None
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001115 ! ses 9 pt. scale
 
 [Term]
 id: CO_331:00001116
@@ -3060,48 +925,6 @@ name: ses 6 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001116 ! observation of an average or all storage roots within a single plant or plot (greenhouse screen and field screen)
-
-[Term]
-id: CO_331:00001117:0
-name: Highly Susceptible
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:00001117 ! ses 6 pt. scale
-
-[Term]
-id: CO_331:00001117:1
-name: Susceptible
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001117 ! ses 6 pt. scale
-
-[Term]
-id: CO_331:00001117:2
-name: Moderately Susceptible
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:00001117 ! ses 6 pt. scale
-
-[Term]
-id: CO_331:00001117:3
-name: Moderately Resistant
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001117 ! ses 6 pt. scale
-
-[Term]
-id: CO_331:00001117:4
-name: Resistant
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:00001117 ! ses 6 pt. scale
-
-[Term]
-id: CO_331:00001117:5
-name: Highly Resistant
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001117 ! ses 6 pt. scale
 
 [Term]
 id: CO_331:00001118
@@ -3120,88 +943,11 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001118 ! visual estimation of the roots response to  root-knot nematode
 
 [Term]
-id: CO_331:00001119:0
-name: Highly Susceptible
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:00001119 ! rcmgrkn  6 pt. scale
-
-[Term]
-id: CO_331:00001119:1
-name: Susceptible
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001119 ! rcmgrkn  6 pt. scale
-
-[Term]
-id: CO_331:00001119:2
-name: Moderately Susceptible
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:00001119 ! rcmgrkn  6 pt. scale
-
-[Term]
-id: CO_331:00001119:3
-name: Moderately Resistant
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001119 ! rcmgrkn  6 pt. scale
-
-[Term]
-id: CO_331:00001119:4
-name: Resistant
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:00001119 ! rcmgrkn  6 pt. scale
-
-[Term]
-id: CO_331:00001119:5
-name: Highly Resistant
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001119 ! rcmgrkn  6 pt. scale
-
-[Term]
 id: CO_331:00001120
 name: rcmigrkn  5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001118 ! visual estimation of the roots response to  root-knot nematode
-
-[Term]
-id: CO_331:00001120:1
-name: highly resistant  (HR)
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001120 ! rcmigrkn  5 pt. scale
-
-[Term]
-id: CO_331:00001120:2
-name: Resistant (1-10%)
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:00001120 ! rcmigrkn  5 pt. scale
-
-[Term]
-id: CO_331:00001120:3
-name: Moderate resistant (MR)(11-25%)
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001120 ! rcmigrkn  5 pt. scale
-
-[Term]
-id: CO_331:00001120:4
-name: Susceptible (S) (26-75%)
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:00001120 ! rcmigrkn  5 pt. scale
-
-[Term]
-id: CO_331:00001120:5
-name: (HS) Highly susceptible (>76%)
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001120 ! rcmigrkn  5 pt. scale
 
 [Term]
 id: CO_331:00001121
@@ -3219,48 +965,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001121 ! visual estimation of the roots response to  fusarium oxysporum
 
 [Term]
-id: CO_331:00001122:0
-name: Highly Susceptible
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:00001122 ! rnfr 6 pt. scale
-
-[Term]
-id: CO_331:00001122:1
-name: Susceptible
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001122 ! rnfr 6 pt. scale
-
-[Term]
-id: CO_331:00001122:2
-name: Moderately Susceptible
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:00001122 ! rnfr 6 pt. scale
-
-[Term]
-id: CO_331:00001122:3
-name: Moderately Resistant
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001122 ! rnfr 6 pt. scale
-
-[Term]
-id: CO_331:00001122:4
-name: Resistant
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:00001122 ! rnfr 6 pt. scale
-
-[Term]
-id: CO_331:00001122:5
-name: Highly Resistant
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001122 ! rnfr 6 pt. scale
-
-[Term]
 id: CO_331:00001123
 name: rtdam 14 pt. scale
 namespace: SweetpotatoScale
@@ -3268,187 +972,11 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
 
 [Term]
-id: CO_331:00001123:1
-name: Blisters (B)
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:10
-name: Skinning (SK)
-namespace: SweetpotatoScale
-synonym: "10" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:11
-name: Sprouts (SPR)
-namespace: SweetpotatoScale
-synonym: "11" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:12
-name: Striations (STR)
-namespace: SweetpotatoScale
-synonym: "12" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:13
-name: Tails (T)
-namespace: SweetpotatoScale
-synonym: "13" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:14
-name: Veins (VN)
-namespace: SweetpotatoScale
-synonym: "14" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:2
-name: Tea Staining (TS)
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:3
-name: Air Cracking (AC)
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:4
-name: Bumpy (B)
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:5
-name: Cracking (CR)
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:6
-name: Early Season Cracking (ESC)
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:7
-name: Grooves (GR)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:8
-name: Insect Damage (INS)
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001123:9
-name: Excessive Latex
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-synonym: "LT" EXACT []
-is_a: CO_331:00001123 ! rtdam 14 pt. scale
-
-[Term]
-id: CO_331:00001124
-name: rtyldr 5 pt. scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
-
-[Term]
-id: CO_331:00001124:1
-name: Very Poor
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001124 ! rtyldr 5 pt. scale
-
-[Term]
-id: CO_331:00001124:3
-name: Poor
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001124 ! rtyldr 5 pt. scale
-
-[Term]
-id: CO_331:00001124:5
-name: Moderate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001124 ! rtyldr 5 pt. scale
-
-[Term]
-id: CO_331:00001124:7
-name: Good
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001124 ! rtyldr 5 pt. scale
-
-[Term]
-id: CO_331:00001124:9
-name: Excellent
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001124 ! rtyldr 5 pt. scale
-
-[Term]
 id: CO_331:00001125
 name: ptmtss 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
-
-[Term]
-id: CO_331:00001125:0
-name: Late Season
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:00001125 ! ptmtss 5 pt. scale
-
-[Term]
-id: CO_331:00001125:1
-name: Mid to Late Season
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001125 ! ptmtss 5 pt. scale
-
-[Term]
-id: CO_331:00001125:2
-name: Mid Season
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:00001125 ! ptmtss 5 pt. scale
-
-[Term]
-id: CO_331:00001125:3
-name: Early to Mid Season
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001125 ! ptmtss 5 pt. scale
-
-[Term]
-id: CO_331:00001125:4
-name: Early Season
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:00001125 ! ptmtss 5 pt. scale
 
 [Term]
 id: CO_331:00001126
@@ -3569,81 +1097,11 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
 
 [Term]
-id: CO_331:00001141:1
-name: No damage
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001141 ! rtsmilldam 5 pt. scale
-
-[Term]
-id: CO_331:00001141:3
-name: Low damage
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001141 ! rtsmilldam 5 pt. scale
-
-[Term]
-id: CO_331:00001141:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001141 ! rtsmilldam 5 pt. scale
-
-[Term]
-id: CO_331:00001141:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001141 ! rtsmilldam 5 pt. scale
-
-[Term]
-id: CO_331:00001141:9
-name: Severe infestation
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001141 ! rtsmilldam 5 pt. scale
-
-[Term]
 id: CO_331:00001142
 name: rtalcdam 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000883 ! weevil damage evaluation
-
-[Term]
-id: CO_331:00001142:1
-name: No damage
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001142 ! rtalcdam 5 pt. scale
-
-[Term]
-id: CO_331:00001142:3
-name: Low damage
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001142 ! rtalcdam 5 pt. scale
-
-[Term]
-id: CO_331:00001142:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001142 ! rtalcdam 5 pt. scale
-
-[Term]
-id: CO_331:00001142:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001142 ! rtalcdam 5 pt. scale
-
-[Term]
-id: CO_331:00001142:9
-name: Severe infestation
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001142 ! rtalcdam 5 pt. scale
 
 [Term]
 id: CO_331:00001143
@@ -3661,41 +1119,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001143 ! soils insect evaluation
 
 [Term]
-id: CO_331:00001144:1
-name: No damage
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:00001144 ! rtsinsdam  5 pt. scale
-
-[Term]
-id: CO_331:00001144:3
-name: Low damage
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:00001144 ! rtsinsdam  5 pt. scale
-
-[Term]
-id: CO_331:00001144:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:00001144 ! rtsinsdam  5 pt. scale
-
-[Term]
-id: CO_331:00001144:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:00001144 ! rtsinsdam  5 pt. scale
-
-[Term]
-id: CO_331:00001144:9
-name: Severe infestation
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:00001144 ! rtsinsdam  5 pt. scale
-
-[Term]
 id: CO_331:0000812
 name: observation of plant type
 namespace: SweetpotatoMethod
@@ -3709,34 +1132,6 @@ name: plttyp 4 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000812 ! observation of plant type
-
-[Term]
-id: CO_331:0000813:3
-name: Erect (<75 cm)
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000813 ! plttyp 4 pt. scale
-
-[Term]
-id: CO_331:0000813:5
-name: Semi-erect (75-150 cm)
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000813 ! plttyp 4 pt. scale
-
-[Term]
-id: CO_331:0000813:7
-name: Spreading (151-250 cm)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000813 ! plttyp 4 pt. scale
-
-[Term]
-id: CO_331:0000813:9
-name: Extremely spreading (> 250 cm)
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000813 ! plttyp 4 pt. scale
 
 [Term]
 id: CO_331:0000814
@@ -3754,34 +1149,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000814 ! observation of ground cover
 
 [Term]
-id: CO_331:0000815:3
-name: Low (<50%)
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000815 ! pltcov 4 pt. scale
-
-[Term]
-id: CO_331:0000815:5
-name: Medium (<50-74%)
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000815 ! pltcov 4 pt. scale
-
-[Term]
-id: CO_331:0000815:7
-name: High (75-90%)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000815 ! pltcov 4 pt. scale
-
-[Term]
-id: CO_331:0000815:9
-name: Total (> 90%)
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000815 ! pltcov 4 pt. scale
-
-[Term]
 id: CO_331:0000816
 name: observation of twining
 namespace: SweetpotatoMethod
@@ -3795,41 +1162,6 @@ name: plttwg 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000816 ! observation of twining
-
-[Term]
-id: CO_331:0000817:0
-name: Non-Twining
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000817 ! plttwg 5 pt. scale
-
-[Term]
-id: CO_331:0000817:3
-name: Slightly twining
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000817 ! plttwg 5 pt. scale
-
-[Term]
-id: CO_331:0000817:5
-name: Moderately twining
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000817 ! plttwg 5 pt. scale
-
-[Term]
-id: CO_331:0000817:7
-name: Twining
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000817 ! plttwg 5 pt. scale
-
-[Term]
-id: CO_331:0000817:9
-name: Very twining
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000817 ! plttwg 5 pt. scale
 
 [Term]
 id: CO_331:0000818
@@ -3847,62 +1179,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000818 ! observation of predominant vine color
 
 [Term]
-id: CO_331:0000819:1
-name: Green
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000819 ! vinclp 9 pt. scale
-
-[Term]
-id: CO_331:0000819:3
-name: Green with few purple spots
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000819 ! vinclp 9 pt. scale
-
-[Term]
-id: CO_331:0000819:4
-name: Green with many purple spots
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000819 ! vinclp 9 pt. scale
-
-[Term]
-id: CO_331:0000819:5
-name: Green with many dark purple spots
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000819 ! vinclp 9 pt. scale
-
-[Term]
-id: CO_331:0000819:6
-name: Mostly purple
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000819 ! vinclp 9 pt. scale
-
-[Term]
-id: CO_331:0000819:7
-name: Mostly dark purple
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000819 ! vinclp 9 pt. scale
-
-[Term]
-id: CO_331:0000819:8
-name: Totally purple
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000819 ! vinclp 9 pt. scale
-
-[Term]
-id: CO_331:0000819:9
-name: Totally dark purple
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000819 ! vinclp 9 pt. scale
-
-[Term]
 id: CO_331:0000820
 name: observation of secondary vine color
 namespace: SweetpotatoMethod
@@ -3916,62 +1192,6 @@ name: vincls 8 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000820 ! observation of secondary vine color
-
-[Term]
-id: CO_331:0000821:0
-name: Absent
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000821 ! vincls 8 pt. scale
-
-[Term]
-id: CO_331:0000821:1
-name: Green base
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000821 ! vincls 8 pt. scale
-
-[Term]
-id: CO_331:0000821:2
-name: Green tip
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000821 ! vincls 8 pt. scale
-
-[Term]
-id: CO_331:0000821:3
-name: Green nodes
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000821 ! vincls 8 pt. scale
-
-[Term]
-id: CO_331:0000821:4
-name: Purple base
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000821 ! vincls 8 pt. scale
-
-[Term]
-id: CO_331:0000821:5
-name: Purple tip
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000821 ! vincls 8 pt. scale
-
-[Term]
-id: CO_331:0000821:6
-name: Purple nodes
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000821 ! vincls 8 pt. scale
-
-[Term]
-id: CO_331:0000821:7
-name: Other
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000821 ! vincls 8 pt. scale
 
 [Term]
 id: CO_331:0000822
@@ -3989,34 +1209,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000822 ! observation of vine tips pubescence
 
 [Term]
-id: CO_331:0000823:0
-name: Absent
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000823 ! vintpp 8 pt. scale
-
-[Term]
-id: CO_331:0000823:3
-name: Sparse
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000823 ! vintpp 8 pt. scale
-
-[Term]
-id: CO_331:0000823:5
-name: Moderate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000823 ! vintpp 8 pt. scale
-
-[Term]
-id: CO_331:0000823:7
-name: Heavy
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000823 ! vintpp 8 pt. scale
-
-[Term]
 id: CO_331:0000824
 name: average length of at least three internodes located in the middle section of the vine
 namespace: SweetpotatoMethod
@@ -4030,41 +1222,6 @@ name: vininlg 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000824 ! average length of at least three internodes located in the middle section of the vine
-
-[Term]
-id: CO_331:0000825:1
-name: Very short (<3 cm)
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000825 ! vininlg 5 pt. scale
-
-[Term]
-id: CO_331:0000825:3
-name: Short (3-5 cm)
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000825 ! vininlg 5 pt. scale
-
-[Term]
-id: CO_331:0000825:5
-name: Intermediate (6-9 cm)
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000825 ! vininlg 5 pt. scale
-
-[Term]
-id: CO_331:0000825:7
-name: Long (10-12 cm)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000825 ! vininlg 5 pt. scale
-
-[Term]
-id: CO_331:0000825:9
-name: Very long (>12 cm)
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000825 ! vininlg 5 pt. scale
 
 [Term]
 id: CO_331:0000826
@@ -4082,41 +1239,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000826 ! average diameter of at least three internodes located in the middle section of the vine
 
 [Term]
-id: CO_331:0000827:1
-name: Very thin (<4 mm)
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000827 ! vinind 5 pt. scale
-
-[Term]
-id: CO_331:0000827:3
-name: Thin (4-6 mm)
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000827 ! vinind 5 pt. scale
-
-[Term]
-id: CO_331:0000827:5
-name: Intermediate (7-9 mm)
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000827 ! vinind 5 pt. scale
-
-[Term]
-id: CO_331:0000827:7
-name: Thick (10-12 mm)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000827 ! vinind 5 pt. scale
-
-[Term]
-id: CO_331:0000827:9
-name: Very thick (>12 mm)
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000827 ! vinind 5 pt. scale
-
-[Term]
 id: CO_331:0000828
 name: observation of general outline of the leaf
 namespace: SweetpotatoMethod
@@ -4130,55 +1252,6 @@ name: lefout 7 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000828 ! observation of general outline of the leaf
-
-[Term]
-id: CO_331:0000829:1
-name: Rounded
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000829 ! lefout 7 pt. scale
-
-[Term]
-id: CO_331:0000829:2
-name: Reniform (kidney-shaped)
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000829 ! lefout 7 pt. scale
-
-[Term]
-id: CO_331:0000829:3
-name: Chordate (heart-shaped)
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000829 ! lefout 7 pt. scale
-
-[Term]
-id: CO_331:0000829:4
-name: Triangular
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000829 ! lefout 7 pt. scale
-
-[Term]
-id: CO_331:0000829:5
-name: Hastate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000829 ! lefout 7 pt. scale
-
-[Term]
-id: CO_331:0000829:6
-name: Lobed
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000829 ! lefout 7 pt. scale
-
-[Term]
-id: CO_331:0000829:7
-name: Almost divided
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000829 ! lefout 7 pt. scale
 
 [Term]
 id: CO_331:0000830
@@ -4196,48 +1269,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000830 ! observation of leaf lobes type
 
 [Term]
-id: CO_331:0000831:0
-name: No lateral lobes (entire)
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000831 ! leflbt  6 pt. scale
-
-[Term]
-id: CO_331:0000831:1
-name: Very slight (teeth)
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000831 ! leflbt  6 pt. scale
-
-[Term]
-id: CO_331:0000831:3
-name: Slight
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000831 ! leflbt  6 pt. scale
-
-[Term]
-id: CO_331:0000831:5
-name: Moderate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000831 ! leflbt  6 pt. scale
-
-[Term]
-id: CO_331:0000831:7
-name: Deep
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000831 ! leflbt  6 pt. scale
-
-[Term]
-id: CO_331:0000831:9
-name: Very deep
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000831 ! leflbt  6 pt. scale
-
-[Term]
 id: CO_331:0000832
 name: observation of leaf lobe number
 namespace: SweetpotatoMethod
@@ -4251,41 +1282,6 @@ name: leflbn 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000832 ! observation of leaf lobe number
-
-[Term]
-id: CO_331:0000833:1
-name: 1 Lobe
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000833 ! leflbn 5 pt. scale
-
-[Term]
-id: CO_331:0000833:3
-name: 3 Lobe
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000833 ! leflbn 5 pt. scale
-
-[Term]
-id: CO_331:0000833:5
-name: 5 Lobe
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000833 ! leflbn 5 pt. scale
-
-[Term]
-id: CO_331:0000833:7
-name: 7 Lobe
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000833 ! leflbn 5 pt. scale
-
-[Term]
-id: CO_331:0000833:9
-name: 9 Lobe
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000833 ! leflbn 5 pt. scale
 
 [Term]
 id: CO_331:0000834
@@ -4303,76 +1299,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000834 ! observation of shape of central leaf lobe
 
 [Term]
-id: CO_331:0000835:0
-name: Absent
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000835 ! leflcs 10 pt. scale
-
-[Term]
-id: CO_331:0000835:1
-name: Toothed
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000835 ! leflcs 10 pt. scale
-
-[Term]
-id: CO_331:0000835:2
-name: Triangular
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000835 ! leflcs 10 pt. scale
-
-[Term]
-id: CO_331:0000835:3
-name: Semi-circular
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000835 ! leflcs 10 pt. scale
-
-[Term]
-id: CO_331:0000835:4
-name: Semi-elliptic
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000835 ! leflcs 10 pt. scale
-
-[Term]
-id: CO_331:0000835:5
-name: Elliptic
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000835 ! leflcs 10 pt. scale
-
-[Term]
-id: CO_331:0000835:6
-name: Lanceolate
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000835 ! leflcs 10 pt. scale
-
-[Term]
-id: CO_331:0000835:7
-name: Oblanceolate
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000835 ! leflcs 10 pt. scale
-
-[Term]
-id: CO_331:0000835:8
-name: Linear (broad)
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000835 ! leflcs 10 pt. scale
-
-[Term]
-id: CO_331:0000835:9
-name: Linear (narrow)
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000835 ! leflcs 10 pt. scale
-
-[Term]
 id: CO_331:0000836
 name: observation of mature leaf size
 namespace: SweetpotatoMethod
@@ -4386,34 +1312,6 @@ name: leflms 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000836 ! observation of mature leaf size
-
-[Term]
-id: CO_331:0000837:3
-name: Small (<8 cm)
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000837 ! leflms 9 pt. scale
-
-[Term]
-id: CO_331:0000837:5
-name: Medium (8-15 cm)
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000837 ! leflms 9 pt. scale
-
-[Term]
-id: CO_331:0000837:7
-name: Large (16-25 cm)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000837 ! leflms 9 pt. scale
-
-[Term]
-id: CO_331:0000837:9
-name: Very large (> 25 cm)
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000837 ! leflms 9 pt. scale
 
 [Term]
 id: CO_331:0000838
@@ -4431,69 +1329,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000838 ! observation of abaxial leaf vein pigmentation
 
 [Term]
-id: CO_331:0000839:1
-name: Yellow
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000839 ! lefavp 9 pt. scale
-
-[Term]
-id: CO_331:0000839:2
-name: Green
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000839 ! lefavp 9 pt. scale
-
-[Term]
-id: CO_331:0000839:3
-name: Purple spot in the base of main rib
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000839 ! lefavp 9 pt. scale
-
-[Term]
-id: CO_331:0000839:4
-name: Purple spot in several veins
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000839 ! lefavp 9 pt. scale
-
-[Term]
-id: CO_331:0000839:5
-name: Main rib partially purple
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000839 ! lefavp 9 pt. scale
-
-[Term]
-id: CO_331:0000839:6
-name: Main rib mostly or totally purple
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000839 ! lefavp 9 pt. scale
-
-[Term]
-id: CO_331:0000839:7
-name: All veins partial purple
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000839 ! lefavp 9 pt. scale
-
-[Term]
-id: CO_331:0000839:8
-name: All veins mostly or totally purple
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000839 ! lefavp 9 pt. scale
-
-[Term]
-id: CO_331:0000839:9
-name: Lower surface and veins totally purple
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000839 ! lefavp 9 pt. scale
-
-[Term]
 id: CO_331:0000840
 name: observation of mature leaf color
 namespace: SweetpotatoMethod
@@ -4507,69 +1342,6 @@ name: lefcmt 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000840 ! observation of mature leaf color
-
-[Term]
-id: CO_331:0000841:1
-name: Yellow-green
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000841 ! lefcmt 9 pt. scale
-
-[Term]
-id: CO_331:0000841:2
-name: Green
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000841 ! lefcmt 9 pt. scale
-
-[Term]
-id: CO_331:0000841:3
-name: Green with purple edge
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000841 ! lefcmt 9 pt. scale
-
-[Term]
-id: CO_331:0000841:4
-name: Greyish-green  (due to heavy pubescent)
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000841 ! lefcmt 9 pt. scale
-
-[Term]
-id: CO_331:0000841:5
-name: Green with purple veins on upper surface
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000841 ! lefcmt 9 pt. scale
-
-[Term]
-id: CO_331:0000841:6
-name: Slightly purple
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000841 ! lefcmt 9 pt. scale
-
-[Term]
-id: CO_331:0000841:7
-name: Mostly purple
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000841 ! lefcmt 9 pt. scale
-
-[Term]
-id: CO_331:0000841:8
-name: Green upper  purple lower
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000841 ! lefcmt 9 pt. scale
-
-[Term]
-id: CO_331:0000841:9
-name: Purple both surfaces
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000841 ! lefcmt 9 pt. scale
 
 [Term]
 id: CO_331:0000842
@@ -4587,69 +1359,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000842 ! observation of immature leaf color
 
 [Term]
-id: CO_331:0000843:1
-name: Yellow-green
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000843 ! lefcim 9 pt. scale
-
-[Term]
-id: CO_331:0000843:2
-name: Green
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000843 ! lefcim 9 pt. scale
-
-[Term]
-id: CO_331:0000843:3
-name: Green with purple edge
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000843 ! lefcim 9 pt. scale
-
-[Term]
-id: CO_331:0000843:4
-name: Greyish-green  (due to heavy pubescent)
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000843 ! lefcim 9 pt. scale
-
-[Term]
-id: CO_331:0000843:5
-name: Green with purple veins on upper surface
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000843 ! lefcim 9 pt. scale
-
-[Term]
-id: CO_331:0000843:6
-name: Slightly purple
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000843 ! lefcim 9 pt. scale
-
-[Term]
-id: CO_331:0000843:7
-name: Mostly purple
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000843 ! lefcim 9 pt. scale
-
-[Term]
-id: CO_331:0000843:8
-name: Green upper  purple lower
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000843 ! lefcim 9 pt. scale
-
-[Term]
-id: CO_331:0000843:9
-name: Purple both surfaces
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000843 ! lefcim 9 pt. scale
-
-[Term]
 id: CO_331:0000844
 name: observation of petiole pigmentation
 namespace: SweetpotatoMethod
@@ -4663,69 +1372,6 @@ name: flrptp 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000844 ! observation of petiole pigmentation
-
-[Term]
-id: CO_331:0000845:1
-name: Green
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000845 ! flrptp 9 pt. scale
-
-[Term]
-id: CO_331:0000845:2
-name: Green with purple near steam
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000845 ! flrptp 9 pt. scale
-
-[Term]
-id: CO_331:0000845:3
-name: Green width purple near leaf
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000845 ! flrptp 9 pt. scale
-
-[Term]
-id: CO_331:0000845:4
-name: Green with purple both ends
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000845 ! flrptp 9 pt. scale
-
-[Term]
-id: CO_331:0000845:5
-name: Green with purple spots throughout petiole
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000845 ! flrptp 9 pt. scale
-
-[Term]
-id: CO_331:0000845:6
-name: Green with multiple stripes
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000845 ! flrptp 9 pt. scale
-
-[Term]
-id: CO_331:0000845:7
-name: Purple with green near leaf
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000845 ! flrptp 9 pt. scale
-
-[Term]
-id: CO_331:0000845:8
-name: Some petioles purple  others green
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000845 ! flrptp 9 pt. scale
-
-[Term]
-id: CO_331:0000845:9
-name: Totally or mostly purple
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000845 ! flrptp 9 pt. scale
 
 [Term]
 id: CO_331:0000846
@@ -4743,41 +1389,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000846 ! average petiole length, from the base to the insertion with the blade, of at least three leaves in the middle portion of a main vine
 
 [Term]
-id: CO_331:0000847:1
-name: Very short (<10 cm)
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000847 ! flrptl 5 pt. scale
-
-[Term]
-id: CO_331:0000847:3
-name: Short (10-20 cm)
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000847 ! flrptl 5 pt. scale
-
-[Term]
-id: CO_331:0000847:5
-name: Intermediate (21-30 cm)
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000847 ! flrptl 5 pt. scale
-
-[Term]
-id: CO_331:0000847:7
-name: Long (31-40 cm)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000847 ! flrptl 5 pt. scale
-
-[Term]
-id: CO_331:0000847:9
-name: Very long (>40 cm)
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000847 ! flrptl 5 pt. scale
-
-[Term]
 id: CO_331:0000848
 name: observation of newly opened flowers
 namespace: SweetpotatoMethod
@@ -4791,48 +1402,6 @@ name: flrcol  6 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000848 ! observation of newly opened flowers
-
-[Term]
-id: CO_331:0000849:1
-name: White
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000849 ! flrcol  6 pt. scale
-
-[Term]
-id: CO_331:0000849:2
-name: White limb with purple throat
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000849 ! flrcol  6 pt. scale
-
-[Term]
-id: CO_331:0000849:3
-name: White limb with pale purple ring and purple throat
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000849 ! flrcol  6 pt. scale
-
-[Term]
-id: CO_331:0000849:4
-name: Pale purple limb with purple throat
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000849 ! flrcol  6 pt. scale
-
-[Term]
-id: CO_331:0000849:5
-name: Purple
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000849 ! flrcol  6 pt. scale
-
-[Term]
-id: CO_331:0000849:6
-name: Other
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000849 ! flrcol  6 pt. scale
 
 [Term]
 id: CO_331:0000850
@@ -4850,69 +1419,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000850 ! observation of predominant skin color, many freshly harvested storage roots should be washed and dried prior to evaluation.
 
 [Term]
-id: CO_331:0000851:1
-name: White
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000851 ! prdskncol 9 pt. scale
-
-[Term]
-id: CO_331:0000851:2
-name: Cream
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000851 ! prdskncol 9 pt. scale
-
-[Term]
-id: CO_331:0000851:3
-name: Yellow
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000851 ! prdskncol 9 pt. scale
-
-[Term]
-id: CO_331:0000851:4
-name: Orange
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000851 ! prdskncol 9 pt. scale
-
-[Term]
-id: CO_331:0000851:5
-name: Brownish orange
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000851 ! prdskncol 9 pt. scale
-
-[Term]
-id: CO_331:0000851:6
-name: Pink
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000851 ! prdskncol 9 pt. scale
-
-[Term]
-id: CO_331:0000851:7
-name: Red
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000851 ! prdskncol 9 pt. scale
-
-[Term]
-id: CO_331:0000851:8
-name: Purple-red
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000851 ! prdskncol 9 pt. scale
-
-[Term]
-id: CO_331:0000851:9
-name: Dark purple
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000851 ! prdskncol 9 pt. scale
-
-[Term]
 id: CO_331:0000852
 name: observation of intensity of predominant skin color
 namespace: SweetpotatoMethod
@@ -4926,27 +1432,6 @@ name: skncpi  3 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000852 ! observation of intensity of predominant skin color
-
-[Term]
-id: CO_331:0000853:1
-name: Pale
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000853 ! skncpi  3 pt. scale
-
-[Term]
-id: CO_331:0000853:2
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000853 ! skncpi  3 pt. scale
-
-[Term]
-id: CO_331:0000853:3
-name: Dark
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000853 ! skncpi  3 pt. scale
 
 [Term]
 id: CO_331:0000854
@@ -4964,76 +1449,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000854 ! observation of secondary skin color
 
 [Term]
-id: CO_331:0000855:0
-name: Absent
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000855 ! skncsc  10 pt. scale
-
-[Term]
-id: CO_331:0000855:1
-name: White
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000855 ! skncsc  10 pt. scale
-
-[Term]
-id: CO_331:0000855:2
-name: Cream
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000855 ! skncsc  10 pt. scale
-
-[Term]
-id: CO_331:0000855:3
-name: Yellow
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000855 ! skncsc  10 pt. scale
-
-[Term]
-id: CO_331:0000855:4
-name: Orange
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000855 ! skncsc  10 pt. scale
-
-[Term]
-id: CO_331:0000855:5
-name: Brownish orange
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000855 ! skncsc  10 pt. scale
-
-[Term]
-id: CO_331:0000855:6
-name: Pink
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000855 ! skncsc  10 pt. scale
-
-[Term]
-id: CO_331:0000855:7
-name: Red
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000855 ! skncsc  10 pt. scale
-
-[Term]
-id: CO_331:0000855:8
-name: Purple-red
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000855 ! skncsc  10 pt. scale
-
-[Term]
-id: CO_331:0000855:9
-name: Dark purple
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000855 ! skncsc  10 pt. scale
-
-[Term]
 id: CO_331:0000856
 name: observation of predominant flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots
 namespace: SweetpotatoMethod
@@ -5047,69 +1462,6 @@ name: prdflshcol 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000856 ! observation of predominant flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots
-
-[Term]
-id: CO_331:0000857:1
-name: White
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000857 ! prdflshcol 9 pt. scale
-
-[Term]
-id: CO_331:0000857:2
-name: Cream
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000857 ! prdflshcol 9 pt. scale
-
-[Term]
-id: CO_331:0000857:3
-name: Dark cream
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000857 ! prdflshcol 9 pt. scale
-
-[Term]
-id: CO_331:0000857:4
-name: Pale yellow
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000857 ! prdflshcol 9 pt. scale
-
-[Term]
-id: CO_331:0000857:5
-name: Dark yellow
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000857 ! prdflshcol 9 pt. scale
-
-[Term]
-id: CO_331:0000857:6
-name: Pale orange
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000857 ! prdflshcol 9 pt. scale
-
-[Term]
-id: CO_331:0000857:7
-name: Intermediate orange
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000857 ! prdflshcol 9 pt. scale
-
-[Term]
-id: CO_331:0000857:8
-name: Dark orange
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000857 ! prdflshcol 9 pt. scale
-
-[Term]
-id: CO_331:0000857:9
-name: Strongly pigmented with anthocyanins
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000857 ! prdflshcol 9 pt. scale
 
 [Term]
 id: CO_331:0000858
@@ -5127,76 +1479,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000858 ! observation of secondary flesh color
 
 [Term]
-id: CO_331:0000859:0
-name: Absent
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000859 ! flscsc 10 pt. scale
-
-[Term]
-id: CO_331:0000859:1
-name: White
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000859 ! flscsc 10 pt. scale
-
-[Term]
-id: CO_331:0000859:2
-name: Cream
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000859 ! flscsc 10 pt. scale
-
-[Term]
-id: CO_331:0000859:3
-name: Yellow
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000859 ! flscsc 10 pt. scale
-
-[Term]
-id: CO_331:0000859:4
-name: Orange
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000859 ! flscsc 10 pt. scale
-
-[Term]
-id: CO_331:0000859:5
-name: Pink
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000859 ! flscsc 10 pt. scale
-
-[Term]
-id: CO_331:0000859:6
-name: Red
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000859 ! flscsc 10 pt. scale
-
-[Term]
-id: CO_331:0000859:7
-name: Purple-red
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000859 ! flscsc 10 pt. scale
-
-[Term]
-id: CO_331:0000859:8
-name: Purple
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000859 ! flscsc 10 pt. scale
-
-[Term]
-id: CO_331:0000859:9
-name: Dark purple
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000859 ! flscsc 10 pt. scale
-
-[Term]
 id: CO_331:0000860
 name: observation of distribution of secondary flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots
 namespace: SweetpotatoMethod
@@ -5210,76 +1492,6 @@ name: flscsd 10 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000860 ! observation of distribution of secondary flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots
-
-[Term]
-id: CO_331:0000861:0
-name: Absent
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000861 ! flscsd 10 pt. scale
-
-[Term]
-id: CO_331:0000861:1
-name: Narrow ring in cortex
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000861 ! flscsd 10 pt. scale
-
-[Term]
-id: CO_331:0000861:2
-name: Broad ring in cortex
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000861 ! flscsd 10 pt. scale
-
-[Term]
-id: CO_331:0000861:3
-name: Scattered spots in flesh
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000861 ! flscsd 10 pt. scale
-
-[Term]
-id: CO_331:0000861:4
-name: Narrow ring in flesh
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000861 ! flscsd 10 pt. scale
-
-[Term]
-id: CO_331:0000861:5
-name: Broad ring in flesh
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000861 ! flscsd 10 pt. scale
-
-[Term]
-id: CO_331:0000861:6
-name: Ring and other areas in flesh
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000861 ! flscsd 10 pt. scale
-
-[Term]
-id: CO_331:0000861:7
-name: In longitudinal sections
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000861 ! flscsd 10 pt. scale
-
-[Term]
-id: CO_331:0000861:8
-name: Covering most of the flesh
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000861 ! flscsd 10 pt. scale
-
-[Term]
-id: CO_331:0000861:9
-name: Covering all flesh
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000861 ! flscsd 10 pt. scale
 
 [Term]
 id: CO_331:0000862
@@ -5297,69 +1509,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000862 ! observation of  storage root shape described from longitudinal sections made about the middle of freshly harvested storage roots
 
 [Term]
-id: CO_331:0000863:1
-name: Round
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000863 ! rtshp 9 pt. scale
-
-[Term]
-id: CO_331:0000863:2
-name: Round elliptic
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000863 ! rtshp 9 pt. scale
-
-[Term]
-id: CO_331:0000863:3
-name: Elliptic
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000863 ! rtshp 9 pt. scale
-
-[Term]
-id: CO_331:0000863:4
-name: Ovate
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000863 ! rtshp 9 pt. scale
-
-[Term]
-id: CO_331:0000863:5
-name: Obovate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000863 ! rtshp 9 pt. scale
-
-[Term]
-id: CO_331:0000863:6
-name: Oblong
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000863 ! rtshp 9 pt. scale
-
-[Term]
-id: CO_331:0000863:7
-name: Long oblong
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000863 ! rtshp 9 pt. scale
-
-[Term]
-id: CO_331:0000863:8
-name: Long elliptic
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000863 ! rtshp 9 pt. scale
-
-[Term]
-id: CO_331:0000863:9
-name: Long irregular or curved
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000863 ! rtshp 9 pt. scale
-
-[Term]
 id: CO_331:0000864
 name: observation of latex production in storage roots
 namespace: SweetpotatoMethod
@@ -5373,27 +1522,6 @@ name: rtlat 3 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000864 ! observation of latex production in storage roots
-
-[Term]
-id: CO_331:0000865:3
-name: Little
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000865 ! rtlat 3 pt. scale
-
-[Term]
-id: CO_331:0000865:5
-name: Some
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000865 ! rtlat 3 pt. scale
-
-[Term]
-id: CO_331:0000865:7
-name: Abundant
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000865 ! rtlat 3 pt. scale
 
 [Term]
 id: CO_331:0000866
@@ -5411,27 +1539,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000866 ! observation of oxidation in storage roots 5-10 seconds after storage roots are cut in cross section.
 
 [Term]
-id: CO_331:0000867:3
-name: Little
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000867 ! rtoxi 3 pt. scale
-
-[Term]
-id: CO_331:0000867:5
-name: Some
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000867 ! rtoxi 3 pt. scale
-
-[Term]
-id: CO_331:0000867:7
-name: Abundant
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000867 ! rtoxi 3 pt. scale
-
-[Term]
 id: CO_331:0000868
 name: storage root size - method
 namespace: SweetpotatoMethod
@@ -5445,41 +1552,6 @@ name: rtsize 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000868 ! storage root size - method
-
-[Term]
-id: CO_331:0000869:1
-name: Excellent
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000869 ! rtsize 5 pt. scale
-
-[Term]
-id: CO_331:0000869:3
-name: Good
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000869 ! rtsize 5 pt. scale
-
-[Term]
-id: CO_331:0000869:5
-name: Fair
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000869 ! rtsize 5 pt. scale
-
-[Term]
-id: CO_331:0000869:7
-name: Poor
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000869 ! rtsize 5 pt. scale
-
-[Term]
-id: CO_331:0000869:9
-name: terrible
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000869 ! rtsize 5 pt. scale
 
 [Term]
 id: CO_331:0000870
@@ -5523,69 +1595,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000873 ! virus symptoms evaluation
 
 [Term]
-id: CO_331:0000874:1
-name: No virus symptoms
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000874 ! virsym 9 pt. scale
-
-[Term]
-id: CO_331:0000874:2
-name: Unclear virus symptoms
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000874 ! virsym 9 pt. scale
-
-[Term]
-id: CO_331:0000874:3
-name: Clear virus symptoms < 5% of plants per plot
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000874 ! virsym 9 pt. scale
-
-[Term]
-id: CO_331:0000874:4
-name: Clear virus symptoms at 6 to 15% of plants per plot
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000874 ! virsym 9 pt. scale
-
-[Term]
-id: CO_331:0000874:5
-name: Clear virus symptoms at 16 to 33% of plants per plot
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000874 ! virsym 9 pt. scale
-
-[Term]
-id: CO_331:0000874:6
-name: Clear virus symptoms at 34 to 66% of plants per plot (more than 1/3 less than 2/3)
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000874 ! virsym 9 pt. scale
-
-[Term]
-id: CO_331:0000874:7
-name: Clear virus symptoms at 67 to 99 % of plants per plot (2/3 to almost all)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000874 ! virsym 9 pt. scale
-
-[Term]
-id: CO_331:0000874:8
-name: Clear virus symptoms at all plants per plot (not stunted)
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000874 ! virsym 9 pt. scale
-
-[Term]
-id: CO_331:0000874:9
-name: Severe virus symptoms in all plants per plot (stunted).
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000874 ! virsym 9 pt. scale
-
-[Term]
 id: CO_331:0000875
 name: observation of plant vigour
 namespace: SweetpotatoMethod
@@ -5599,69 +1608,6 @@ name: vinvgr 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000875 ! observation of plant vigour
-
-[Term]
-id: CO_331:0000876:1
-name: Nearly no vines
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000876 ! vinvgr 9 pt. scale
-
-[Term]
-id: CO_331:0000876:2
-name: Weak vines
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000876 ! vinvgr 9 pt. scale
-
-[Term]
-id: CO_331:0000876:3
-name: Weak to medium strong vines, medium thick stems, and long internode distances
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000876 ! vinvgr 9 pt. scale
-
-[Term]
-id: CO_331:0000876:4
-name: Medium strong vines, medium thick stems, and medium internode distances
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000876 ! vinvgr 9 pt. scale
-
-[Term]
-id: CO_331:0000876:5
-name: Medium strong vines, thick  vines, and long internode distances
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000876 ! vinvgr 9 pt. scale
-
-[Term]
-id: CO_331:0000876:6
-name: Medium strong vines, thick stems, and medium internode distances
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000876 ! vinvgr 9 pt. scale
-
-[Term]
-id: CO_331:0000876:7
-name: Strong vines, thick stems, short internode distances, and medium-long vines
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000876 ! vinvgr 9 pt. scale
-
-[Term]
-id: CO_331:0000876:8
-name: Strong vines, thick stems, short internode distances, and long vines,
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000876 ! vinvgr 9 pt. scale
-
-[Term]
-id: CO_331:0000876:9
-name: Very strong vine strength, thick stems, short internode distances, and very long vines
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000876 ! vinvgr 9 pt. scale
 
 [Term]
 id: CO_331:0000877
@@ -5679,69 +1625,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000877 ! early blight evaluation: (alternaria)
 
 [Term]
-id: CO_331:0000878:1
-name: No symptoms
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000878 ! altsm 9 pt. scale
-
-[Term]
-id: CO_331:0000878:2
-name: Unclear symptoms
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000878 ! altsm 9 pt. scale
-
-[Term]
-id: CO_331:0000878:3
-name: Clear symptoms at <5% per plot
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000878 ! altsm 9 pt. scale
-
-[Term]
-id: CO_331:0000878:4
-name: Clear symptoms at 6 to 15% of plants per plot
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000878 ! altsm 9 pt. scale
-
-[Term]
-id: CO_331:0000878:5
-name: Clear symptoms at 16 to 33% of plants per plot (less than 1/3)
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000878 ! altsm 9 pt. scale
-
-[Term]
-id: CO_331:0000878:6
-name: Clear symptoms at 34 to 66% of plants per plot (more than 1/3
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000878 ! altsm 9 pt. scale
-
-[Term]
-id: CO_331:0000878:7
-name: Clear symptoms at 67 to 99 % of plants per plot (2/3 to almost all)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000878 ! altsm 9 pt. scale
-
-[Term]
-id: CO_331:0000878:8
-name: Clear symptoms at all plants (not fully defoliated)
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000878 ! altsm 9 pt. scale
-
-[Term]
-id: CO_331:0000878:9
-name: Severe symptoms at all plants per plot (fully defoliated)
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000878 ! altsm 9 pt. scale
-
-[Term]
 id: CO_331:0000879
 name: storage root form - method
 namespace: SweetpotatoMethod
@@ -5755,69 +1638,6 @@ name: rtform 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000879 ! storage root form - method
-
-[Term]
-id: CO_331:0000880:1
-name: Excellent
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000880 ! rtform 9 pt. scale
-
-[Term]
-id: CO_331:0000880:2
-name: Excellent to good
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000880 ! rtform 9 pt. scale
-
-[Term]
-id: CO_331:0000880:3
-name: Good
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000880 ! rtform 9 pt. scale
-
-[Term]
-id: CO_331:0000880:4
-name: Good to fair
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000880 ! rtform 9 pt. scale
-
-[Term]
-id: CO_331:0000880:5
-name: Fair
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000880 ! rtform 9 pt. scale
-
-[Term]
-id: CO_331:0000880:6
-name: Fair to poor
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000880 ! rtform 9 pt. scale
-
-[Term]
-id: CO_331:0000880:7
-name: Poor
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000880 ! rtform 9 pt. scale
-
-[Term]
-id: CO_331:0000880:8
-name: Poor to terrible
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000880 ! rtform 9 pt. scale
-
-[Term]
-id: CO_331:0000880:9
-name: Terrible
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000880 ! rtform 9 pt. scale
 
 [Term]
 id: CO_331:0000881
@@ -5835,69 +1655,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000881 ! storage root damage
 
 [Term]
-id: CO_331:0000882:1
-name: No damage
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000882 ! rtsdam 9 pt. scale
-
-[Term]
-id: CO_331:0000882:2
-name: Very minor
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000882 ! rtsdam 9 pt. scale
-
-[Term]
-id: CO_331:0000882:3
-name: Minor
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000882 ! rtsdam 9 pt. scale
-
-[Term]
-id: CO_331:0000882:4
-name: Minor to moderate
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000882 ! rtsdam 9 pt. scale
-
-[Term]
-id: CO_331:0000882:5
-name: Moderate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000882 ! rtsdam 9 pt. scale
-
-[Term]
-id: CO_331:0000882:6
-name: Moderate to heavy
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000882 ! rtsdam 9 pt. scale
-
-[Term]
-id: CO_331:0000882:7
-name: Heavy
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000882 ! rtsdam 9 pt. scale
-
-[Term]
-id: CO_331:0000882:8
-name: Heavy to severe damage
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000882 ! rtsdam 9 pt. scale
-
-[Term]
-id: CO_331:0000882:9
-name: Severe damage
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000882 ! rtsdam 9 pt. scale
-
-[Term]
 id: CO_331:0000883
 name: weevil damage evaluation
 namespace: SweetpotatoMethod
@@ -5912,69 +1669,6 @@ name: rtdam 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000883 ! weevil damage evaluation
-
-[Term]
-id: CO_331:0000884:1
-name: No damage
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000884 ! rtdam 9 pt. scale
-
-[Term]
-id: CO_331:0000884:2
-name: Very minor
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000884 ! rtdam 9 pt. scale
-
-[Term]
-id: CO_331:0000884:3
-name: Minor
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000884 ! rtdam 9 pt. scale
-
-[Term]
-id: CO_331:0000884:4
-name: Minor to moderate
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000884 ! rtdam 9 pt. scale
-
-[Term]
-id: CO_331:0000884:5
-name: Moderate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000884 ! rtdam 9 pt. scale
-
-[Term]
-id: CO_331:0000884:6
-name: Moderate to heavy
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000884 ! rtdam 9 pt. scale
-
-[Term]
-id: CO_331:0000884:7
-name: Heavy
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000884 ! rtdam 9 pt. scale
-
-[Term]
-id: CO_331:0000884:8
-name: Heavy to severe damage
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000884 ! rtdam 9 pt. scale
-
-[Term]
-id: CO_331:0000884:9
-name: Severe damage
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000884 ! rtdam 9 pt. scale
 
 [Term]
 id: CO_331:0000885
@@ -6145,34 +1839,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000902 ! estimation of craking roots
 
 [Term]
-id: CO_331:0000903:0
-name: Absent
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000903 ! rtscr 4 pt. scale
-
-[Term]
-id: CO_331:0000903:3
-name: Few cracks
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000903 ! rtscr 4 pt. scale
-
-[Term]
-id: CO_331:0000903:5
-name: Medium number of cracks
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000903 ! rtscr 4 pt. scale
-
-[Term]
-id: CO_331:0000903:7
-name: Many cracks
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000903 ! rtscr 4 pt. scale
-
-[Term]
 id: CO_331:0000904
 name: measurements of fresh root mass
 namespace: SweetpotatoMethod
@@ -6230,69 +1896,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000909 ! evaluation of cooked samples for fibers
 
 [Term]
-id: CO_331:0000910:1
-name: Non-fibrous
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000910 ! rtfbr 9 pt. scale
-
-[Term]
-id: CO_331:0000910:2
-name: Non-fibrous to slightly fibrous
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000910 ! rtfbr 9 pt. scale
-
-[Term]
-id: CO_331:0000910:3
-name: Slightly fibrous
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000910 ! rtfbr 9 pt. scale
-
-[Term]
-id: CO_331:0000910:4
-name: Slightly to moderately fibrous
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000910 ! rtfbr 9 pt. scale
-
-[Term]
-id: CO_331:0000910:5
-name: Moderately fibrous
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000910 ! rtfbr 9 pt. scale
-
-[Term]
-id: CO_331:0000910:6
-name: Moderately fibrous to fibrous
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000910 ! rtfbr 9 pt. scale
-
-[Term]
-id: CO_331:0000910:7
-name: Fibrous
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000910 ! rtfbr 9 pt. scale
-
-[Term]
-id: CO_331:0000910:8
-name: Fibrous to very fibrous
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000910 ! rtfbr 9 pt. scale
-
-[Term]
-id: CO_331:0000910:9
-name: Very fibrous
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000910 ! rtfbr 9 pt. scale
-
-[Term]
 id: CO_331:0000911
 name: storage root fibers content  evaluated in percentage fresh weight
 namespace: SweetpotatoMethod
@@ -6316,69 +1919,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000912 ! evaluation of cooked samples for sweetness
 
 [Term]
-id: CO_331:0000913:1
-name: Not at all sweet
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000913 ! rtswt 9 pt. scale
-
-[Term]
-id: CO_331:0000913:2
-name: Non-sweet to slightly sweet
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000913 ! rtswt 9 pt. scale
-
-[Term]
-id: CO_331:0000913:3
-name: Slightly sweet
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000913 ! rtswt 9 pt. scale
-
-[Term]
-id: CO_331:0000913:4
-name: Slightly to moderately sweet
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000913 ! rtswt 9 pt. scale
-
-[Term]
-id: CO_331:0000913:5
-name: Moderately sweet
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000913 ! rtswt 9 pt. scale
-
-[Term]
-id: CO_331:0000913:6
-name: Moderately sweet to sweet
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000913 ! rtswt 9 pt. scale
-
-[Term]
-id: CO_331:0000913:7
-name: Sweet
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000913 ! rtswt 9 pt. scale
-
-[Term]
-id: CO_331:0000913:8
-name: Sweet to very sweet
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000913 ! rtswt 9 pt. scale
-
-[Term]
-id: CO_331:0000913:9
-name: Very sweet
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000913 ! rtswt 9 pt. scale
-
-[Term]
 id: CO_331:0000914
 name: evaluation of cooked samples for texture
 namespace: SweetpotatoMethod
@@ -6395,109 +1935,11 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000914 ! evaluation of cooked samples for texture
 
 [Term]
-id: CO_331:0000915:1
-name: Dry
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000915 ! flstxch 5 pt. scale
-
-[Term]
-id: CO_331:0000915:3
-name: Somewhat dry
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000915 ! flstxch 5 pt. scale
-
-[Term]
-id: CO_331:0000915:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000915 ! flstxch 5 pt. scale
-
-[Term]
-id: CO_331:0000915:7
-name: Moist
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000915 ! flstxch 5 pt. scale
-
-[Term]
-id: CO_331:0000915:9
-name: Very moist
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000915 ! flstxch 5 pt. scale
-
-[Term]
 id: CO_331:0000916
 name: flstxcg 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000914 ! evaluation of cooked samples for texture
-
-[Term]
-id: CO_331:0000916:1
-name: very moist
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000916 ! flstxcg 9 pt. scale
-
-[Term]
-id: CO_331:0000916:2
-name: Very moist to moist
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000916 ! flstxcg 9 pt. scale
-
-[Term]
-id: CO_331:0000916:3
-name: Moist
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000916 ! flstxcg 9 pt. scale
-
-[Term]
-id: CO_331:0000916:4
-name: Moist to moderately dry
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000916 ! flstxcg 9 pt. scale
-
-[Term]
-id: CO_331:0000916:5
-name: Moderately dry
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000916 ! flstxcg 9 pt. scale
-
-[Term]
-id: CO_331:0000916:6
-name: Moderately dry to dry
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000916 ! flstxcg 9 pt. scale
-
-[Term]
-id: CO_331:0000916:7
-name: Dry
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000916 ! flstxcg 9 pt. scale
-
-[Term]
-id: CO_331:0000916:8
-name: Dry to very dry
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000916 ! flstxcg 9 pt. scale
-
-[Term]
-id: CO_331:0000916:9
-name: Very dry
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000916 ! flstxcg 9 pt. scale
 
 [Term]
 id: CO_331:0000917
@@ -6513,69 +1955,6 @@ name: rttst 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000917 ! evaluation of cooked samples for taste
-
-[Term]
-id: CO_331:0000918:1
-name: Excellent
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000918 ! rttst 9 pt. scale
-
-[Term]
-id: CO_331:0000918:2
-name: Excellent to good
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000918 ! rttst 9 pt. scale
-
-[Term]
-id: CO_331:0000918:3
-name: Good
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000918 ! rttst 9 pt. scale
-
-[Term]
-id: CO_331:0000918:4
-name: Good to fair
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000918 ! rttst 9 pt. scale
-
-[Term]
-id: CO_331:0000918:5
-name: Fair
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000918 ! rttst 9 pt. scale
-
-[Term]
-id: CO_331:0000918:6
-name: Fair to poor
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000918 ! rttst 9 pt. scale
-
-[Term]
-id: CO_331:0000918:7
-name: Poor
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000918 ! rttst 9 pt. scale
-
-[Term]
-id: CO_331:0000918:8
-name: Poor to terrible
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000918 ! rttst 9 pt. scale
-
-[Term]
-id: CO_331:0000918:9
-name: Terrible
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000918 ! rttst 9 pt. scale
 
 [Term]
 id: CO_331:0000919
@@ -6594,69 +1973,6 @@ relationship: scale_of CO_331:00001106 ! observation of an average or all storag
 relationship: scale_of CO_331:0000919 ! evaluation of cooked samples for appearance
 
 [Term]
-id: CO_331:0000920:1
-name: Very appealing
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000920 ! rtapr 9 pt. scale
-
-[Term]
-id: CO_331:0000920:2
-name: Very appealing to appealing
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000920 ! rtapr 9 pt. scale
-
-[Term]
-id: CO_331:0000920:3
-name: Appealing
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000920 ! rtapr 9 pt. scale
-
-[Term]
-id: CO_331:0000920:4
-name: Appealing to somewhat appealing
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000920 ! rtapr 9 pt. scale
-
-[Term]
-id: CO_331:0000920:5
-name: Somewhat appealing
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000920 ! rtapr 9 pt. scale
-
-[Term]
-id: CO_331:0000920:6
-name: Somewhat appealing to unappealing
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000920 ! rtapr 9 pt. scale
-
-[Term]
-id: CO_331:0000920:7
-name: Unappealing
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000920 ! rtapr 9 pt. scale
-
-[Term]
-id: CO_331:0000920:8
-name: Unappealing to very unappealing
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000920 ! rtapr 9 pt. scale
-
-[Term]
-id: CO_331:0000920:9
-name: Very unappealing
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000920 ! rtapr 9 pt. scale
-
-[Term]
 id: CO_331:0000921
 name: evaluation of roots for sprouting ability
 namespace: SweetpotatoMethod
@@ -6670,69 +1986,6 @@ name: rtsprt 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000921 ! evaluation of roots for sprouting ability
-
-[Term]
-id: CO_331:0000922:1
-name: Excellent
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000922 ! rtsprt 9 pt. scale
-
-[Term]
-id: CO_331:0000922:2
-name: Excellent to good
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000922 ! rtsprt 9 pt. scale
-
-[Term]
-id: CO_331:0000922:3
-name: Good
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000922 ! rtsprt 9 pt. scale
-
-[Term]
-id: CO_331:0000922:4
-name: Good to fair
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000922 ! rtsprt 9 pt. scale
-
-[Term]
-id: CO_331:0000922:5
-name: Fair
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000922 ! rtsprt 9 pt. scale
-
-[Term]
-id: CO_331:0000922:6
-name: Fair to poor
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000922 ! rtsprt 9 pt. scale
-
-[Term]
-id: CO_331:0000922:7
-name: Poor
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000922 ! rtsprt 9 pt. scale
-
-[Term]
-id: CO_331:0000922:8
-name: Poor to terrible
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000922 ! rtsprt 9 pt. scale
-
-[Term]
-id: CO_331:0000922:9
-name: Terrible
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000922 ! rtsprt 9 pt. scale
 
 [Term]
 id: CO_331:0000923
@@ -6940,69 +2193,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000943 ! observation of storage root surface defects
 
 [Term]
-id: CO_331:0000944:0
-name: Absent
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000944 ! rtssdef 9 pt. scale
-
-[Term]
-id: CO_331:0000944:1
-name: Alligator-like skin
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000944 ! rtssdef 9 pt. scale
-
-[Term]
-id: CO_331:0000944:2
-name: Veins
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000944 ! rtssdef 9 pt. scale
-
-[Term]
-id: CO_331:0000944:3
-name: Shallow horizontal constrictions
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000944 ! rtssdef 9 pt. scale
-
-[Term]
-id: CO_331:0000944:4
-name: Deep horizontal constrictions
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000944 ! rtssdef 9 pt. scale
-
-[Term]
-id: CO_331:0000944:5
-name: Shallow longitudinal grooves
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000944 ! rtssdef 9 pt. scale
-
-[Term]
-id: CO_331:0000944:6
-name: Deep longitudinal grooves
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000944 ! rtssdef 9 pt. scale
-
-[Term]
-id: CO_331:0000944:7
-name: Deep constrictions and deep grooves
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000944 ! rtssdef 9 pt. scale
-
-[Term]
-id: CO_331:0000944:8
-name: Other
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000944 ! rtssdef 9 pt. scale
-
-[Term]
 id: CO_331:0000945
 name: observation of storage root cortex thickness
 namespace: SweetpotatoMethod
@@ -7018,41 +2208,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000945 ! observation of storage root cortex thickness
 
 [Term]
-id: CO_331:0000946:1
-name: Very thin (1 mm)
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000946 ! rtscthi 5 pt. scale
-
-[Term]
-id: CO_331:0000946:3
-name: Thin (1-2 mm)
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000946 ! rtscthi 5 pt. scale
-
-[Term]
-id: CO_331:0000946:5
-name: Intermediate (2-3 mm)
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000946 ! rtscthi 5 pt. scale
-
-[Term]
-id: CO_331:0000946:7
-name: Thick (3-4 mm)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000946 ! rtscthi 5 pt. scale
-
-[Term]
-id: CO_331:0000946:9
-name: Very thick (>4 mm)
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000946 ! rtscthi 5 pt. scale
-
-[Term]
 id: CO_331:0000947
 name: observation of number flowers in the inflorescence
 namespace: SweetpotatoMethod
@@ -7066,34 +2221,6 @@ name: flrhab 4 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000947 ! observation of number flowers in the inflorescence
-
-[Term]
-id: CO_331:0000948:0
-name: None
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000948 ! flrhab 4 pt. scale
-
-[Term]
-id: CO_331:0000948:3
-name: Sparse
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000948 ! flrhab 4 pt. scale
-
-[Term]
-id: CO_331:0000948:5
-name: Moderate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000948 ! flrhab 4 pt. scale
-
-[Term]
-id: CO_331:0000948:7
-name: Profuse
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000948 ! flrhab 4 pt. scale
 
 [Term]
 id: CO_331:0000949
@@ -7125,27 +2252,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000951 ! observation of shape limb in the flowers in the inflorescence
 
 [Term]
-id: CO_331:0000952:3
-name: Semi-stellate
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000952 ! flrshl 3 pt. scale
-
-[Term]
-id: CO_331:0000952:5
-name: Pentagonal
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000952 ! flrshl 3 pt. scale
-
-[Term]
-id: CO_331:0000952:7
-name: Rounded
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000952 ! flrshl 3 pt. scale
-
-[Term]
 id: CO_331:0000953
 name: equality of sepal length
 namespace: SweetpotatoMethod
@@ -7159,20 +2265,6 @@ name: sepeql 2 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000953 ! equality of sepal length
-
-[Term]
-id: CO_331:0000954:1
-name: Outer two shorter
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000954 ! sepeql 2 pt. scale
-
-[Term]
-id: CO_331:0000954:2
-name: Equal
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000954 ! sepeql 2 pt. scale
 
 [Term]
 id: CO_331:0000955
@@ -7205,41 +2297,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000957 ! observation of  sepal shape
 
 [Term]
-id: CO_331:0000958:1
-name: Ovate
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000958 ! sepshp 5 pt. scale
-
-[Term]
-id: CO_331:0000958:3
-name: Elliptic
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000958 ! sepshp 5 pt. scale
-
-[Term]
-id: CO_331:0000958:5
-name: Obovate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000958 ! sepshp 5 pt. scale
-
-[Term]
-id: CO_331:0000958:7
-name: Oblong
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000958 ! sepshp 5 pt. scale
-
-[Term]
-id: CO_331:0000958:9
-name: Lanceolate
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000958 ! sepshp 5 pt. scale
-
-[Term]
 id: CO_331:0000959
 name: observation of sepal apex
 namespace: SweetpotatoMethod
@@ -7253,34 +2310,6 @@ name: sepapx 4 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000959 ! observation of sepal apex
-
-[Term]
-id: CO_331:0000960:1
-name: Acute
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000960 ! sepapx 4 pt. scale
-
-[Term]
-id: CO_331:0000960:3
-name: Obtuse
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000960 ! sepapx 4 pt. scale
-
-[Term]
-id: CO_331:0000960:5
-name: Acuminate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000960 ! sepapx 4 pt. scale
-
-[Term]
-id: CO_331:0000960:7
-name: Caudate
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000960 ! sepapx 4 pt. scale
 
 [Term]
 id: CO_331:0000961
@@ -7298,34 +2327,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000961 ! observation of sepal pubescence
 
 [Term]
-id: CO_331:0000962:0
-name: Absent
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000962 ! seppub 4 pt. scale
-
-[Term]
-id: CO_331:0000962:3
-name: Sparse
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000962 ! seppub 4 pt. scale
-
-[Term]
-id: CO_331:0000962:5
-name: Moderate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000962 ! seppub 4 pt. scale
-
-[Term]
-id: CO_331:0000962:7
-name: Heavy
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000962 ! seppub 4 pt. scale
-
-[Term]
 id: CO_331:0000963
 name: observation of sepal color
 namespace: SweetpotatoMethod
@@ -7339,48 +2340,6 @@ name: sepcol 7 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000963 ! observation of sepal color
-
-[Term]
-id: CO_331:0000964:1
-name: Green
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000964 ! sepcol 7 pt. scale
-
-[Term]
-id: CO_331:0000964:2
-name: Green with purple edge
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000964 ! sepcol 7 pt. scale
-
-[Term]
-id: CO_331:0000964:3
-name: Green with purple spots
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000964 ! sepcol 7 pt. scale
-
-[Term]
-id: CO_331:0000964:5
-name: Green with purple areas
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000964 ! sepcol 7 pt. scale
-
-[Term]
-id: CO_331:0000964:6
-name: Sorne sepals green, others purple
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000964 ! sepcol 7 pt. scale
-
-[Term]
-id: CO_331:0000964:9
-name: Totally pigrnented - dark purple
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000964 ! sepcol 7 pt. scale
 
 [Term]
 id: CO_331:0000965
@@ -7398,27 +2357,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000965 ! observation of stigma color
 
 [Term]
-id: CO_331:0000966:1
-name: White
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000966 ! stgcol 3 pt. scale
-
-[Term]
-id: CO_331:0000966:5
-name: Pale purple
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000966 ! stgcol 3 pt. scale
-
-[Term]
-id: CO_331:0000966:9
-name: Purple
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000966 ! stgcol 3 pt. scale
-
-[Term]
 id: CO_331:0000967
 name: observation of style color
 namespace: SweetpotatoMethod
@@ -7432,41 +2370,6 @@ name: stycol 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000967 ! observation of style color
-
-[Term]
-id: CO_331:0000968:1
-name: White
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000968 ! stycol 5 pt. scale
-
-[Term]
-id: CO_331:0000968:3
-name: White with purple at the base
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000968 ! stycol 5 pt. scale
-
-[Term]
-id: CO_331:0000968:5
-name: White with purple at the top
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000968 ! stycol 5 pt. scale
-
-[Term]
-id: CO_331:0000968:7
-name: White with purple spots throughout
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000968 ! stycol 5 pt. scale
-
-[Term]
-id: CO_331:0000968:9
-name: Purple
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000968 ! stycol 5 pt. scale
 
 [Term]
 id: CO_331:0000969
@@ -7484,34 +2387,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000969 ! observation of stigma exertion
 
 [Term]
-id: CO_331:0000970:1
-name: Inserted (shorter than longest anther)
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000970 ! stgext 4 pt. scale
-
-[Term]
-id: CO_331:0000970:3
-name: Same height as highest anther
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000970 ! stgext 4 pt. scale
-
-[Term]
-id: CO_331:0000970:5
-name: Slighty exerted
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000970 ! stgext 4 pt. scale
-
-[Term]
-id: CO_331:0000970:7
-name: Exerted (longer than longest anther)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000970 ! stgext 4 pt. scale
-
-[Term]
 id: CO_331:0000971
 name: observation of seed capsule set
 namespace: SweetpotatoMethod
@@ -7525,41 +2400,6 @@ name: sedcap 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000971 ! observation of seed capsule set
-
-[Term]
-id: CO_331:0000972:0
-name: None
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000972 ! sedcap 5 pt. scale
-
-[Term]
-id: CO_331:0000972:1
-name: Scarce
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000972 ! sedcap 5 pt. scale
-
-[Term]
-id: CO_331:0000972:3
-name: Sparse
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000972 ! sedcap 5 pt. scale
-
-[Term]
-id: CO_331:0000972:5
-name: Moderate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000972 ! sedcap 5 pt. scale
-
-[Term]
-id: CO_331:0000972:7
-name: Profuse
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000972 ! sedcap 5 pt. scale
 
 [Term]
 id: CO_331:0000973
@@ -7577,34 +2417,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000973 ! observation of storage root formation
 
 [Term]
-id: CO_331:0000974:1
-name: Closed cluster
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000974 ! strfor 4 pt. scale
-
-[Term]
-id: CO_331:0000974:3
-name: Open cluster
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000974 ! strfor 4 pt. scale
-
-[Term]
-id: CO_331:0000974:5
-name: Dispersed
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000974 ! strfor 4 pt. scale
-
-[Term]
-id: CO_331:0000974:7
-name: Very dispersed
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000974 ! strfor 4 pt. scale
-
-[Term]
 id: CO_331:0000975
 name: observation of storage root stalk
 namespace: SweetpotatoMethod
@@ -7618,48 +2430,6 @@ name: strstk 6 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000975 ! observation of storage root stalk
-
-[Term]
-id: CO_331:0000976:0
-name: Sessile or absent
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000976 ! strstk 6 pt. scale
-
-[Term]
-id: CO_331:0000976:1
-name: Very short (<2 cm)
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000976 ! strstk 6 pt. scale
-
-[Term]
-id: CO_331:0000976:3
-name: Short (2-5 cm)
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000976 ! strstk 6 pt. scale
-
-[Term]
-id: CO_331:0000976:5
-name: Intermediate (6-8 cm)
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000976 ! strstk 6 pt. scale
-
-[Term]
-id: CO_331:0000976:7
-name: Long (9-12 cm)
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000976 ! strstk 6 pt. scale
-
-[Term]
-id: CO_331:0000976:9
-name: Very long (>12 cm)
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000976 ! strstk 6 pt. scale
 
 [Term]
 id: CO_331:0000977
@@ -7677,27 +2447,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000977 ! observation of variability of storage root shape
 
 [Term]
-id: CO_331:0000978:3
-name: Uniform
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000978 ! vrtssh 3 pt. scale
-
-[Term]
-id: CO_331:0000978:5
-name: SlightIy variable
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000978 ! vrtssh 3 pt. scale
-
-[Term]
-id: CO_331:0000978:7
-name: Moderately variable
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000978 ! vrtssh 3 pt. scale
-
-[Term]
 id: CO_331:0000979
 name: observation of variability of storage root size
 namespace: SweetpotatoMethod
@@ -7711,27 +2460,6 @@ name: vrtssiz 3 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000979 ! observation of variability of storage root size
-
-[Term]
-id: CO_331:0000980:3
-name: Uniform
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000980 ! vrtssiz 3 pt. scale
-
-[Term]
-id: CO_331:0000980:5
-name: SlightIy variable
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000980 ! vrtssiz 3 pt. scale
-
-[Term]
-id: CO_331:0000980:7
-name: Moderately variable
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000980 ! vrtssiz 3 pt. scale
 
 [Term]
 id: CO_331:0000981
@@ -7749,27 +2477,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000981 ! observation of keeping quality of storage roots
 
 [Term]
-id: CO_331:0000982:3
-name: Poor
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000982 ! kqtyrts 3 pt. scale
-
-[Term]
-id: CO_331:0000982:5
-name: Medium
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000982 ! kqtyrts 3 pt. scale
-
-[Term]
-id: CO_331:0000982:7
-name: Good
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000982 ! kqtyrts 3 pt. scale
-
-[Term]
 id: CO_331:0000983
 name: observation of consistency of boiled storage root
 namespace: SweetpotatoMethod
@@ -7783,69 +2490,6 @@ name: cbolrts 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000983 ! observation of consistency of boiled storage root
-
-[Term]
-id: CO_331:0000984:1
-name: Watery
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000984 ! cbolrts 9 pt. scale
-
-[Term]
-id: CO_331:0000984:2
-name: Extremely soft
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000984 ! cbolrts 9 pt. scale
-
-[Term]
-id: CO_331:0000984:3
-name: Very soft
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000984 ! cbolrts 9 pt. scale
-
-[Term]
-id: CO_331:0000984:4
-name: Soft
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000984 ! cbolrts 9 pt. scale
-
-[Term]
-id: CO_331:0000984:5
-name: Slighty hard
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000984 ! cbolrts 9 pt. scale
-
-[Term]
-id: CO_331:0000984:6
-name: Moderately hard
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000984 ! cbolrts 9 pt. scale
-
-[Term]
-id: CO_331:0000984:7
-name: Hard
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000984 ! cbolrts 9 pt. scale
-
-[Term]
-id: CO_331:0000984:8
-name: Very hard
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000984 ! cbolrts 9 pt. scale
-
-[Term]
-id: CO_331:0000984:9
-name: Very hard and non-cooked
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000984 ! cbolrts 9 pt. scale
 
 [Term]
 id: CO_331:0000985
@@ -7863,76 +2507,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000985 ! observation of undesirable color of boiled storage root
 
 [Term]
-id: CO_331:0000986:0
-name: None
-namespace: SweetpotatoScale
-synonym: "0" EXACT []
-is_a: CO_331:0000986 ! ucolbrts 10 pt. scale
-
-[Term]
-id: CO_331:0000986:1
-name: Sorne beige
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000986 ! ucolbrts 10 pt. scale
-
-[Term]
-id: CO_331:0000986:2
-name: Much beige
-namespace: SweetpotatoScale
-synonym: "2" EXACT []
-is_a: CO_331:0000986 ! ucolbrts 10 pt. scale
-
-[Term]
-id: CO_331:0000986:3
-name: Slighty green or grey
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000986 ! ucolbrts 10 pt. scale
-
-[Term]
-id: CO_331:0000986:4
-name: Green
-namespace: SweetpotatoScale
-synonym: "4" EXACT []
-is_a: CO_331:0000986 ! ucolbrts 10 pt. scale
-
-[Term]
-id: CO_331:0000986:5
-name: Grey
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000986 ! ucolbrts 10 pt. scale
-
-[Term]
-id: CO_331:0000986:6
-name: Beige and green
-namespace: SweetpotatoScale
-synonym: "6" EXACT []
-is_a: CO_331:0000986 ! ucolbrts 10 pt. scale
-
-[Term]
-id: CO_331:0000986:7
-name: Beige and grey
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000986 ! ucolbrts 10 pt. scale
-
-[Term]
-id: CO_331:0000986:8
-name: Beige and purple
-namespace: SweetpotatoScale
-synonym: "8" EXACT []
-is_a: CO_331:0000986 ! ucolbrts 10 pt. scale
-
-[Term]
-id: CO_331:0000986:9
-name: Purple
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000986 ! ucolbrts 10 pt. scale
-
-[Term]
 id: CO_331:0000987
 name: visual estimation of the plant response to  limited water availability
 namespace: SweetpotatoMethod
@@ -7946,41 +2520,6 @@ name: rctdro 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000987 ! visual estimation of the plant response to  limited water availability
-
-[Term]
-id: CO_331:0000988:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000988 ! rctdro 5 pt. scale
-
-[Term]
-id: CO_331:0000988:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000988 ! rctdro 5 pt. scale
-
-[Term]
-id: CO_331:0000988:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000988 ! rctdro 5 pt. scale
-
-[Term]
-id: CO_331:0000988:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000988 ! rctdro 5 pt. scale
-
-[Term]
-id: CO_331:0000988:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000988 ! rctdro 5 pt. scale
 
 [Term]
 id: CO_331:0000989
@@ -7998,41 +2537,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000989 ! visual estimation of the plant response to  flooding (watering saturated soil)
 
 [Term]
-id: CO_331:0000990:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000990 ! rctflo 5 pt. scale
-
-[Term]
-id: CO_331:0000990:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000990 ! rctflo 5 pt. scale
-
-[Term]
-id: CO_331:0000990:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000990 ! rctflo 5 pt. scale
-
-[Term]
-id: CO_331:0000990:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000990 ! rctflo 5 pt. scale
-
-[Term]
-id: CO_331:0000990:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000990 ! rctflo 5 pt. scale
-
-[Term]
 id: CO_331:0000991
 name: visual estimation of the plant response to  hot season with night temperatures of more than 22°c
 namespace: SweetpotatoMethod
@@ -8046,41 +2550,6 @@ name: rctheat 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000991 ! visual estimation of the plant response to  hot season with night temperatures of more than 22°c
-
-[Term]
-id: CO_331:0000992:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000992 ! rctheat 5 pt. scale
-
-[Term]
-id: CO_331:0000992:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000992 ! rctheat 5 pt. scale
-
-[Term]
-id: CO_331:0000992:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000992 ! rctheat 5 pt. scale
-
-[Term]
-id: CO_331:0000992:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000992 ! rctheat 5 pt. scale
-
-[Term]
-id: CO_331:0000992:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000992 ! rctheat 5 pt. scale
 
 [Term]
 id: CO_331:0000993
@@ -8098,41 +2567,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000993 ! visual estimation of the plant response to  soil with salinity levels of more 8 mm/cm
 
 [Term]
-id: CO_331:0000994:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000994 ! rctsty 5 pt. scale
-
-[Term]
-id: CO_331:0000994:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000994 ! rctsty 5 pt. scale
-
-[Term]
-id: CO_331:0000994:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000994 ! rctsty 5 pt. scale
-
-[Term]
-id: CO_331:0000994:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000994 ! rctsty 5 pt. scale
-
-[Term]
-id: CO_331:0000994:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000994 ! rctsty 5 pt. scale
-
-[Term]
 id: CO_331:0000995
 name: visual estimation of the plant response to  shape
 namespace: SweetpotatoMethod
@@ -8148,41 +2582,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000995 ! visual estimation of the plant response to  shape
 
 [Term]
-id: CO_331:0000996:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000996 ! rctshd 5 pt. scale
-
-[Term]
-id: CO_331:0000996:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000996 ! rctshd 5 pt. scale
-
-[Term]
-id: CO_331:0000996:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000996 ! rctshd 5 pt. scale
-
-[Term]
-id: CO_331:0000996:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000996 ! rctshd 5 pt. scale
-
-[Term]
-id: CO_331:0000996:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000996 ! rctshd 5 pt. scale
-
-[Term]
 id: CO_331:0000997
 name: visual estimation of the plant response to  acid and heavy ph soil below 5
 namespace: SweetpotatoMethod
@@ -8196,41 +2595,6 @@ name: rctsph 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000997 ! visual estimation of the plant response to  acid and heavy ph soil below 5
-
-[Term]
-id: CO_331:0000998:1
-name: Very low
-namespace: SweetpotatoScale
-synonym: "1" EXACT []
-is_a: CO_331:0000998 ! rctsph 5 pt. scale
-
-[Term]
-id: CO_331:0000998:3
-name: Low
-namespace: SweetpotatoScale
-synonym: "3" EXACT []
-is_a: CO_331:0000998 ! rctsph 5 pt. scale
-
-[Term]
-id: CO_331:0000998:5
-name: Intermediate
-namespace: SweetpotatoScale
-synonym: "5" EXACT []
-is_a: CO_331:0000998 ! rctsph 5 pt. scale
-
-[Term]
-id: CO_331:0000998:7
-name: High
-namespace: SweetpotatoScale
-synonym: "7" EXACT []
-is_a: CO_331:0000998 ! rctsph 5 pt. scale
-
-[Term]
-id: CO_331:0000998:9
-name: Very High
-namespace: SweetpotatoScale
-synonym: "9" EXACT []
-is_a: CO_331:0000998 ! rctsph 5 pt. scale
 
 [Term]
 id: CO_331:0000999
