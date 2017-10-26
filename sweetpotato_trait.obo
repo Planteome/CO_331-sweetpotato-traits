@@ -6917,7 +6917,6 @@ relationship: variable_of CO_331:00001143 ! soils insect evaluation
 relationship: variable_of CO_331:00001144 ! rtsinsdam  5 pt. scale
 relationship: variable_of CO_331:0000440 ! soil insect damage
 
-<<<<<<< HEAD
 [Term]
 id: CO_331:0000812
 name: storage root defects (secondary)
