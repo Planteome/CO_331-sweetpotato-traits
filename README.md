@@ -1,5 +1,12 @@
 # ibp-sweetpotato-traits
 
+Sweetpotato Trait Ontology is maintained by http://www.cropontology.org 
+and https://sweetpotatobase.org
+
+Request new traits/variables by submitting a new issue, or by filling the trait request form
+http://submit.rtbbase.org
+
+
 Focal point for requesting new terms: Reinhard Simon (CIP)
 
 The following conventions are being used:
