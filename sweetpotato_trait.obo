@@ -812,7 +812,7 @@ namespace: SweetpotatoMethod
 def: "Visual estimation" []
 is_a: CO_331:1000001 ! Method
 relationship: method_of CO_331:0000410 ! storage root stalk
-relationship: method_of CO_331:0000411 ! storage root attachement
+relationship: method_of CO_331:0000411 ! storage root attachment
 relationship: method_of CO_331:0000412 ! length to diameter ratio of roots
 relationship: method_of CO_331:0000413 ! skin color of roots
 relationship: method_of CO_331:0000414 ! skin texture of roots
@@ -5090,7 +5090,7 @@ created_by: C. Yencho
 
 [Term]
 id: CO_331:0000411
-name: storage root attachement
+name: storage root attachment
 namespace: SweetpotatoTrait
 def: "Ability of storage roots to remain attached to stem after digging and forcible shaking roots off" []
 synonym: "RtAtt" EXACT []
