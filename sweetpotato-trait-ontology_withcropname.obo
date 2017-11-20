@@ -2320,14 +2320,14 @@ id: CO_331:0000371
 name: sweetpotato reaction to reniform nematode trait
 def: "Reaction to Reniform nematode" [CO:curators]
 synonym: "RnRFN" EXACT []
-is_a: TO_0000384
+is_a: TO:0000384
 
 [Term]
 id: CO_331:0000372
 name: sweetpotato reaction to sting nematode trait
 def: "Reaction to Sting nematode" [CO:curators]
 synonym: "RnStN" EXACT []
-is_a: TO_0000384
+is_a: TO:0000384
 
 [Term]
 id: CO_331:0000373
@@ -2341,14 +2341,14 @@ id: CO_331:0000374
 name: sweetpotato reaction to root lesion nematode trait
 def: "Reaction to Root lesion nematode" [CO:curators]
 synonym: "RnRLN" EXACT []
-is_a: TO_0000384
+is_a: TO:0000384
 
 [Term]
 id: CO_331:0000375
 name: sweetpotato reaction to other nematodes trait
 def: "Reaction to other nematodes" [CO:curators]
 synonym: "RnON" EXACT []
-is_a: TO_0000384
+is_a: TO:0000384
 
 [Term]
 id: CO_331:0000376
@@ -2653,14 +2653,14 @@ id: CO_331:0000420
 name: sweetpotato reaction to root knot nematode meloidogyne spp trait
 def: "Reaction to Root-knot nematode Meloidogyne spp. symptom evaluation" [CO:curators]
 synonym: "RnMgRKN" EXACT []
-is_a: TO_0000384
+is_a: TO:0000384
 
 [Term]
 id: CO_331:0000421
 name: sweetpotato reaction to root knot nematode meloidogyne incognita trait
 def: "Reaction to Root-knot nematode Meloidogyne incognita symptom evaluation" [CO:curators]
 synonym: "RnMgIRKN" EXACT []
-is_a: TO_0000384
+is_a: TO:0000384
 
 [Term]
 id: CO_331:0000422
