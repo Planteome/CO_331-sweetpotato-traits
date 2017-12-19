@@ -7,7 +7,7 @@ Request new traits/variables by submitting a new issue in this github repo,
 or by filling the trait request form http://submit.rtbbase.org
 
 
-Focal point for requesting new terms: Reinhard Simon (CIP)
+Focal point for requesting new terms: CIP
 
 The following conventions are being used:
 
