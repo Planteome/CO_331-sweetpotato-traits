@@ -870,27 +870,6 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
 
 [Term]
-id: CO_331:00001112:2.5
-name: Yellow with orange
-namespace: SweetpotatoScale
-synonym: "2.5" EXACT []
-is_a: CO_331:00001112 ! rtflscolc 9 pt. scale
-
-[Term]
-id: CO_331:00001112:2.75
-name: Orange with yellow
-namespace: SweetpotatoScale
-synonym: "2.75" EXACT []
-is_a: CO_331:00001112 ! rtflscolc 9 pt. scale
-
-[Term]
-id: CO_331:00001112:3.5
-name: Dark Orange
-namespace: SweetpotatoScale
-synonym: "3.5" EXACT []
-is_a: CO_331:00001112 ! rtflscolc 9 pt. scale
-
-[Term]
 id: CO_331:00001113
 name: rtflscola 9 pt. scale
 namespace: SweetpotatoScale
@@ -2155,27 +2134,6 @@ name: rtscb 3 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000941 ! estimation of color of cooked roots immediately after cooking
-
-[Term]
-id: CO_331:0000942:DO
-name: Deep orange
-namespace: SweetpotatoScale
-synonym: "DO" EXACT []
-is_a: CO_331:0000942 ! rtscb 3 pt. scale
-
-[Term]
-id: CO_331:0000942:IO
-name: Intermediate orange
-namespace: SweetpotatoScale
-synonym: "IO" EXACT []
-is_a: CO_331:0000942 ! rtscb 3 pt. scale
-
-[Term]
-id: CO_331:0000942:O
-name: Orange
-namespace: SweetpotatoScale
-synonym: "O" EXACT []
-is_a: CO_331:0000942 ! rtscb 3 pt. scale
 
 [Term]
 id: CO_331:0000943
@@ -6918,7 +6876,7 @@ relationship: variable_of CO_331:00001144 ! rtsinsdam  5 pt. scale
 relationship: variable_of CO_331:0000440 ! soil insect damage
 
 [Term]
-id: CO_331:0000812
+id: CO_331:0000811
 name: storage root defects (secondary)
 def: "Type and/or name of secondary visible storage root defect" []
 synonym: "RtDefS" EXACT []
@@ -6927,17 +6885,17 @@ created_by: C. Yencho
 creation_date: 2016-11-30T20:41:53Z
 
 [Term]
-id: CO_331:0000813
+id: CO_331:0000810
 name: Storage Root Defects secondary estimating 1-18
 def: "Type and/or name of secondary visible storage root defect. 1 = Blisters (BLI), 2 = Tea Staining (TEA), 3 = Air Cracking (AIR), 4 = Bumpy (BUM), 5 = Cracking (CRA), 6 = Early Season Cracking (ESC), 7 = Grooves (GRV), 8 = Insect Damage (INS), 9 = Excessive Latex (LTX), 10 = Skinning (SKN), 11 = Sprouts (SPR), 12 = Striations (STR), 13 = Tails (TLS), 14 = Veins (VNS), 15 = Deep Eyes (DES), 16 = Misshapes (MIS), 17 = Secondary Roots (SRS), 18 = Tight Hills (THS)." []
 synonym: "RTDEF2" EXACT []
 synonym: "RtDefS_Et_1to18" EXACT []
-relationship: variable_of CO_331:0000812 ! storage root defects (secondary)
+relationship: variable_of CO_331:0000811 ! storage root defects (secondary)
 created_by: C. Yencho
 creation_date: 2016-11-30T20:44:25Z
 
 [Term]
-id: CO_331:0000814
+id: CO_331:0000809
 name: Storage root total marketable yield weight computation tons per ha
 def: "Marketable root yield" []
 synonym: "RtCYld_Cp_tha" EXACT []
@@ -6947,7 +6905,7 @@ created_by: W. Grueneberg
 creation_date: 2016-11-30T21:23:23Z
 
 [Term]
-id: CO_331:0000815
+id: CO_331:0000808
 name: overall storage root disease symptoms
 def: "Overall storage root disease symptoms evaluation" []
 synonym: "RtDSm" EXACT []
@@ -6956,7 +6914,7 @@ created_by: C. Yencho
 creation_date: 2016-12-01T02:33:40Z
 
 [Term]
-id: CO_331:0000816
+id: CO_331:0000600
 name: Overall storage root disease symptoms estimating 1-9
 def: "Overall storage root disease symptoms evaluation. 1=Very poor, 3 = Poor, 5 = Moderate, 7 = Good, 9 = No disease" []
 synonym: "DISEASE" EXACT []
