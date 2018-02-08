@@ -951,6 +951,13 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
 
 [Term]
+id: CO_331:00001124
+name: rtyldr 5 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
+
+[Term]
 id: CO_331:00001125
 name: ptmtss 5 pt. scale
 namespace: SweetpotatoScale
@@ -3499,6 +3506,7 @@ def: "Virus symptoms 2." [Grueneberg2010:Def_14]
 comment: | Context of use:  Evaluation in Trials | Growth stage: W13 | Variable status: Recommended | Scientist: W. Grueneberg | Institution: CIP, SASHA | Language of submission: EN | Date of submission: 2015-10-22.
 synonym: "VIR2" EXACT []
 synonym: "VirSm2_Et_1to9" EXACT []
+is_a: CO_331:1000003 ! Variable
 relationship: variable_of CO_331:0000094 ! virus symptoms
 relationship: variable_of CO_331:0000873 ! virus symptoms evaluation
 relationship: variable_of CO_331:0000874 ! virsym 9 pt. scale
@@ -6890,6 +6898,7 @@ name: Storage Root Defects secondary estimating 1-18
 def: "Type and/or name of secondary visible storage root defect. 1 = Blisters (BLI), 2 = Tea Staining (TEA), 3 = Air Cracking (AIR), 4 = Bumpy (BUM), 5 = Cracking (CRA), 6 = Early Season Cracking (ESC), 7 = Grooves (GRV), 8 = Insect Damage (INS), 9 = Excessive Latex (LTX), 10 = Skinning (SKN), 11 = Sprouts (SPR), 12 = Striations (STR), 13 = Tails (TLS), 14 = Veins (VNS), 15 = Deep Eyes (DES), 16 = Misshapes (MIS), 17 = Secondary Roots (SRS), 18 = Tight Hills (THS)." []
 synonym: "RTDEF2" EXACT []
 synonym: "RtDefS_Et_1to18" EXACT []
+is_a: CO_331:1000003 ! Variable
 relationship: variable_of CO_331:0000811 ! storage root defects (secondary)
 created_by: C. Yencho
 creation_date: 2016-11-30T20:44:25Z
@@ -6900,6 +6909,7 @@ name: Storage root total marketable yield weight computation tons per ha
 def: "Marketable root yield" []
 synonym: "RtCYld_Cp_tha" EXACT []
 synonym: "RYTHA" EXACT []
+is_a: CO_331:1000003 ! Variable
 relationship: variable_of CO_331:0000307 ! marketable root yield
 created_by: W. Grueneberg
 creation_date: 2016-11-30T21:23:23Z
@@ -6919,6 +6929,7 @@ name: Overall storage root disease symptoms estimating 1-9
 def: "Overall storage root disease symptoms evaluation. 1=Very poor, 3 = Poor, 5 = Moderate, 7 = Good, 9 = No disease" []
 synonym: "DISEASE" EXACT []
 synonym: "RtDSm_Et_1to9" EXACT []
+is_a: CO_331:1000003 ! Variable
 relationship: variable_of CO_331:0000815   ! overall storage root disease symptoms
 created_by: C. Yencho
 creation_date: 2016-12-01T04:02:09Z
