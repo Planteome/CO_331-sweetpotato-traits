@@ -3523,6 +3523,158 @@ created_by: C. Yencho
 creation_date: 2016-12-01T04:02:09Z
 
 [Term]
+id: CO_331:0000601
+name: weight of total US no. 1 storage roots
+def: "Roots 2\" to 3 1/2\" diameter, length of 3\" to 9\", must be well shaped and free of defects." []
+synonym: "RtUS1W" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+created_by: C. Yencho
+
+[Term]
+id: CO_331:0000602
+name: weight of canner storage roots
+def: "Roots 1\" to 2\" diameter, 2\" to 7\" in length." []
+synonym: "RtCanW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+created_by: C. Yencho
+
+[Term]
+id: CO_331:0000603
+name: weight of jumbo storage roots
+def: "Roots that exceed the diameter, length and weight requirements of the above two grades, but are of marketable quality." []
+synonym: "RtJumW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+created_by: C. Yencho
+
+[Term]
+id: CO_331:0000604
+name: weight of cull storage roots
+def: "Roots must be 1\" or larger in diameter and so misshapen or unattractive that they can not fit as marketable roots in the no. 1, Canner, or Jumbo grades" []
+synonym: "RtCulW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+created_by: C. Yencho
+
+[Term]
+id: CO_331:0000605
+name: weight of 90 count US no. 1 storage roots
+def: "Roots 2\" to 3 1/2\" diameter, length of 3\" to 9\", must be well shaped and free of defects that weigh between 5.0 - 9.4 oz. Should take roughly 90 to fill a 40lb box." []
+synonym: "Rt90ctW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+created_by: C. Yencho
+
+[Term]
+id: CO_331:0000606
+name: weight of 55 count US no. 1 storage roots
+def: "Roots 2\" to 3 1/2\" diameter, length of 3\" to 9\", must be well shaped and free of defects that weigh between 9.5 - 14 oz. Should take roughly 55 to fill a 40lb box." []
+synonym: "Rt55ctW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+created_by: C. Yencho
+
+[Term]
+id: CO_331:0000607
+name: weight of 40 count US no. 1 storage roots
+def: "Roots 2\" to 3 1/2\" diameter, length of 3\" to 9\", must be well shaped and free of defects that weigh between 14.1 - 18 oz. Should take roughly 40 to fill a 40lb box." []
+synonym: "Rt40ctW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+created_by: C. Yencho
+
+[Term]
+id: CO_331:0000608
+name: weight of 32 count US no. 1 storage roots
+def: "Roots 2\" to 3 1/2\" diameter, length of 3\" to 9\", must be well shaped and free of defects that weigh between 18.1 - 22 oz. Should take roughly 32 to fill a 40lb box." []
+synonym: "Rt32ctW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+created_by: C. Yencho
+
+[Term]
+id: CO_331:0000609
+name: weight of total US no. 1 storage roots measuring kg per plot
+def: "Roots 2\" to 3 1/2\" diameter, length of 3\" to 9\", must be well shaped and free of defects. Measured in kilograms per plot." []
+synonym: "RtUS1W_Ms_kgplot" EXACT []
+synonym: "US1" EXACT []
+is_a: CO_331:1000003
+relationship: variable_of CO_331:0000601 ! weight of total US no. 1 storage roots
+relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000893 ! kg/plot
+
+[Term]
+id: CO_331:0000610
+name: weight of canner storage roots measuring kg per plot
+def: "Roots 1\" to 2\" diameter, 2\" to 7\" in length. Measured in kilograms per plot." []
+synonym: "CAN" EXACT []
+synonym: "RtCanW_Ms_kgplot" EXACT []
+is_a: CO_331:1000003
+relationship: variable_of CO_331:0000602 ! weight of canner storage roots
+relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000893 ! kg/plot
+
+[Term]
+id: CO_331:0000611
+name: weight of jumbo storage roots measuring kg per plot
+def: "Roots that exceed the diameter, length and weight requirements of the above two grades, but are of marketable quality. Measured in kilograms per plot." []
+synonym: "JUM" EXACT []
+synonym: "RtJumW_Ms_kgplot" EXACT []
+is_a: CO_331:1000003
+relationship: variable_of CO_331:0000603 ! weight of jumbo storage roots
+relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000893 ! kg/plot
+
+[Term]
+id: CO_331:0000612
+name: weight of cull storage roots measuring kg per plot
+def: "Roots must be 1\" or larger in diameter and so misshapen or unattractive that they can not fit as marketable roots in the no. 1, Canner, or Jumbo grades. Measured in kilograms per plot." []
+synonym: "CUL" EXACT []
+synonym: "RtCulW_Ms_kgplot" EXACT []
+is_a: CO_331:1000003
+relationship: variable_of CO_331:0000604 ! weight of cull storage roots
+relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000893 ! kg/plot
+
+[Term]
+id: CO_331:0000613
+name: weight of 90 count US no. 1 storage roots measuring kg per plot
+def: "Roots 2\" to 3 1/2\" diameter, length of 3\" to 9\", must be well shaped and free of defects that weigh between 5.0 - 9.4 oz. Should take roughly 90 to fill a 40lb box. Measured in kilograms per plot." []
+synonym: "90CT" EXACT []
+synonym: "Rt90ctW_Ms_kgplot" EXACT []
+is_a: CO_331:1000003
+relationship: variable_of CO_331:0000605 ! weight of 90 count US no. 1 storage roots
+relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000893 ! kg/plot
+
+[Term]
+id: CO_331:0000614
+name: weight of 55 count US no. 1 storage roots measuring kg per plot
+def: "Roots 2\" to 3 1/2\" diameter, length of 3\" to 9\", must be well shaped and free of defects that weigh between 9.5 - 14 oz. Should take roughly 55 to fill a 40lb box. Measured in kilograms per plot." []
+synonym: "55CT" EXACT []
+synonym: "Rt55ctW_Ms_kgplot" EXACT []
+is_a: CO_331:1000003
+relationship: variable_of CO_331:0000606 ! weight of 55 count US no. 1 storage roots
+relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000893 ! kg/plot
+
+[Term]
+id: CO_331:0000615
+name: weight of 40 count US no. 1 storage roots measuring kg per plot
+def: "Roots 2\" to 3 1/2\" diameter, length of 3\" to 9\", must be well shaped and free of defects that weigh between 14.1 - 18 oz. Should take roughly 40 to fill a 40lb box. Measured in kilograms per plot." []
+synonym: "40CT" EXACT []
+synonym: "Rt40ctW_Ms_kgplot" EXACT []
+is_a: CO_331:1000003
+relationship: variable_of CO_331:0000607 ! weight of 40 count US no. 1 storage roots
+relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000893 ! kg/plot
+
+[Term]
+id: CO_331:0000616
+name: weight of 32 count US no. 1 storage roots measuring kg per plot
+def: "Roots 2\" to 3 1/2\" diameter, length of 3\" to 9\", must be well shaped and free of defects that weigh between 18.1 - 22 oz. Should take roughly 32 to fill a 40lb box. Measured in kilograms per plot." []
+synonym: "32CT" EXACT []
+synonym: "Rt32ctW_Ms_kgplot" EXACT []
+is_a: CO_331:1000003
+relationship: variable_of CO_331:0000608 ! weight of 32 count US no. 1 storage roots
+relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000893 ! kg/plot
+
+[Term]
 id: CO_331:0000678
 name: Plants planted counting number per plot
 def: "Number of plants planted" []
