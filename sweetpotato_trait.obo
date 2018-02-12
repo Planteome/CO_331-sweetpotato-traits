@@ -7015,19 +7015,16 @@ relationship: method_of CO_331:0000354 ! reaction to high soil temperature
 id: CO_331:1000001
 name: Methods
 namespace: SweetpotatoMethod
-is_a: CO_331:0000000 ! CGIAR sweetpotato trait ontology
 
 [Term]
 id: CO_331:1000002
 name: Scales
 namespace: SweetpotatoScale
-is_a: CO_331:0000000 ! CGIAR sweetpotato trait ontology
 
 [Term]
 id: CO_331:1000003
 name: Variables
 namespace: SweetpotatoTrait
-is_a: CO_331:0000000 ! CGIAR sweetpotato trait ontology
 
 [Term]
 id: CO_331:1000004
