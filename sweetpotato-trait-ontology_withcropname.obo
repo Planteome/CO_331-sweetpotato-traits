@@ -27,6 +27,7 @@ id: CO_331:0000004
 name: sweetpotato ground cover trait
 def: "Soil area covered by plant canopy" [CO:curators]
 synonym: "VnFolGRnv" EXACT []
+is_a: TO:1000012 ! whole plant size"
 
 [Term]
 id: CO_331:0000005
@@ -151,7 +152,7 @@ id: CO_331:0000025
 name: sweetpotato leaf lobe number trait
 def: "Number of lateral and central leaf lobes of leaves located in the middle section of the vine" [CO:curators]
 synonym: "LfLbN" EXACT []
-is_a: TO:1000013 ! leaf lamina lobe morphology trait
+is_a: TO:0000748 ! leaf morphology trait
 
 [Term]
 id: CO_331:0000026
