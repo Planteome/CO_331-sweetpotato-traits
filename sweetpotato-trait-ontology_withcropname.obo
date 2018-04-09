@@ -425,7 +425,7 @@ id: CO_331:0000070
 name: sweetpotato latex production in storage roots trait
 def: "Amount of latex observed after cross sectioning medium-sized storage roots" [CO:curators]
 synonym: "RtLxP" EXACT []
-is_a: TO:1000007 ! tuberous root tuber morphology trait
+is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_331:0000071
