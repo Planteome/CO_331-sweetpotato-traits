@@ -1279,7 +1279,7 @@ id: CO_331:0000212
 name: sweetpotato number of commercial storage roots trait
 def: "Number of root that are 12 to 20 cm long and at least 10 cm in diameter" [CO:curators]
 synonym: "PtCRt" EXACT []
-is_a: TO:0000084 ! root number
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000213
@@ -1300,7 +1300,7 @@ id: CO_331:0000215
 name: sweetpotato number of non-commercial storage roots trait
 def: "Number of root shorter than 10 cm long and greater than 20 cm long." [CO:curators]
 synonym: "PtNCR" EXACT []
-is_a: TO:0000084 ! root number
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000217
@@ -1316,7 +1316,7 @@ id: CO_331:0000218
 name: sweetpotato weight of commercial storage roots trait
 def: "Weight of root that are 12 to 20 cm long and at least 10 cm in diameter" [CO:curators]
 synonym: "RtCmW" EXACT []
-is_a: TO:0000279 ! root weight
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000219
@@ -1339,7 +1339,7 @@ id: CO_331:0000221
 name: sweetpotato weight of non-commercial storage roots trait
 def: "Weight of root shorter than 10 cm long and greater than 20 cm long." [CO:curators]
 synonym: "RtNCmW" EXACT []
-is_a: TO:0000279 ! root weight
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000223
@@ -1355,7 +1355,7 @@ id: CO_331:0000224
 name: sweetpotato weight of vines trait
 def: "Weight of vines" [CO:curators]
 synonym: "VnW" EXACT []
-is_a: TO:0000398 ! whole plant morphology trait
+is_a: TO:0000952 ! stem weight
 
 [Term]
 id: CO_331:0000225
@@ -1547,7 +1547,7 @@ id: CO_331:0000256
 name: sweetpotato fiber cooked trait
 def: "Fiber content in cooked samples" [CO:curators]
 synonym: "RtFlsFbC" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0002642 ! dietary fiber related trait
 
 [Term]
 id: CO_331:0000257
@@ -1620,7 +1620,7 @@ id: CO_331:0000266
 name: sweetpotato overall taste of cooked sample trait
 def: "Overall taste of cooked sample" [CO:curators]
 synonym: "RtFlsTs" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000267
@@ -1647,7 +1647,7 @@ id: CO_331:0000270
 name: sweetpotato overall appearance of cooked sample trait
 def: "Appearance of cooked sample" [CO:curators]
 synonym: "RtFlsAp" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000271
@@ -1728,7 +1728,7 @@ id: CO_331:0000281
 name: sweetpotato calcium content trait
 def: "Content of calcium on dry weight basis of the root" [CO:curators]
 synonym: "RtFlsCa" EXACT []
-is_a: TO:0006047 ! calcium content trait
+is_a: TO:1000029 ! oot system calcium content
 
 [Term]
 id: CO_331:0000282
@@ -1750,7 +1750,8 @@ id: CO_331:0000285
 name: sweetpotato magnesium content trait
 def: "Content of magnesium on dry weight basis of the root" [CO:curators]
 synonym: "RtFlsMg" EXACT []
-is_a: TO:0006044 ! magnesium content
+is_a: "TO:1000038
+is_a: TO:1000038 ! root system magnesium content
 
 [Term]
 id: CO_331:0000286
@@ -1853,7 +1854,7 @@ id: CO_331:0000298
 name: sweetpotato survival index trait
 def: "Survival index" [CO:curators]
 synonym: "IxSrv" EXACT []
-is_a: TO:0000597 ! plant quality trait
+is_a: TO:0000597 ! plant vigor trait
 
 [Term]
 id: CO_331:0000299
