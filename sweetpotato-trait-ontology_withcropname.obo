@@ -1882,13 +1882,13 @@ relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 
 [Term]
 id: CO_331:0000303
-name: sweetpotato number of plants planted trait
+name: sweetpotato number of plants planted
 def: "Number of plants planted" [CO:curators]
 synonym: "PltPld" EXACT []
 
 [Term]
 id: CO_331:0000304
-name: sweetpotato number of plants harvested trait
+name: sweetpotato number of plants harvested
 def: "Number of plants harvested" [CO:curators]
 synonym: "PtHrv" EXACT []
 
@@ -1931,7 +1931,7 @@ id: CO_331:0000311
 name: sweetpotato biomass yield trait
 def: "Biomass yield" [CO:curators]
 synonym: "BioYld" EXACT []
-is_a: TO:0001041 ! root yield
+is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_331:0000312
@@ -2031,7 +2031,7 @@ id: CO_331:0000330
 name: sweetpotato shape of limb trait
 def: "Shape of limb" [CO:curators]
 synonym: "FrShL" EXACT []
-is_a: TO:0000859 ! flower shape
+is_a: TO:0000863 ! petal morphology trait
 
 [Term]
 id: CO_331:0000331
@@ -2044,6 +2044,7 @@ id: CO_331:0000332
 name: sweetpotato number of sepal veins trait
 def: "Number of veins observed in the sepals" [CO:curators]
 synonym: "FrSepNVn" EXACT []
+is_a: TO:0000864 ! sepal morphology trait
 
 [Term]
 id: CO_331:0000333
@@ -2057,7 +2058,7 @@ id: CO_331:0000334
 name: sweetpotato sepal apex trait
 def: "Sepal apex" [CO:curators]
 synonym: "FrSepApx" EXACT []
-is_a: TO:0000754 ! cardinal organ part morphology trait
+is_a: TO:0000864 ! sepal morphology trait
 
 [Term]
 id: CO_331:0000335
@@ -2092,14 +2093,14 @@ id: CO_331:0000339
 name: sweetpotato stigma exertion trait
 def: "The relative position of the stigma as compared to the highest anther." [CO:curators]
 synonym: "FrStgExt" EXACT []
-is_a: TO:0006012 ! carpel morphology trait
+is_a: TO:0000499 ! flower morphology trait
 
 [Term]
 id: CO_331:0000340
 name: sweetpotato seed capsule set trait
 def: "Seed capsule set" [CO:curators]
 synonym: "FrSdCp" EXACT []
-is_a: TO:0000736 ! plant organ morphology trait
+is_a: TO:0000852 ! fruit set trait
 
 [Term]
 id: CO_331:0000341
@@ -2113,14 +2114,14 @@ id: CO_331:0000342
 name: sweetpotato storage root stalk trait
 def: "Length of stalk joining the storage roots to the stems" [CO:curators]
 synonym: "RtStk" EXACT []
-is_a: TO:0000920 ! infructescence morphology trait
+is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000343
 name: sweetpotato variability of storage root shape trait
 def: "Variability of storage root shape" [CO:curators]
 synonym: "RtShV" EXACT []
-is_a: TO:0002710 ! root shape
+is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000344
@@ -2141,14 +2142,14 @@ id: CO_331:0000346
 name: sweetpotato consistency of boiled storage root trait
 def: "Consistency of boiled storage root" [CO:curators]
 synonym: "RtBlCu" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a:  TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000347
 name: sweetpotato undesirable color of boiled storage root trait
 def: "Undesirable color of boiled storage root" [CO:curators]
 synonym: "RtBlCd" EXACT []
-is_a: TO:0000065 ! root color
+is_a:  TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000348
@@ -2163,7 +2164,7 @@ name: sweetpotato reaction to flooding trait
 def: "Response of plant to inundation by water of all or part of the plant" [CO:curators]
 synonym: "RnFld" EXACT []
 synonym: "waterlogging response" EXACT []
-is_a: TO:0000103 ! deepwater stress
+is_a: TO:0000114 ! flooding related trait
 
 [Term]
 id: CO_331:0000350
@@ -2540,30 +2541,35 @@ id: CO_331:0000403
 name: sweetpotato appearance of plant trait
 def: "Appearance of plant" [CO:curators]
 synonym: "PtHbt" EXACT []
+is_a: TO:0000737 ! plant aspect
 
 [Term]
 id: CO_331:0000404
 name: sweetpotato appearance of flower trait
 def: "Appearance of flower" [CO:curators]
 synonym: "FrCol" EXACT []
+is_a: TO:0000499 ! flower morphology trait
 
 [Term]
 id: CO_331:0000405
 name: sweetpotato appearance of roots trait
 def: "Appearance of roots" [CO:curators]
 synonym: "RtCol" EXACT []
+is_a: TO:0000043 ! root morphology trait
 
 [Term]
 id: CO_331:0000406
 name: sweetpotato appearance of seeds trait
 def: "Appearance of seeds" [CO:curators]
 synonym: "FrSds" EXACT []
+is_a: TO:0000184 ! seed morphology trait
 
 [Term]
 id: CO_331:0000407
 name: sweetpotato appearance of leaves trait
 def: "Appearance of leaves" [CO:curators]
 synonym: "Lf" EXACT []
+is_a:  TO:0000748 ! leaf morphology trait
 
 [Term]
 id: CO_331:0000408
