@@ -2576,12 +2576,14 @@ id: CO_331:0000408
 name: sweetpotato appearance of hearbarium trait
 def: "Appearance of hearbarium" [CO:curators]
 synonym: "PtHrb" EXACT []
+is_a: TO:0000737 ! plant aspect
 
 [Term]
 id: CO_331:0000409
 name: sweetpotato appearance of plant organs trait
 def: "Appearance of plant organs" [CO:curators]
 synonym: "PtOrg" EXACT []
+is_a: TO:0000736 ! plant organ morphology trait
 
 [Term]
 id: CO_331:0000410
