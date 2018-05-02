@@ -1750,7 +1750,6 @@ id: CO_331:0000285
 name: sweetpotato magnesium content trait
 def: "Content of magnesium on dry weight basis of the root" [CO:curators]
 synonym: "RtFlsMg" EXACT []
-is_a: "TO:1000038
 is_a: TO:1000038 ! root system magnesium content
 
 [Term]
