@@ -2702,15 +2702,6 @@ is_a: CO_331:1000008 ! Agronomic_trait
 created_by: W. Grueneberg
 
 [Term]
-id: CO_331:0000309
-name: yield of total roots 2
-namespace: SweetpotatoTrait
-def: "Yield of total roots calculated after harvest" []
-synonym: "RtYPP" EXACT []
-is_a: CO_331:1000008 ! Agronomic_trait
-created_by: W. Grueneberg
-
-[Term]
 id: CO_331:0000310
 name: percentage of marketable roots
 namespace: SweetpotatoTrait
@@ -3998,18 +3989,6 @@ is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000308 ! average commercial root weight
 relationship: variable_of CO_331:0000896 ! estimated marketable yield per hectare - method
 relationship: variable_of CO_331:0000897 ! t/ha
-
-[Term]
-id: CO_331:0000681
-name: Storage root total yield computation tons per ha
-namespace: SweetpotatoTrait
-def: "Yield of total roots calculated after harvest" []
-synonym: "RtYPP_Cp_kpl" EXACT []
-synonym: "YPP" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000309 ! yield of total roots 2
-relationship: variable_of CO_331:0000897 ! t/ha
-relationship: variable_of CO_331:0000898 ! estimated yield of total roots per hectare - method
 
 [Term]
 id: CO_331:0000682
@@ -6210,17 +6189,8 @@ name: t/ha
 namespace: SweetpotatoScale
 is_a: CO_331:1000002 ! Scales
 relationship: scale_of CO_331:0000896 ! estimated marketable yield per hectare - method
-relationship: scale_of CO_331:0000898 ! estimated yield of total roots per hectare - method
 relationship: scale_of CO_331:0000901 ! Method of CO_331:0000311
 relationship: scale_of CO_331:0000937 ! estimated yield per hectare - method
-
-[Term]
-id: CO_331:0000898
-name: estimated yield of total roots per hectare - method
-namespace: SweetpotatoMethod
-def: "(Weight of commercial storage roots/ plot size)*10" []
-is_a: CO_331:1000013 ! Computation
-relationship: method_of CO_331:0000309 ! yield of total roots 2
 
 [Term]
 id: CO_331:0000899
