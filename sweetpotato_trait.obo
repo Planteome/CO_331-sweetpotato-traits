@@ -5520,6 +5520,8 @@ def: "Type and/or name of secondary visible storage root defect. 1 = Blisters (B
 synonym: "RTDEF2" EXACT []
 synonym: "RtDefS_Et_1to18" EXACT []
 is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
+relationship: variable_of CO_331:00001123 ! rtdam 14 pt. scale
 relationship: variable_of CO_331:0000811 ! storage root defects (secondary)
 created_by: C. Yencho
 creation_date: 2016-11-30T20:44:25Z
