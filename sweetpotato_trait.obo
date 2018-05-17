@@ -3782,7 +3782,9 @@ def: "Overall storage root disease symptoms evaluation. 1=Very poor, 3 = Poor, 5
 synonym: "DISEASE" EXACT []
 synonym: "RtDSm_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000815 ! pltcov 4 pt. scale
+relationship: variable_of CO_331:0000808 ! overall storage root disease symptoms
+relationship: variable_of CO_331:2000020 ! observation of overall root disease symptoms
+relationship: variable_of CO_331:2000021 ! rtdis 9 pt. scale
 created_by: C. Yencho
 creation_date: 2016-12-01T04:02:09Z
 
@@ -7235,6 +7237,19 @@ id: CO_331:2000019
 name: kg
 namespace: SweetpotatoScale
 is_a: CO_331:1000019 ! Numerical
+
+[Term]
+id: CO_331:2000020
+name: observation of overall root disease symptoms
+namespace: SweetpotatoMethod
+def: "visual estimation" []
+is_a: CO_331:1000014 ! Estimation
+
+[Term]
+id: CO_331:2000021
+name: rtdis 9 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
 
 [Typedef]
 id: method_of
