@@ -3980,15 +3980,15 @@ relationship: variable_of CO_331:0000885 ! evaluation of plants
 
 [Term]
 id: CO_331:0000680
-name: Storage root marketable yield weight computation tons per ha
+name: Average commercial root weight computation g
 namespace: SweetpotatoTrait
 def: "Average commercial root weight evaluated in the harvest" []
 synonym: "ACRW" EXACT []
 synonym: "RtACRW_Cp_g" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000308 ! average commercial root weight
-relationship: variable_of CO_331:0000896 ! estimated marketable yield per hectare - method
-relationship: variable_of CO_331:0000897 ! t/ha
+relationship: variable_of CO_331:2000018 ! average commercial root weight - method
+relationship: variable_of CO_331:0000905 ! g
 
 [Term]
 id: CO_331:0000682
@@ -5508,6 +5508,8 @@ def: "Marketable root yield" []
 synonym: "RtCYld_Cp_tha" EXACT []
 synonym: "RYTHA" EXACT []
 is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000896 ! estimated marketable yield per hectare - method
+relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0000307 ! marketable root yield
 created_by: W. Grueneberg
 creation_date: 2016-11-30T21:23:23Z
@@ -6180,10 +6182,9 @@ relationship: method_of CO_331:0000234 ! total root weight
 id: CO_331:0000896
 name: estimated marketable yield per hectare - method
 namespace: SweetpotatoMethod
-def: "(Weight of commercial storage roots/ plot size)*10" []
+def: "(Weight of commercial storage roots in kg/ plot size in m2)*10" []
 is_a: CO_331:1000013 ! Computation
 relationship: method_of CO_331:0000307 ! marketable root yield
-relationship: method_of CO_331:0000308 ! average commercial root weight
 
 [Term]
 id: CO_331:0000897
@@ -7221,6 +7222,13 @@ is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000885 ! evaluation of plants
 relationship: variable_of CO_331:0000956 ! number
 relationship: variable_of CO_331:2000016 ! plants available
+
+[Term]
+id: CO_331:2000018
+name: average commercial root weight - method
+namespace: SweetpotatoMethod
+def: "(Weight of commercial roots in kg/Number of commercial roots)*1000g/kg" []
+is_a: CO_331:1000013 ! Computation
 
 [Typedef]
 id: method_of
