@@ -3980,15 +3980,15 @@ relationship: variable_of CO_331:0000885 ! evaluation of plants
 
 [Term]
 id: CO_331:0000680
-name: Average commercial root weight computation g
+name: Average commercial root weight computation kg
 namespace: SweetpotatoTrait
 def: "Average commercial root weight evaluated in the harvest" []
 synonym: "ACRW" EXACT []
-synonym: "RtACRW_Cp_g" EXACT []
+synonym: "RtACRW_Cp_kg" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000308 ! average commercial root weight
 relationship: variable_of CO_331:2000018 ! average commercial root weight - method
-relationship: variable_of CO_331:0000905 ! g
+relationship: variable_of CO_331:2000019 ! kg
 
 [Term]
 id: CO_331:0000682
@@ -7227,8 +7227,14 @@ relationship: variable_of CO_331:2000016 ! plants available
 id: CO_331:2000018
 name: average commercial root weight - method
 namespace: SweetpotatoMethod
-def: "(Weight of commercial roots in kg/Number of commercial roots)*1000g/kg" []
+def: "Weight of commercial roots in kg/Number of commercial roots" []
 is_a: CO_331:1000013 ! Computation
+
+[Term]
+id: CO_331:2000019
+name: kg
+namespace: SweetpotatoScale
+is_a: CO_331:1000019 ! Numerical
 
 [Typedef]
 id: method_of
