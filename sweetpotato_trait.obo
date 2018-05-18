@@ -2,7 +2,8 @@ format-version: 1.2
 date: 12:02:2018 19:35
 saved-by: vagrant
 auto-generated-by: OBO-Edit 2.3.1
-default-namespace: SweetpotatoTrait
+default-namespace: DefaultNamespace
+ontology: TEMP
 
 [Term]
 id: CO_331:0000000
@@ -5510,9 +5511,9 @@ def: "Marketable root yield" []
 synonym: "RtCYld_Cp_tha" EXACT []
 synonym: "RYTHA" EXACT []
 is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000307 ! marketable root yield
 relationship: variable_of CO_331:0000896 ! estimated marketable yield per hectare - method
 relationship: variable_of CO_331:0000897 ! t/ha
-relationship: variable_of CO_331:0000307 ! marketable root yield
 created_by: W. Grueneberg
 creation_date: 2016-11-30T21:23:23Z
 
@@ -7250,6 +7251,33 @@ id: CO_331:2000021
 name: rtdis 9 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
+
+[Term]
+id: CO_331:2000022
+name: vine length
+namespace: SweetpotatoTrait
+def: "Length of the main vine" []
+synonym: "VnLg" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:2000023
+name: measurement of vine length
+namespace: SweetpotatoMethod
+def: "Measurement of the main vine from the base to the tip" []
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000024
+name: Vine length measuring cm
+namespace: SweetpotatoTrait
+def: "Length of the main vine measured from the base to the tip in cm" []
+synonym: "VINLEN" EXACT []
+synonym: "VnLg_Ms_cm" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000950 ! cm
+relationship: variable_of CO_331:2000022 ! vine length
+relationship: variable_of CO_331:2000023 ! measurement of vine length
 
 [Typedef]
 id: method_of
