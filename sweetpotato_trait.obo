@@ -7383,6 +7383,26 @@ relationship: variable_of CO_331:2000034 ! leaf area
 relationship: variable_of CO_331:2000035 ! measurement of leaf area
 relationship: variable_of CO_331:2000036 ! mm2
 
+[Term]
+id: CO_331:2000038
+name: weight of pencil type roots
+namespace: SweetpotatoTrait
+namespace: Weight of pencil type roots
+synonym: "RtPnW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:2000039
+name: weight of pencil type roots measuring g
+namespace: SweetpotatoTrait
+def: "Weight of pencil type roots measured in grams" []
+synonym: "PENWGT" EXACT []
+synonym: "RtPnW_Ms_g" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000905 ! g
+relationship: variable_of CO_331:2000038 ! weight of pencil type roots
+
 [Typedef]
 id: method_of
 name: method_of
