@@ -7312,6 +7312,44 @@ relationship: variable_of CO_331:2000025 ! vine diameter
 relationship: variable_of CO_331:2000026 ! measurement of vine diameter
 relationship: variable_of CO_331:2000027 ! mm
 
+[Term]
+id: CO_331:2000029
+name: canopy temperature
+namespace: SweetpotatoTrait
+def: "The canopy temperature by plot" []
+synonym: "CnpTp" EXACT []
+is_a: CO_331:1000004 ! Abiotic_stress_trait
+
+[Term]
+id: CO_331:2000030
+name: measurement of canopy temperature
+namespace: SweetpotatoMethod
+def: "Measurement of the average canopy temperature across a plot using a high temperature recording device." []
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000031
+name: °C
+namespace: SweetpotatoScale
+is_a: CO_331:2000032 ! Ratio
+
+[Term]
+id: CO_331:2000032
+name: Ratio
+is_a: CO_331:1000002 ! Scales
+
+[Term]
+id: CO_331:2000033
+name: Canopy temperature measuring °C
+namespace: SweetpotatoTrait
+def: "Canopy temperature in degrees centigrade recorded as plot average with a high temperature device." []
+synonym: "CANOPYTMP" EXACT []
+synonym: "CnpTp_Ms_°C" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:2000029 ! canopy temperature
+relationship: variable_of CO_331:2000030 ! measurement of canopy temperature
+relationship: variable_of CO_331:2000031 ! °C
+
 [Typedef]
 id: method_of
 name: method_of
