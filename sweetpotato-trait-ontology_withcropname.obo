@@ -486,6 +486,7 @@ id: CO_331:0000082
 name: sweetpotato yield of total roots trait
 def: "Yield evaluated in the harvest" [CO:curators]
 synonym: "RtYld" EXACT []
+is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000083
@@ -590,7 +591,7 @@ id: CO_331:0000103
 name: sweetpotato iron content trait
 def: "Content of iron on dry weight basis of the root" [CO:curators]
 synonym: "RtFlsFe" EXACT []
-is_a: TO:0020089 ! iron content trait
+is_a: TO:1000034 ! root sytem iron content trait
 
 [Term]
 id: CO_331:0000104
@@ -613,7 +614,7 @@ id: CO_331:0000106
 name: sweetpotato zinc content trait
 def: "Content of zinc on dry weight basis of the root" [CO:curators]
 synonym: "RtFlsZn" EXACT []
-is_a: TO:0020090 ! zinc content trait
+is_a: TO:1000050  ! root system zinc content
 
 [Term]
 id: CO_331:0000107
@@ -639,7 +640,7 @@ id: CO_331:0000112
 name: sweetpotato total carotenoids trait
 def: "Total carotenoids content of the root" [CO:curators]
 synonym: "RtFlsTC" EXACT []
-is_a: TO:0000289 ! carotene content
+is_a: TO:0000496  ! carotenoid content
 
 [Term]
 id: CO_331:0000113
@@ -730,7 +731,7 @@ id: CO_331:0000133
 name: sweetpotato color of boiled roots trait
 def: "Color of boiled roots" [CO:curators]
 synonym: "RtCb" EXACT []
-is_a: TO:0000065 ! root color
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000134
@@ -748,7 +749,7 @@ id: CO_331:0000136
 name: sweetpotato texture of boiled storage root flesh trait
 def: "Storage root texture after boiled" [CO:curators]
 synonym: "RtFlsTxH" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000137
@@ -762,7 +763,7 @@ name: sweetpotato sweetness of boiled storage root flesh trait
 def: "Sweetness of boiled root" [CO:curators]
 synonym: "RtFlsSwt" EXACT []
 synonym: "Storage root sweetness" EXACT []
-is_a: TO:0001042 ! root quality trait
+is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000140
@@ -861,6 +862,7 @@ id: CO_331:0000153
 name: sweetpotato vine internode length trait
 def: "Measurement of the vine internode length" [CO:curators]
 synonym: "VnInLg" EXACT []
+is_a: TO:0000145 ! shoot axis internode length
 
 [Term]
 id: CO_331:0000154
@@ -887,7 +889,7 @@ id: CO_331:0000157
 name: sweetpotato vine internode diameter trait
 def: "Measurement of the vine internode diameter" [CO:curators]
 synonym: "VnInD" EXACT []
-is_a: TO:0000145 ! shoot axis internode length
+is_a: TO:0020083 ! stem diameter
 
 [Term]
 id: CO_331:0000158
@@ -1255,7 +1257,7 @@ relationship: variable_of CO_331:0000090 ! sweetpotato rtdam 9 pt. scale
 
 [Term]
 id: CO_331:0000208
-name: sweetpotato number of plants with storage roots trait
+name: sweetpotato number of plants with storage roots
 def: "Number of plants with storage roots" [CO:curators]
 synonym: "PtRt" EXACT []
 
@@ -1279,7 +1281,7 @@ id: CO_331:0000212
 name: sweetpotato number of commercial storage roots trait
 def: "Number of root that are 12 to 20 cm long and at least 10 cm in diameter" [CO:curators]
 synonym: "PtCRt" EXACT []
-is_a: TO:0001041 ! root yield
+is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_331:0000213
@@ -1300,7 +1302,7 @@ id: CO_331:0000215
 name: sweetpotato number of non-commercial storage roots trait
 def: "Number of root shorter than 10 cm long and greater than 20 cm long." [CO:curators]
 synonym: "PtNCR" EXACT []
-is_a: TO:0001041 ! root yield
+is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_331:0000217
@@ -1316,7 +1318,7 @@ id: CO_331:0000218
 name: sweetpotato weight of commercial storage roots trait
 def: "Weight of root that are 12 to 20 cm long and at least 10 cm in diameter" [CO:curators]
 synonym: "RtCmW" EXACT []
-is_a: TO:0001041 ! root yield
+is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0000219
@@ -1339,7 +1341,7 @@ id: CO_331:0000221
 name: sweetpotato weight of non-commercial storage roots trait
 def: "Weight of root shorter than 10 cm long and greater than 20 cm long." [CO:curators]
 synonym: "RtNCmW" EXACT []
-is_a: TO:0001041 ! root yield
+is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0000223
@@ -1750,7 +1752,6 @@ id: CO_331:0000285
 name: sweetpotato magnesium content trait
 def: "Content of magnesium on dry weight basis of the root" [CO:curators]
 synonym: "RtFlsMg" EXACT []
-is_a: "TO:1000038
 is_a: TO:1000038 ! root system magnesium content
 
 [Term]
