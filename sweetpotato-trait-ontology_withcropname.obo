@@ -1260,6 +1260,7 @@ id: CO_331:0000208
 name: sweetpotato number of plants with storage roots
 def: "Number of plants with storage roots" [CO:curators]
 synonym: "PtRt" EXACT []
+is_a: TO:0000250 ! plant vigor trait
 
 [Term]
 id: CO_331:0000209
@@ -1357,7 +1358,7 @@ id: CO_331:0000224
 name: sweetpotato weight of vines trait
 def: "Weight of vines" [CO:curators]
 synonym: "VnW" EXACT []
-is_a: TO:0000952 ! stem weight
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_331:0000225
@@ -1486,6 +1487,7 @@ id: CO_331:0000244
 name: sweetpotato weight of storage root trait
 def: "Weight of storage root samples" [CO:curators]
 synonym: "RtDWt" EXACT []
+is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0000245
@@ -1507,6 +1509,7 @@ id: CO_331:0000248
 name: sweetpotato weight of vines trait
 def: "Weight of vines samples" [CO:curators]
 synonym: "VnFWt" EXACT []
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_331:0000249
@@ -1528,6 +1531,7 @@ id: CO_331:0000252
 name: sweetpotato weight of vines trait
 def: "Weight of vines samples" [CO:curators]
 synonym: "VnDWt" EXACT []
+is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
 id: CO_331:0000253
@@ -2039,7 +2043,7 @@ id: CO_331:0000331
 name: sweetpotato equality of sepal length trait
 def: "Equality of sepal length" [CO:curators]
 synonym: "FrSepEql" EXACT []
-is_a: TO:0000864 ! sepal morphology trait
+is_a: TO:0002607 ! sepal length
 
 [Term]
 id: CO_331:0000332
@@ -2558,7 +2562,7 @@ id: CO_331:0000405
 name: sweetpotato appearance of roots trait
 def: "Appearance of roots" [CO:curators]
 synonym: "RtCol" EXACT []
-is_a: TO:0000043 ! root morphology trait
+is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000406
