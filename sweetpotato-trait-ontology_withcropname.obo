@@ -2601,7 +2601,7 @@ is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000411
-name: sweetpotato storage root attachement trait
+name: sweetpotato storage root attachment trait
 def: "Ability of storage roots to remain attached to stem after digging and forcible shaking roots off" [CO:curators]
 synonym: "RtAtt" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
