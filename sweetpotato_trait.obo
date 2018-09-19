@@ -2,7 +2,7 @@ format-version: 1.2
 date: 12:02:2018 19:35
 saved-by: vagrant
 auto-generated-by: OBO-Edit 2.3.1
-default-namespace: SweetpotatoTrait
+default-namespace: SweetpotatoDefault
 
 [Term]
 id: CO_331:0000000
