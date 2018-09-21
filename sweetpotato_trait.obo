@@ -2,7 +2,7 @@ format-version: 1.2
 date: 12:02:2018 19:35
 saved-by: vagrant
 auto-generated-by: OBO-Edit 2.3.1
-default-namespace: SweetpotatoTrait
+default-namespace: SweetpotatoDefault
 
 [Term]
 id: CO_331:0000000
@@ -2702,6 +2702,15 @@ is_a: CO_331:1000008 ! Agronomic_trait
 created_by: W. Grueneberg
 
 [Term]
+id: CO_331:0000309
+name: yield of total roots 2
+namespace: SweetpotatoTrait
+def: "Yield of total roots calculated after harvest" []
+synonym: "RtYPP" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+created_by: W. Grueneberg
+
+[Term]
 id: CO_331:0000310
 name: percentage of marketable roots
 namespace: SweetpotatoTrait
@@ -3782,9 +3791,7 @@ def: "Overall storage root disease symptoms evaluation. 1=Very poor, 3 = Poor, 5
 synonym: "DISEASE" EXACT []
 synonym: "RtDSm_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000808 ! overall storage root disease symptoms
-relationship: variable_of CO_331:2000020 ! observation of overall root disease symptoms
-relationship: variable_of CO_331:2000021 ! rtdis 9 pt. scale
+relationship: variable_of CO_331:0000815 ! pltcov 4 pt. scale
 created_by: C. Yencho
 creation_date: 2016-12-01T04:02:09Z
 
@@ -3982,15 +3989,27 @@ relationship: variable_of CO_331:0000885 ! evaluation of plants
 
 [Term]
 id: CO_331:0000680
-name: Average commercial root weight computation kg
+name: Storage root marketable yield weight computation tons per ha
 namespace: SweetpotatoTrait
 def: "Average commercial root weight evaluated in the harvest" []
 synonym: "ACRW" EXACT []
-synonym: "RtACRW_Cp_kg" EXACT []
+synonym: "RtACRW_Cp_g" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000308 ! average commercial root weight
-relationship: variable_of CO_331:2000018 ! average commercial root weight - method
-relationship: variable_of CO_331:2000019 ! kg
+relationship: variable_of CO_331:0000896 ! estimated marketable yield per hectare - method
+relationship: variable_of CO_331:0000897 ! t/ha
+
+[Term]
+id: CO_331:0000681
+name: Storage root total yield computation tons per ha
+namespace: SweetpotatoTrait
+def: "Yield of total roots calculated after harvest" []
+synonym: "RtYPP_Cp_kpl" EXACT []
+synonym: "YPP" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000309 ! yield of total roots 2
+relationship: variable_of CO_331:0000897 ! t/ha
+relationship: variable_of CO_331:0000898 ! estimated yield of total roots per hectare - method
 
 [Term]
 id: CO_331:0000682
@@ -5510,8 +5529,6 @@ def: "Marketable root yield" []
 synonym: "RtCYld_Cp_tha" EXACT []
 synonym: "RYTHA" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000896 ! estimated marketable yield per hectare - method
-relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0000307 ! marketable root yield
 created_by: W. Grueneberg
 creation_date: 2016-11-30T21:23:23Z
@@ -5524,8 +5541,6 @@ def: "Type and/or name of secondary visible storage root defect. 1 = Blisters (B
 synonym: "RTDEF2" EXACT []
 synonym: "RtDefS_Et_1to18" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:00001106 ! observation of an average or all storage roots within a single plant or plot
-relationship: variable_of CO_331:00001123 ! rtdam 14 pt. scale
 relationship: variable_of CO_331:0000811 ! storage root defects (secondary)
 created_by: C. Yencho
 creation_date: 2016-11-30T20:44:25Z
@@ -6184,9 +6199,10 @@ relationship: method_of CO_331:0000234 ! total root weight
 id: CO_331:0000896
 name: estimated marketable yield per hectare - method
 namespace: SweetpotatoMethod
-def: "(Weight of commercial storage roots in kg/ plot size in m2)*10" []
+def: "(Weight of commercial storage roots/ plot size)*10" []
 is_a: CO_331:1000013 ! Computation
 relationship: method_of CO_331:0000307 ! marketable root yield
+relationship: method_of CO_331:0000308 ! average commercial root weight
 
 [Term]
 id: CO_331:0000897
@@ -6194,8 +6210,17 @@ name: t/ha
 namespace: SweetpotatoScale
 is_a: CO_331:1000002 ! Scales
 relationship: scale_of CO_331:0000896 ! estimated marketable yield per hectare - method
+relationship: scale_of CO_331:0000898 ! estimated yield of total roots per hectare - method
 relationship: scale_of CO_331:0000901 ! Method of CO_331:0000311
 relationship: scale_of CO_331:0000937 ! estimated yield per hectare - method
+
+[Term]
+id: CO_331:0000898
+name: estimated yield of total roots per hectare - method
+namespace: SweetpotatoMethod
+def: "(Weight of commercial storage roots/ plot size)*10" []
+is_a: CO_331:1000013 ! Computation
+relationship: method_of CO_331:0000309 ! yield of total roots 2
 
 [Term]
 id: CO_331:0000899
@@ -7077,13 +7102,13 @@ is_a: CO_331:1000002 ! Scales
 id: CO_331:2000001
 name: plant uniformity
 namespace: SweetpotatoTrait
-def: "Plant uniformity while emerging from beds" []
+def: "Uniformity of height of newly emerging vines" []
 synonym: "PltUni" EXACT []
 is_a: CO_331:1000008 ! Agronomic_trait
 
 [Term]
 id: CO_331:2000002
-name: observation of plant uniformity
+name: estimation of plant uniformity
 namespace: SweetpotatoMethod
 def: "visual estimation" []
 is_a: CO_331:1000014 ! Estimation
@@ -7111,7 +7136,7 @@ relationship: variable_of CO_331:0000874 ! virsym 9 pt. scale
 id: CO_331:2000005
 name: Plant uniformity estimating 0-9
 namespace: SweetpotatoTrait
-def: "Estimation of plant uniformity. 0=Highly Variable, 9=Uniform" []
+def: "Estimation of height uniformity of newly emerging vines. 0=Highly Variable, 9=Uniform" []
 synonym: "PltUni_Et_0to9" EXACT []
 synonym: "UNIFORM" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -7123,13 +7148,13 @@ relationship: variable_of CO_331:2000003 ! pltuni 10 pt. scale
 id: CO_331:2000006
 name: plant production
 namespace: SweetpotatoTrait
-def: "Plant production in beds" []
+def: "Intensity of new vine production" []
 synonym: "PltProd" EXACT []
 is_a: CO_331:1000008 ! Agronomic_trait
 
 [Term]
 id: CO_331:2000007
-name: observation of plant production
+name: estimation of plant production
 namespace: SweetpotatoMethod
 def: "visual estimation" []
 is_a: CO_331:1000014 ! Estimation
@@ -7144,7 +7169,7 @@ is_a: CO_331:1000015 ! Ordinal
 id: CO_331:2000009
 name: Plant production estimating 0-9
 namespace: SweetpotatoTrait
-def: "Estimation of plant production. 0=None, 9=Profuse" []
+def: "Estimation of intensity of new vine production. 0=None, 9=Profuse" []
 synonym: "PltProd_Et_0to9" EXACT []
 synonym: "PRODUCTION" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -7156,7 +7181,7 @@ relationship: variable_of CO_331:2000008 ! pltprod 10 pt. scale
 id: CO_331:2000010
 name: plant earliness
 namespace: SweetpotatoTrait
-def: "Plant Earliness in beds" []
+def: "Earliness of new vine production " []
 synonym: "PltEar" EXACT []
 is_a: CO_331:1000008 ! Agronomic_trait
 
@@ -7177,7 +7202,7 @@ is_a: CO_331:1000015 ! Ordinal
 id: CO_331:2000013
 name: Plant earliness estimating 1-3
 namespace: SweetpotatoTrait
-def: "Estimation of plant earliness. 1=Late, 2=Mid, 3=Early" []
+def: "Estimation of earliness of new vine production. 1=Late, 2=Mid, 3=Early" []
 synonym: "EARLINESS" EXACT []
 synonym: "PltEar_Et_1to3" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -7187,29 +7212,29 @@ relationship: variable_of CO_331:2000012 ! pltear 3 pt. scale
 
 [Term]
 id: CO_331:2000014
-name: total bed production
+name: total vine production
 namespace: SweetpotatoTrait
-def: "Total Bed Plant Production" []
-synonym: "TtlBedProd" EXACT []
+def: "Total Vine Production" []
+synonym: "TtlVnProd" EXACT []
 is_a: CO_331:1000008 ! Agronomic_trait
 
 [Term]
 id: CO_331:2000015
-name: Total bed production estimating number
+name: Total vine production estimating number
 namespace: SweetpotatoTrait
-def: "Total Bed Production in estimated number of plants" []
+def: "Total vine production in estimated number of plants" []
 synonym: "TOTALPROD" EXACT []
-synonym: "TtlBedProd_Et_no" EXACT []
+synonym: "TtlVnProd_Et_no" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000956 ! number
-relationship: variable_of CO_331:2000007 ! observation of plant production
-relationship: variable_of CO_331:2000014 ! total bed production
+relationship: variable_of CO_331:2000007 ! observation of vine production
+relationship: variable_of CO_331:2000014 ! total vine production
 
 [Term]
 id: CO_331:2000016
 name: plants available
 namespace: SweetpotatoTrait
-def: "Plants Available in bed" []
+def: "Plants Available for planting" []
 synonym: "PltsAvail" EXACT []
 is_a: CO_331:1000008 ! Agronomic_trait
 
@@ -7217,39 +7242,13 @@ is_a: CO_331:1000008 ! Agronomic_trait
 id: CO_331:2000017
 name: Plants available counting number
 namespace: SweetpotatoTrait
-def: "Plants Available in bed measured in number of plants counted" []
+def: "Plants Available for planting measured in number of plants counted" []
 synonym: "AVAILABLE" EXACT []
 synonym: "PltsAvail_Ct_No" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000885 ! evaluation of plants
 relationship: variable_of CO_331:0000956 ! number
 relationship: variable_of CO_331:2000016 ! plants available
-
-[Term]
-id: CO_331:2000018
-name: average commercial root weight - method
-namespace: SweetpotatoMethod
-def: "Weight of commercial roots in kg/Number of commercial roots" []
-is_a: CO_331:1000013 ! Computation
-
-[Term]
-id: CO_331:2000019
-name: kg
-namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
-
-[Term]
-id: CO_331:2000020
-name: observation of overall root disease symptoms
-namespace: SweetpotatoMethod
-def: "visual estimation" []
-is_a: CO_331:1000014 ! Estimation
-
-[Term]
-id: CO_331:2000021
-name: rtdis 9 pt. scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
 
 [Typedef]
 id: method_of
