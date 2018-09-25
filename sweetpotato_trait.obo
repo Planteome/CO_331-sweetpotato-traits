@@ -2,7 +2,7 @@ format-version: 1.2
 date: 12:02:2018 19:35
 saved-by: vagrant
 auto-generated-by: OBO-Edit 2.3.1
-default-namespace: SweetpotatoTrait
+default-namespace: SweetpotatoDefault
 
 [Term]
 id: CO_331:0000000
@@ -1463,7 +1463,7 @@ relationship: scale_of CO_331:00001143 ! soils insect evaluation
 
 [Term]
 id: CO_331:0000115
-name: storage root starch content
+name: starch content
 namespace: SweetpotatoTrait
 def: "Storage root starch content evaluated in percentage dry weight" []
 synonym: "RtFlsSta" EXACT []
@@ -2550,63 +2550,63 @@ relationship: variable_of CO_331:0000931 ! total carotenoids - method
 
 [Term]
 id: CO_331:0000291
-name: Storage root starch content measuring percent
+name: Starch content of raw storage roots percent
 namespace: SweetpotatoTrait
-def: "Storage root starch content evaluated in percentage dry weight" []
-synonym: "RtFlsSta_Ms_pct" EXACT []
-synonym: "STAR" EXACT []
+def: "Starch content of the raw storage root expressed as percent dry weight" []
+synonym: "RAWSTAR" EXACT []
+synonym: "RwRtSta_Ms_pct" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000115 ! storage root starch content
+relationship: variable_of CO_331:0000115 ! starch content
 relationship: variable_of CO_331:0000900 ! %
-relationship: variable_of CO_331:0000932 ! storage root starch content - method
+relationship: variable_of CO_331:0000932 ! measurement of raw starch content
 
 [Term]
 id: CO_331:0000292
-name: Fructose content measuring percent
+name: Fructose content of raw storage roots percent
 namespace: SweetpotatoTrait
-def: "Fructose content of the root" []
-synonym: "FRUC" EXACT []
-synonym: "RtFlsFru_Ms_pct" EXACT []
+def: "Fructose content of the raw storage root expressed as percent" []
+synonym: "RAWFRUC" EXACT []
+synonym: "RwRtFru_Ms_pct" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000118 ! fructose content
 relationship: variable_of CO_331:0000900 ! %
-relationship: variable_of CO_331:0000933 ! fructose content - method
+relationship: variable_of CO_331:0000933 ! measurement of raw fructose content
 
 [Term]
 id: CO_331:0000293
-name: Glucose content measuring percent
+name: Glucose content of raw storage roots percent
 namespace: SweetpotatoTrait
-def: "Glucose content of the root" []
-synonym: "GLUC" EXACT []
-synonym: "RtFlsGlu_Ms_pct" EXACT []
+def: "Glucose content of the raw storage root expressed as percent" []
+synonym: "RAWGLUC" EXACT []
+synonym: "RwRtGlu_Ms_pct" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000121 ! glucose content
 relationship: variable_of CO_331:0000900 ! %
-relationship: variable_of CO_331:0000934 ! glucose content - method
+relationship: variable_of CO_331:0000934 ! measurement of raw glucose content
 
 [Term]
 id: CO_331:0000294
-name: Sucrose content measuring percent
+name: Sucrose content of raw storage roots percent
 namespace: SweetpotatoTrait
-def: "Sucrose content of the root" []
-synonym: "RtFlsSuc_Ms_pct" EXACT []
-synonym: "SUCR" EXACT []
+def: "Sucrose content of the raw storage root expressed as percent" []
+synonym: "RAWSUCR" EXACT []
+synonym: "RwRtSuc_Ms_pct" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000124 ! sucrose content
 relationship: variable_of CO_331:0000900 ! %
-relationship: variable_of CO_331:0000935 ! sucrose content - method
+relationship: variable_of CO_331:0000935 ! measurement of raw sucrose content
 
 [Term]
 id: CO_331:0000295
-name: Maltose content measuring percent
+name: Maltose content of raw storage roots percent
 namespace: SweetpotatoTrait
-def: "Maltose content of the root" []
-synonym: "MALT" EXACT []
-synonym: "RtFlsMal_Ms_pct" EXACT []
+def: "Maltose content of the raw storage root expressed as percent" []
+synonym: "RAWMALT" EXACT []
+synonym: "RwRtMal_Ms_pct" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000127 ! maltose content
 relationship: variable_of CO_331:0000900 ! %
-relationship: variable_of CO_331:0000936 ! maltose content - method
+relationship: variable_of CO_331:0000936 ! measurement of raw maltose content
 
 [Term]
 id: CO_331:0000296
@@ -6238,11 +6238,11 @@ is_a: CO_331:1000002 ! Scales
 relationship: scale_of CO_331:0000899 ! percentage of marketable - method
 relationship: scale_of CO_331:0000911 ! storage root fibers content  evaluated in percentage fresh weight
 relationship: scale_of CO_331:0000923 ! protein content - method
-relationship: scale_of CO_331:0000932 ! storage root starch content - method
-relationship: scale_of CO_331:0000933 ! fructose content - method
-relationship: scale_of CO_331:0000934 ! glucose content - method
-relationship: scale_of CO_331:0000935 ! sucrose content - method
-relationship: scale_of CO_331:0000936 ! maltose content - method
+relationship: scale_of CO_331:0000932 ! measurement of raw starch content
+relationship: scale_of CO_331:0000933 ! measurement of raw fructose content
+relationship: scale_of CO_331:0000934 ! measurement of raw glucose content
+relationship: scale_of CO_331:0000935 ! measurement of raw sucrose content
+relationship: scale_of CO_331:0000936 ! measurement of raw maltose content
 relationship: scale_of CO_331:0000938 ! storage root dry matter content - method
 relationship: scale_of CO_331:0000939 ! survival index - method
 relationship: scale_of CO_331:0000940 ! harvest index evaluation  - method
@@ -6499,15 +6499,15 @@ relationship: method_of CO_331:0000112 ! total carotenoids
 
 [Term]
 id: CO_331:0000932
-name: storage root starch content - method
+name: measurement of raw starch content
 namespace: SweetpotatoMethod
 def: "Pharr, D.M. Y Sox, H.N. 198" []
 is_a: CO_331:1000011 ! Measurement
-relationship: method_of CO_331:0000115 ! storage root starch content
+relationship: method_of CO_331:0000115 ! starch content
 
 [Term]
 id: CO_331:0000933
-name: fructose content - method
+name: measurement of raw fructose content
 namespace: SweetpotatoMethod
 def: "Miller, Gail Lorenz (1959)" []
 is_a: CO_331:1000011 ! Measurement
@@ -6515,7 +6515,7 @@ relationship: method_of CO_331:0000118 ! fructose content
 
 [Term]
 id: CO_331:0000934
-name: glucose content - method
+name: measurement of raw glucose content
 namespace: SweetpotatoMethod
 def: "Miller, Gail Lorenz (1959)" []
 is_a: CO_331:1000011 ! Measurement
@@ -6523,7 +6523,7 @@ relationship: method_of CO_331:0000121 ! glucose content
 
 [Term]
 id: CO_331:0000935
-name: sucrose content - method
+name: measurement of raw sucrose content
 namespace: SweetpotatoMethod
 def: "Miller, Gail Lorenz (1959)" []
 is_a: CO_331:1000011 ! Measurement
@@ -6531,7 +6531,7 @@ relationship: method_of CO_331:0000124 ! sucrose content
 
 [Term]
 id: CO_331:0000936
-name: maltose content - method
+name: measurement of raw maltose content
 namespace: SweetpotatoMethod
 def: "Miller, Gail Lorenz (1959)" []
 is_a: CO_331:1000011 ! Measurement
@@ -7024,7 +7024,6 @@ namespace: SweetpotatoScale
 [Term]
 id: CO_331:1000003
 name: Variables
-namespace: SweetpotatoTrait
 
 [Term]
 id: CO_331:1000004
@@ -7250,17 +7249,104 @@ relationship: variable_of CO_331:0000885 ! evaluation of plants
 relationship: variable_of CO_331:0000956 ! number
 relationship: variable_of CO_331:2000016 ! plants available
 
+[Term]
+id: CO_331:2000022
+name: measurement of cooked fructose content
+namespace: SweetpotatoMethod
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000023
+name: measurement of cooked glucose content
+namespace: SweetpotatoMethod
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000024
+name: measurement of cooked sucrose content
+namespace: SweetpotatoMethod
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000025
+name: measurement of cooked maltose content
+namespace: SweetpotatoMethod
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000026
+name: measurement of cooked starch content
+namespace: SweetpotatoMethod
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000027
+name: Starch content of cooked storage roots percent
+namespace: SweetpotatoTrait
+def: "Starch content of the cooked storage root expressed as percent dry weight" []
+synonym: "CkRtSta_Ms_pct" EXACT []
+synonym: "COOKSTAR" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000115 ! starch content
+relationship: variable_of CO_331:0000900 ! %
+relationship: variable_of CO_331:2000026 ! measurement of cooked starch content
+
+[Term]
+id: CO_331:2000028
+name: Sucrose content of cooked storage roots percent
+namespace: SweetpotatoTrait
+def: "Sucrose content of the raw storage root expressed as percent" []
+synonym: "CkRtSuc_Ms_pct" EXACT []
+synonym: "COOKSUCR" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000124 ! sucrose content
+relationship: variable_of CO_331:0000900 ! %
+relationship: variable_of CO_331:2000024 ! measurement of cooked sucrose content
+
+[Term]
+id: CO_331:2000029
+name: Maltose content of cooked storage roots percent
+namespace: SweetpotatoTrait
+def: "Maltose content of the raw storage root expressed as percent" []
+synonym: "CkRtMal_Ms_pct" EXACT []
+synonym: "COOKMALT" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000127 ! maltose content
+relationship: variable_of CO_331:0000900 ! %
+relationship: variable_of CO_331:2000025 ! measurement of cooked maltose content
+
+[Term]
+id: CO_331:2000030
+name: Glucose content of cooked storage roots percent
+namespace: SweetpotatoTrait
+def: "Glucose content of the raw storage root expressed as percent" []
+synonym: "CkRtGlu_Ms_pct" EXACT []
+synonym: "COOKGLUC" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000121 ! glucose content
+relationship: variable_of CO_331:0000900 ! %
+relationship: variable_of CO_331:2000023 ! measurement of cooked glucose content
+
+[Term]
+id: CO_331:2000031
+name: Fructose content of cooked storage roots percent
+namespace: SweetpotatoTrait
+def: "Fructose content of the raw storage root expressed as percent" []
+synonym: "CkRtFru_Ms_pct" EXACT []
+synonym: "COOKFRUC" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000118 ! fructose content
+relationship: variable_of CO_331:0000900 ! %
+relationship: variable_of CO_331:2000022 ! measurement of cooked fructose content
+
 [Typedef]
 id: method_of
 name: method_of
-namespace: SweetpotatoTrait
 
 [Typedef]
 id: scale_of
 name: scale_of
-namespace: SweetpotatoTrait
 
 [Typedef]
 id: variable_of
 name: variable_of
-namespace: SweetpotatoTrait
