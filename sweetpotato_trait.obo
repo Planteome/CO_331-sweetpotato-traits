@@ -1058,7 +1058,6 @@ name: taking standardized photo
 namespace: SweetpotatoMethod
 def: "Visual estimation" []
 is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_331:0000402 ! total sugar content
 relationship: method_of CO_331:0000403 ! appearance of plant
 relationship: method_of CO_331:0000404 ! appearance of flower
 relationship: method_of CO_331:0000405 ! appearance of roots
@@ -1465,7 +1464,7 @@ relationship: scale_of CO_331:00001143 ! soils insect evaluation
 id: CO_331:0000115
 name: starch content
 namespace: SweetpotatoTrait
-def: "Storage root starch content evaluated in percentage dry weight" []
+def: "Storage root starch content" []
 synonym: "RtFlsSta" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 created_by: Z. Huaman
@@ -1474,7 +1473,7 @@ created_by: Z. Huaman
 id: CO_331:0000118
 name: fructose content
 namespace: SweetpotatoTrait
-def: "Fructose content of the root" []
+def: "Storage root fructose content" []
 synonym: "RtFlsFru" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 created_by: W. Grueneberg
@@ -1483,7 +1482,7 @@ created_by: W. Grueneberg
 id: CO_331:0000121
 name: glucose content
 namespace: SweetpotatoTrait
-def: "Glucose content of the root" []
+def: "Storage root glucose content" []
 synonym: "RtFlsGlu" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 created_by: W. Grueneberg
@@ -1492,7 +1491,7 @@ created_by: W. Grueneberg
 id: CO_331:0000124
 name: sucrose content
 namespace: SweetpotatoTrait
-def: "Sucrose content  of the root" []
+def: "Storage root sucrose content" []
 synonym: "RtFlsSuc" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 created_by: W. Grueneberg
@@ -1501,7 +1500,7 @@ created_by: W. Grueneberg
 id: CO_331:0000127
 name: maltose content
 namespace: SweetpotatoTrait
-def: "Maltose content  of the root" []
+def: "Storage root maltose content" []
 synonym: "RtFlsMal" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 created_by: W. Grueneberg
@@ -3426,7 +3425,7 @@ created_by: Z. Huaman
 id: CO_331:0000402
 name: total sugar content
 namespace: SweetpotatoTrait
-def: "Total sugar content" []
+def: "Storage root total sugar content" []
 synonym: "RtTSgC" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 created_by: Z. Huaman
