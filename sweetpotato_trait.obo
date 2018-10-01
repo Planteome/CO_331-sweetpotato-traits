@@ -2882,15 +2882,6 @@ is_a: CO_331:1000010 ! Morphological_trait
 created_by: Z. Huaman
 
 [Term]
-id: CO_331:0000342
-name: storage root stalk
-namespace: SweetpotatoTrait
-def: "Length of stalk joining the storage roots to the stems" []
-synonym: "RtStk" EXACT []
-is_a: CO_331:1000010 ! Morphological_trait
-created_by: Z. Huaman
-
-[Term]
 id: CO_331:0000343
 name: variability of storage root shape
 namespace: SweetpotatoTrait
@@ -4298,18 +4289,6 @@ is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000341 ! storage root formation
 relationship: variable_of CO_331:0000973 ! observation of storage root formation
 relationship: variable_of CO_331:0000974 ! strfor 4 pt. scale
-
-[Term]
-id: CO_331:0000706
-name: Storage root stalk estimating 0-7
-namespace: SweetpotatoTrait
-def: "Length of stalk joining the storage roots to the stems. 0 = Sessile or absent, 1 = Very short (<2 cm), 3 = Short (2-5 cm), 5 = Intermediate (6-8 cm), 7 = Long (9-12 cm), 9 = Very long (>12 cm)" []
-synonym: "RTSTFM" EXACT []
-synonym: "RtStk_Et_0to9" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000342 ! storage root stalk
-relationship: variable_of CO_331:0000975 ! observation of storage root stalk
-relationship: variable_of CO_331:0000976 ! strstk 6 pt. scale
 
 [Term]
 id: CO_331:0000707
@@ -6822,21 +6801,6 @@ name: strfor 4 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000973 ! observation of storage root formation
-
-[Term]
-id: CO_331:0000975
-name: observation of storage root stalk
-namespace: SweetpotatoMethod
-def: "Visual estimation" []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_331:0000342 ! storage root stalk
-
-[Term]
-id: CO_331:0000976
-name: strstk 6 pt. scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO_331:0000975 ! observation of storage root stalk
 
 [Term]
 id: CO_331:0000977
