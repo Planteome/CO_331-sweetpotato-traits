@@ -3,6 +3,7 @@ date: 12:02:2018 19:35
 saved-by: vagrant
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: SweetpotatoDefault
+ontology: TEMP
 
 [Term]
 id: CO_331:0000000
@@ -4999,15 +5000,15 @@ relationship: variable_of CO_331:0000401 ! reaction to other mycoplasma
 
 [Term]
 id: CO_331:0000766
-name: Total sugar content estimating 1-9
+name: Total sugar content of raw storage roots percent
 namespace: SweetpotatoTrait
-def: "Total sugar content" []
-synonym: "RtTSgC_Et_1to9" EXACT []
-synonym: "TOTSUG" EXACT []
+def: "Total sugar content of the raw storage root expressed as percent" []
+synonym: "RAWTOTSUG" EXACT []
+synonym: "RwRtTS_Ms_pct" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:00001093 ! taking standardized photo
-relationship: variable_of CO_331:00001094 ! rttsgc
 relationship: variable_of CO_331:0000402 ! total sugar content
+relationship: variable_of CO_331:0000900 ! %
+relationship: variable_of CO_331:2000032 ! measurement of raw total sugar content
 
 [Term]
 id: CO_331:0000767
@@ -7302,6 +7303,30 @@ relationship: variable_of CO_331:0000118 ! fructose content
 relationship: variable_of CO_331:0000900 ! %
 relationship: variable_of CO_331:2000022 ! measurement of cooked fructose content
 
+[Term]
+id: CO_331:2000032
+name: measurement of raw total sugar content
+namespace: SweetpotatoMethod
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000033
+name: measurement of cooked total sugar content
+namespace: SweetpotatoMethod
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000034
+name: Total sugar content of cooked storage roots percent
+namespace: SweetpotatoTrait
+def: "Total sugar content of the cooked storage root expressed as percent" []
+synonym: "CkRtTS_Ms_pct" EXACT []
+synonym: "COOKTOTSUG" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000402 ! total sugar content
+relationship: variable_of CO_331:0000900 ! %
+relationship: variable_of CO_331:2000033 ! measurement of cooked total sugar content
+
 [Typedef]
 id: method_of
 name: method_of
@@ -7313,3 +7338,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
