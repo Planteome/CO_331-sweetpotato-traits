@@ -2234,7 +2234,7 @@ relationship: variable_of CO_331:0000903 ! rtscr 4 pt. scale
 id: CO_331:0000240
 name: Fresh weight of storage root
 namespace: SweetpotatoTrait
-def: "Weight of storage root samples" []
+def: "Fresh weight of storage root samples" []
 synonym: "RtFWt" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 created_by: W. Grueneberg
@@ -2243,7 +2243,7 @@ created_by: W. Grueneberg
 id: CO_331:0000243
 name: Fresh weight of storage root samples measuring g of sample
 namespace: SweetpotatoTrait
-def: "Weight of storage root samples" []
+def: "Fresh weight of storage root samples" []
 synonym: "DMF" EXACT []
 synonym: "RtFWt_Ms_g" EXACT []
 is_a: CO_331:1000003 ! Variables
@@ -2255,7 +2255,7 @@ relationship: variable_of CO_331:0000905 ! g
 id: CO_331:0000244
 name: Dry weight of storage root
 namespace: SweetpotatoTrait
-def: "Weight of storage root samples" []
+def: "Dry weight of storage root samples" []
 synonym: "RtDWt" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 created_by: W. Grueneberg
@@ -2264,7 +2264,7 @@ created_by: W. Grueneberg
 id: CO_331:0000247
 name: Dry weight of storage root samples measuring g of sample
 namespace: SweetpotatoTrait
-def: "Weight of storage root samples" []
+def: "Dry weight of storage root samples" []
 synonym: "DMD" EXACT []
 synonym: "RtDWt_Ms_g" EXACT []
 is_a: CO_331:1000003 ! Variables
