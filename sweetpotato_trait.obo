@@ -2182,7 +2182,7 @@ synonym: "RtTtN_Ct_rtplant" EXACT []
 synonym: "TNROOT,NRPP" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000079 ! total number of root
-relationship: variable_of CO_331:0000890 ! estimated number per plant - method
+relationship: variable_of CO_331:0000890 ! total root number per plant - method
 relationship: variable_of CO_331:0000891 ! roots/ plant
 
 [Term]
@@ -6127,9 +6127,9 @@ relationship: scale_of CO_331:0000888 ! estimated number per plot - method
 
 [Term]
 id: CO_331:0000890
-name: estimated number per plant - method
+name: total root number per plant - method
 namespace: SweetpotatoMethod
-def: "Total number of root per plot / Number of plants harvested" []
+def: "Total number of roots per plot / Number of plants harvested per plot" []
 is_a: CO_331:1000013 ! Computation
 relationship: method_of CO_331:0000079 ! total number of root
 
@@ -6138,7 +6138,8 @@ id: CO_331:0000891
 name: roots/ plant
 namespace: SweetpotatoScale
 is_a: CO_331:1000019 ! Numerical
-relationship: scale_of CO_331:0000890 ! estimated number per plant - method
+relationship: scale_of CO_331:0000890 ! total root number per plant - method
+relationship: scale_of CO_331:2000035 ! commercial root number per plant - method
 
 [Term]
 id: CO_331:0000892
@@ -7104,7 +7105,7 @@ synonym: "PltUni_Et_0to9" EXACT []
 synonym: "UNIFORM" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:2000001 ! plant uniformity
-relationship: variable_of CO_331:2000002 ! observation of plant uniformity
+relationship: variable_of CO_331:2000002 ! estimation of plant uniformity
 relationship: variable_of CO_331:2000003 ! pltuni 10 pt. scale
 
 [Term]
@@ -7137,7 +7138,7 @@ synonym: "PltProd_Et_0to9" EXACT []
 synonym: "PRODUCTION" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:2000006 ! plant production
-relationship: variable_of CO_331:2000007 ! observation of plant production
+relationship: variable_of CO_331:2000007 ! estimation of plant production
 relationship: variable_of CO_331:2000008 ! pltprod 10 pt. scale
 
 [Term]
@@ -7190,7 +7191,7 @@ synonym: "TOTALPROD" EXACT []
 synonym: "TtlVnProd_Et_no" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000956 ! number
-relationship: variable_of CO_331:2000007 ! observation of vine production
+relationship: variable_of CO_331:2000007 ! estimation of plant production
 relationship: variable_of CO_331:2000014 ! total vine production
 
 [Term]
@@ -7302,6 +7303,26 @@ is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000118 ! fructose content
 relationship: variable_of CO_331:0000900 ! %
 relationship: variable_of CO_331:2000022 ! measurement of cooked fructose content
+
+[Term]
+id: CO_331:2000035
+name: commercial root number per plant - method
+namespace: SweetpotatoMethod
+def: "Total number of commercial roots per plot / Number of plants harvested per plot" []
+is_a: CO_331:1000013 ! Computation
+
+[Term]
+id: CO_331:2000036
+name: Total number of commercial storage roots harvested per plant
+namespace: SweetpotatoTrait
+def: "Total number of root per plot / Number of plants harvested" []
+synonym: "CMNROOT" EXACT []
+synonym: "CMRPP" EXACT []
+synonym: "RtCmN_Ct_rtplant" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000212 ! number of commercial storage roots
+relationship: variable_of CO_331:0000891 ! roots/ plant
+relationship: variable_of CO_331:2000035 ! commercial root number per plant - method
 
 [Typedef]
 id: method_of
