@@ -7308,14 +7308,14 @@ relationship: variable_of CO_331:2000022 ! measurement of cooked fructose conten
 id: CO_331:2000035
 name: commercial root number per plant - method
 namespace: SweetpotatoMethod
-def: "Total number of commercial roots per plot / Number of plants harvested per plot" []
+def: "Number of commercial roots per plot / Number of plants harvested per plot" []
 is_a: CO_331:1000013 ! Computation
 
 [Term]
 id: CO_331:2000036
-name: Total number of commercial storage roots harvested per plant
+name: Number of commercial storage roots harvested per plant
 namespace: SweetpotatoTrait
-def: "Total number of root per plot / Number of plants harvested" []
+def: "Number of commercial roots per plot / Number of plants harvested per plot" []
 synonym: "CMNROOT" EXACT []
 synonym: "CMRPP" EXACT []
 synonym: "RtCmN_Ct_rtplant" EXACT []
