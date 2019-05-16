@@ -3,6 +3,7 @@ date: 12:02:2018 19:35
 saved-by: vagrant
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: SweetpotatoDefault
+ontology: TEMP
 
 [Term]
 id: CO_331:0000000
@@ -2128,7 +2129,7 @@ synonym: "CRW" EXACT []
 synonym: "RtCmW_Ms_kgplot" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000218 ! weight of commercial storage roots
-relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000892 ! measurement of fresh storage root weight
 relationship: variable_of CO_331:0000893 ! kg/plot
 
 [Term]
@@ -2149,7 +2150,7 @@ synonym: "NCRW" EXACT []
 synonym: "RtNCmW_Ms_kgplot" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000221 ! weight of non-commercial storage roots
-relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000892 ! measurement of fresh storage root weight
 relationship: variable_of CO_331:0000893 ! kg/plot
 
 [Term]
@@ -2163,15 +2164,15 @@ created_by: W. Grueneberg
 
 [Term]
 id: CO_331:0000227
-name: Weight of vines measuring kg per plot
+name: Weight of fresh vines measuring kg per plot
 namespace: SweetpotatoTrait
 def: "Weight of vines" []
-synonym: "VnW_Ms_kgplot" EXACT []
+synonym: "VnWt_F_kgplot" EXACT []
 synonym: "VW" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000224 ! weight of vines
 relationship: variable_of CO_331:0000893 ! kg/plot
-relationship: variable_of CO_331:0000894 ! measurements of vine mass
+relationship: variable_of CO_331:0000894 ! measurement of fresh vine weight
 
 [Term]
 id: CO_331:0000230
@@ -2231,88 +2232,70 @@ relationship: variable_of CO_331:0000902 ! estimation of cracking roots
 relationship: variable_of CO_331:0000903 ! rtscr 4 pt. scale
 
 [Term]
-id: CO_331:0000240
-name: Fresh weight of storage root
-namespace: SweetpotatoTrait
-def: "Fresh weight of storage root samples" []
-synonym: "RtFWt" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-created_by: W. Grueneberg
-
-[Term]
 id: CO_331:0000243
-name: Fresh weight of storage root samples measuring g of sample
+name: weight of storage root sample measuring g of fresh sample
 namespace: SweetpotatoTrait
-def: "Fresh weight of storage root samples" []
+def: "Fresh weight of storage root sample" []
 synonym: "DMF" EXACT []
-synonym: "RtFWt_Ms_g" EXACT []
+synonym: "RtSmpWt_F_g" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000240 ! Fresh weight of storage root
-relationship: variable_of CO_331:0000904 ! measurements of fresh root mass
+relationship: variable_of CO_331:0000244 ! Weight of storage root sample
+relationship: variable_of CO_331:0000904 ! measurement of storage root sample fresh weight
 relationship: variable_of CO_331:0000905 ! g
 
 [Term]
 id: CO_331:0000244
-name: Dry weight of storage root
+name: Weight of storage root sample
 namespace: SweetpotatoTrait
-def: "Dry weight of storage root samples" []
-synonym: "RtDWt" EXACT []
+def: "Weight of storage root sample" []
+synonym: "RtSmpWt" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 created_by: W. Grueneberg
 
 [Term]
 id: CO_331:0000247
-name: Dry weight of storage root samples measuring g of sample
+name: weight of storage root sample measuring g of dry sample
 namespace: SweetpotatoTrait
-def: "Dry weight of storage root samples" []
+def: "Dry weight of storage root sample" []
 synonym: "DMD" EXACT []
-synonym: "RtDWt_Ms_g" EXACT []
+synonym: "RtSmpWt_D_g" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000244 ! Dry weight of storage root
+relationship: variable_of CO_331:0000244 ! Weight of storage root sample
 relationship: variable_of CO_331:0000905 ! g
-relationship: variable_of CO_331:0000906 ! measurements of dry root mass
-
-[Term]
-id: CO_331:0000248
-name: Fresh weight of vines
-namespace: SweetpotatoTrait
-def: "Weight of vines samples" []
-synonym: "VnFWt" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-created_by: W. Grueneberg
+relationship: variable_of CO_331:0000906 ! measurement of storage root sample dry weight
 
 [Term]
 id: CO_331:0000251
-name: Fresh weight of vines measuring g of sample
+name: weight of vine sample measuring g of fresh sample
 namespace: SweetpotatoTrait
-def: "Weight of vines samples" []
+def: "Fresh weight of vine sample in grams" []
 synonym: "DMFV" EXACT []
-synonym: "VnFWt_Et_g" EXACT []
+synonym: "VnSmpWt_F_g" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000248 ! Fresh weight of vines
+relationship: variable_of CO_331:0000252 ! weight of vine sample
 relationship: variable_of CO_331:0000905 ! g
-relationship: variable_of CO_331:0000907 ! measurements of fresh vine mass
+relationship: variable_of CO_331:0000907 ! measurement of vine sample fresh weight
 
 [Term]
 id: CO_331:0000252
-name: Dry weight of vines
+name: weight of vine sample
 namespace: SweetpotatoTrait
-def: "Weight of vines samples" []
-synonym: "VnDWt" EXACT []
+def: "Weight of vine sample" []
+synonym: "VnSmpWt" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 created_by: W. Grueneberg
 
 [Term]
 id: CO_331:0000255
-name: Dry weight of vines measuring g of sample
+name: weight of vine sample measuring g of dry sample
 namespace: SweetpotatoTrait
-def: "Weight of vines samples" []
+def: "Dry weight of vine sample measured in grams" []
 synonym: "DMDV" EXACT []
-synonym: "VnDWt_Ms_g" EXACT []
+synonym: "VnSmpWt_D_g" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000252 ! Dry weight of vines
+relationship: variable_of CO_331:0000252 ! weight of vine sample
 relationship: variable_of CO_331:0000905 ! g
-relationship: variable_of CO_331:0000908 ! measurements of dry vine mass
+relationship: variable_of CO_331:0000908 ! measurement of vine sample dry weight
 
 [Term]
 id: CO_331:0000256
@@ -3867,7 +3850,7 @@ synonym: "RtUS1W_Ms_kgplot" EXACT []
 synonym: "US1" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000601 ! weight of total US no. 1 storage roots
-relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000892 ! measurement of fresh storage root weight
 relationship: variable_of CO_331:0000893 ! kg/plot
 
 [Term]
@@ -3879,7 +3862,7 @@ synonym: "CAN" EXACT []
 synonym: "RtCanW_Ms_kgplot" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000602 ! weight of canner storage roots
-relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000892 ! measurement of fresh storage root weight
 relationship: variable_of CO_331:0000893 ! kg/plot
 
 [Term]
@@ -3891,7 +3874,7 @@ synonym: "JUM" EXACT []
 synonym: "RtJumW_Ms_kgplot" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000603 ! weight of jumbo storage roots
-relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000892 ! measurement of fresh storage root weight
 relationship: variable_of CO_331:0000893 ! kg/plot
 
 [Term]
@@ -3903,7 +3886,7 @@ synonym: "CUL" EXACT []
 synonym: "RtCulW_Ms_kgplot" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000604 ! weight of cull storage roots
-relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000892 ! measurement of fresh storage root weight
 relationship: variable_of CO_331:0000893 ! kg/plot
 
 [Term]
@@ -3915,7 +3898,7 @@ synonym: "90CT" EXACT []
 synonym: "Rt90ctW_Ms_kgplot" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000605 ! weight of 90 count US no. 1 storage roots
-relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000892 ! measurement of fresh storage root weight
 relationship: variable_of CO_331:0000893 ! kg/plot
 
 [Term]
@@ -3927,7 +3910,7 @@ synonym: "55CT" EXACT []
 synonym: "Rt55ctW_Ms_kgplot" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000606 ! weight of 55 count US no. 1 storage roots
-relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000892 ! measurement of fresh storage root weight
 relationship: variable_of CO_331:0000893 ! kg/plot
 
 [Term]
@@ -3939,7 +3922,7 @@ synonym: "40CT" EXACT []
 synonym: "Rt40ctW_Ms_kgplot" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000607 ! weight of 40 count US no. 1 storage roots
-relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000892 ! measurement of fresh storage root weight
 relationship: variable_of CO_331:0000893 ! kg/plot
 
 [Term]
@@ -3951,7 +3934,7 @@ synonym: "32CT" EXACT []
 synonym: "Rt32ctW_Ms_kgplot" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000608 ! weight of 32 count US no. 1 storage roots
-relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000892 ! measurement of fresh storage root weight
 relationship: variable_of CO_331:0000893 ! kg/plot
 
 [Term]
@@ -6143,7 +6126,7 @@ relationship: scale_of CO_331:2000035 ! commercial root number per plant - metho
 
 [Term]
 id: CO_331:0000892
-name: measurements of root mass
+name: measurement of fresh storage root weight
 namespace: SweetpotatoMethod
 def: "Measured using scales" []
 is_a: CO_331:1000011 ! Measurement
@@ -6155,15 +6138,15 @@ id: CO_331:0000893
 name: kg/plot
 namespace: SweetpotatoScale
 is_a: CO_331:1000019 ! Numerical
-relationship: scale_of CO_331:0000892 ! measurements of root mass
-relationship: scale_of CO_331:0000894 ! measurements of vine mass
+relationship: scale_of CO_331:0000892 ! measurement of fresh storage root weight
+relationship: scale_of CO_331:0000894 ! measurement of fresh vine weight
 relationship: scale_of CO_331:0000895 ! estimated weight per plot - method
 
 [Term]
 id: CO_331:0000894
-name: measurements of vine mass
+name: measurement of fresh vine weight
 namespace: SweetpotatoMethod
-def: "Measured using scales" []
+def: "Fresh vine weight measured using a scale" []
 is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0000224 ! weight of vines
 
@@ -6253,45 +6236,43 @@ relationship: scale_of CO_331:0000902 ! estimation of cracking roots
 
 [Term]
 id: CO_331:0000904
-name: measurements of fresh root mass
+name: measurement of storage root sample fresh weight
 namespace: SweetpotatoMethod
-def: "Fresh weight of storage root samples (roughly 200g recommended sample size)" []
+def: "Fresh weight of storage root sample (roughly 200g recommended sample size)" []
 is_a: CO_331:1000011 ! Measurement
-relationship: method_of CO_331:0000240 ! Fresh weight of storage root
 
 [Term]
 id: CO_331:0000905
 name: g
 namespace: SweetpotatoScale
 is_a: CO_331:1000019 ! Numerical
-relationship: scale_of CO_331:0000904 ! measurements of fresh root mass
-relationship: scale_of CO_331:0000906 ! measurements of dry root mass
-relationship: scale_of CO_331:0000907 ! measurements of fresh vine mass
-relationship: scale_of CO_331:0000908 ! measurements of dry vine mass
+relationship: scale_of CO_331:0000904 ! measurement of storage root sample fresh weight
+relationship: scale_of CO_331:0000906 ! measurement of storage root sample dry weight
+relationship: scale_of CO_331:0000907 ! measurement of vine sample fresh weight
+relationship: scale_of CO_331:0000908 ! measurement of vine sample dry weight
 
 [Term]
 id: CO_331:0000906
-name: measurements of dry root mass
+name: measurement of storage root sample dry weight
 namespace: SweetpotatoMethod
-def: "Dry weight of storage root samples" []
+def: "Dry weight of storage root sample" []
 is_a: CO_331:1000011 ! Measurement
-relationship: method_of CO_331:0000244 ! Dry weight of storage root
+relationship: method_of CO_331:0000244 ! Weight of storage root sample
 
 [Term]
 id: CO_331:0000907
-name: measurements of fresh vine mass
+name: measurement of vine sample fresh weight
 namespace: SweetpotatoMethod
-def: "Fresh weight of vines" []
+def: "Fresh weight of vine sample" []
 is_a: CO_331:1000011 ! Measurement
-relationship: method_of CO_331:0000248 ! Fresh weight of vines
 
 [Term]
 id: CO_331:0000908
-name: measurements of dry vine mass
+name: measurement of vine sample dry weight
 namespace: SweetpotatoMethod
 def: "Dry weight of vines" []
 is_a: CO_331:1000011 ! Measurement
-relationship: method_of CO_331:0000252 ! Dry weight of vines
+relationship: method_of CO_331:0000252 ! weight of vine sample
 
 [Term]
 id: CO_331:0000909
@@ -7335,3 +7316,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
