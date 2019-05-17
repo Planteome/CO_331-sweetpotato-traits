@@ -5506,7 +5506,7 @@ name: Storage root total marketable yield weight computation tons per ha
 namespace: SweetpotatoTrait
 def: "Marketable root yield" []
 synonym: "RtCYld_Cp_tha" EXACT []
-synonym: "RYTHA" EXACT []
+synonym: "CYTHA" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000896 ! estimated marketable yield per hectare - method
 relationship: variable_of CO_331:0000897 ! t/ha
