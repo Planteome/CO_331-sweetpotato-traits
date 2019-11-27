@@ -122,7 +122,7 @@ relationship: method_of CO_331:0000013 ! vine secondary color
 id: CO_331:0000015
 name: VnColS 8 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0000014 ! visual estimation - vine secondary color method
 
 [Term]
@@ -283,7 +283,7 @@ relationship: method_of CO_331:0000034 ! abaxial leaf vein pigmentation
 id: CO_331:0000036
 name: LfAVP 9 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0000035 ! visual estimation - abaxial leaf vein pigmentation
 
 [Term]
@@ -352,7 +352,7 @@ relationship: method_of CO_331:0000043 ! petiole pigmentation
 id: CO_331:0000045
 name: FrPtP 9 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0000044 ! visual estimation -petiole pigmentation
 
 [Term]
@@ -505,7 +505,7 @@ relationship: method_of CO_331:0000064 ! storage root flesh distribution of seco
 id: CO_331:0000066
 name: RtFlsColSD 10 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0000065 ! visual estimation - storage root flesh distribution of secondary color
 
 [Term]
@@ -621,7 +621,7 @@ relationship: method_of CO_331:0000082 ! total storage roots yield
 id: CO_331:0000085
 name: harvest index
 namespace: SweetpotatoTrait
-def: "The index of the harvest" []
+def: "Harvest index" []
 synonym: "HrvInx" EXACT []
 is_a: CO_331:1000008 ! Agronomic_trait
 
@@ -2660,14 +2660,6 @@ synonym: "RtFrm" EXACT []
 is_a: CO_331:1000010 ! Morphological_trait
 
 [Term]
-id: CO_331:0000342
-name: storage root stalk
-namespace: SweetpotatoTrait
-def: "The length of the storage root stalk" []
-synonym: "RtStk" EXACT []
-is_a: CO_331:1000010 ! Morphological_trait
-
-[Term]
 id: CO_331:0000344
 name: storage root size variability
 namespace: SweetpotatoTrait
@@ -3148,6 +3140,14 @@ synonym: "RtShpU" EXACT []
 is_a: CO_331:1000010 ! Morphological_trait
 
 [Term]
+id: CO_331:0000410
+name: storage root stalk
+namespace: SweetpotatoTrait
+def: "The length of the storage root stalk" []
+synonym: "RtStk" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
 id: CO_331:0000411
 name: storage root attachment ability
 namespace: SweetpotatoTrait
@@ -3505,7 +3505,7 @@ name: measurement - storage root stalk length
 namespace: SweetpotatoMethod
 def: "Measure storage root stalk and rate it" []
 is_a: CO_331:1000011 ! Measurement
-relationship: method_of CO_331:0000342 ! storage root stalk
+relationship: method_of CO_331:0000410 ! storage root stalk
 
 [Term]
 id: CO_331:0000460
@@ -4230,7 +4230,7 @@ relationship: scale_of CO_331:0000451 ! visual estimation - sepal pubescence
 id: CO_331:0000570
 name: FrSepCol 7 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0000452 ! visual estimation - sepal color
 
 [Term]
@@ -4265,7 +4265,7 @@ relationship: scale_of CO_331:0000456 ! visual estimation - seed capsule set
 id: CO_331:0000575
 name: RtFrm 4 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0000457 ! visual estimation - storage root formation
 
 [Term]
@@ -4300,7 +4300,7 @@ relationship: scale_of CO_331:0000462 ! estimation - boiled storage root consist
 id: CO_331:0000581
 name: RtBlCd 10 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0000463 ! visual estimation - boiled storage root undesirable color method
 
 [Term]
@@ -4731,7 +4731,7 @@ relationship: scale_of CO_331:0000517 ! visual estimation - reaction of the plan
 id: CO_331:0000644
 name: RtShpP 8 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0000526 ! visual estimation - storage root primary shape
 
 [Term]
@@ -4836,7 +4836,7 @@ relationship: scale_of CO_331:0000541 ! visual estimation - reaction to fusarium
 id: CO_331:0000660
 name: RtSPDef 14 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0000542 ! visual estimation - storage root defects
 
 [Term]
@@ -5251,19 +5251,6 @@ is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000341 ! storage root formation
 relationship: variable_of CO_331:0000457 ! visual estimation - storage root formation
 relationship: variable_of CO_331:0000575 ! RtFrm 4 pt. scale
-
-[Term]
-id: CO_331:0000706
-name: Storage root stalk estimating 0-9
-namespace: SweetpotatoTrait
-def: "The length of the storage root stalk estimating 0-9" []
-synonym: "RTSTALK" EXACT []
-synonym: "RTSTFM" EXACT []
-synonym: "RtStk_Et_0to9" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000342 ! storage root stalk
-relationship: variable_of CO_331:0000458 ! measurement - storage root stalk length
-relationship: variable_of CO_331:0000576 ! RtStk 6 pt. scale
 
 [Term]
 id: CO_331:0000707
@@ -6022,6 +6009,19 @@ relationship: variable_of CO_331:0000528 ! visual estimation - storage root shap
 relationship: variable_of CO_331:0000646 ! RtShpU 5 pt. scale
 
 [Term]
+id: CO_331:0000777
+name: Storage root stalk estimating 0-9
+namespace: SweetpotatoTrait
+def: "The length of the storage root stalk estimating 0-9" []
+synonym: "RTSTALK" EXACT []
+synonym: "RTSTFM" EXACT []
+synonym: "RtStk_Et_0to9" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000410 ! storage root stalk
+relationship: variable_of CO_331:0000458 ! measurement - storage root stalk length
+relationship: variable_of CO_331:0000576 ! RtStk 6 pt. scale
+
+[Term]
 id: CO_331:0000778
 name: Storage root attachement estimating 0-9
 namespace: SweetpotatoTrait
@@ -6414,7 +6414,7 @@ relationship: scale_of CO_331:0002024 ! vistual estimation - overall storage roo
 id: CO_331:0000863
 name: RtShp 9 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0000068 ! visual estimation - storage root shape
 
 [Term]
@@ -8158,7 +8158,7 @@ relationship: scale_of CO_331:0000158 ! measurement - vine internode diameter
 id: CO_331:0002032
 name: RtSSDef 14 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0002029 ! visual estimation storage root defects
 
 [Term]
@@ -8172,14 +8172,14 @@ relationship: scale_of CO_331:0002043 ! estimation - fiber method in raw storage
 id: CO_331:0002034
 name: RwRtSta 5 pt. Scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0002025 ! visual estimation - starch content
 
 [Term]
 id: CO_331:0002035
 name: RwRtTSg 9pt. Scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:00001093 ! visual estimation - total sugar content
 
 [Term]
@@ -9110,49 +9110,49 @@ relationship: scale_of CO_331:0000503 ! visual estimation - reaction of the plan
 id: CO_331:0002148
 name: LfTexAc 3pt. Scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0002071 ! visual estimation - texture method
 
 [Term]
 id: CO_331:0002149
 name: LfApAc 3pt. Scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0002072 ! visual estimation - appearance method
 
 [Term]
 id: CO_331:0002150
 name: LfTsAc 3pt. Scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0002073 ! tuber flavor after cooking - method
 
 [Term]
 id: CO_331:0002151
 name: PlPdt 3pt. Scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0002074 ! visual estimation farmer preference for genotype tolerant of pest- method
 
 [Term]
 id: CO_331:0002152
 name: PlYlAb 3pt. Scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0002075 ! visual estimation farmer  preference for genotype of the yielding ability
 
 [Term]
 id: CO_331:0002153
 name: SrSkACol 3pt. Scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0002076 ! visual estimation farmer  preference for the attractiveness of the storage-root skin color
 
 [Term]
 id: CO_331:0002154
 name: SrFlACol 3pt. Scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0002077 ! visual estimation farmer preference for the attractiveness of the  storage-root flesh color
 
 [Term]
@@ -9286,7 +9286,7 @@ relationship: method_of CO_331:2000001 ! plant uniformity
 id: CO_331:2000003
 name: PltUni 6 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:2000002 ! visual estimation - plant uniformity
 
 [Term]
@@ -9321,7 +9321,7 @@ relationship: method_of CO_331:2000006 ! plant production
 id: CO_331:2000008
 name: PltProd 6 pt. scale
 namespace: SweetpotatoScale
-is_a: CO_331:1000019 ! Numerical
+is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:2000007 ! visual estimation - plant production
 
 [Term]
