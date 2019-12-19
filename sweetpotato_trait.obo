@@ -3,6 +3,179 @@ date: 12:02:2018 19:35
 saved-by: vagrant
 auto-generated-by: OBO-Edit 2.3.1
 default-namespace: SweetpotatoDefault
+ontology: TEMP
+
+[Term]
+id: 	CO_331:0000342
+name: 	Storage root stalk
+namespace: 	SweetpotatoTrait
+def: "The length of the storage root stalk" []
+synonym: "RtStk" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+created_by: 	Z. Huaman
+
+[Term]
+id: 	CO_331:0002041
+name: 	Average non-commercial storage root weight
+namespace: 	SweetpotatoTrait
+def: "The average non-commercial weight of storage roots" []
+synonym: "RtANCRW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+created_by: 	CIP
+
+[Term]
+id: 	CO_331:0002042
+name: Average total storage root weight
+namespace: SweetpotatoTrait
+def: "The average total weight of storage roots" []
+synonym: "RtATRW EXACT" RELATED []
+is_a: CO_331:1000008 ! Agronomic_trait
+created_by: 	CIP
+
+[Term]
+id: 	CO_331:0002051
+name: Storage root beta-carotene concentration in dry weight basis
+namespace: 	weetpotatoTrait
+def: "The beta-carotene concentration in dry weight basis of the storage root" []
+synonym: "RtBCDw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+created_by: 	T.ZumFelde
+
+[Term]
+id: 	CO_331:0002052
+name: Storage root total carotenoid concentration in dry weight basis
+namespace: 	SweetpotatoTrait
+def: "The total carotenoid concentration in dry weight basis of the storage root" []
+synonym: "RtTCDw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+created_by: 	T.ZumFelde
+
+[Term]
+id: 	CO_331:0002053
+name: 	Storage root calcium concentration in fresh weight basis
+namespace: 	SweetpotatoTrait
+def: "The calcium concentration in fresh weight basis of the storage root" []
+synonym: "RtFlsCaFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+created_by: 	W. Gruneberg
+
+[Term]
+id: 	CO_331:0002054
+name: 	Storage root zinc concentration in fresh weight basis
+namespace: 	SweetpotatoTrait
+def: "The zinc concentration in fresh weight basis of the storage root" []
+synonym: "RtFlsZnFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+created_by: 	W. Gruneberg
+
+[Term]
+id: 	CO_331:0002055
+name: 	Storage root starch content in fresh weight basis
+namespace: 	SweetpotatoTrait
+def: "Starch content in fresh weight basis of the storage root" []
+synonym: "RtStaFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+created_by: 	T.ZumFelde
+
+[Term]
+id: 	CO_331:0002056
+name: 	Overall disease symptoms of the storage root
+namespace: 	SweetpotatoTrait
+def: "The overall disease symptoms of the storage root" []
+synonym: "RtDSm" EXACT []
+is_a: CO_331:1000005 ! Biotic_stress_trait
+created_by: 	C. Yencho
+
+[Term]
+id: 	CO_331:0002057
+name: 	Storage root magnesium concentration in fresh weight basis
+namespace: 	SweetpotatoTrait
+def: "Content of magnesium in fresh weight basis of the storage root" []
+synonym: "RtFlsMgFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+created_by: 	W. Gruneberg
+
+[Term]
+id: 	CO_331:0002064
+name: 	Leaf texture
+namespace: 	SweetpotatoTrait
+def: "The texture of the leaf" []
+synonym: "BlLfTex" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+created_by: 	Breeders
+
+[Term]
+id: 	CO_331:0002065
+name: 	Leaf appearance
+namespace: 	SweetpotatoTrait
+def: "The visual aspect of leaves" []
+synonym: "BlLfAp" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+created_by: 	Breeders
+
+[Term]
+id: 	CO_331:0002066
+name: 	Leaf flavor
+namespace: 	SweetpotatoTrait
+def: "The flavor of the leaves" []
+synonym: "BlLfTs" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+created_by: 	Breeders
+
+[Term]
+id: 	CO_331:0002067
+name: 	Pest damage tolerant
+namespace: 	SweetpotatoTrait
+def: "The pest damage tolerant of the plant" []
+synonym: "PlPdt" EXACT []
+is_a: CO_331:1000005 ! Biotic_stress_trait
+created_by: 	Breeders
+
+[Term]
+id: 	CO_331:0002068
+name: 	Yielding ability
+namespace: 	SweetpotatoTrait
+def: "Yielding ability of the plant" []
+synonym: "PlYlAb" EXACT []
+is_a: CO_331:1000005 ! Biotic_stress_trait
+created_by: 	Breeders
+
+[Term]
+id: 	CO_331:0002069
+name: 	Attractiveness of the storage-root skin color
+namespace: 	SweetpotatoTrait
+def: "Attractiveness of the storage-root skin color  of a variety with respect to their local variety  at harvest" []
+synonym: "SrSkACol" EXACT []
+is_a: CO_331:1000020 ! Harvest_trait
+created_by: 	Breeders
+
+[Term]
+id: 	CO_331:0002070
+name: 	Attractiveness of the storage-root flesh color
+namespace: 	SweetpotatoTrait
+def: "Attractiveness of the storage-root flesh color  of a variety with respect to their local variety  at harvest" []
+synonym: "SrFlACol" EXACT []
+is_a: CO_331:1000020 ! Harvest_trait
+created_by: 	Breeders
+
+[Term]
+id: 	CO_331:0002078
+name: 	Storage root protein content in fresh weight basis
+namespace: 	SweetpotatoTrait
+def: "Protein content in fresh weight basis of the storage root" []
+synonym: "RtPrtFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+created_by: 	T.ZumFelde
+
+[Term]
+id: 	CO_331:0002079
+name: Storage root iron concentration in fresh weight basis
+namespace: 	SweetpotatoTrait
+def: "The iron concentration in fresh weight basis of the storage root" []
+synonym: "RtFlsFeFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+created_by: 	W. Gruneberg
+
 
 [Term]
 id: CO_331:0000000
@@ -7063,6 +7236,13 @@ namespace: SweetpotatoScale
 is_a: CO_331:1000002 ! Scales
 
 [Term]
+id: CO_331:1000020
+name: Harvest_trait
+namespace: SweetpotatoTrait
+is_a: CO_331:0000000 ! CGIAR sweetpotato trait ontology
+
+
+[Term]
 id: CO_331:2000001
 name: plant uniformity
 namespace: SweetpotatoTrait
@@ -7335,3 +7515,4 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
+
