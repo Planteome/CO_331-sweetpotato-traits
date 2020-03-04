@@ -1359,6 +1359,7 @@ def: "The most representative color of the storage root skin observed is recorde
 synonym: " SCOL" EXACT []
 synonym: "RTSKN1" EXACT []
 synonym: "RtSknColP_Et_1to9_CIP" EXACT []
+synonym: "scol" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000049 ! storage root skin predominant color
 relationship: variable_of CO_331:0000051 ! RtSknColP 9 pt. scale
@@ -1396,6 +1397,7 @@ def: "The predominant color of the storage root flesh in a longitudinal section 
 synonym: " FCOL" EXACT []
 synonym: "RtFlsColP_Et_1to9" EXACT []
 synonym: "RTFSH1" EXACT []
+synonym: "fcol" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000058 ! storage root predominant flesh color
 relationship: variable_of CO_331:0000059 ! visual estimation - storage root flesh predominant color
@@ -1408,6 +1410,7 @@ namespace: SweetpotatoTrait
 def: "The secondary color of the storage root flesh estimating 0-9" []
 synonym: "RtFlsColS_Et_0to9" EXACT []
 synonym: "RTFSH2" EXACT []
+synonym: "fcol2" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000061 ! storage root flesh secondary color
 relationship: variable_of CO_331:0000062 ! visual estimation - storage root flesh secondary color
@@ -1432,6 +1435,7 @@ namespace: SweetpotatoTrait
 def: "The shape of the storage root estimating 1-9 CIP" []
 synonym: "RTSHP" EXACT []
 synonym: "RtShp_Et_1to9" EXACT []
+synonym: "rtshp" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000067 ! storage root primary shape
 relationship: variable_of CO_331:0000068 ! visual estimation - storage root shape
@@ -1468,6 +1472,7 @@ namespace: SweetpotatoTrait
 def: "The size of the storage root estimating 1-9" []
 synonym: "RS" EXACT []
 synonym: "RtSiz_Et_1to9" EXACT []
+synonym: "rs" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000076 ! storage root size
 relationship: variable_of CO_331:0000077 ! visual estimation - storage root size
@@ -1496,6 +1501,7 @@ namespace: SweetpotatoTrait
 def: "Evaluation of the number of plants established per NET plot" []
 synonym: "NOPE" EXACT []
 synonym: "PltEst_Ct_plplot" EXACT []
+synonym: "nope" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000189 ! number of plants established
 relationship: variable_of CO_331:0000871 ! plants/plot
@@ -1508,6 +1514,7 @@ namespace: SweetpotatoTrait
 def: "Virus symptoms estimating 1-9" []
 synonym: "RnVir_Et_1to9" EXACT []
 synonym: "VIR1" EXACT []
+synonym: "vir1" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000094 ! virus symptoms
 relationship: variable_of CO_331:0000095 ! visual estimation - virus symptoms
@@ -1543,6 +1550,7 @@ namespace: SweetpotatoTrait
 def: "The vigor of the vine estimating 1-9" []
 synonym: "VnVg_Et_1to9" EXACT []
 synonym: "VV" EXACT []
+synonym: "vv" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000194 ! vine vigor
 relationship: variable_of CO_331:0000195 ! estimation - observation of plant vigor method
@@ -1556,6 +1564,7 @@ def: "Alternaria symptoms estimating 1-9" []
 synonym: " AS1" EXACT []
 synonym: "ALT1" EXACT []
 synonym: "RnAlt_Et_1to9" EXACT []
+synonym: "alt1" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000091 ! reaction to alternaria spp
 relationship: variable_of CO_331:0000092 ! visual estimation - reaction of the plant to alternaria spp
@@ -1591,6 +1600,7 @@ namespace: SweetpotatoTrait
 def: "Overall assessment of storage root form CIP estimating 1-9" []
 synonym: "RF" EXACT []
 synonym: "RtApr_Et_1to9_CIP" EXACT []
+synonym: "rf" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000199 ! storage root appearance
 relationship: variable_of CO_331:0000200 ! visual estimation - storage root appearance
@@ -1626,6 +1636,7 @@ namespace: SweetpotatoTrait
 def: "The overall assessment of damage to storage roots estimating 1-9" []
 synonym: "DAMR" EXACT []
 synonym: "RtDam_Et_1to9" EXACT []
+synonym: "damr" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000203 ! storage root damage
 relationship: variable_of CO_331:0000204 ! visual estimation - storage root damage
@@ -1639,6 +1650,7 @@ def: "Overall assessment of weevil damage estimating 1-9" []
 synonym: " WED" EXACT []
 synonym: "RnWvl_Et_1to9" EXACT []
 synonym: "WED1" EXACT []
+synonym: "wed" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000088 ! reaction to sweet potato weevil
 relationship: variable_of CO_331:0000089 ! visual estimation - reaction to sweet potato weevil
@@ -1667,6 +1679,7 @@ namespace: SweetpotatoTrait
 def: "Evaluation of the number of plants with storage roots after harvest per NET plot" []
 synonym: "NOPR" EXACT []
 synonym: "PtRt_Ct_plplot" EXACT []
+synonym: "nopr" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000208 ! number of plants with storage roots
 relationship: variable_of CO_331:0000209 ! counting - number of plants with storage roots method
@@ -1687,6 +1700,7 @@ namespace: SweetpotatoTrait
 def: "Evaluation of the number of all storage roots that weigh more or equal than 100 g per NET plot" []
 synonym: "NOCR" EXACT []
 synonym: "RtCmN_Ct_rtplot" EXACT []
+synonym: "nocr" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000145 ! counting - number of commercial storage roots method
 relationship: variable_of CO_331:0000212 ! number of commercial storage roots
@@ -1707,6 +1721,7 @@ namespace: SweetpotatoTrait
 def: "Evaluation of the number of all storage roots that weigh less than 100 g per NET plot" []
 synonym: "NONC" EXACT []
 synonym: "RtNCmN_Ct_rtplot" EXACT []
+synonym: "nonc" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000215 ! number of non-commercial storage roots
 relationship: variable_of CO_331:0000887 ! storage root/plot
@@ -1727,6 +1742,7 @@ namespace: SweetpotatoTrait
 def: "The weight of the commercial storage roots per NET plot in kg" []
 synonym: "CRW" EXACT []
 synonym: "RtCmW_Ms_kgplot" EXACT []
+synonym: "crw" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000146 ! measurement - weight of commercial storage root within net plot method
 relationship: variable_of CO_331:0000218 ! weight of commercial storage roots
@@ -1747,6 +1763,7 @@ namespace: SweetpotatoTrait
 def: "The weight of the non-commercial storage roots per NET plot in kg" []
 synonym: "NCRW" EXACT []
 synonym: "RtNCmW_Ms_kgplot" EXACT []
+synonym: "ncrw" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000221 ! weight of non-commercial storage roots
 relationship: variable_of CO_331:0000893 ! kg/plot
@@ -1775,6 +1792,7 @@ namespace: SweetpotatoTrait
 def: "The weight of the vines per NET plot in kg" []
 synonym: "VnW_Ms_kgplot" EXACT []
 synonym: "VW" EXACT []
+synonym: "vw" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000224 ! vine weight
 relationship: variable_of CO_331:0000225 ! measurement - weight of vines method
@@ -1795,6 +1813,7 @@ namespace: SweetpotatoTrait
 def: "The number of storage roots-after harvest per plant harvested" []
 synonym: "NRPP" EXACT []
 synonym: "RtNumh_Ct_rtplant" EXACT []
+synonym: "nrpp" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000079 ! number of storage roots
 relationship: variable_of CO_331:0000228 ! computation - number of storage roots per plant harvested method
@@ -1815,6 +1834,7 @@ namespace: SweetpotatoTrait
 def: "The number of storage roots after harvest per NET plot" []
 synonym: "RtNum_Ct_rtplot" EXACT []
 synonym: "TNRPLOT" EXACT []
+synonym: "tnr" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000079 ! number of storage roots
 relationship: variable_of CO_331:0000231 ! computation - number of storage roots per plot method
@@ -1843,6 +1863,7 @@ namespace: SweetpotatoTrait
 def: "The total weight of the storage roots per NET plot in kg" []
 synonym: "RtTWt_Cp_kgplot" EXACT []
 synonym: "TRW" EXACT []
+synonym: "trw" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000234 ! total storage root weight
 relationship: variable_of CO_331:0000235 ! computation - total storage root weight per net plot method
@@ -1863,6 +1884,7 @@ namespace: SweetpotatoTrait
 def: "The cracking of the storage root estimating 0-7" []
 synonym: "RtCrk_Et_0to7" EXACT []
 synonym: "SGROOT" EXACT []
+synonym: "sgroot" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000097 ! storage root cracking
 relationship: variable_of CO_331:0000099 ! RtCrk 4 pt. scale
@@ -1891,6 +1913,7 @@ namespace: SweetpotatoTrait
 def: "The fresh weight of the storage root samples" []
 synonym: "DMF" EXACT []
 synonym: "RtFWt_Ms_g" EXACT []
+synonym: "dmf" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000240 ! fresh weight of the storage root
 relationship: variable_of CO_331:0000241 ! measurement - fresh weight of the storage root
@@ -1919,6 +1942,7 @@ namespace: SweetpotatoTrait
 def: "The dry weight of the storage root samples" []
 synonym: "DMD" EXACT []
 synonym: "RtDWt_Ms_g" EXACT []
+synonym: "dmd" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000244 ! dry weight of the storage root
 relationship: variable_of CO_331:0000245 ! measurement - dry weight of the storage root
@@ -1948,6 +1972,7 @@ def: "The fresh weight of the vines samples measuring in g" []
 synonym: "DMFV" EXACT []
 synonym: "DMVF" EXACT []
 synonym: "VnFWt_Et_g" EXACT []
+synonym: "dmvf" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000248 ! fresh weight of vines
 relationship: variable_of CO_331:0000249 ! measurement - fresh weight of the vine
@@ -1977,6 +2002,7 @@ def: "The dry weight of the vines samples measuring in g" []
 synonym: "DMDV" EXACT []
 synonym: "DMVD" EXACT []
 synonym: "VnDWt_Ms_g" EXACT []
+synonym: "dmvd" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000252 ! dry weight of vines
 relationship: variable_of CO_331:0000253 ! measurement - dry weight of vines
@@ -2012,6 +2038,7 @@ namespace: SweetpotatoTrait
 def: "The fiber content of the boiled storage root flesh estimating 1-9" []
 synonym: "BlRtFlsFbC_Et_1to9" EXACT []
 synonym: "COOF" EXACT []
+synonym: "coof" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000256 ! boiled storage root fiber content
 relationship: variable_of CO_331:0000257 ! estimation - fiber method in boiled storage root
@@ -2037,6 +2064,7 @@ def: "The sweetness of the boiled storage root flesh estimating 1-9" []
 synonym: "COOSU" EXACT []
 synonym: "RtFlsSwt_Et_1to9" EXACT []
 synonym: "TASTE" EXACT []
+synonym: "coosu" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000139 ! boiled storage root flesh sweetness
 relationship: variable_of CO_331:0000140 ! estimation - sweetness method
@@ -2076,6 +2104,7 @@ def: "The texture of the boiled storage root flesh estimating 1-9" []
 synonym: " COOST" EXACT []
 synonym: "RtFlsTxG_Et_1to9" EXACT []
 synonym: "TEXTBR" EXACT []
+synonym: "coost" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000136 ! storage root flesh texture
 relationship: variable_of CO_331:0000137 ! estimation - texture method
@@ -2111,6 +2140,7 @@ namespace: SweetpotatoTrait
 def: "The overall taste of the boiled storage root flesh estimating 1-9" []
 synonym: "COOT" EXACT []
 synonym: "RtFlsTs_Et_1to9" EXACT []
+synonym: "coot" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000266 ! boiled storage root flesh taste
 relationship: variable_of CO_331:0000267 ! estimation - taste method
@@ -2146,6 +2176,7 @@ namespace: SweetpotatoTrait
 def: "The overall appearance of the boiled storage root flesh" []
 synonym: "COOAP" EXACT []
 synonym: "RtFlsAp_Et_1to9" EXACT []
+synonym: "cooap" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000270 ! boiled storage root appearance
 relationship: variable_of CO_331:0000271 ! estimation - appearance method
@@ -2181,6 +2212,7 @@ namespace: SweetpotatoTrait
 def: "The sprouting ability estimating 1-9" []
 synonym: "RSPR" EXACT []
 synonym: "RtSpA_Et_1to9,RSPR" EXACT []
+synonym: "rspr" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000274 ! sprouting ability
 relationship: variable_of CO_331:0000275 ! evaluation of roots for sprouting ability
@@ -2193,6 +2225,7 @@ namespace: SweetpotatoTrait
 def: "Protein content in dry weight basis in raw storage roots measuring percentage" []
 synonym: "PRODW" EXACT []
 synonym: "RwRtPrt_Ms_%DW" EXACT []
+synonym: "prot" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000100 ! storage root protein content in dry weight basis
 relationship: variable_of CO_331:0000900 ! %
@@ -2269,6 +2302,7 @@ namespace: SweetpotatoTrait
 def: "The beta-carotene concentration in dry weight basis in raw storage roots measuring mg per 100g" []
 synonym: "RWBCDW" EXACT []
 synonym: "RwRtBC_Ms_mg100gDW" EXACT []
+synonym: "bc" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000925 ! mg/100g
 relationship: variable_of CO_331:0002051 ! storage root beta-carotene concentration in dry weight basis
@@ -2281,6 +2315,7 @@ namespace: SweetpotatoTrait
 def: "The total carotenoid concentration in dry weight basis in raw storage roots measuring mg per 100g" []
 synonym: "RwRtTC_Ms_mg100gDW" EXACT []
 synonym: "TCDW" EXACT []
+synonym: "tc" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000925 ! mg/100g
 relationship: variable_of CO_331:0002052 ! storage root total carotenoid concentration in dry weight basis
@@ -2293,6 +2328,7 @@ namespace: SweetpotatoTrait
 def: "Starch content in dry weight basis in raw storage roots measuring percentage" []
 synonym: "RwRtSta_Ms_%DW" EXACT []
 synonym: "STARDW" EXACT []
+synonym: "star" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000115 ! storage root starch content in dry weight basis
 relationship: variable_of CO_331:0000900 ! %
@@ -2353,6 +2389,7 @@ namespace: SweetpotatoTrait
 def: "The yield of the total storage roots tons per ha" []
 synonym: "RtYld_Cp_tha" EXACT []
 synonym: "RYTHA" EXACT []
+synonym: "rytha" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000082 ! total storage roots yield
 relationship: variable_of CO_331:0000083 ! computation - total storage roots yield method
@@ -2365,6 +2402,7 @@ namespace: SweetpotatoTrait
 def: "The dry matter content of the storage root in percent" []
 synonym: "DM" EXACT []
 synonym: "RtDMC_Cp_pct" EXACT []
+synonym: "dm" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000142 ! storage root dry matter content
 relationship: variable_of CO_331:0000143 ! computation - storage root dry matter content
@@ -2393,6 +2431,7 @@ namespace: SweetpotatoTrait
 def: "The index of survival or establishment of the plant computing percent" []
 synonym: "IxSrv_Cp_pct" EXACT []
 synonym: "SHI" EXACT []
+synonym: "shi" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000298 ! survival index
 relationship: variable_of CO_331:0000299 ! computation - survival index method
@@ -2405,6 +2444,7 @@ namespace: SweetpotatoTrait
 def: "The index of the harvest computing percent" []
 synonym: "HI" EXACT []
 synonym: "HrvInx_Cp_pct" EXACT []
+synonym: "hi" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000085 ! harvest index
 relationship: variable_of CO_331:0000086 ! computation - harvest index evaluation method
@@ -4923,6 +4963,7 @@ namespace: SweetpotatoTrait
 def: "Evaluation of the number of plants planted per NET plot" []
 synonym: "NOPS" EXACT []
 synonym: "PltPld_Ct_plplot" EXACT []
+synonym: "nops" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000190 ! counting - number of plants planted method
 relationship: variable_of CO_331:0000303 ! number of plants planted
@@ -4935,6 +4976,7 @@ namespace: SweetpotatoTrait
 def: "Evaluation of the number of plants harvested per NET plot" []
 synonym: "NOPH" EXACT []
 synonym: "PtHrv_Ct_plplot" EXACT []
+synonym: "noph" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000304 ! number of plants harvested
 relationship: variable_of CO_331:0000305 ! counting - number of plants harvested method
@@ -4947,6 +4989,7 @@ namespace: SweetpotatoTrait
 def: "The average commercial weight of storage roots in kg" []
 synonym: "ACRW" EXACT []
 synonym: "RtACRW_Cp_kg" EXACT []
+synonym: "acrw" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000308 ! average commercial storage root weight
 relationship: variable_of CO_331:0000314 ! computation - average commercial weight of storage roots method
@@ -4959,6 +5002,7 @@ namespace: SweetpotatoTrait
 def: "The yield of storage roots in kg per plant harvested" []
 synonym: "RtYPPh_Cp_kgplant" EXACT []
 synonym: "YPP" EXACT []
+synonym: "ypp" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000309 ! storage roots yield
 relationship: variable_of CO_331:0000315 ! computation - yield of storage roots per plant harvested method
@@ -4971,6 +5015,7 @@ namespace: SweetpotatoTrait
 def: "The percentage of commercial storage roots after harvest" []
 synonym: "CI" EXACT []
 synonym: "RtCI_Cp_pct" EXACT []
+synonym: "ci" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000310 ! proportion of commercial storage roots
 relationship: variable_of CO_331:0000316 ! computation - commercial storage roots proportion method
@@ -4983,6 +5028,7 @@ namespace: SweetpotatoTrait
 def: "The yield of the biomass in kg per plot" []
 synonym: "BIOM" EXACT []
 synonym: "BioYld_Cp_kgplot" EXACT []
+synonym: "biom" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000311 ! biomass yield
 relationship: variable_of CO_331:0000317 ! computation - biomass yield method in kg
@@ -4995,6 +5041,7 @@ namespace: SweetpotatoTrait
 def: "The yield of the total vine or foliage in tons per ha" []
 synonym: "FYTHA" EXACT []
 synonym: "VnFolYld_Cp_tha" EXACT []
+synonym: "fytha" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000312 ! total foliage yield
 relationship: variable_of CO_331:0000318 ! computation - yield of foliage method
@@ -5416,6 +5463,7 @@ namespace: SweetpotatoTrait
 def: "The reaction to Striped sweet potato weevil estimating 1-9" []
 synonym: "RnSSPW_Et_1to9" EXACT []
 synonym: "STSPWV" EXACT []
+synonym: "stspwv" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000356 ! reaction to striped sweet potato weevil
 relationship: variable_of CO_331:0000472 ! visual estimation - reaction of the plant to striped sweet potato weevil
@@ -5968,6 +6016,7 @@ namespace: SweetpotatoTrait
 def: "Total sugar content in raw storage roots estimating 1-9" []
 synonym: "RwRtTSg_Et_1to9" EXACT []
 synonym: "TOTSUG" EXACT []
+synonym: "suraw" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:00001093 ! visual estimation - total sugar content
 relationship: variable_of CO_331:0000402 ! storage root total sugar content
@@ -6198,6 +6247,7 @@ namespace: SweetpotatoTrait
 def: "The overall computation of relative storage root yield" []
 synonym: "RtYldChk_Cp_pct" EXACT []
 synonym: "RTYLDPCT" EXACT []
+synonym: " rtyldpct" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000425 ! storage root yield relative to check
 relationship: variable_of CO_331:0000544 ! computation - relative check of storage root yield method
@@ -6342,6 +6392,7 @@ namespace: SweetpotatoTrait
 def: "Millipede damage estimating 1-9" []
 synonym: "MILLDAM" EXACT []
 synonym: "RtsMillDam_Et_1to9" EXACT []
+synonym: "milldam" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000438 ! millipede damage
 relationship: variable_of CO_331:0000557 ! visual estimation - millipede damage
@@ -6354,6 +6405,7 @@ namespace: SweetpotatoTrait
 def: "Alcidodes sp. damage estimating 1-9" []
 synonym: "ALCDAM" EXACT []
 synonym: "RtAlcDam_Et_1to9" EXACT []
+synonym: "alcdam" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000439 ! alcidodes sp. damage
 relationship: variable_of CO_331:0000558 ! visual estimation - alcidodes sp. damage
@@ -6378,6 +6430,7 @@ namespace: SweetpotatoTrait
 def: "The yield of the commercial storage roots tons per ha" []
 synonym: "CYTHA" EXACT []
 synonym: "RtCYld_Cp_tha" EXACT []
+synonym: "cytha" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000307 ! commercial storage root yield
 relationship: variable_of CO_331:0000313 ! computation - commercial storage root yield method
@@ -6768,6 +6821,7 @@ namespace: SweetpotatoTrait
 def: "The yield of storage roots in kg per plant planted" []
 synonym: "RtYPPp_Cp_kgplant" EXACT []
 synonym: "YPSP" EXACT []
+synonym: "ypsp" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000309 ! storage roots yield
 relationship: variable_of CO_331:0000321 ! kg/plant
@@ -6780,6 +6834,7 @@ namespace: SweetpotatoTrait
 def: "The weight of the vines in kg per plant harvested" []
 synonym: "VnWh_Cp_kgplant" EXACT []
 synonym: "VPP" EXACT []
+synonym: "vpp" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000224 ! vine weight
 relationship: variable_of CO_331:0000321 ! kg/plant
@@ -6792,6 +6847,7 @@ namespace: SweetpotatoTrait
 def: "The weight of the vines in kg per plant planted" []
 synonym: "VnWp_Cp_kgplant" EXACT []
 synonym: "VPSP" EXACT []
+synonym: "vpsp" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000224 ! vine weight
 relationship: variable_of CO_331:0000321 ! kg/plant
@@ -6816,6 +6872,7 @@ namespace: SweetpotatoTrait
 def: "Evaluation of the number of all storage roots that weigh more or equal than 100 g per plant planted" []
 synonym: "NCRPSP" EXACT []
 synonym: "RtNCmp_Cp_rtplant" EXACT []
+synonym: "ncrpsp" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000212 ! number of commercial storage roots
 relationship: variable_of CO_331:0000891 ! storage root/plant
@@ -6828,6 +6885,7 @@ namespace: SweetpotatoTrait
 def: "The number of storage roots-after harvest per plant planted" []
 synonym: "NRPSP" EXACT []
 synonym: "RtNump_Ct_rtplant" EXACT []
+synonym: "nrpsp" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000079 ! number of storage roots
 relationship: variable_of CO_331:0000891 ! storage root/plant
@@ -6840,6 +6898,7 @@ namespace: SweetpotatoTrait
 def: "The total dry weight of the storage roots per NET plot in kg" []
 synonym: "RtTDWt_Cp_kgplot" EXACT []
 synonym: "TRWD" EXACT []
+synonym: "trw.d" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000893 ! kg/plot
 relationship: variable_of CO_331:0001080 ! total storage root dry weight
@@ -6852,6 +6911,7 @@ namespace: SweetpotatoTrait
 def: "The dry weight of the vines per NET plot in kg" []
 synonym: "VnDW_Ms_kgplot" EXACT []
 synonym: "VWD" EXACT []
+synonym: "vw.d" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000893 ! kg/plot
 relationship: variable_of CO_331:0001087 ! vine dry weight
@@ -6864,6 +6924,7 @@ namespace: SweetpotatoTrait
 def: "The yield of the biomass in dry weight basis in kg per plot" []
 synonym: "BIOMD" EXACT []
 synonym: "BioYldD_Cp_kgplot" EXACT []
+synonym: "biom.d"  EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000893 ! kg/plot
 relationship: variable_of CO_331:0001058 ! biomass yield in dry weight basis
@@ -6876,6 +6937,7 @@ namespace: SweetpotatoTrait
 def: "The adjusted yield of the commercial storage roots tons per ha" []
 synonym: "CYTHAAJ" EXACT []
 synonym: "RtCYldA_Cp_tha" EXACT []
+synonym: "cytha.aj" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0001059 ! commercial storage root yield adjusted
@@ -6888,6 +6950,7 @@ namespace: SweetpotatoTrait
 def: "The adjusted yield of the total storage roots tons per ha" []
 synonym: "RtYldA_Cp_tha" EXACT []
 synonym: "RYTHAAJ" EXACT []
+synonym: "rytha.aj" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0001081 ! total storage roots yield adjusted
@@ -6900,6 +6963,7 @@ namespace: SweetpotatoTrait
 def: "The dry matter content of the storage root yield per NET plot in tons per ha" []
 synonym: "DMRY" EXACT []
 synonym: "RtDMCY_Cp_tha" EXACT []
+synonym: "dmry" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0001065 ! storage root dry matter content yield
@@ -6912,6 +6976,7 @@ namespace: SweetpotatoTrait
 def: "The dry matter content of the storage root yield adjusted per NET plot in tons per ha" []
 synonym: "DMRYAJ" EXACT []
 synonym: "RtDMCYA_Cp_tha" EXACT []
+synonym: "dmry.aj" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0001066 ! storage root dry matter content yield adjusted
@@ -6924,6 +6989,7 @@ namespace: SweetpotatoTrait
 def: "The adjusted yield of the total vine or foliage in tons per ha" []
 synonym: "FYTHAAJ" EXACT []
 synonym: "VnFolYldA_Cp_tha" EXACT []
+synonym: "fytha.aj" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0001078 ! total foliage yield adjusted
@@ -6936,6 +7002,7 @@ namespace: SweetpotatoTrait
 def: "The yield of the biomass in tons per ha" []
 synonym: "BioYld_Cp_tha" EXACT []
 synonym: "BYTHA" EXACT []
+synonym: "bytha" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000311 ! biomass yield
 relationship: variable_of CO_331:0000897 ! t/ha
@@ -6948,6 +7015,7 @@ namespace: SweetpotatoTrait
 def: "The adjusted yield of the biomass in tons per ha" []
 synonym: "BioYldA_Cp_tha" EXACT []
 synonym: "BYTHAAJ" EXACT []
+synonym: "bytha.aj" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0001056 ! biomass yield adjusted
@@ -6960,6 +7028,7 @@ namespace: SweetpotatoTrait
 def: "The dry matter content of the vine yield per NET plot in tons per ha" []
 synonym: "DMVY" EXACT []
 synonym: "VnDMCY_Cp_tha" EXACT []
+synonym: "dmvy" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0001085 ! vine dry matter content yield
@@ -6972,6 +7041,7 @@ namespace: SweetpotatoTrait
 def: "The dry matter content of the vine yield adjusted per NET plot in tons per ha" []
 synonym: "DMVYAJ" EXACT []
 synonym: "VnDMCYA_Cp_tha" EXACT []
+synonym: "dmvy.aj" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0001086 ! vine dry matter content yield adjusted
@@ -6984,6 +7054,7 @@ namespace: SweetpotatoTrait
 def: "The yield of the biomass in dry weight basis in tons per ha" []
 synonym: "BioYldD_Cp_tha" EXACT []
 synonym: "DMBY" EXACT []
+synonym: "dmby" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0001058 ! biomass yield in dry weight basis
@@ -6996,6 +7067,7 @@ namespace: SweetpotatoTrait
 def: "The adjusted yield of the biomass in dry weight basis in tons per ha" []
 synonym: "BioYldAD_Cp_tha" EXACT []
 synonym: "DMBYAJ" EXACT []
+synonym: "dmby.aj" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000897 ! t/ha
 relationship: variable_of CO_331:0001057 ! biomass yield adjusted in dry weight basis
@@ -7068,6 +7140,7 @@ namespace: SweetpotatoTrait
 def: "The dry matter content of the vine computing percent" []
 synonym: "DMV" EXACT []
 synonym: "VnDMC_Cp_pct" EXACT []
+synonym: "dmv" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000900 ! %
 relationship: variable_of CO_331:0001084 ! vine dry matter content
@@ -7080,6 +7153,7 @@ namespace: SweetpotatoTrait
 def: "The ratio between root and foliage" []
 synonym: "RFR" EXACT []
 synonym: "RtFl_Cp_pct" EXACT []
+synonym: "rfr" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000900 ! %
 relationship: variable_of CO_331:0001063 ! root foliage ratio
@@ -7092,6 +7166,7 @@ namespace: SweetpotatoTrait
 def: "The iron concentration in dry weight basis of the storage root measuring mg per 100g by NIRS" []
 synonym: "FeDW" EXACT []
 synonym: "RtFlsFe_Ms_NIRS_mg100gDW" EXACT []
+synonym: "fe" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000103 ! storage root iron concentration in dry weight basis
 relationship: variable_of CO_331:0000925 ! mg/100g
@@ -7104,6 +7179,7 @@ namespace: SweetpotatoTrait
 def: "The zinc concentration in dry weight basis of the storage root measuring mg per 100g by NIRS" []
 synonym: "RtFlsZn_Ms_NIRS_mg100gDW" EXACT []
 synonym: "ZnDW" EXACT []
+synonym: "zn" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000106 ! storage root zinc concentration in dry weight basis
 relationship: variable_of CO_331:0000925 ! mg/100g
@@ -7176,6 +7252,7 @@ namespace: SweetpotatoTrait
 def: "The beta-carotene concentration in fresh weight basis in raw storage roots estimating from RHS color chart in mg per 100g" []
 synonym: "BCFWcc" EXACT []
 synonym: "RwRtBCcc_Et_mg100gFW" EXACT []
+synonym: "bc.cc" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000109 ! storage root beta-carotene concentration in fresh weight basis
 relationship: variable_of CO_331:0000925 ! mg/100g
@@ -7248,6 +7325,7 @@ namespace: SweetpotatoTrait
 def: "The calcium concentration in dry weight basis of the storage root measuring mg per 100g by NIRS" []
 synonym: "CaDW" EXACT []
 synonym: "RtFlsCa_Ms_NIRS_mg100gDW" EXACT []
+synonym: "ca" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000281 ! storage root calcium concentration in dry weight basis
 relationship: variable_of CO_331:0000925 ! mg/100g
@@ -7260,6 +7338,7 @@ namespace: SweetpotatoTrait
 def: "The magnesium content in dry weight basis of the storage root measuring mg per 100g by NIRS" []
 synonym: "MgDW" EXACT []
 synonym: "RtFlsMg_Ms_NIRS_mg100gDW" EXACT []
+synonym: "mg" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000285 ! storage root magnesium concentration in dry weight basis
 relationship: variable_of CO_331:0000925 ! mg/100g
@@ -7356,6 +7435,7 @@ namespace: SweetpotatoTrait
 def: "The fiber content of the raw storage root flesh estimating 1-9" []
 synonym: "FRAW" EXACT []
 synonym: "RwRtFlsFrC_Et_1to9" EXACT []
+synonym: "fraw" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000130 ! storage root fiber content
 relationship: variable_of CO_331:0002033 ! RtFlsFf 5 pt. Scale
@@ -7440,6 +7520,7 @@ namespace: SweetpotatoTrait
 def: "The fructose content in dry weight basis in raw storage roots measuring g per 100g" []
 synonym: "FRUCDW" EXACT []
 synonym: "RwRtFru_Ms_g100gDW" EXACT []
+synonym: "fruc" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:00001127 ! g/100g
 relationship: variable_of CO_331:0001067 ! storage root fructose content in dry weight basis
@@ -7464,6 +7545,7 @@ namespace: SweetpotatoTrait
 def: "The glucose content in dry weight basis in raw storage roots measuring g per 100g" []
 synonym: "GLUCDW" EXACT []
 synonym: "RwRtGlu_Ms_g100gDW" EXACT []
+synonym: "gluc" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:00001127 ! g/100g
 relationship: variable_of CO_331:0001069 ! storage root glucose content in dry weight basis
@@ -7488,6 +7570,7 @@ namespace: SweetpotatoTrait
 def: "The sucrose content in dry weight basis in raw storage roots measuring g per 100g" []
 synonym: "RwRtSuc_Ms_g100gDW" EXACT []
 synonym: "SUCDW" EXACT []
+synonym: "sucr" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:00001127 ! g/100g
 relationship: variable_of CO_331:0001074 ! storage root sucrose content in dry weight basis
@@ -7512,6 +7595,7 @@ namespace: SweetpotatoTrait
 def: "The maltose content in dry weight basis in raw storage roots measuring g per 100g" []
 synonym: "MALTDW" EXACT []
 synonym: "RwRtMal_Ms_g100gDW" EXACT []
+synonym: "malt" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:00001127 ! g/100g
 relationship: variable_of CO_331:0001071 ! storage root maltose content in dry weight basis
@@ -7560,6 +7644,7 @@ namespace: SweetpotatoTrait
 def: "Starch content in raw storage roots estimating 1-9" []
 synonym: "RwRtSta_Et_1to9" EXACT []
 synonym: "STRAW" EXACT []
+synonym: "straw" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0001073 ! storage root starch content
 relationship: variable_of CO_331:0002025 ! visual estimation - starch content
@@ -8211,6 +8296,7 @@ namespace: SweetpotatoTrait
 def: "The average non-commercial weight of storage roots in kg" []
 synonym: "ANCRW" EXACT []
 synonym: "RtANCRW_Cp_kg" EXACT []
+synonym: "ancrw" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000893 ! kg/plot
 relationship: variable_of CO_331:0002041 ! average non-commercial storage root weight
@@ -8223,6 +8309,7 @@ namespace: SweetpotatoTrait
 def: "The average total weight of storage roots in kg" []
 synonym: "ATRW" EXACT []
 synonym: "RtATRW_Cp_kg" EXACT []
+synonym: "atrw" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000893 ! kg/plot
 relationship: variable_of CO_331:0002042 ! average total storage root weight
@@ -9520,6 +9607,7 @@ namespace: SweetpotatoTrait
 def: "Evaluation of the number of all storage roots that weigh more or equal than 100 g per plant harvested" []
 synonym: "NCRPP" EXACT []
 synonym: "RtNCmh_Cp_rtplant" EXACT []
+synonym: "ncrpp" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000212 ! number of commercial storage roots
 relationship: variable_of CO_331:0000891 ! storage root/plant
