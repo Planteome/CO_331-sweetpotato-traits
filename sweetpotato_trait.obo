@@ -9631,7 +9631,7 @@ id: CO_331:0006000
 name: Baked storage root flesh color uniformity estimating 0-9
 namespace: SweetpotatoTrait
 def: "The color uniformity of the baked storage root flesh. 0 = Highly variable, 3 = Variable, 5 = Moderately variable, 7 = Mostly Consistent, 9 = Consistent throughout" []
-synonym: BkRtFlsClrUni_Et_0to9" EXACT []
+synonym: "BkRtFlsClrUni_Et_0to9" EXACT []
 synonym: "BAKEFLESHCOLUNI" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000270 ! cooked storage root appearance
@@ -9656,7 +9656,7 @@ id: CO_331:0006001
 name: Baked storage root flesh color intensity estimating 0-9
 namespace: SweetpotatoTrait
 def: "The color intensity of the baked storage root flesh. 0 = Very light color, 3 = Light color, 5 = Moderate color, 7= Deep color, 9 = Deepest color" []
-synonym: BkRtFlsClrInt_Et_0to9" EXACT []
+synonym: "BkRtFlsClrInt_Et_0to9" EXACT []
 synonym: "BAKEFLESHCOLINT" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000270 ! cooked storage root appearance
@@ -9681,7 +9681,7 @@ id: CO_331:0006002
 name: Baked storage root flesh discoloration estimating 0-9
 namespace: SweetpotatoTrait
 def: "The degree of discoloration of the baked storage root flesh. 0 = Highly discolored, 3 = Discolored, 5 = Moderately discolored, 7 =  Slightly discolored, 9 = No discoloration" []
-synonym: BkRtFlsDisClr_Et_0to9" EXACT []
+synonym: "BkRtFlsDisClr_Et_0to9" EXACT []
 synonym: "BAKEFLESHDISCOL" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000270 ! cooked storage root appearance
@@ -9706,7 +9706,7 @@ id: CO_331:0006003
 name: Baked storage root flesh overall eye appeal estimating 0-9
 namespace: SweetpotatoTrait
 def: "How appealing the baked storage root flesh appearance is overall. 0 = Not appealing, 3 = Slightly appealing, 5 = Moderately appealing, 7 = Appealing, 9 = Very appealing" []
-synonym: BkRtFlsEyeApl_Et_0to9" EXACT []
+synonym: "BkRtFlsEyeApl_Et_0to9" EXACT []
 synonym: "BAKEFLESHEYEAPL" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000270 ! cooked storage root appearance
@@ -9731,7 +9731,7 @@ id: CO_331:0006004
 name: Baked storage root flesh moistness estimating 0-9
 namespace: SweetpotatoTrait
 def: "How moist the baked storage root flesh tastes. 0 = Very dry, 3 = Dry, 5 = Moderately moist, 7 = Moist, 9 = Very moist" []
-synonym: BkRtFlsMst_Et_0to9" EXACT []
+synonym: "BkRtFlsMst_Et_0to9" EXACT []
 synonym: "BAKEFLESHMST" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000136 ! cooked storage root texture
@@ -9756,7 +9756,7 @@ id: CO_331:0006005
 name: Baked storage root flesh lack of fiber estimating 0-9
 namespace: SweetpotatoTrait
 def: "How free the baked storage root flesh is from fiber when tasted. 0 = Very fibrous, 3 = Fibrous, 5 = Moderately fibrous, 7 = Slightly fibrous, 9 = Non-fibrous" []
-synonym: BkRtFlsLckFbr_Et_0to9" EXACT []
+synonym: "BkRtFlsLckFbr_Et_0to9" EXACT []
 synonym: "BAKEFLESHLCKFBR" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000136 ! cooked storage root texture
@@ -9781,7 +9781,7 @@ id: CO_331:0006006
 name: Baked storage root flesh smoothness estimating 0-9
 namespace: SweetpotatoTrait
 def: "How smooth the baked storage root flesh tastes. 0 = Not smooth, 3 = Slightly smooth, 5 = Moderately smooth, 7 = Smooth, 9 = Very smooth" []
-synonym: BkRtFlsSmooth_Et_0to9" EXACT []
+synonym: "BkRtFlsSmooth_Et_0to9" EXACT []
 synonym: "BAKEFLESHSMOOTH" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000136 ! cooked storage root texture
@@ -9806,7 +9806,7 @@ id: CO_331:0006007
 name: Baked storage root flesh sweetness estimating 0-9
 namespace: SweetpotatoTrait
 def: "How sweet the baked storage root flesh tastes. 0 = No sweetness, 3 = Sightly sweet, 5 = Moderately sweet, 7 = Sweet, 9 = Extremely sweet" []
-synonym: BkRtFlsSweet_Et_0to9" EXACT []
+synonym: "BkRtFlsSweet_Et_0to9" EXACT []
 synonym: "BAKEFLESHSWT" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000139 ! cooked storage root sweetness
@@ -9831,7 +9831,7 @@ id: CO_331:0006008
 name: Baked storage root flesh taste estimating 0-9
 namespace: SweetpotatoTrait
 def: "How good the baked storage root flesh tastes. 0 = Extremely dislike, 3 = Dislike, 5 = Neutral, 7 = Like, 9 = Extremely like" []
-synonym: BkRtFlsTaste_Et_0to9" EXACT []
+synonym: "BkRtFlsTaste_Et_0to9" EXACT []
 synonym: "BAKEFLESHTST" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000266 ! cooked storage root taste
@@ -9864,7 +9864,7 @@ id: CO_331:0006010
 name: Baked storage root flesh overall likability estimating 0-9
 namespace: SweetpotatoTrait
 def: "The overall likability of the cooked storage root based on appearance and taste. 0 = Extremely dislike, 3 = Dislike, 5 = Neutral, 7 = Like, 9 = Extremely like" []
-synonym: BkRtFlsLike_Et_0to9" EXACT []
+synonym: "BkRtFlsLike_Et_0to9" EXACT []
 synonym: "BAKEFLESHLIKE" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0006009 ! cooked storage root likability
