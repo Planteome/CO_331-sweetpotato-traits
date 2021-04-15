@@ -8014,6 +8014,175 @@ is_a: CO_331:1000013 ! Computation
 relationship: method_of CO_331:0001080 ! total storage root dry weight
 
 [Term]
+id: CO_331:0001100
+name: Leaf area index computation
+namespace: SweetpotatoTrait
+def: "Defined as total surface area of foliage per unit ground area" []
+synonym: "LAI" EXACT []
+synonym: "LfAInd_Cp" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0001105 ! leaf area index
+relationship: variable_of CO_331:0001110 ! leaflet area index - computation method
+relationship: variable_of CO_331:0001115 ! unitless
+
+[Term]
+id: CO_331:0001101
+name: Leaf Stomatal conductance measurement in mmol
+namespace: SweetpotatoTrait
+def: "Stomatal conductance is the rate of passage of CO2 entering or water vapor exiting through the stomata of a leaf" []
+synonym: "LfSt_Ms_mmol" EXACT []
+synonym: "LSC" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0001106 ! stomatal conductance
+relationship: variable_of CO_331:0001111 ! stomatal conductance-leaf porometer method
+relationship: variable_of CO_331:0001116 ! mmol
+
+[Term]
+id: CO_331:0001102
+name: Leaf Stomatal density counting mm2
+namespace: SweetpotatoTrait
+def: "The number of stomata per leaf area." []
+synonym: "LfStDn_Ct_mm2" EXACT []
+synonym: "LSD" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0001107 ! stomatal density
+relationship: variable_of CO_331:0001112 ! stomatal density-  counting  microscopy method
+relationship: variable_of CO_331:0001117 ! mm2
+
+[Term]
+id: CO_331:0001103
+name: Canopy temperature measurement in ℃
+namespace: SweetpotatoTrait
+def: "The temperature of the canopy by plot with a thermal image" []
+synonym: "CT" EXACT []
+synonym: "CT_Ms_℃" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0001108 ! canopy temperature
+relationship: variable_of CO_331:0001113 ! canopy temperature with thermography method
+relationship: variable_of CO_331:0001118 ! ℃
+
+[Term]
+id: CO_331:0001104
+name: Canopy temperature depression computation ℃
+namespace: SweetpotatoTrait
+def: "Deviation of temperature of plant canopies from the ambient temperature" []
+synonym: "CTD" EXACT []
+synonym: "CTD_cp_℃" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0001109 ! canopy temperature depression
+relationship: variable_of CO_331:0001114 ! canopy temperature depression method
+relationship: variable_of CO_331:0001118 ! ℃
+
+[Term]
+id: CO_331:0001105
+name: leaf area index
+namespace: SweetpotatoTrait
+def: "Defined as total surface area of foliage per unit ground area" []
+synonym: "LfAInd" EXACT []
+is_a: CO_331:1000031
+
+[Term]
+id: CO_331:0001106
+name: stomatal conductance
+namespace: SweetpotatoTrait
+def: "Stomatal conductance is the rate of passage of CO2 entering or water vapor exiting through the stomata of a leaf" []
+synonym: "LfSt" EXACT []
+is_a: CO_331:1000031
+
+[Term]
+id: CO_331:0001107
+name: stomatal density
+namespace: SweetpotatoTrait
+def: "The number of stomata per leaf area." []
+synonym: "LfStDn" EXACT []
+is_a: CO_331:1000031
+
+[Term]
+id: CO_331:0001108
+name: canopy temperature
+namespace: SweetpotatoTrait
+def: "The temperature of the canopy by plot with a thermal image taken for a infrared thermografic camera" []
+synonym: "CT" EXACT []
+is_a: CO_331:1000031
+
+[Term]
+id: CO_331:0001109
+name: canopy temperature depression
+namespace: SweetpotatoTrait
+def: "Deviation of temperature of plant canopies from the ambient temperature" []
+synonym: "CTD" EXACT []
+is_a: CO_331:1000031
+
+[Term]
+id: CO_331:0001110
+name: leaflet area index - computation method
+namespace: SweetpotatoMethod
+def: "Estimated by a Plant Canopy Analyzer calculated as LAI (Leaf area index)" []
+is_a: CO_331:1000013 ! Computation
+relationship: method_of CO_331:0001105 ! leaf area index
+
+[Term]
+id: CO_331:0001111
+name: stomatal conductance-leaf porometer method
+namespace: SweetpotatoMethod
+def: "A leaf porometer is used to estimate stomatal conductance by simply clipping the sensor head onto a leaf and record stomatal conductance within 30 seconds" []
+is_a: CO_331:1000011 ! Measurement
+relationship: method_of CO_331:0001106 ! stomatal conductance
+
+[Term]
+id: CO_331:0001112
+name: stomatal density-  counting  microscopy method
+namespace: SweetpotatoMethod
+def: "Counting  number of stome in the underside (abaxial) and top side (adaxial) of the leaf with a microscopie" []
+is_a: CO_331:1000012 ! Counting
+relationship: method_of CO_331:0001107 ! stomatal density
+
+[Term]
+id: CO_331:0001113
+name: canopy temperature with thermography method
+namespace: SweetpotatoMethod
+def: "Measure the canopy temperature and record it. Use a computer program to measure the mean temperature of the canopy by plot with a thermal image taken using an Unnamed Air Vehicle (UAV)" []
+is_a: CO_331:1000011 ! Measurement
+relationship: method_of CO_331:0001108 ! canopy temperature
+
+[Term]
+id: CO_331:0001114
+name: canopy temperature depression method
+namespace: SweetpotatoMethod
+def: "Compute canopy temperature depression using the formula" []
+is_a: CO_331:1000013 ! Computation
+relationship: method_of CO_331:0001109 ! canopy temperature depression
+
+[Term]
+id: CO_331:0001115
+name: unitless
+namespace: SweetpotatoScale
+is_a: CO_331:1000019 ! Numerical
+relationship: scale_of CO_331:0001110 ! leaflet area index - computation method
+
+[Term]
+id: CO_331:0001116
+name: mmol
+namespace: SweetpotatoScale
+is_a: CO_331:1000019 ! Numerical
+relationship: scale_of CO_331:0001111 ! stomatal conductance-leaf porometer method
+
+[Term]
+id: CO_331:0001117
+name: mm2
+namespace: SweetpotatoScale
+is_a: CO_331:1000019 ! Numerical
+relationship: scale_of CO_331:0001112 ! stomatal density-  counting  microscopy method
+
+[Term]
+id: CO_331:0001118
+name: ℃
+namespace: SweetpotatoScale
+is_a: CO_331:1000019 ! Numerical
+relationship: scale_of CO_331:0001113 ! canopy temperature with thermography method
+relationship: scale_of CO_331:0001114 ! canopy temperature depression method
+
+[Term]
 id: CO_331:0002000
 name: computation - total storage roots yield adjusted method
 namespace: SweetpotatoMethod
@@ -9352,6 +9521,12 @@ id: CO_331:1000030
 name: Nominal
 namespace: SweetpotatoScale
 is_a: CO_331:1000002 ! Scales
+
+[Term]
+id: CO_331:1000031
+name: Physiological_trait
+namespace: SweetpotatoTrait
+is_a: CO_331:0000000 ! CGIAR sweetpotato trait ontology
 
 [Term]
 id: CO_331:20000
