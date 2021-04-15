@@ -2,7 +2,7 @@ format-version: 1.2
 date: 12:02:2018 19:35
 saved-by: vagrant
 auto-generated-by: OBO-Edit 2.3.1
-default-namespace: SweetpotatoDefault
+default-namespace: SweetpotatoTrait
 ontology: TEMP
 
 [Term]
@@ -6645,6 +6645,14 @@ is_a: CO_331:1000013 ! Computation
 relationship: method_of CO_331:0000118 ! storage root fructose content
 
 [Term]
+id: CO_331:0000896
+name: estimated marketable yield per hectare - method
+namespace: SweetpotatoMethod
+def: "estimate the marketable root yield per hectare" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0001067 !  storage root fructose content in dry weight basis
+
+[Term]
 id: CO_331:0000934
 name: measurement - glucose content of the raw storage root
 namespace: SweetpotatoMethod
@@ -7744,7 +7752,10 @@ name: storage root fructose content in dry weight basis
 namespace: SweetpotatoTrait
 def: "Fructose content in dry weight basis of the storage root" []
 synonym: "RtFruDw" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000307 ! marketable root yield
+relationship: variable_of CO_331:0000896 ! estimated marketable yield per hectare - method
+relationship: variable_of CO_331:0000897 ! t/ha
 
 [Term]
 id: CO_331:0001068
@@ -9613,6 +9624,156 @@ relationship: variable_of CO_331:0000212 ! number of commercial storage roots
 relationship: variable_of CO_331:0000891 ! storage root/plant
 relationship: variable_of CO_331:2000035 ! computing - number of commercial storage roots per plant harvested method
 
+[Term]
+id: CO_331:2000022
+name: vine length
+namespace: SweetpotatoTrait
+def: "Length of the main vine" []
+synonym: "VnLg" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:2000023
+name: measurement of vine length
+namespace: SweetpotatoMethod
+def: "Measurement of the main vine from the base to the tip" []
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000024
+name: Vine length measuring cm
+namespace: SweetpotatoTrait
+def: "Length of the main vine measured from the base to the tip in cm" []
+synonym: "VINLEN" EXACT []
+synonym: "VnLg_Ms_cm" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000950 ! cm
+relationship: variable_of CO_331:2000022 ! vine length
+relationship: variable_of CO_331:2000023 ! measurement of vine length
+
+[Term]
+id: CO_331:2000025
+name: vine diameter
+namespace: SweetpotatoTrait
+def: "Diameter of main vine/stem at the base of the plant" []
+synonym: "VnD" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:2000026
+name: measurement of vine diameter
+namespace: SweetpotatoMethod
+def: "Measurement of the diameter of the main vine, taken at the base node using vernier calipers. Averaged across 4 randomly chosen plants." []
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000027
+name: mm
+namespace: SweetpotatoScale
+is_a: CO_331:1000002 ! Scales
+
+[Term]
+id: CO_331:2000028
+name: Vine diameter measuring mm
+namespace: SweetpotatoTrait
+synonym: "Measurement of the diameter of the main vine in mm. Taken as the average diameter across 4 random plants, and measured using vernier calipers at the base of the main vine." EXACT []
+synonym: "VINDIA" EXACT []
+synonym: "VnD_Ms_mm" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:2000025 ! vine diameter
+relationship: variable_of CO_331:2000026 ! measurement of vine diameter
+relationship: variable_of CO_331:2000027 ! mm
+
+[Term]
+id: CO_331:2000029
+name: canopy temperature
+namespace: SweetpotatoTrait
+def: "The canopy temperature by plot" []
+synonym: "CnpTp" EXACT []
+is_a: CO_331:1000004 ! Abiotic_stress_trait
+
+[Term]
+id: CO_331:2000030
+name: measurement of canopy temperature
+namespace: SweetpotatoMethod
+def: "Measurement of the average canopy temperature across a plot using a high temperature recording device." []
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000031
+name: °C
+namespace: SweetpotatoScale
+is_a: CO_331:2000032 ! Ratio
+
+[Term]
+id: CO_331:2000032
+name: Ratio
+is_a: CO_331:1000002 ! Scales
+
+[Term]
+id: CO_331:2000033
+name: Canopy temperature measuring °C
+namespace: SweetpotatoTrait
+def: "Canopy temperature in degrees centigrade recorded as plot average with a high temperature device." []
+synonym: "CANOPYTMP" EXACT []
+synonym: "CnpTp_Ms_°C" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:2000029 ! canopy temperature
+relationship: variable_of CO_331:2000030 ! measurement of canopy temperature
+relationship: variable_of CO_331:2000031 ! °C
+
+[Term]
+id: CO_331:2000034
+name: leaf area
+namespace: SweetpotatoTrait
+def: "Leaf area" []
+synonym: "LfArea" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:2000035
+name: measurement of leaf area
+namespace: SweetpotatoMethod
+def: "Measurement of leaf area by arranging them on a black background that includes a scale, taking a picture, and calculating area using image analysis." []
+is_a: CO_331:1000011 ! Measurement
+
+[Term]
+id: CO_331:2000036
+name: mm2
+namespace: SweetpotatoScale
+is_a: CO_331:1000002 ! Scales
+
+[Term]
+id: CO_331:2000037
+name: Leaf area measuring mm2
+namespace: SweetpotatoTrait
+def: "Leaf area measured in mm2 through image analysis" []
+synonym: "LFAREA" EXACT []
+synonym: "LfArea_Ms_mm2" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:2000034 ! leaf area
+relationship: variable_of CO_331:2000035 ! measurement of leaf area
+relationship: variable_of CO_331:2000036 ! mm2
+
+[Term]
+id: CO_331:2000038
+name: weight of pencil type roots
+namespace: SweetpotatoTrait
+synonym: "RtPnW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:2000039
+name: weight of pencil type roots measuring g
+namespace: SweetpotatoTrait
+def: "Weight of pencil type roots measured in grams" []
+synonym: "PENWGT" EXACT []
+synonym: "RtPnW_Ms_g" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000892 ! measurements of root mass
+relationship: variable_of CO_331:0000905 ! g
+relationship: variable_of CO_331:2000038 ! weight of pencil type roots
+
 [Typedef]
 id: method_of
 name: method_of
@@ -9624,4 +9785,3 @@ name: scale_of
 [Typedef]
 id: variable_of
 name: variable_of
-
