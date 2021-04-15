@@ -6645,6 +6645,14 @@ is_a: CO_331:1000013 ! Computation
 relationship: method_of CO_331:0000118 ! storage root fructose content
 
 [Term]
+id: CO_331:0000896
+name: estimated marketable yield per hectare - method
+namespace: SweetpotatoMethod
+def: "estimate the marketable root yield per hectare" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0001067 !  storage root fructose content in dry weight basis
+
+[Term]
 id: CO_331:0000934
 name: measurement - glucose content of the raw storage root
 namespace: SweetpotatoMethod
@@ -7748,8 +7756,6 @@ is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000307 ! marketable root yield
 relationship: variable_of CO_331:0000896 ! estimated marketable yield per hectare - method
 relationship: variable_of CO_331:0000897 ! t/ha
-created_by: W. Grueneberg
-creation_date: 2016-11-30T21:23:23Z
 
 [Term]
 id: CO_331:0001068
@@ -9753,7 +9759,6 @@ relationship: variable_of CO_331:2000036 ! mm2
 id: CO_331:2000038
 name: weight of pencil type roots
 namespace: SweetpotatoTrait
-namespace: Weight of pencil type roots
 synonym: "RtPnW" EXACT []
 is_a: CO_331:1000008 ! Agronomic_trait
 
