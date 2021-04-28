@@ -977,11 +977,11 @@ is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
 id: CO_331:0000134
-name: visual estimation - flesh color of cooked storage roots method
+name: visual estimation - flesh color of boiled storage roots method
 namespace: SweetpotatoMethod
 def: "Visual estimation- Observe the flesh color of boiled storage roots immediately after cooking" []
 is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_331:0000133 ! flesh color of boiled storage roots
+relationship: method_of CO_331:0000133 ! flesh color of cooked storage roots
 
 [Term]
 id: CO_331:0000135
@@ -5103,7 +5103,7 @@ def: "Flesh color of boiled storage roots estimating 0-3" []
 synonym: "COLBR" EXACT []
 synonym: "RtCb_Et_1to3" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000133 ! flesh color of boiled storage roots
+relationship: variable_of CO_331:0000133 ! flesh color of cooked storage roots
 relationship: variable_of CO_331:0000134 ! visual estimation - flesh color of boiled storage roots method
 relationship: variable_of CO_331:0000135 ! RtCb 3pt scale
 
@@ -9891,8 +9891,40 @@ relationship: variable_of CO_331:0001064 ! storage root cooking time
 relationship: variable_of CO_331:0014010 ! measurement - baking time of the storage root method
 relationship: variable_of CO_331:0002030 ! minutes
 
+[Term]
+id: CO_331:0000133
+name: flesh color of cooked storage roots
+namespace: SweetpotatoTrait
+def: "Flesh color of cooked storage roots" []
+synonym: "RtFlsClr" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
 
+[Term]
+id: CO_331:0014011
+name: visual estimation - flesh color of baked storage roots method
+namespace: SweetpotatoMethod
+def: "Visual estimation- Observe the flesh color of baked storage roots immediately after cooking" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0000133 ! flesh color of cooked storage roots
 
+[Term]
+id: CO_331:0104010
+name: baked storage root flesh color scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000030 ! Nominal
+relationship: scale_of CO_331:0014011 ! visual estimation - flesh color of baked storage roots method
+
+[Term]
+id: CO_331:0006011
+name: Baked storage root flesh color estimating
+namespace: SweetpotatoTrait
+def: "The color of the baked storage root flesh.  W = White, CR = Cream, Y = Yellow, O = Orange, P = Purple, BR = Brown" []
+synonym: "BAKEFLESHCLR" EXACT []
+synonym: "BkRtFlsClr_Et" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000133 ! flesh color of boiled storage roots
+relationship: variable_of CO_331:0014011 ! visual estimation - flesh color of baked storage roots method
+relationship: variable_of CO_331:0104010 ! baked storage root flesh color scale
 
 [Typedef]
 id: method_of
