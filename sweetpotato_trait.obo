@@ -969,17 +969,17 @@ relationship: method_of CO_331:0000130 ! storage root fiber content
 
 [Term]
 id: CO_331:0000133
-name: flesh color of boiled storage roots
+name: flesh color of cooked storage roots
 namespace: SweetpotatoTrait
-def: "Flesh color of boiled storage roots" []
-synonym: "RtCb" EXACT []
+def: "Flesh color of cooked storage roots" []
+synonym: "RtFlsClr" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
 id: CO_331:0000134
-name: visual estimation - flesh color of boiled storage roots method
+name: visual estimation - flesh color of cooked storage roots method
 namespace: SweetpotatoMethod
-def: "Visual estimation- Observe the flesh color of boiled storage roots of flesh color of cooked roots immediately after cooking" []
+def: "Visual estimation- Observe the flesh color of boiled storage roots immediately after cooking" []
 is_a: CO_331:1000014 ! Estimation
 relationship: method_of CO_331:0000133 ! flesh color of boiled storage roots
 
@@ -7503,14 +7503,14 @@ relationship: variable_of CO_331:0002038 ! VnTCol 3 pt. Scale
 
 [Term]
 id: CO_331:0001044
-name: Cooking time measuring in minutes
+name: Boiling time measuring in minutes
 namespace: SweetpotatoTrait
-def: "The cooking time of storage root measuring in minutes" []
-synonym: "COOKTIME" EXACT []
-synonym: "CooTime_Ms_min" EXACT []
+def: "The boiling time of storage root measuring in minutes" []
+synonym: "BOILTIME" EXACT []
+synonym: "BoilTime_Ms_min" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0001064 ! storage root cooking time
-relationship: variable_of CO_331:0002007 ! measurement - cooking time of the storage root method
+relationship: variable_of CO_331:0002007 ! measurement - boiling time of the storage root method
 relationship: variable_of CO_331:0002030 ! minutes
 
 [Term]
@@ -8060,9 +8060,9 @@ relationship: method_of CO_331:0000109 ! storage root beta-carotene concentratio
 
 [Term]
 id: CO_331:0002007
-name: measurement - cooking time of the storage root method
+name: measurement - boiling time of the storage root method
 namespace: SweetpotatoMethod
-def: "Measure the cooking time of the storage roots in minutes and rate it" []
+def: "Measure the boiling time of the storage roots in minutes and rate it" []
 is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0001064 ! storage root cooking time
 
@@ -9870,6 +9870,29 @@ is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0006009 ! cooked storage root likability
 relationship: variable_of CO_331:0014009 ! estimation of overall likability
 relationship: variable_of CO_331:0104009 ! likability 10 pt. scale
+
+[Term]
+id: CO_331:0014010
+name: measurement - baking time of the storage root method
+namespace: SweetpotatoMethod
+def: "Measure the baking time of the storage roots in minutes at 175 degrees Celsius / 350 degrees Fahrenheit and rate it" []
+is_a: CO_331:1000011 ! Measurement
+relationship: method_of CO_331:0001064 ! storage root cooking time
+
+[Term]
+id: CO_331:0006011
+name: Baking time measuring in minutes
+namespace: SweetpotatoTrait
+def: "The baking time of the storage roots in minutes at 175 degrees Celsius / 350 degrees Fahrenheit" []
+synonym: "BAKETIME" EXACT []
+synonym: "BakeTime_Ms_min" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0001064 ! storage root cooking time
+relationship: variable_of CO_331:0014010 ! measurement - baking time of the storage root method
+relationship: variable_of CO_331:0002030 ! minutes
+
+
+
 
 [Typedef]
 id: method_of
