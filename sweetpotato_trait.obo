@@ -972,7 +972,7 @@ id: CO_331:0000133
 name: flesh color of cooked storage roots
 namespace: SweetpotatoTrait
 def: "Flesh color of cooked storage roots" []
-synonym: "RtFlsClr" EXACT []
+synonym: "RtFlsCol" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
@@ -9622,7 +9622,7 @@ is_a: CO_331:1000014 ! Estimation
 
 [Term]
 id: CO_331:0104000
-name: clruniformity 10 pt. scale
+name: coluniformity 10 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 
@@ -9631,12 +9631,12 @@ id: CO_331:0006000
 name: Baked storage root flesh color uniformity estimating 0-9
 namespace: SweetpotatoTrait
 def: "The color uniformity of the baked storage root flesh. 0 = Highly variable, 3 = Variable, 5 = Moderately variable, 7 = Mostly Consistent, 9 = Consistent throughout" []
-synonym: "BkRtFlsClrUni_Et_0to9" EXACT []
+synonym: "BkRtFlsColUni_Et_0to9" EXACT []
 synonym: "BAKEFLESHCOLUNI" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000270 ! cooked storage root appearance
 relationship: variable_of CO_331:0014000 ! estimation of color uniformity
-relationship: variable_of CO_331:0104000 ! clruniformity 10 pt. scale
+relationship: variable_of CO_331:0104000 ! coluniformity 10 pt. scale
 
 [Term]
 id: CO_331:0014001
@@ -9647,7 +9647,7 @@ is_a: CO_331:1000014 ! Estimation
 
 [Term]
 id: CO_331:0104001
-name: clrintensity 10 pt. scale
+name: colintensity 10 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 
@@ -9656,12 +9656,12 @@ id: CO_331:0006001
 name: Baked storage root flesh color intensity estimating 0-9
 namespace: SweetpotatoTrait
 def: "The color intensity of the baked storage root flesh. 0 = Very light color, 3 = Light color, 5 = Moderate color, 7= Deep color, 9 = Deepest color" []
-synonym: "BkRtFlsClrInt_Et_0to9" EXACT []
+synonym: "BkRtFlsColInt_Et_0to9" EXACT []
 synonym: "BAKEFLESHCOLINT" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000270 ! cooked storage root appearance
 relationship: variable_of CO_331:0014001 ! estimation of color intensity
-relationship: variable_of CO_331:0104001 ! clrintensity 10 pt. scale
+relationship: variable_of CO_331:0104001 ! colintensity 10 pt. scale
 
 [Term]
 id: CO_331:0014002
@@ -9681,7 +9681,7 @@ id: CO_331:0006002
 name: Baked storage root flesh discoloration estimating 0-9
 namespace: SweetpotatoTrait
 def: "The degree of discoloration of the baked storage root flesh. 0 = Highly discolored, 3 = Discolored, 5 = Moderately discolored, 7 =  Slightly discolored, 9 = No discoloration" []
-synonym: "BkRtFlsDisClr_Et_0to9" EXACT []
+synonym: "BkRtFlsDisCol_Et_0to9" EXACT []
 synonym: "BAKEFLESHDISCOL" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000270 ! cooked storage root appearance
@@ -9896,7 +9896,7 @@ id: CO_331:0000133
 name: flesh color of cooked storage roots
 namespace: SweetpotatoTrait
 def: "Flesh color of cooked storage roots" []
-synonym: "RtFlsClr" EXACT []
+synonym: "RtFlsCol" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
@@ -9919,8 +9919,8 @@ id: CO_331:0006012
 name: Baked storage root flesh color estimating
 namespace: SweetpotatoTrait
 def: "The color of the baked storage root flesh.  W = White, CR = Cream, Y = Yellow, O = Orange, P = Purple, BR = Brown" []
-synonym: "BAKEFLESHCLR" EXACT []
-synonym: "BkRtFlsClr_Et" EXACT []
+synonym: "BAKEFLESHCOL" EXACT []
+synonym: "BkRtFlsCol_Et" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000133 ! flesh color of boiled storage roots
 relationship: variable_of CO_331:0014011 ! visual estimation - flesh color of baked storage roots method
