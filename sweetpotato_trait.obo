@@ -9915,7 +9915,7 @@ is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0014011 ! visual estimation - flesh color of baked storage roots method
 
 [Term]
-id: CO_331:0006011
+id: CO_331:0006012
 name: Baked storage root flesh color estimating
 namespace: SweetpotatoTrait
 def: "The color of the baked storage root flesh.  W = White, CR = Cream, Y = Yellow, O = Orange, P = Purple, BR = Brown" []
