@@ -1,0 +1,58 @@
+name: Add new ClimMob Variable
+description: Propose to create a new ClimMob variable to the ontology. Note that only trait information is required as method will be TRICOT and scale will a 3pt. categorical scale (1=better, 2=middle, 3=worse)
+title: "[NTR] "
+labels: [term-add]
+assignees: aafolabi
+# Template updated from [@agro](https://github.com/AgriculturalSemantics/agro/edit/master/.github/ISSUE_TEMPLATE)
+body:
+  - type: input
+    id: term
+    attributes:
+      label: Trait Name
+      description: Detailed Trait Name
+      placeholder: "plant height"
+    validations:
+      required: true
+
+  - type: textarea
+    id: Definition
+    attributes:
+      label: Detailed Trait Definition
+      description: please provide bibliographic reference, if applicable
+    validations:
+      required: true
+
+  - type: dropdown
+    id: Parent
+    attributes:
+      label: Trait Class
+      description: select trait class
+      options:
+        - Abiotic Stress (e.g. drought tolerance) 
+        - Agronomic (e.g. yield, root weight) 
+        - Biochemical (e.g. grain protein content)
+        - Biotic Stress (e.g. disease tolerance) 
+        - Fertility (e.g pollen sterility)
+        - Morphological (e.g. descriptors, plant architecture) 
+        - Phenological (e.g. seed production) 
+        - Physiological (e.g. hormones, development) 
+        - Quality (e.g. food quality traits) 
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: Synonyms
+    attributes:
+      label: Proposed synonyms
+    validations:
+      required: false
+
+  - type: input
+    id: attribution
+    attributes:
+      label: Your nano-attribution (ORCID)
+      description: If you don't have an ORCID, you can sign up for one [here](https://orcid.org/)
+    validations:
+      required: false
+      
