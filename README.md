@@ -1,4 +1,4 @@
-# ibp-sweetpotato-traits
+# CO_331-sweetpotato-traits
 
 Sweetpotato Trait Ontology is maintained by http://www.cropontology.org 
 and https://sweetpotatobase.org
