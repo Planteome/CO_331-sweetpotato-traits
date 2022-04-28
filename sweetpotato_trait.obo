@@ -10092,6 +10092,77 @@ relationship: variable_of CO_331:0000892 ! measurements of root mass
 relationship: variable_of CO_331:0000905 ! g
 relationship: variable_of CO_331:2000038 ! weight of pencil type roots
 
+[Term]
+id: CO_331:0006014
+name: storage root pithiness severity
+namespace: SweetpotatoTrait
+def: "The severity of pithiness in stored storage roots" []
+synonym: "RtPthSev" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0014012
+name: visual estimation - storage root pithiness severity
+namespace: SweetpotatoMethod
+def: "Observe the severity of pithiness in cross sections of a storage root that has been stored for nearly a year, and rate it. Rating based on the worst slice in the root." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0006014 ! storage root pithiness severity
+
+[Term]
+id: CO_331:0104013
+name: pithiness 5 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0014012 ! visual estimation - storage root pithiness severity
+
+[Term]
+id: CO_331:0006015
+name: Storage root pithiness severity estimating 0-4
+namespace: SweetpotatoTrait
+def: "Storage root pithiness severity on a scale of 0-4, rated by cutting and visually inspecting cross sections of a storage root that has been stored for nearly a year. 0 = Complete pithiness (large holes), 1 = Severe pithiness (holes, light areas), 2 = Moderate pithiness (no holes, some light areas), 3 = Slight pithiness, 4 = No pithiness. Rating based on the worst slice in the root." []
+synonym: "PITHINESS" EXACT []
+synonym: "RtPthSev_Et_0to4" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0006014 ! storage root pithiness severity
+relationship: variable_of CO_331:0014012 ! visual estimation - storage root pithiness severity
+relationship: variable_of CO_331:0104013 ! pithiness 5 pt. scale
+
+[Term]
+id: CO_331:0006016
+name: storage root internal necrosis severity
+namespace: SweetpotatoTrait
+def: "The severity of internal necrosis in stored storage roots." []
+synonym: "RtINSev" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0014014
+name: visual estimation - storage root internal necrosis severity
+namespace: SweetpotatoMethod
+def: Observe the severity of internal necrosis in cross sections of a root taken from storage, and rate it. Rating based on the worst slice in the root." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0006014 ! storage root internal necrosis severity
+
+[Term]
+id: CO_331:0104015
+name: internal necrosis 5 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0000134 ! visual estimation - storage root internal necrosis severity
+
+[Term]
+id: CO_331:0006017
+name: Storage root internal necrosis severity estimating 1-5
+namespace: SweetpotatoTrait
+def: "Storage root internal necrosis severity on a scale of 1-5, rated by cutting and visually inspecting cross sections of a root taken from storage. 1 = No symptoms, 2 = Negligible but visible symptoms, 3 = Obvious symptoms but mainly confined to stem end, 4 = Fairly extensive symptoms that go deeper into the root or have multiple and larger diffuse areas of the root affected, 5 = Extreme symptoms that go at least 1/3 of the way into the root from the stem end and render the root unmarketable. Rating based on the worst slice in the root." []
+synonym: "IN" EXACT []
+synonym: "INTNECROSIS" EXACT []
+synonym: "RtINSev_Et_1to5" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0006016 ! storage root internal necrosis severity
+relationship: variable_of CO_331:0014014 ! visual estimation - storage root internal necrosis severity
+relationship: variable_of CO_331:0014015 ! internal necrosis 5 pt. scale
+
 [Typedef]
 id: method_of
 name: method_of
