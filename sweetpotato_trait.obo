@@ -10144,7 +10144,7 @@ is_a: CO_331:1000014 ! Estimation
 relationship: method_of CO_331:0006014 ! storage root internal necrosis severity
 
 [Term]
-id: CO_331:0104015
+id: CO_331:0014015
 name: internal necrosis 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
