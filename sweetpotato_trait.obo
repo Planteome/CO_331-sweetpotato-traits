@@ -10104,7 +10104,7 @@ is_a: CO_331:1000007 ! Quality_trait
 id: CO_331:0014012
 name: visual estimation - storage root pithiness severity
 namespace: SweetpotatoMethod
-def: "Observe the severity of pithiness in cross sections of a storage root that has been stored for nearly a year, and rate it. Rating based on the worst slice in the root." []
+def: "Observe the severity of pithiness in the cross section of a no. 1 storage root that has been stored for nearly a year, and rate it." []
 is_a: CO_331:1000014 ! Estimation
 relationship: method_of CO_331:0006014 ! storage root pithiness severity
 
@@ -10119,7 +10119,7 @@ relationship: scale_of CO_331:0014012 ! visual estimation - storage root pithine
 id: CO_331:0006015
 name: Storage root pithiness severity estimating 0-4
 namespace: SweetpotatoTrait
-def: "Storage root pithiness severity on a scale of 0-4, rated by cutting and visually inspecting cross sections of a storage root that has been stored for nearly a year. 0 = Complete pithiness (large holes), 1 = Severe pithiness (holes, light areas), 2 = Moderate pithiness (no holes, some light areas), 3 = Slight pithiness, 4 = No pithiness. Rating based on the worst slice in the root." []
+def: "Storage root pithiness severity on a scale of 0-4, rated by cutting and visually inspecting the cross section of a no. 1 storage root that has been stored for nearly a year. 0 = Complete pithiness (large holes), 1 = Severe pithiness (holes, light areas), 2 = Moderate pithiness (no holes, some light areas), 3 = Slight pithiness, 4 = No pithiness." []
 synonym: "PITHINESS" EXACT []
 synonym: "RtPthSev_Et_0to4" EXACT []
 is_a: CO_331:1000003 ! Variables
