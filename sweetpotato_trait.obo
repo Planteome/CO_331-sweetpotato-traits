@@ -969,32 +969,32 @@ relationship: method_of CO_331:0000130 ! storage root fiber content
 
 [Term]
 id: CO_331:0000133
-name: flesh color of boiled storage roots
+name: flesh color of cooked storage roots
 namespace: SweetpotatoTrait
-def: "Flesh color of boiled storage roots" []
-synonym: "RtCb" EXACT []
+def: "Flesh color of cooked storage roots" []
+synonym: "RtFlsCol" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
 id: CO_331:0000134
-name: visual estimation - flesh color of boiled storage roots method
+name: visual estimation - predominant flesh color of cooked storage roots method
 namespace: SweetpotatoMethod
-def: "Visual estimation- Observe the flesh color of boiled storage roots of flesh color of cooked roots immediately after cooking" []
+def: "Visual estimation- Observe the predominant flesh color of storage roots immediately after cooking" []
 is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_331:0000133 ! flesh color of boiled storage roots
+relationship: method_of CO_331:0000133 ! flesh color of cooked storage roots
 
 [Term]
 id: CO_331:0000135
 name: RtCb 3pt scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO_331:0000134 ! visual estimation - flesh color of boiled storage roots method
+relationship: scale_of CO_331:0000134 ! visual estimation - predominant flesh color of cooked storage roots method
 
 [Term]
 id: CO_331:0000136
-name: storage root flesh texture
+name: cooked storage root texture
 namespace: SweetpotatoTrait
-def: "The texture of storage root flesh" []
+def: "The texture of cooked storage root flesh" []
 synonym: "RtFlsTx" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 
@@ -1004,13 +1004,13 @@ name: estimation - texture method
 namespace: SweetpotatoMethod
 def: "Taste the boiled storage root flesh texture and rate it" []
 is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_331:0000136 ! storage root flesh texture
+relationship: method_of CO_331:0000136 ! cooked storage root texture
 
 [Term]
 id: CO_331:0000139
-name: boiled storage root flesh sweetness
+name: cooked storage root sweetness
 namespace: SweetpotatoTrait
-def: "The sweetness of the boiled storage root flesh" []
+def: "The sweetness of the cooked storage root flesh" []
 synonym: "RtFlsSwt" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 
@@ -1020,7 +1020,7 @@ name: estimation - sweetness method
 namespace: SweetpotatoMethod
 def: "Taste the boiled storage root flesh sweetness and rate it" []
 is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_331:0000139 ! boiled storage root flesh sweetness
+relationship: method_of CO_331:0000139 ! cooked storage root sweetness
 
 [Term]
 id: CO_331:0000141
@@ -2066,7 +2066,7 @@ synonym: "RtFlsSwt_Et_1to9" EXACT []
 synonym: "TASTE" EXACT []
 synonym: "coosu" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000139 ! boiled storage root flesh sweetness
+relationship: variable_of CO_331:0000139 ! cooked storage root sweetness
 relationship: variable_of CO_331:0000140 ! estimation - sweetness method
 relationship: variable_of CO_331:0000141 ! RtFlsSwt 9 pt. scale
 
@@ -2085,7 +2085,7 @@ def: "The texture of the boiled storage root flesh estimating 1-9 by Huaman" []
 synonym: "RtFlsTxH_Et_1to9" EXACT []
 synonym: "RTTEXT" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000136 ! storage root flesh texture
+relationship: variable_of CO_331:0000136 ! cooked storage root texture
 relationship: variable_of CO_331:0000137 ! estimation - texture method
 relationship: variable_of CO_331:0000262 ! RtFlsTxH 5 pt. scale
 
@@ -2106,15 +2106,15 @@ synonym: "RtFlsTxG_Et_1to9" EXACT []
 synonym: "TEXTBR" EXACT []
 synonym: "coost" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000136 ! storage root flesh texture
+relationship: variable_of CO_331:0000136 ! cooked storage root texture
 relationship: variable_of CO_331:0000137 ! estimation - texture method
 relationship: variable_of CO_331:0000264 ! RtFlsTxG 9 pt. Scale
 
 [Term]
 id: CO_331:0000266
-name: boiled storage root flesh taste
+name: cooked storage root taste
 namespace: SweetpotatoTrait
-def: "The overall taste of the boiled storage root flesh" []
+def: "The overall taste of the cooked storage root flesh" []
 synonym: "RtFlsTs" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 
@@ -2124,7 +2124,7 @@ name: estimation - taste method
 namespace: SweetpotatoMethod
 def: "Taste the boiled storage root flesh and rate it" []
 is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_331:0000266 ! boiled storage root flesh taste
+relationship: method_of CO_331:0000266 ! cooked storage root taste
 
 [Term]
 id: CO_331:0000268
@@ -2142,15 +2142,15 @@ synonym: "COOT" EXACT []
 synonym: "RtFlsTs_Et_1to9" EXACT []
 synonym: "coot" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000266 ! boiled storage root flesh taste
+relationship: variable_of CO_331:0000266 ! cooked storage root taste
 relationship: variable_of CO_331:0000267 ! estimation - taste method
 relationship: variable_of CO_331:0000268 ! RtFlsTs 9 pt. scale
 
 [Term]
 id: CO_331:0000270
-name: boiled storage root appearance
+name: cooked storage root appearance
 namespace: SweetpotatoTrait
-def: "The overall appearance of the boiled storage root flesh" []
+def: "The appearance of the cooked storage root flesh" []
 synonym: "RtFlsAp" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 
@@ -2160,7 +2160,7 @@ name: estimation - appearance method
 namespace: SweetpotatoMethod
 def: "Visual estimation of the storage root flesh appearance and rate it" []
 is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_331:0000270 ! boiled storage root appearance
+relationship: method_of CO_331:0000270 ! cooked storage root appearance
 
 [Term]
 id: CO_331:0000272
@@ -2171,14 +2171,14 @@ relationship: scale_of CO_331:0000271 ! estimation - appearance method
 
 [Term]
 id: CO_331:0000273
-name: Boiled storage root appearance estimating 1-9
+name: Boiled storage root overall appearance estimating 1-9
 namespace: SweetpotatoTrait
 def: "The overall appearance of the boiled storage root flesh" []
-synonym: "COOAP" EXACT []
-synonym: "RtFlsAp_Et_1to9" EXACT []
-synonym: "cooap" EXACT []
+synonym: "BOILAP" EXACT []
+synonym: "BlRtFlsAp_Et_1to9" EXACT []
+synonym: "boilap" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000270 ! boiled storage root appearance
+relationship: variable_of CO_331:0000270 ! cooked storage root appearance
 relationship: variable_of CO_331:0000271 ! estimation - appearance method
 relationship: variable_of CO_331:0000272 ! RtFlsAp 9 pt. Scale
 
@@ -5103,8 +5103,8 @@ def: "Flesh color of boiled storage roots estimating 0-3" []
 synonym: "COLBR" EXACT []
 synonym: "RtCb_Et_1to3" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0000133 ! flesh color of boiled storage roots
-relationship: variable_of CO_331:0000134 ! visual estimation - flesh color of boiled storage roots method
+relationship: variable_of CO_331:0000133 ! flesh color of cooked storage roots
+relationship: variable_of CO_331:0000134 ! visual estimation - predominant flesh color of cooked storage roots method
 relationship: variable_of CO_331:0000135 ! RtCb 3pt scale
 
 [Term]
@@ -7511,14 +7511,14 @@ relationship: variable_of CO_331:0002038 ! VnTCol 3 pt. Scale
 
 [Term]
 id: CO_331:0001044
-name: Cooking time measuring in minutes
+name: Boiling time measuring in minutes
 namespace: SweetpotatoTrait
-def: "The cooking time of storage root measuring in minutes" []
-synonym: "COOKTIME" EXACT []
-synonym: "CooTime_Ms_min" EXACT []
+def: "The boiling time of storage root measuring in minutes" []
+synonym: "BOILTIME" EXACT []
+synonym: "BoilTime_Ms_min" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0001064 ! storage root cooking time
-relationship: variable_of CO_331:0002007 ! measurement - cooking time of the storage root method
+relationship: variable_of CO_331:0002007 ! measurement - boiling time of the storage root method
 relationship: variable_of CO_331:0002030 ! minutes
 
 [Term]
@@ -8071,9 +8071,9 @@ relationship: method_of CO_331:0000109 ! storage root beta-carotene concentratio
 
 [Term]
 id: CO_331:0002007
-name: measurement - cooking time of the storage root method
+name: measurement - boiling time of the storage root method
 namespace: SweetpotatoMethod
-def: "Measure the cooking time of the storage roots in minutes and rate it" []
+def: "Measure the boiling time of the storage roots in minutes and rate it" []
 is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0001064 ! storage root cooking time
 
@@ -9625,6 +9625,324 @@ relationship: variable_of CO_331:0000891 ! storage root/plant
 relationship: variable_of CO_331:2000035 ! computing - number of commercial storage roots per plant harvested method
 
 [Term]
+id: CO_331:0014000
+name: estimation of color uniformity
+namespace: SweetpotatoMethod
+def: "visual estimation of evenness of spread of the dominant natural color" []
+is_a: CO_331:1000014 ! Estimation
+
+[Term]
+id: CO_331:0104000
+name: coluniformity 10 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+
+[Term]
+id: CO_331:0006000
+name: Baked storage root flesh color uniformity estimating 0-9
+namespace: SweetpotatoTrait
+def: "The color uniformity of the baked storage root flesh. 0 = Highly variable, 3 = Variable, 5 = Moderately variable, 7 = Mostly Consistent, 9 = Consistent throughout" []
+synonym: "BkRtFlsColUni_Et_0to9" EXACT []
+synonym: "BAKEFLESHCOLUNI" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000270 ! cooked storage root appearance
+relationship: variable_of CO_331:0014000 ! estimation of color uniformity
+relationship: variable_of CO_331:0104000 ! coluniformity 10 pt. scale
+
+[Term]
+id: CO_331:0014001
+name: estimation of color intensity
+namespace: SweetpotatoMethod
+def: "visual estimation of the degree of intensity of the dominant natural color" []
+is_a: CO_331:1000014 ! Estimation
+
+[Term]
+id: CO_331:0104001
+name: colintensity 10 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+
+[Term]
+id: CO_331:0006001
+name: Baked storage root flesh color intensity estimating 0-9
+namespace: SweetpotatoTrait
+def: "The color intensity of the baked storage root flesh. 0 = Very light color, 3 = Light color, 5 = Moderate color, 7= Deep color, 9 = Deepest color" []
+synonym: "BkRtFlsColInt_Et_0to9" EXACT []
+synonym: "BAKEFLESHCOLINT" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000270 ! cooked storage root appearance
+relationship: variable_of CO_331:0014001 ! estimation of color intensity
+relationship: variable_of CO_331:0104001 ! colintensity 10 pt. scale
+
+[Term]
+id: CO_331:0014002
+name: estimation of discoloration
+namespace: SweetpotatoMethod
+def: "visual estimation of the degree of discoloration" []
+is_a: CO_331:1000014 ! Estimation
+
+[Term]
+id: CO_331:0104002
+name: discoloration 10 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+
+[Term]
+id: CO_331:0006002
+name: Baked storage root flesh discoloration estimating 0-9
+namespace: SweetpotatoTrait
+def: "The degree of discoloration of the baked storage root flesh. 0 = Highly discolored, 3 = Discolored, 5 = Moderately discolored, 7 =  Slightly discolored, 9 = No discoloration" []
+synonym: "BkRtFlsDisCol_Et_0to9" EXACT []
+synonym: "BAKEFLESHDISCOL" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000270 ! cooked storage root appearance
+relationship: variable_of CO_331:0014002 ! estimation of discoloration
+relationship: variable_of CO_331:0104002 ! discoloration 10 pt. scale
+
+[Term]
+id: CO_331:0014003
+name: estimation of overall eye appeal
+namespace: SweetpotatoMethod
+def: "visual estimation of the overall appealingness to the eye" []
+is_a: CO_331:1000014 ! Estimation
+
+[Term]
+id: CO_331:0104003
+name: eye appeal 10 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+
+[Term]
+id: CO_331:0006003
+name: Baked storage root flesh overall eye appeal estimating 0-9
+namespace: SweetpotatoTrait
+def: "How appealing the baked storage root flesh appearance is overall. 0 = Not appealing, 3 = Slightly appealing, 5 = Moderately appealing, 7 = Appealing, 9 = Very appealing" []
+synonym: "BkRtFlsEyeApl_Et_0to9" EXACT []
+synonym: "BAKEFLESHEYEAPL" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000270 ! cooked storage root appearance
+relationship: variable_of CO_331:0014003 ! estimation of overall eye appeal
+relationship: variable_of CO_331:0104003 ! eye appeal 10 pt. scale
+
+[Term]
+id: CO_331:0014004
+name: estimation of moistness
+namespace: SweetpotatoMethod
+def: "gustatory estimation of degree of moistness" []
+is_a: CO_331:1000014 ! Estimation
+
+[Term]
+id: CO_331:0104004
+name: moistness 10 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+
+[Term]
+id: CO_331:0006004
+name: Baked storage root flesh moistness estimating 0-9
+namespace: SweetpotatoTrait
+def: "How moist the baked storage root flesh tastes. 0 = Very dry, 3 = Dry, 5 = Moderately moist, 7 = Moist, 9 = Very moist" []
+synonym: "BkRtFlsMst_Et_0to9" EXACT []
+synonym: "BAKEFLESHMST" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000136 ! cooked storage root texture
+relationship: variable_of CO_331:0014004 ! estimation of moistness
+relationship: variable_of CO_331:0104004 ! moistness 10 pt. scale
+
+[Term]
+id: CO_331:0014005
+name: estimation of lack of fiber
+namespace: SweetpotatoMethod
+def: "gustatory estimation of lack of fiber" []
+is_a: CO_331:1000014 ! Estimation
+
+[Term]
+id: CO_331:0104005
+name: lack of fiber 10 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+
+[Term]
+id: CO_331:0006005
+name: Baked storage root flesh lack of fiber estimating 0-9
+namespace: SweetpotatoTrait
+def: "How free the baked storage root flesh is from fiber when tasted. 0 = Very fibrous, 3 = Fibrous, 5 = Moderately fibrous, 7 = Slightly fibrous, 9 = Non-fibrous" []
+synonym: "BkRtFlsLckFbr_Et_0to9" EXACT []
+synonym: "BAKEFLESHLCKFBR" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000136 ! cooked storage root texture
+relationship: variable_of CO_331:0014005 ! estimation of lack of fiber
+relationship: variable_of CO_331:0104005 ! lack of fiber 10 pt. scale
+
+[Term]
+id: CO_331:0014006
+name: estimation of smoothness
+namespace: SweetpotatoMethod
+def: "gustatory estimation of smoothness" []
+is_a: CO_331:1000014 ! Estimation
+
+[Term]
+id: CO_331:0104006
+name: smoothness 10 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+
+[Term]
+id: CO_331:0006006
+name: Baked storage root flesh smoothness estimating 0-9
+namespace: SweetpotatoTrait
+def: "How smooth the baked storage root flesh tastes. 0 = Not smooth, 3 = Slightly smooth, 5 = Moderately smooth, 7 = Smooth, 9 = Very smooth" []
+synonym: "BkRtFlsSmooth_Et_0to9" EXACT []
+synonym: "BAKEFLESHSMOOTH" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000136 ! cooked storage root texture
+relationship: variable_of CO_331:0014006 ! estimation of smoothness
+relationship: variable_of CO_331:0104006 ! smoothness 10 pt. scale
+
+[Term]
+id: CO_331:0014007
+name: estimation of sweetness
+namespace: SweetpotatoMethod
+def: "gustatory estimation of sweetness" []
+is_a: CO_331:1000014 ! Estimation
+
+[Term]
+id: CO_331:0104007
+name: sweetness 10 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+
+[Term]
+id: CO_331:0006007
+name: Baked storage root flesh sweetness estimating 0-9
+namespace: SweetpotatoTrait
+def: "How sweet the baked storage root flesh tastes. 0 = No sweetness, 3 = Sightly sweet, 5 = Moderately sweet, 7 = Sweet, 9 = Extremely sweet" []
+synonym: "BkRtFlsSweet_Et_0to9" EXACT []
+synonym: "BAKEFLESHSWT" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000139 ! cooked storage root sweetness
+relationship: variable_of CO_331:0014007 ! estimation of sweetness
+relationship: variable_of CO_331:0104007 ! sweetness 10 pt. scale
+
+[Term]
+id: CO_331:0014008
+name: estimation of overall taste
+namespace: SweetpotatoMethod
+def: "gustatory estimation of sweetness" []
+is_a: CO_331:1000014 ! Estimation
+
+[Term]
+id: CO_331:0104008
+name: taste 10 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+
+[Term]
+id: CO_331:0006008
+name: Baked storage root flesh taste estimating 0-9
+namespace: SweetpotatoTrait
+def: "How good the baked storage root flesh tastes. 0 = Extremely dislike, 3 = Dislike, 5 = Neutral, 7 = Like, 9 = Extremely like" []
+synonym: "BkRtFlsTaste_Et_0to9" EXACT []
+synonym: "BAKEFLESHTST" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000266 ! cooked storage root taste
+relationship: variable_of CO_331:0014008 ! estimation of overall taste
+relationship: variable_of CO_331:0104008 ! taste 10 pt. scale
+
+[Term]
+id: CO_331:0006009
+name: cooked storage root likability
+namespace: SweetpotatoTrait
+def: "The overall likability of the cooked storage root based on appearance and taste" []
+synonym: "RtFlsLike" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0014009
+name: estimation of overall likability
+namespace: SweetpotatoMethod
+def: "estimation of likability" []
+is_a: CO_331:1000014 ! Estimation
+
+[Term]
+id: CO_331:0104009
+name: likability 10 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+
+[Term]
+id: CO_331:0006010
+name: Baked storage root flesh overall likability estimating 0-9
+namespace: SweetpotatoTrait
+def: "The overall likability of the cooked storage root based on appearance and taste. 0 = Extremely dislike, 3 = Dislike, 5 = Neutral, 7 = Like, 9 = Extremely like" []
+synonym: "BkRtFlsLike_Et_0to9" EXACT []
+synonym: "BAKEFLESHLIKE" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0006009 ! cooked storage root likability
+relationship: variable_of CO_331:0014009 ! estimation of overall likability
+relationship: variable_of CO_331:0104009 ! likability 10 pt. scale
+
+[Term]
+id: CO_331:0014010
+name: measurement - baking time of the storage root method
+namespace: SweetpotatoMethod
+def: "Measure the baking time of the storage roots in minutes at 175 degrees Celsius / 350 degrees Fahrenheit and rate it" []
+is_a: CO_331:1000011 ! Measurement
+relationship: method_of CO_331:0001064 ! storage root cooking time
+
+[Term]
+id: CO_331:0006011
+name: Baking time measuring in minutes
+namespace: SweetpotatoTrait
+def: "The baking time of the storage roots in minutes at 175 degrees Celsius / 350 degrees Fahrenheit" []
+synonym: "BAKETIME" EXACT []
+synonym: "BakeTime_Ms_min" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0001064 ! storage root cooking time
+relationship: variable_of CO_331:0014010 ! measurement - baking time of the storage root method
+relationship: variable_of CO_331:0002030 ! minutes
+
+[Term]
+id: CO_331:0014011
+name: visual estimation - secondary flesh color of cooked storage roots method
+namespace: SweetpotatoMethod
+def: "Visual estimation- Observe the secondary flesh color of storage roots immediately after cooking" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0000133 ! secondary flesh color of cooked storage roots
+
+[Term]
+id: CO_331:0104010
+name: baked storage root flesh color scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000030 ! Nominal
+relationship: scale_of CO_331:0000134 ! visual estimation - predominant flesh color of cooked storage roots method
+relationship: scale_of CO_331:0014011 ! visual estimation - secondary flesh color of cooked storage roots method
+
+[Term]
+id: CO_331:0006012
+name: Baked storage root predominant flesh color estimating NCSU
+namespace: SweetpotatoTrait
+def: "The  predominant color of the baked storage root flesh.  W = White, CR = Cream, Y = Yellow, O = Orange, P = Purple, BR = Brown" []
+synonym: "BAKEFLESHCOL1" EXACT []
+synonym: "BkRtFlsPCol_Et" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000133 ! flesh color of boiled storage roots
+relationship: variable_of CO_331:0000134 ! visual estimation - predominant flesh color of cooked storage roots method
+relationship: variable_of CO_331:0104010 ! baked storage root flesh color scale
+
+[Term]
+id: CO_331:0006013
+name: Baked storage root secondary flesh color estimating NCSU
+namespace: SweetpotatoTrait
+def: "The secondary color of the baked storage root flesh, if any.  W = White, CR = Cream, Y = Yellow, O = Orange, P = Purple, BR = Brown" []
+synonym: "BAKEFLESHCOL2" EXACT []
+synonym: "BkRtFlsSCol_Et" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0000133 ! flesh color of boiled storage roots
+relationship: variable_of CO_331:0014011 ! visual estimation - secondary flesh color of cooked storage roots method
+relationship: variable_of CO_331:0104010 ! baked storage root flesh color scale
+
+[Term]
 id: CO_331:2000022
 name: vine length
 namespace: SweetpotatoTrait
@@ -9773,6 +10091,77 @@ is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000892 ! measurements of root mass
 relationship: variable_of CO_331:0000905 ! g
 relationship: variable_of CO_331:2000038 ! weight of pencil type roots
+
+[Term]
+id: CO_331:0006014
+name: storage root pithiness severity
+namespace: SweetpotatoTrait
+def: "The severity of pithiness in stored storage roots" []
+synonym: "RtPthSev" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0014012
+name: visual estimation - storage root pithiness severity
+namespace: SweetpotatoMethod
+def: "Observe the severity of pithiness in the cross section of a no. 1 storage root that has been stored for nearly a year, and rate it." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0006014 ! storage root pithiness severity
+
+[Term]
+id: CO_331:0104013
+name: pithiness 5 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0014012 ! visual estimation - storage root pithiness severity
+
+[Term]
+id: CO_331:0006015
+name: Storage root pithiness severity estimating 0-4
+namespace: SweetpotatoTrait
+def: "Storage root pithiness severity on a scale of 0-4, rated by cutting and visually inspecting the cross section of a no. 1 storage root that has been stored for nearly a year. 0 = Complete pithiness (large holes), 1 = Severe pithiness (holes, light areas), 2 = Moderate pithiness (no holes, some light areas), 3 = Slight pithiness, 4 = No pithiness." []
+synonym: "PITHINESS" EXACT []
+synonym: "RtPthSev_Et_0to4" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0006014 ! storage root pithiness severity
+relationship: variable_of CO_331:0014012 ! visual estimation - storage root pithiness severity
+relationship: variable_of CO_331:0104013 ! pithiness 5 pt. scale
+
+[Term]
+id: CO_331:0006016
+name: storage root internal necrosis severity
+namespace: SweetpotatoTrait
+def: "The severity of internal necrosis in stored storage roots." []
+synonym: "RtINSev" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0014014
+name: visual estimation - storage root internal necrosis severity
+namespace: SweetpotatoMethod
+def: Observe the severity of internal necrosis in cross sections of a root taken from storage, and rate it. Rating based on the worst slice in the root." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0006014 ! storage root internal necrosis severity
+
+[Term]
+id: CO_331:0014015
+name: internal necrosis 5 pt. scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0000134 ! visual estimation - storage root internal necrosis severity
+
+[Term]
+id: CO_331:0006017
+name: Storage root internal necrosis severity estimating 1-5
+namespace: SweetpotatoTrait
+def: "Storage root internal necrosis severity on a scale of 1-5, rated by cutting and visually inspecting cross sections of a root taken from storage. 1 = No symptoms, 2 = Negligible but visible symptoms, 3 = Obvious symptoms but mainly confined to stem end, 4 = Fairly extensive symptoms that go deeper into the root or have multiple and larger diffuse areas of the root affected, 5 = Extreme symptoms that go at least 1/3 of the way into the root from the stem end and render the root unmarketable. Rating based on the worst slice in the root." []
+synonym: "IN" EXACT []
+synonym: "INTNECROSIS" EXACT []
+synonym: "RtINSev_Et_1to5" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0006016 ! storage root internal necrosis severity
+relationship: variable_of CO_331:0014014 ! visual estimation - storage root internal necrosis severity
+relationship: variable_of CO_331:0014015 ! internal necrosis 5 pt. scale
 
 [Typedef]
 id: method_of
