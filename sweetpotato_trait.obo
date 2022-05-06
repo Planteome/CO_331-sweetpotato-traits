@@ -9356,7 +9356,7 @@ namespace: SweetpotatoScale
 is_a: CO_331:1000002 ! Scales
 
 [Term]
-id: CO_331:20000
+id: CO_331:2000000
 name: Men Farmers preference of cooked leaf texture test
 namespace: SweetpotatoTrait
 def: "Farmers preference of cooked leaf texture test" []
