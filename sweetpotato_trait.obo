@@ -9356,6 +9356,48 @@ namespace: SweetpotatoScale
 is_a: CO_331:1000002 ! Scales
 
 [Term]
+id: CO_331:1000031
+name: Texture_in_mouth
+namespace: SweetpotatoTrait
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:1000032
+name: Texture_by_hand
+namespace: SweetpotatoTrait
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:1000033
+name: Appearance
+namespace: SweetpotatoTrait
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:1000034
+name: Odour
+namespace: SweetpotatoTrait
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:1000035
+name: Taste
+namespace: SweetpotatoTrait
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:1000036
+name: Aroma
+namespace: SweetpotatoTrait
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:1000037
+name: Sensory_descriptive_measurement
+namespace: SweetpotatoMethod
+is_a: CO_331:1000001 ! Methods
+
+[Term]
 id: CO_331:2000000
 name: Men Farmers preference of cooked leaf texture test
 namespace: SweetpotatoTrait
