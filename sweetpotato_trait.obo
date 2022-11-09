@@ -10183,7 +10183,7 @@ is_a: CO_331:1000007 ! Quality_trait
 id: CO_331:0014014
 name: visual estimation - storage root internal necrosis severity
 namespace: SweetpotatoMethod
-def: Observe the severity of internal necrosis in cross sections of a root taken from storage, and rate it. Rating based on the worst slice in the root." []
+def: "Observe the severity of internal necrosis in cross sections of a root taken from storage, and rate it. Rating based on the worst slice in the root." []
 is_a: CO_331:1000014 ! Estimation
 relationship: method_of CO_331:0006014 ! storage root internal necrosis severity
 
