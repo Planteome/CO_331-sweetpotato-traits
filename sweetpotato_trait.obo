@@ -8248,8 +8248,9 @@ relationship: scale_of CO_331:0002007 ! measurement - cooking time of the storag
 id: CO_331:0002031
 name: mm
 namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
+is_a: CO_331:1000015 ! Numerical
 relationship: scale_of CO_331:0000158 ! measurement - vine internode diameter
+relationship: scale_of CO_331:2000026 ! measurement of vine diameter
 
 [Term]
 id: CO_331:0002032
@@ -10029,12 +10030,6 @@ def: "Measurement of the diameter of the main vine, taken at the base node using
 is_a: CO_331:1000011 ! Measurement
 
 [Term]
-id: CO_331:2000027
-name: mm
-namespace: SweetpotatoScale
-is_a: CO_331:1000002 ! Scales
-
-[Term]
 id: CO_331:2000028
 name: Vine diameter measuring mm
 namespace: SweetpotatoTrait
@@ -10044,7 +10039,7 @@ synonym: "VnD_Ms_mm" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:2000025 ! vine diameter
 relationship: variable_of CO_331:2000026 ! measurement of vine diameter
-relationship: variable_of CO_331:2000027 ! mm
+relationship: variable_of CO_331:0002031 ! mm
 
 [Term]
 id: CO_331:2000029
