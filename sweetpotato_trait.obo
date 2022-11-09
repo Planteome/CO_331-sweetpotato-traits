@@ -6587,7 +6587,7 @@ relationship: scale_of CO_331:0002109 ! measurement protein- near-infrared spect
 relationship: scale_of CO_331:0002110 ! measurement protein- near-infrared spectroscopy (nirs) method of the raw storage root in fresh weight
 relationship: scale_of CO_331:0002130 ! measurement the starch content- near-infrared spectroscopy (nirs) method of the raw storage root in fresh weight
 relationship: scale_of CO_331:2000037 ! measurement - fructose content of the boiled storage root
-relationship: scale_of CO_331:2000023 ! measurement - glucose content of the boiled storage root
+relationship: scale_of CO_331:2000038 ! measurement - glucose content of the boiled storage root
 relationship: scale_of CO_331:2000024 ! measurement - sucrose content of the boiled storage root
 relationship: scale_of CO_331:2000025 ! measurement - maltose content of the boiled storage root
 
@@ -9564,7 +9564,7 @@ is_a: CO_331:1000013 ! Computation
 relationship: method_of CO_331:0000118 ! storage root fructose content
 
 [Term]
-id: CO_331:2000023
+id: CO_331:2000038
 name: measurement - glucose content of the boiled storage root
 namespace: SweetpotatoMethod
 def: "Compute the glucose content of the boiled storage root in percentage using the formula" []
@@ -9633,7 +9633,7 @@ synonym: "BOILGLUCP" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000121 ! storage root glucose content
 relationship: variable_of CO_331:0000900 ! %
-relationship: variable_of CO_331:2000023 ! measurement - glucose content of the boiled storage root
+relationship: variable_of CO_331:2000038 ! measurement - glucose content of the boiled storage root
 
 [Term]
 id: CO_331:2000031
