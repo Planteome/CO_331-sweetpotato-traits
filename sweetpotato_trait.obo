@@ -9357,37 +9357,37 @@ is_a: CO_331:1000002 ! Scales
 
 [Term]
 id: CO_331:1000031
-name: Texture_in_mouth
+name: Texture_in_mouth_trait
 namespace: SweetpotatoTrait
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
 id: CO_331:1000032
-name: Texture_by_hand
+name: Texture_by_hand_trait
 namespace: SweetpotatoTrait
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
 id: CO_331:1000033
-name: Appearance
+name: Appearance_trait
 namespace: SweetpotatoTrait
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
 id: CO_331:1000034
-name: Odour
+name: Odor_trait
 namespace: SweetpotatoTrait
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
 id: CO_331:1000035
-name: Taste
+name: Taste_trait
 namespace: SweetpotatoTrait
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
 id: CO_331:1000036
-name: Aroma
+name: Aroma_trait
 namespace: SweetpotatoTrait
 is_a: CO_331:1000007 ! Quality_trait
 
