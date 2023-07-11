@@ -6507,7 +6507,7 @@ is_a: CO_331:1000019 ! Numerical
 relationship: scale_of CO_331:0000228 ! computation - number of storage roots per plant harvested method
 relationship: scale_of CO_331:0001095 ! computation - number of storage roots per plant planted method
 relationship: scale_of CO_331:0002005 ! computing - number of commercial storage roots per plant planted method
-relationship: scale_of CO_331:2000035 ! computing - number of commercial storage roots per plant harvested method
+relationship: scale_of CO_331:0006023 ! computing - number of commercial storage roots per plant harvested method
 
 [Term]
 id: CO_331:0000892
@@ -9546,7 +9546,7 @@ is_a: CO_331:1000013 ! Computation
 relationship: method_of CO_331:0000127 ! storage root maltose content
 
 [Term]
-id: CO_331:2000027
+id: CO_331:0006018
 name: Content of starch in dry weight basis in boiled storage roots measuring percentage
 namespace: SweetpotatoTrait
 def: "Starch content in dry weight basis in boiled storage roots measuring g per 100g" []
@@ -9558,7 +9558,7 @@ relationship: variable_of CO_331:0000900 ! %
 relationship: variable_of CO_331:0002089 ! measurement  the starch content- near-infrared spectroscopy (nirs) method of the boiled storage root in dry weight
 
 [Term]
-id: CO_331:2000028
+id: CO_331:0006019
 name: Content of sucrose in boiled storage roots computing percent
 namespace: SweetpotatoTrait
 def: "The sucrose content of the boiled storage root computing percent" []
@@ -9570,7 +9570,7 @@ relationship: variable_of CO_331:0000900 ! %
 relationship: variable_of CO_331:2000024 ! measurement - sucrose content of the boiled storage root
 
 [Term]
-id: CO_331:2000029
+id: CO_331:0006020
 name: Content of maltose in boiled storage roots computing percent
 namespace: SweetpotatoTrait
 def: "The maltose content of the boiled storage root computing percent" []
@@ -9582,7 +9582,7 @@ relationship: variable_of CO_331:0000900 ! %
 relationship: variable_of CO_331:2000025 ! measurement - maltose content of the boiled storage root
 
 [Term]
-id: CO_331:2000030
+id: CO_331:0006021
 name: Content of glucose in boiled storage roots computing percent
 namespace: SweetpotatoTrait
 def: "The glucose content of the boiled storage root computing percent" []
@@ -9594,7 +9594,7 @@ relationship: variable_of CO_331:0000900 ! %
 relationship: variable_of CO_331:2000023 ! measurement - glucose content of the boiled storage root
 
 [Term]
-id: CO_331:2000031
+id: CO_331:0006022
 name: Content of fructose in boiled storage roots computing percent
 namespace: SweetpotatoTrait
 def: "The fructose content of the boiled storage root computing percent" []
@@ -9606,7 +9606,7 @@ relationship: variable_of CO_331:0000900 ! %
 relationship: variable_of CO_331:2000022 ! measurement - fructose content of the boiled storage root
 
 [Term]
-id: CO_331:2000035
+id: CO_331:0006023
 name: computing - number of commercial storage roots per plant harvested method
 namespace: SweetpotatoMethod
 def: "Compute the number of commercial storage roots per plant harvested using the formula" []
@@ -9614,7 +9614,7 @@ is_a: CO_331:1000013 ! Computation
 relationship: method_of CO_331:0000212 ! number of commercial storage roots
 
 [Term]
-id: CO_331:2000036
+id: CO_331:0006024
 name: Number of commercial storage roots per plant harvested
 namespace: SweetpotatoTrait
 def: "Evaluation of the number of all storage roots that weigh more or equal than 100 g per plant harvested" []
@@ -9624,7 +9624,7 @@ synonym: "ncrpp" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000212 ! number of commercial storage roots
 relationship: variable_of CO_331:0000891 ! storage root/plant
-relationship: variable_of CO_331:2000035 ! computing - number of commercial storage roots per plant harvested method
+relationship: variable_of CO_331:0006023 ! computing - number of commercial storage roots per plant harvested method
 
 [Term]
 id: CO_331:0014000
@@ -10143,14 +10143,14 @@ name: visual estimation - storage root internal necrosis severity
 namespace: SweetpotatoMethod
 def: Observe the severity of internal necrosis in cross sections of a root taken from storage, and rate it. Rating based on the worst slice in the root." []
 is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_331:0006014 ! storage root internal necrosis severity
+relationship: method_of CO_331:0006016 ! storage root internal necrosis severity
 
 [Term]
 id: CO_331:0014015
 name: internal necrosis 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO_331:0000134 ! visual estimation - storage root internal necrosis severity
+relationship: scale_of CO_331:0014014 ! visual estimation - storage root internal necrosis severity
 
 [Term]
 id: CO_331:0006017
