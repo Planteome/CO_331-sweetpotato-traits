@@ -727,21 +727,21 @@ synonym: "RtPrtDw" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
-id: CO_331:0001024
+id: CO_331:1001024
 name: RnSPWF 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000482 ! visual estimation - reaction of the plant to sweet potato whitefly
 
 [Term]
-id: CO_331:0001026
+id: CO_331:1001026
 name: RnSPMth 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000483 ! visual estimation - reaction of the plant to sweet potato moth
 
 [Term]
-id: CO_331:0001028
+id: CO_331:1001028
 name: RnMth 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
@@ -756,98 +756,98 @@ synonym: "RtFlsFeDw" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
-id: CO_331:0001030
+id: CO_331:1001030
 name: RnSPSB 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000485 ! visual estimation - reaction of the plant to sweet potato stem borer
 
 [Term]
-id: CO_331:0001032
+id: CO_331:1001032
 name: RnIns 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000486 ! visual estimation - response of the plant to other insects
 
 [Term]
-id: CO_331:0001034
+id: CO_331:1001034
 name: RnRFN 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000487 ! visual estimation - reaction of the plant to reniform nematode
 
 [Term]
-id: CO_331:0001036
+id: CO_331:1001036
 name: RnStN 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000488 ! visual estimation - reaction of the plant to sting nematode
 
 [Term]
-id: CO_331:0001038
+id: CO_331:1001038
 name: RnBRR 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000489 ! visual estimation - reaction of the plant to brown ring rot
 
 [Term]
-id: CO_331:0001040
+id: CO_331:1001040
 name: RnRLN 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000490 ! visual estimation - reaction of the plant to root lesion nematode
 
 [Term]
-id: CO_331:0001041
+id: CO_331:1001041
 name: RnON 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000491 ! visual estimation - reaction of the plant to other nematodes
 
 [Term]
-id: CO_331:0001043
+id: CO_331:1001043
 name: RnWR 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000492 ! visual estimation - reaction of the plant to wilt rot
 
 [Term]
-id: CO_331:0001045
+id: CO_331:1001045
 name: RnFRS 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000493 ! visual estimation - reaction of the plant to fusarium surface rot
 
 [Term]
-id: CO_331:0001047
+id: CO_331:1001047
 name: RnFRR 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000494 ! visual estimation - reaction of the plant to fusarium root rot
 
 [Term]
-id: CO_331:0001049
+id: CO_331:1001049
 name: RnSBC 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000495 ! visual estimation - reaction of the plant to sclerotial blight and circular spot
 
 [Term]
-id: CO_331:0001051
+id: CO_331:1001051
 name: RnBR 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000496 ! visual estimation - reaction of the plant to black rot
 
 [Term]
-id: CO_331:0001053
+id: CO_331:1001053
 name: RnScrf 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0000497 ! visual estimation - reaction of the plant to scurf
 
 [Term]
-id: CO_331:0001055
+id: CO_331:1001055
 name: RnSR 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
@@ -870,7 +870,7 @@ synonym: "RtBCFw" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
-id: CO_331:0001093
+id: CO_331:1001093
 name: visual estimation - total sugar content
 namespace: SweetpotatoMethod
 def: "Observe the total sugar content of the raw storage root and rate it" []
@@ -5585,7 +5585,7 @@ def: "The reaction to Sweet potato whitefly estimating 1-9" []
 synonym: "RnSPWF_Et_1to9" EXACT []
 synonym: "SPWF" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001024 ! RnSPWF 5 pt. scale
+relationship: variable_of CO_331:1001024 ! RnSPWF 5 pt. scale
 relationship: variable_of CO_331:0000366 ! reaction to sweet potato whitefly
 relationship: variable_of CO_331:0000482 ! visual estimation - reaction of the plant to sweet potato whitefly
 
@@ -5597,7 +5597,7 @@ def: "The reaction to Sweet potato moth estimating 1-9" []
 synonym: "RnSPMth_Et_1to9" EXACT []
 synonym: "SPMOTH" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001026 ! RnSPMth 5 pt. scale
+relationship: variable_of CO_331:1001026 ! RnSPMth 5 pt. scale
 relationship: variable_of CO_331:0000367 ! reaction to sweet potato moth
 relationship: variable_of CO_331:0000483 ! visual estimation - reaction of the plant to sweet potato moth
 
@@ -5609,7 +5609,7 @@ def: "The reaction to Moth estimating 1-9" []
 synonym: "MOTH" EXACT []
 synonym: "RnMth_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001028 ! RnMth 5 pt. scale
+relationship: variable_of CO_331:1001028 ! RnMth 5 pt. scale
 relationship: variable_of CO_331:0000368 ! reaction to moth
 relationship: variable_of CO_331:0000484 ! visual estimation - reaction of the plant to moth
 
@@ -5621,7 +5621,7 @@ def: "The reaction to Sweet potato stem borer estimating 1-9" []
 synonym: "RnSPSB_Et_1to9" EXACT []
 synonym: "SPSB" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001030 ! RnSPSB 5 pt. scale
+relationship: variable_of CO_331:1001030 ! RnSPSB 5 pt. scale
 relationship: variable_of CO_331:0000369 ! reaction to sweet potato stem borer
 relationship: variable_of CO_331:0000485 ! visual estimation - reaction of the plant to sweet potato stem borer
 
@@ -5633,7 +5633,7 @@ def: "The reaction to Other insects estimating 1-9" []
 synonym: "INSECTS" EXACT []
 synonym: "RnIns_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001032 ! RnIns 5 pt. scale
+relationship: variable_of CO_331:1001032 ! RnIns 5 pt. scale
 relationship: variable_of CO_331:0000370 ! reaction to other insects
 relationship: variable_of CO_331:0000486 ! visual estimation - response of the plant to other insects
 
@@ -5645,7 +5645,7 @@ def: "The reaction to Reniform nematode estimating 1-9" []
 synonym: "RENIN" EXACT []
 synonym: "RnRFN_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001034 ! RnRFN 5 pt. scale
+relationship: variable_of CO_331:1001034 ! RnRFN 5 pt. scale
 relationship: variable_of CO_331:0000371 ! reaction to reniform nematode
 relationship: variable_of CO_331:0000487 ! visual estimation - reaction of the plant to reniform nematode
 
@@ -5657,7 +5657,7 @@ def: "The reaction to Sting nematode estimating 1-9" []
 synonym: "RnStN_Et_1to9" EXACT []
 synonym: "STINGN" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001036 ! RnStN 5 pt. scale
+relationship: variable_of CO_331:1001036 ! RnStN 5 pt. scale
 relationship: variable_of CO_331:0000372 ! reaction to sting nematode
 relationship: variable_of CO_331:0000488 ! visual estimation - reaction of the plant to sting nematode
 
@@ -5669,7 +5669,7 @@ def: "The reaction to Brown ring rot estimating 1-9" []
 synonym: "BRROT" EXACT []
 synonym: "RnBRR_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001038 ! RnBRR 5 pt. scale
+relationship: variable_of CO_331:1001038 ! RnBRR 5 pt. scale
 relationship: variable_of CO_331:0000373 ! reaction to brown ring rot
 relationship: variable_of CO_331:0000489 ! visual estimation - reaction of the plant to brown ring rot
 
@@ -5681,7 +5681,7 @@ def: "The reaction to Root lesion nematode estimating 1-9" []
 synonym: "RnRLN_Et_1to9" EXACT []
 synonym: "ROOTLN" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001040 ! RnRLN 5 pt. scale
+relationship: variable_of CO_331:1001040 ! RnRLN 5 pt. scale
 relationship: variable_of CO_331:0000374 ! reaction to root lesion nematode
 relationship: variable_of CO_331:0000490 ! visual estimation - reaction of the plant to root lesion nematode
 
@@ -5693,7 +5693,7 @@ def: "The reaction to other nematodes estimating 1-9" []
 synonym: "NEMATODS" EXACT []
 synonym: "RnON_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001041 ! RnON 5 pt. scale
+relationship: variable_of CO_331:1001041 ! RnON 5 pt. scale
 relationship: variable_of CO_331:0000375 ! reaction to other nematodes
 relationship: variable_of CO_331:0000491 ! visual estimation - reaction of the plant to other nematodes
 
@@ -5705,7 +5705,7 @@ def: "The reaction to Wilt rot estimating 1-9" []
 synonym: "RnWR_Et_1to9" EXACT []
 synonym: "WILT" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001043 ! RnWR 5 pt. scale
+relationship: variable_of CO_331:1001043 ! RnWR 5 pt. scale
 relationship: variable_of CO_331:0000376 ! reaction to wilt rot
 relationship: variable_of CO_331:0000492 ! visual estimation - reaction of the plant to wilt rot
 
@@ -5717,7 +5717,7 @@ def: "The reaction to Fusarium surface rot estimating 1-9" []
 synonym: "FUSSURF" EXACT []
 synonym: "RnFRS_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001045 ! RnFRS 5 pt. scale
+relationship: variable_of CO_331:1001045 ! RnFRS 5 pt. scale
 relationship: variable_of CO_331:0000377 ! reaction to fusarium surface rot
 relationship: variable_of CO_331:0000493 ! visual estimation - reaction of the plant to fusarium surface rot
 
@@ -5729,7 +5729,7 @@ def: "The reaction to Fusarium root rot estimating 1-9" []
 synonym: "FUSROOT" EXACT []
 synonym: "RnFRR_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001047 ! RnFRR 5 pt. scale
+relationship: variable_of CO_331:1001047 ! RnFRR 5 pt. scale
 relationship: variable_of CO_331:0000378 ! reaction to fusarium root rot
 relationship: variable_of CO_331:0000494 ! visual estimation - reaction of the plant to fusarium root rot
 
@@ -5741,7 +5741,7 @@ def: "The reaction to Sclerotial blight and circular spot estimating 1-9" []
 synonym: "RnSBC_Et_1to9" EXACT []
 synonym: "SCLBLT" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001049 ! RnSBC 5 pt. scale
+relationship: variable_of CO_331:1001049 ! RnSBC 5 pt. scale
 relationship: variable_of CO_331:0000379 ! reaction to sclerotial blight and circular spot
 relationship: variable_of CO_331:0000495 ! visual estimation - reaction of the plant to sclerotial blight and circular spot
 
@@ -5753,7 +5753,7 @@ def: "The reaction to Black rot estimating 1-9" []
 synonym: "BLACKROT" EXACT []
 synonym: "RnBR_Et_1to9" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001051 ! RnBR 5 pt. scale
+relationship: variable_of CO_331:1001051 ! RnBR 5 pt. scale
 relationship: variable_of CO_331:0000380 ! reaction to black rot
 relationship: variable_of CO_331:0000496 ! visual estimation - reaction of the plant to black rot
 
@@ -5765,7 +5765,7 @@ def: "The reaction to Scurf estimating 1-9" []
 synonym: "RnScrf_Et_1to9" EXACT []
 synonym: "SCURF" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001053 ! RnScrf 5 pt. scale
+relationship: variable_of CO_331:1001053 ! RnScrf 5 pt. scale
 relationship: variable_of CO_331:0000381 ! reaction to scurf
 relationship: variable_of CO_331:0000497 ! visual estimation - reaction of the plant to scurf
 
@@ -5777,7 +5777,7 @@ def: "The reaction to Soft rot estimating 1-9" []
 synonym: "RnSR_Et_1to9" EXACT []
 synonym: "SOFTROT" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001055 ! RnSR 5 pt. scale
+relationship: variable_of CO_331:1001055 ! RnSR 5 pt. scale
 relationship: variable_of CO_331:0000382 ! reaction to soft rot
 relationship: variable_of CO_331:0000498 ! visual estimation - reaction of the plant to soft rot
 
@@ -6018,7 +6018,7 @@ synonym: "RwRtTSg_Et_1to9" EXACT []
 synonym: "TOTSUG" EXACT []
 synonym: "suraw" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0001093 ! visual estimation - total sugar content
+relationship: variable_of CO_331:1001093 ! visual estimation - total sugar content
 relationship: variable_of CO_331:0000402 ! storage root total sugar content
 relationship: variable_of CO_331:0002035 ! RwRtTSg 9pt. Scale
 
@@ -8277,7 +8277,7 @@ id: CO_331:0002035
 name: RwRtTSg 9pt. Scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000030 ! Nominal
-relationship: scale_of CO_331:0001093 ! visual estimation - total sugar content
+relationship: scale_of CO_331:1001093 ! visual estimation - total sugar content
 
 [Term]
 id: CO_331:0002036
