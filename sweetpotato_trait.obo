@@ -10111,7 +10111,7 @@ is_a: CO_331:1000014 ! Estimation
 relationship: method_of CO_331:0006014 ! storage root pithiness severity
 
 [Term]
-id: CO_331:0104013
+id: CO_331:0104011
 name: pithiness 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
@@ -10127,7 +10127,7 @@ synonym: "RtPthSev_Et_0to4" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0006014 ! storage root pithiness severity
 relationship: variable_of CO_331:0014012 ! visual estimation - storage root pithiness severity
-relationship: variable_of CO_331:0104013 ! pithiness 5 pt. scale
+relationship: variable_of CO_331:0104011 ! pithiness 5 pt. scale
 
 [Term]
 id: CO_331:0006016
@@ -10138,7 +10138,7 @@ synonym: "RtINSev" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
 
 [Term]
-id: CO_331:0014014
+id: CO_331:0014013
 name: visual estimation - storage root internal necrosis severity
 namespace: SweetpotatoMethod
 def: Observe the severity of internal necrosis in cross sections of a root taken from storage, and rate it. Rating based on the worst slice in the root." []
@@ -10146,11 +10146,11 @@ is_a: CO_331:1000014 ! Estimation
 relationship: method_of CO_331:0006016 ! storage root internal necrosis severity
 
 [Term]
-id: CO_331:0014015
+id: CO_331:0104012
 name: internal necrosis 5 pt. scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO_331:0014014 ! visual estimation - storage root internal necrosis severity
+relationship: scale_of CO_331:0014013 ! visual estimation - storage root internal necrosis severity
 
 [Term]
 id: CO_331:0006017
@@ -10162,8 +10162,8 @@ synonym: "INTNECROSIS" EXACT []
 synonym: "RtINSev_Et_1to5" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0006016 ! storage root internal necrosis severity
-relationship: variable_of CO_331:0014014 ! visual estimation - storage root internal necrosis severity
-relationship: variable_of CO_331:0014015 ! internal necrosis 5 pt. scale
+relationship: variable_of CO_331:0014013 ! visual estimation - storage root internal necrosis severity
+relationship: variable_of CO_331:0104012 ! internal necrosis 5 pt. scale
 
 [Typedef]
 id: method_of
