@@ -10166,7 +10166,7 @@ relationship: variable_of CO_331:0014013 ! visual estimation - storage root inte
 relationship: variable_of CO_331:0104012 ! internal necrosis 5 pt. scale
 
 [Term]
-id: CO_331:0006018
+id: CO_331:0006025
 name: genotype fatal defects
 namespace: SweetpotatoTrait
 def: "The defects observed that disqualify a genotype from advancement in the breeding program." []
@@ -10177,9 +10177,9 @@ is_a: CO_331:1000008 ! Agronomic_trait
 id: CO_331:0014014
 name: visual estimation - genotype fatal defects
 namespace: SweetpotatoMethod
-def: "Observe the defects of a genotype. If they are fatal, record them." []
+def: "Observe the defects of a genotype. If they disqualify it from advancement, record them." []
 is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_331:0006018 ! genotype fatal defects
+relationship: method_of CO_331:0006025 ! genotype fatal defects
 
 [Term]
 id: CO_331:0014013
@@ -10189,23 +10189,23 @@ is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0014014 ! visual estimation - genotype fatal defects
 
 [Term]
-id: CO_331:0006019
+id: CO_331:0006026
 name: genotype fatal defects estimating multi
 namespace: SweetpotatoTrait
-def: "Genotype fatal defects, rated by observing representative plots in the field and recording one or more defects that disqualify it from advancement. Possible defects include AT/Crack/Disease/Data/DeepEye/FleshCol/Groove/Late/Latex/Lents/Long/LowSet/PoorShape/Rot/RoughSkin/SkinColor/SizeDistri/Sprouts/Tails/Taper/TightHills/Vein/Insect/Yield" []
+def: "Defects of a genotype that disqualify it from advancement. Rated by observing representative plots in the field and recording one or more defects. Possible defects include AT/Crack/Disease/Data/DeepEye/FleshCol/Groove/Late/Latex/Lents/Long/LowSet/PoorShape/Rot/RoughSkin/SkinColor/SizeDistri/Sprouts/Tails/Taper/TightHills/Vein/Insect/Yield" []
 synonym: "WHYDROP" EXACT []
 synonym: "FATALDEFECTS" EXACT []
 synonym: "GenFatDef_Et_multi" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0006018 ! genotype fatal defects
+relationship: variable_of CO_331:0006025 ! genotype fatal defects
 relationship: variable_of CO_331:0014014 ! visual estimation - genotype fatal defects
 relationship: variable_of CO_331:0014013 ! genotype fatal defects multi-category scale
 
 [Term]
-id: CO_331:0006020
+id: CO_331:0006027
 name: genotype disadvantages
 namespace: SweetpotatoTrait
-def: "Disadvantages or defects of a genotype that do not disqualify it from advancement in the breeding program." []
+def: "Disadvantages or defects of a genotype that is being advanced in the breeding program." []
 synonym: "KeepDefects" EXACT []
 is_a: CO_331:1000008 ! Agronomic_trait
 
@@ -10213,9 +10213,9 @@ is_a: CO_331:1000008 ! Agronomic_trait
 id: CO_331:0014015
 name: visual estimation - genotype disadvantages
 namespace: SweetpotatoMethod
-def: "Observe the defects of a genotype. If they are not fatal, but still notable, record them." []
+def: "Observe the defects of a genotype that is being advanced and record them." []
 is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_331:0006020 ! genotype fatal defects
+relationship: method_of CO_331:0006027 ! genotype fatal defects
 
 [Term]
 id: CO_331:0014014
@@ -10225,20 +10225,20 @@ is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0014015 ! visual estimation - genotype disadvantages
 
 [Term]
-id: CO_331:0006021
+id: CO_331:0006028
 name: genotype disadvantages estimating multi
 namespace: SweetpotatoTrait
-def: "Genotype disadvantages, rated by observing representative plots in the field and recording one or more defects that are notable but do not disqualify it from advancement. Possible defects include AT/Crack/Disease/DeepEye/FleshCol/Groove/Late/Latex/Lents/Long/LowSet/PoorShape/RoughSkin/SizeDistri/Sprouts/Tails/Taper/TightHills/Vein/Insect" []
+def: "Disadvantages of a genotype that is being advanced. Rated by observing representative plots in the field and recording one or more defects. Possible defects include AT/Crack/Disease/DeepEye/FleshCol/Groove/Late/Latex/Lents/Long/LowSet/PoorShape/RoughSkin/SizeDistri/Sprouts/Tails/Taper/TightHills/Vein/Insect" []
 synonym: "KEEPDEFECTS" EXACT []
 synonym: "DISADVANTAGES" EXACT []
 synonym: "GenDis_Et_multi" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0006020 ! genotype disadvantages
+relationship: variable_of CO_331:0006027 ! genotype disadvantages
 relationship: variable_of CO_331:0014015 ! visual estimation - genotype disadvantages
 relationship: variable_of CO_331:0014014 ! genotype disadvantages multi-category scale
 
 [Term]
-id: CO_331:0006022
+id: CO_331:0006029
 name: genotype advantages
 namespace: SweetpotatoTrait
 def: "Advantages of a genotype that is being advanced in the breeding program." []
@@ -10251,7 +10251,7 @@ name: visual estimation - genotype advantages
 namespace: SweetpotatoMethod
 def: "Observe the advantages of a genotype that is being advanced and record them." []
 is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO_331:0006022 ! genotype advantages
+relationship: method_of CO_331:0006029 ! genotype advantages
 
 [Term]
 id: CO_331:0014015
@@ -10261,15 +10261,15 @@ is_a: CO_331:1000030 ! Nominal
 relationship: scale_of CO_331:0014016 ! visual estimation - genotype advantages
 
 [Term]
-id: CO_331:0006023
+id: CO_331:0006030
 name: genotype advantages estimating multi
 namespace: SweetpotatoTrait
-def: "Genotype advantages, rated by observing representative plots in the field and recording one or more of its advantages. Possible advantages include GoodAT/Blocky/Early/GDSizeDist/HighDM/LowSet/HighSet/ProcOnly/Round/ShapeUnifo/GDShapes/PigUndSkin/SpecChip/HighYield/RtStalk" []
+def: "Advantages of a genotype that is being advanced. Rated by observing representative plots in the field and recording one or more advantages. Possible advantages include GoodAT/Blocky/Early/GDSizeDist/HighDM/LowSet/HighSet/ProcOnly/Round/ShapeUnifo/GDShapes/PigUndSkin/SpecChip/HighYield/RtStalk" []
 synonym: "KEEPADVANTAGES" EXACT []
 synonym: "ADVANTAGES" EXACT []
 synonym: "GenAdv_Et_multi" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0006022 ! genotype advantages
+relationship: variable_of CO_331:0006029 ! genotype advantages
 relationship: variable_of CO_331:0014016 ! visual estimation - genotype advantages
 relationship: variable_of CO_331:0014015 ! genotype advantages multi-category scale
 
