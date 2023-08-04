@@ -6587,7 +6587,7 @@ relationship: scale_of CO_331:0002109 ! measurement protein- near-infrared spect
 relationship: scale_of CO_331:0002110 ! measurement protein- near-infrared spectroscopy (nirs) method of the raw storage root in fresh weight
 relationship: scale_of CO_331:0002130 ! measurement the starch content- near-infrared spectroscopy (nirs) method of the raw storage root in fresh weight
 relationship: scale_of CO_331:2000022 ! measurement - fructose content of the boiled storage root
-relationship: scale_of CO_331:2000023 ! measurement - glucose content of the boiled storage root
+relationship: scale_of CO_331:2000020 ! measurement - glucose content of the boiled storage root
 relationship: scale_of CO_331:2000024 ! measurement - sucrose content of the boiled storage root
 relationship: scale_of CO_331:2000025 ! measurement - maltose content of the boiled storage root
 
@@ -9514,7 +9514,7 @@ relationship: variable_of CO_331:0002155 ! PltsAvail
 relationship: variable_of CO_331:2000016 ! plants available counting number
 
 [Term]
-id: CO_331:2000022
+id: CO_331:2000021
 name: measurement - fructose content of the boiled storage root
 namespace: SweetpotatoMethod
 def: "Compute the fructose content of the boiled storage root in percentage using the formula" []
@@ -9522,7 +9522,7 @@ is_a: CO_331:1000013 ! Computation
 relationship: method_of CO_331:0000118 ! storage root fructose content
 
 [Term]
-id: CO_331:2000023
+id: CO_331:2000020
 name: measurement - glucose content of the boiled storage root
 namespace: SweetpotatoMethod
 def: "Compute the glucose content of the boiled storage root in percentage using the formula" []
@@ -9591,7 +9591,7 @@ synonym: "BOILGLUCP" EXACT []
 is_a: CO_331:1000003 ! Variables
 relationship: variable_of CO_331:0000121 ! storage root glucose content
 relationship: variable_of CO_331:0000900 ! %
-relationship: variable_of CO_331:2000023 ! measurement - glucose content of the boiled storage root
+relationship: variable_of CO_331:2000020 ! measurement - glucose content of the boiled storage root
 
 [Term]
 id: CO_331:0006022
@@ -9960,7 +9960,7 @@ def: "Measurement of the main vine from the base to the tip" []
 is_a: CO_331:1000011 ! Measurement
 
 [Term]
-id: CO_331:2000024
+id: CO_331:0005001
 name: Vine length measuring cm
 namespace: SweetpotatoTrait
 def: "Length of the main vine measured from the base to the tip in cm" []
@@ -9972,7 +9972,7 @@ relationship: variable_of CO_331:2000022 ! vine length
 relationship: variable_of CO_331:2000023 ! measurement of vine length
 
 [Term]
-id: CO_331:2000025
+id: CO_331:0005002
 name: vine diameter
 namespace: SweetpotatoTrait
 def: "Diameter of main vine/stem at the base of the plant" []
@@ -10000,7 +10000,7 @@ synonym: "Measurement of the diameter of the main vine in mm. Taken as the avera
 synonym: "VINDIA" EXACT []
 synonym: "VnD_Ms_mm" EXACT []
 is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:2000025 ! vine diameter
+relationship: variable_of CO_331:0005002 ! vine diameter
 relationship: variable_of CO_331:2000026 ! measurement of vine diameter
 relationship: variable_of CO_331:2000027 ! mm
 
