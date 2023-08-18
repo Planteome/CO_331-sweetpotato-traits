@@ -1,4 +1,5 @@
 # CO_331-sweetpotato-traits
+[![DOI](https://zenodo.org/badge/45250623.svg)](https://zenodo.org/badge/latestdoi/45250623)
 
 Sweetpotato Trait Ontology is maintained by http://www.cropontology.org 
 and https://sweetpotatobase.org
