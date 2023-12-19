@@ -527,10 +527,10 @@ relationship: scale_of CO_331:0000089 ! sweetpotato weevil damage evaluation met
 
 [Term]
 id: CO_331:0000091
-name: sweetpotato reaction to early blight: (alternaria spp) trait
-def: "Alternaria symptoms evaluation" [CO:curators]
+name: sweetpotato reaction to early blight: (Alternaria spp.) trait
+def: "Alternaria symptoms evaluation" [CO:curators, NCBITaxon:5598]
 synonym: "RnAlt" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000092
@@ -2296,63 +2296,63 @@ id: CO_331:0000367
 name: sweetpotato reaction to sweet potato moth trait
 def: "Reaction to Sweet potato moth" [CO:curators]
 synonym: "RnSPMth" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_331:0000368
 name: sweetpotato reaction to moth trait
 def: "Reaction to Moth" [CO:curators]
 synonym: "RnMth" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_331:0000369
 name: sweetpotato reaction to sweet potato stem borer trait
-def: "Reaction to Sweet potato stem borer" [CO:curators]
+def: "Reaction to Sweet potato stem borer (Omphisa anastomosalis)." [CO:curators]
 synonym: "RnSPSB" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_331:0000370
 name: sweetpotato reaction to other insects trait
 def: "Reaction to Other insects" [CO:curators]
 synonym: "RnIns" EXACT []
-is_a: TO:0000261 ! insect damage resistance
+is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_331:0000371
 name: sweetpotato reaction to reniform nematode trait
 def: "Reaction to Reniform nematode" [CO:curators]
 synonym: "RnRFN" EXACT []
-is_a: TO:0000384 ! nematode damage resistance
+is_a: TO:0000384 ! nematode damage response
 
 [Term]
 id: CO_331:0000372
 name: sweetpotato reaction to sting nematode trait
 def: "Reaction to Sting nematode" [CO:curators]
 synonym: "RnStN" EXACT []
-is_a: TO:0000384 ! nematode damage resistance
+is_a: TO:0000384 ! nematode damage response
 
 [Term]
 id: CO_331:0000373
 name: sweetpotato reaction to brown ring rot trait
 def: "Reaction to Brown ring rot" [CO:curators]
 synonym: "RnBRR" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_331:0000374
 name: sweetpotato reaction to root lesion nematode trait
 def: "Reaction to Root lesion nematode" [CO:curators]
 synonym: "RnRLN" EXACT []
-is_a: TO:0000384 ! nematode damage resistance
+is_a: TO:0000384 ! nematode damage response
 
 [Term]
 id: CO_331:0000375
 name: sweetpotato reaction to other nematodes trait
 def: "Reaction to other nematodes" [CO:curators]
 synonym: "RnON" EXACT []
-is_a: TO:0000384 ! nematode damage resistance
+is_a: TO:0000384 ! nematode damage response
 
 [Term]
 id: CO_331:0000376
@@ -2364,58 +2364,58 @@ is_a: TO:0000439 ! fungal disease resistance
 [Term]
 id: CO_331:0000377
 name: sweetpotato reaction to fusarium surface rot trait
-def: "Reaction to Fusarium surface rot" [CO:curators]
+def: "Reaction to Fusarium surface rot (Fusarium oxysporum)." [CO:curators, NCBITaxon:5507]
 synonym: "RnFRS" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000378
 name: sweetpotato reaction to fusarium root rot trait
-def: "Reaction to Fusarium root rot" [CO:curators]
+def: "Reaction to Fusarium root rot (Fusarium solani)." [CO:curators, NCBITaxon:169388]
 synonym: "RnFRR" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000379
 name: sweetpotato reaction to sclerotial blight and circular spot trait
-def: "Reaction to Sclerotial blight and circular spot" [CO:curators]
+def: "Reaction to Sclerotial blight and circular spot (Sclerotium rolfsii, Agroathelia rolfsii)" [CO:curators, TO:0001146]
 synonym: "RnSBC" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_331:0000380
 name: sweetpotato reaction to black rot trait
-def: "Reaction to Black rot" [CO:curators]
+def: "Reaction to Black rot (Ceratocystis fimbriata)." [CO:curators, NCBITaxon:5158]
 synonym: "RnBR" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000381
 name: sweetpotato reaction to scurf trait
-def: "Reaction to Scurf" [CO:curators]
+def: "Reaction to Scurf (Monilochaetes infuscans)." [CO:curators, TO:0001145]
 synonym: "RnScrf" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000382
 name: sweetpotato reaction to soft rot trait
-def: "Reaction to Soft rot" [CO:curators]
+def: "Reaction to Soft rot (Rhizopus oryzae, Rhizopus arrhizus)." [CO:curators, NCBITaxon:64495]
 synonym: "RnSR" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_331:0000383
 name: sweetpotato reaction to java black rot trait
-def: "Reaction to Java black rot" [CO:curators]
+def: "Reaction to Java black rot (Lasiodiplodia theobromae)" [CO:curators, NCBITaxon:45133]
 synonym: "RnJBR" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000384
 name: sweetpotato reaction to diaporthe dry rot trait
-def: "Reaction to Diaporthe dry rot" [CO:curators]
+def: "Reaction to Diaporthe dry rot Diaporthe phaseolorum (syns. D. batatatis; Phomopsis phaseoli)." [CO:curators, NCBITaxon:36923]
 synonym: "RnDDR" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000385
@@ -2434,23 +2434,23 @@ is_a: TO:0000439 ! fungal disease resistance
 [Term]
 id: CO_331:0000387
 name: sweetpotato reaction to white rust trait
-def: "Reaction to White rust" [CO:curators]
+def: "Reaction to White rust (Albugo ipomoeae-panduratae)." [CO:curators, NCBITaxon:295094]
 synonym: "RnWR" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_331:0000388
 name: sweetpotato reaction to foot rot trait
-def: "Reaction to Foot rot" [CO:curators]
+def: "Reaction to Foot rot (Plenodomus destruens, Diaporthe destruens)." [CO:curators, NCBITaxon:748119]
 synonym: "RnFR" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000389
 name: sweetpotato reaction to charcoal rot trait
-def: "Reaction to Charcoal rot" [CO:curators]
+def: "Reaction to Charcoal rot (Macrophomina phaseolina)." [CO:curators, NCBITaxon:35725]
 synonym: "RnCR" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000390
@@ -2462,9 +2462,9 @@ is_a: TO:0000439 ! fungal disease resistance
 [Term]
 id: CO_331:0000391
 name: sweetpotato reaction to pox or soil rot trait
-def: "Reaction to Pox or soil rot" [CO:curators]
+def: "Reaction to Pox or soil rot (Streptomyces ipomoeae)." [CO:curators, NCBITaxon:103232]
 synonym: "RnPSR" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_331:0000392
@@ -2679,9 +2679,9 @@ is_a: TO:0000384 ! nematode damage resistance
 [Term]
 id: CO_331:0000422
 name: sweetpotato reaction to fusarium oxysporum trait
-def: "Reaction to Fusarium oxysporum batatas symptom evaluation" [CO:curators]
+def: "Reaction to Fusarium oxysporum batatas symptom evaluation (Fusarium oxysporum f. sp. batatas)" [CO:curators, NCBITaxon:61364]
 synonym: "RnFR" EXACT []
-is_a: TO:0000439 ! fungal disease resistance
+is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000423
