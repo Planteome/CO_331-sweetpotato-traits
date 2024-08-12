@@ -2373,7 +2373,7 @@ id: CO_331:0000378
 name: sweetpotato reaction to fusarium root rot trait
 def: "Reaction to Fusarium root rot (Fusarium solani)." [CO:curators, NCBITaxon:169388]
 synonym: "RnFRR" EXACT []
-is_a: TO:0001145 ! Ascomycete fungal disease response
+is_a: TO:0001147 ! Fusarium solani disease response
 
 [Term]
 id: CO_331:0000379
