@@ -1,13 +1,11 @@
 format-version: 1.2
-auto-generated-by: java
 default-namespace: CO_331_sweetpotato
 ontology: co_331
 
 [Term]
 id: CO_331:0000001
 name: sweetpotato plant type trait
-def: "Length of the main vines" [CO:curators]
-synonym: "Main vine length" EXACT []
+def: "The growth habit of the plant" [CO:curators]
 synonym: "PtTyp" EXACT []
 is_a: TO:0000576 ! stem length
 
@@ -3713,47 +3711,77 @@ relationship: scale_of CO_331:0000481 ! sweetpotato visual estimation of the pla
 id: CO_331:0000600
 name: sweetpotato rcspwf 5 pt. scale
 relationship: scale_of CO_331:0000482 ! sweetpotato visual estimation of the plant response to sweet potato white fly method
-
+_______________________________
 [Term]
 id: CO_331:0000601
-name: sweetpotato rcspmth 5 pt. scale
-relationship: scale_of CO_331:0000483 ! sweetpotato visual estimation of the plant response to sweet potato moth method
+name: weight of total storage roots
+namespace: SweetpotatoTrait
+def: "The weight of total US no. 1 storage roots" []
+synonym: "RtUS1W" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
 
 [Term]
 id: CO_331:0000602
-name: sweetpotato rcmth 5 pt. scale
-relationship: scale_of CO_331:0000484 ! sweetpotato visual estimation of the plant response to moth method
+name: weight of canner storage roots
+namespace: SweetpotatoTrait
+def: "The weight of canner storage roots" []
+synonym: "RtCanW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
 
 [Term]
 id: CO_331:0000603
-name: sweetpotato rcspsb 5 pt. scale
-relationship: scale_of CO_331:0000485 ! sweetpotato visual estimation of the plant response to sweet potato stem borer method
+name: weight of jumbo storage roots
+namespace: SweetpotatoTrait
+def: "The roots that exceed the diameter, length and weight requirements of US. No 1 and canner storage roots, but are of marketable quality" []
+synonym: "RtJumW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
 
 [Term]
 id: CO_331:0000604
-name: sweetpotato rcins 5 pt. scale
-relationship: scale_of CO_331:0000486 ! sweetpotato visual estimation of the plant response to other insects method
+name: weight of cull storage roots
+namespace: SweetpotatoTrait
+def: "The roots must be 1 or larger in diameter and so misshapen or unattractive that they can not fit as marketable roots in the no. 1, Canner, or Jumbo grades" []
+synonym: "RtCulW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
 
 [Term]
 id: CO_331:0000605
-name: sweetpotato rcrfn 5 pt. scale
-relationship: scale_of CO_331:0000487 ! sweetpotato visual estimation of the root response to reniform nematode method
+name: weight of 90 count us no. 1 storage roots
+namespace: SweetpotatoTrait
+def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 5.0 - 9.4 oz. Should take roughly 90 to fill a 40lb box." []
+synonym: "Rt90ctW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
 
 [Term]
 id: CO_331:0000606
-name: sweetpotato rcstn 5 pt. scale
-relationship: scale_of CO_331:0000488 ! sweetpotato visual estimation of the root response to sting nematode method
+name: weight of 55 count us no. 1 storage roots
+namespace: SweetpotatoTrait
+def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 9.5 - 14 oz. Should take roughly 55 to fill a 40lb box" []
+synonym: "Rt55ctW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
 
 [Term]
 id: CO_331:0000607
-name: sweetpotato rcbrr 5 pt. scale
-relationship: scale_of CO_331:0000489 ! sweetpotato visual estimation of the root response to brown ring rot method
+name: weight of 40 count us no. 1 storage roots
+namespace: SweetpotatoTrait
+def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 14.1 - 18 oz. Should take roughly 40 to fill a 40lb box" []
+synonym: "Rt40ctW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
 
 [Term]
 id: CO_331:0000608
-name: sweetpotato rcrln 5 pt. scale
-relationship: scale_of CO_331:0000490 ! sweetpotato visual estimation of the root response to nematode method
+name: weight of 32 count us no. 1 storage roots
+namespace: SweetpotatoTrait
+def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 18.1 - 22 oz. Should take roughly 32 to fill a 40lb box" []
+synonym: "Rt32ctW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
 
+
+
+
+
+
+_______________________________
 [Term]
 id: CO_331:0000609
 name: sweetpotato rcon 5 pt. scale
@@ -5246,6 +5274,15 @@ relationship: scale_of CO_331:0000282 ! sweetpotato content of calcium in dry we
 relationship: scale_of CO_331:0000286 ! sweetpotato content of magnesium in dry weight basis - method
 
 [Term]
+id: CO_331:0000811
+name: storage root surface secondary defects
+namespace: SweetpotatoTrait
+def: "Storage root surface secondary defects" []
+synonym: "RtSSDef" EXACT []
+is_a: CO_331:1000004 ! Abiotic_stress_trait
+_____________________________________________________
+
+[Term]
 id: CO_331:0000812
 name: sweetpotato rtshp 9 pt. scale
 relationship: scale_of CO_331:0000068 ! sweetpotato observation of storage root shape described from longitudinal sections made about the middle of freshly harvested storage roots method
@@ -5258,6 +5295,584 @@ is_a: CO_331:0000307 ! sweetpotato marketable root yield trait
 relationship: variable_of CO_331:0000307 ! sweetpotato marketable root yield trait
 relationship: variable_of CO_331:0000313 ! sweetpotato estimated marketable yield per hectare - method
 relationship: variable_of CO_331:0000319 ! sweetpotato t/ha scale
+
+___________________________________________________________
+[Term]
+id: CO_331:0001056
+name: biomass yield adjusted
+namespace: SweetpotatoTrait
+def: "The adjusted yield of the biomass" []
+synonym: "BioYldA" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001057
+name: biomass yield adjusted in dry weight basis
+namespace: SweetpotatoTrait
+def: "The adjusted yield of the biomass in dry weight basis" []
+synonym: "BioYldAD" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001058
+name: biomass yield in dry weight basis
+namespace: SweetpotatoTrait
+def: "The yield of the biomass in dry weight basis" []
+synonym: "BioYldD" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001059
+name: commercial storage root yield adjusted
+namespace: SweetpotatoTrait
+def: "The adjusted yield of the commercial storage roots" []
+synonym: "RtCYldA" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001060
+name: flower length
+namespace: SweetpotatoTrait
+def: "The length of the flower" []
+synonym: "FrLg" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:0001061
+name: flower width
+namespace: SweetpotatoTrait
+def: "The width of the flower" []
+synonym: "FrWd" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:0001062
+name: plant height
+namespace: SweetpotatoTrait
+def: "The height of the plant" []
+synonym: "Ptlng" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:0001063
+name: root foliage ratio
+namespace: SweetpotatoTrait
+def: "The ratio between root and foliage" []
+synonym: "RtFl" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001064
+name: storage root cooking time
+namespace: SweetpotatoTrait
+def: "The cooking time of storage root" []
+synonym: "Cootime" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0001065
+name: storage root dry matter content yield
+namespace: SweetpotatoTrait
+def: "The dry matter content of the storage root yield" []
+synonym: "RtDMCY" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001066
+name: storage root dry matter content yield adjusted
+namespace: SweetpotatoTrait
+def: "The dry matter content of the storage root yield adjusted" []
+synonym: "RtDMCYA" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001068
+name: storage root fructose content in fresh weight basis
+namespace: SweetpotatoTrait
+def: "Fructose content in fresh weight basis of the storage root" []
+synonym: "RtFruFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0001069
+name: storage root glucose content in dry weight basis
+namespace: SweetpotatoTrait
+def: "Glucose content in dry weight basis of the storage root" []
+synonym: "RtGluDw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0001070
+name: storage root glucose content in fresh weight basis
+namespace: SweetpotatoTrait
+def: "Glucose content in fresh weight basis of the storage root" []
+synonym: "RtGluFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0001071
+name: storage root maltose content in dry weight basis
+namespace: SweetpotatoTrait
+def: "Maltose content in dry weight basis of the storage root" []
+synonym: "RtMalDw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0001072
+name: storage root maltose content in fresh weight basis
+namespace: SweetpotatoTrait
+def: "Maltose content in fresh weight basis of the storage root" []
+synonym: "RtMalFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0001073
+name: storage root starch content
+namespace: SweetpotatoTrait
+def: "Starch content in raw storage root" []
+synonym: "RwRtSta" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0001074
+name: storage root sucrose content in dry weight basis
+namespace: SweetpotatoTrait
+def: "Sucrose content in dry weight basis of the storage root" []
+synonym: "RtSucDw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0001075
+name: storage root sucrose content in fresh weight basis
+namespace: SweetpotatoTrait
+def: "Sucrose content in fresh weight basis of the storage root" []
+synonym: "RtSucFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0001076
+name: storage root total sugar content in dry weight basis
+namespace: SweetpotatoTrait
+def: "The total sugar content in dry weight basis of the storage root" []
+synonym: "RtTSgDw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0001077
+name: storage root total sugar content in fresh weight basis
+namespace: SweetpotatoTrait
+def: "The total sugar content in fresh weight basis of the storage root" []
+synonym: "RtTSgFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0001078
+name: total foliage yield adjusted
+namespace: SweetpotatoTrait
+def: "The adjusted yield of the total vine or foliage" []
+synonym: "VnFolYldA" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001079
+name: total number of storage roots
+namespace: SweetpotatoTrait
+def: "The total number of storage roots" []
+synonym: "RtTN" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001080
+name: total storage root dry weight
+namespace: SweetpotatoTrait
+def: "The total dry weight of the storage roots" []
+synonym: "RtTDWt" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001081
+name: total storage roots yield adjusted
+namespace: SweetpotatoTrait
+def: "The adjusted yield of the total storage roots" []
+synonym: "RtYldA" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001082
+name: vine apex color
+namespace: SweetpotatoTrait
+def: "The apex color of the vine" []
+synonym: "VnACol" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:0001083
+name: vine base color
+namespace: SweetpotatoTrait
+def: "The base color of the vine" []
+synonym: "VnBCol" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:0001084
+name: vine dry matter content
+namespace: SweetpotatoTrait
+def: "The dry matter content of the vine" []
+synonym: "VnDMC" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0001085
+name: vine dry matter content yield
+namespace: SweetpotatoTrait
+def: "The dry matter content of the vine yield" []
+synonym: "VnDMCY" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001086
+name: vine dry matter content yield adjusted
+namespace: SweetpotatoTrait
+def: "The dry matter content of the vine yield adjusted" []
+synonym: "VnDMCYA" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001087
+name: vine dry weight
+namespace: SweetpotatoTrait
+def: "The dry weight of the vines" []
+synonym: "VnDW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0001088
+name: vine node color
+namespace: SweetpotatoTrait
+def: "The node color of the vine" []
+synonym: "VnNCol" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+CO_331:0001105	Leaf area index	Defined as total surface area of foliage per unit ground area	LfAInd
+
+CO_331:0001106	Stomatal conductance	Stomatal conductance is the rate of passage of CO2 entering or water vapor exiting through the stomata of a leaf	LfSt
+
+CO_331:0001107	Stomatal density	The number of stomata per leaf area.	LfStDn
+
+CO_331:0001108	Canopy temperature	The temperature of the canopy by plot with a thermal image taken for a infrared thermografic camera	CT
+
+CO_331:0001109	Canopy temperature depression	Deviation of temperature of plant canopies from the ambient temperature	CTD
+
+[Term]
+id: CO_331:0002041
+name: average non-commercial storage root weight
+namespace: SweetpotatoTrait
+def: "The average non-commercial weight of storage roots" []
+synonym: "RtANCRW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0002042
+name: average total storage root weight
+namespace: SweetpotatoTrait
+def: "The average total weight of storage roots" []
+synonym: "RtATRW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0002051
+name: storage root beta-carotene concentration in dry weight basis
+namespace: SweetpotatoTrait
+def: "The beta-carotene concentration in dry weight basis of the storage root" []
+synonym: "RtBCDw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0002052
+name: storage root total carotenoid concentration in dry weight basis
+namespace: SweetpotatoTrait
+def: "The total carotenoid concentration in dry weight basis of the storage root" []
+synonym: "RtTCDw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0002053
+name: storage root calcium concentration in fresh weight basis
+namespace: SweetpotatoTrait
+def: "The calcium concentration in fresh weight basis of the storage root" []
+synonym: "RtFlsCaFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0002054
+name: storage root zinc concentration in fresh weight basis
+namespace: SweetpotatoTrait
+def: "The zinc concentration in fresh weight basis of the storage root" []
+synonym: "RtFlsZnFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0002055
+name: storage root starch content in fresh weight basis
+namespace: SweetpotatoTrait
+def: "Starch content in fresh weight basis of the storage root" []
+synonym: "RtStaFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0002056
+name: overall disease symptoms of the storage root
+namespace: SweetpotatoTrait
+def: "The overall disease symptoms of the storage root" []
+synonym: "RtDSm" EXACT []
+is_a: CO_331:1000005 ! Biotic_stress_trait
+
+[Term]
+id: CO_331:0002057
+name: storage root magnesium concentration in fresh weight basis
+namespace: SweetpotatoTrait
+def: "Content of magnesium in fresh weight basis of the storage root" []
+synonym: "RtFlsMgFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0002064
+name: leaf texture
+namespace: SweetpotatoTrait
+def: "The texture of the leaf" []
+synonym: "BlLfTex" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0002065
+name: leaf appearance
+namespace: SweetpotatoTrait
+def: "The visual aspect of leaves" []
+synonym: "BlLfAp" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0002066
+name: leaf flavor
+namespace: SweetpotatoTrait
+def: "The flavor of the leaves" []
+synonym: "BlLfTs" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0002067
+name: pest damage tolerant
+namespace: SweetpotatoTrait
+def: "The pest damage tolerant of the plant" []
+synonym: "PlPdt" EXACT []
+is_a: CO_331:1000005 ! Biotic_stress_trait
+
+[Term]
+id: CO_331:0002068
+name: yielding ability
+namespace: SweetpotatoTrait
+def: "Yielding ability of the plant" []
+synonym: "PlYlAb" EXACT []
+is_a: CO_331:1000005 ! Biotic_stress_trait
+
+[Term]
+id: CO_331:0002069
+name: attractiveness of the storage-root skin color
+namespace: SweetpotatoTrait
+def: "Attractiveness of the storage-root skin color  of a variety with respect to their local variety  at harvest" []
+synonym: "SrSkACol" EXACT []
+is_a: CO_331:1000005 ! Biotic_stress_trait
+
+[Term]
+id: CO_331:0002070
+name: attractiveness of the storage-root flesh color
+namespace: SweetpotatoTrait
+def: "Attractiveness of the storage-root flesh color  of a variety with respect to their local variety  at harvest" []
+synonym: "SrFlACol" EXACT []
+is_a: CO_331:1000005 ! Biotic_stress_trait
+
+[Term]
+id: CO_331:0002078
+name: storage root protein content in fresh weight basis
+namespace: SweetpotatoTrait
+def: "Protein content in fresh weight basis of the storage root" []
+synonym: "RtPrtFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0002079
+name: storage root iron concentration in fresh weight basis
+namespace: SweetpotatoTrait
+def: "The iron concentration in fresh weight basis of the storage root" []
+synonym: "RtFlsFeFw" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+CO_331:0002079	Storage root iron concentration in fresh weight basis	The iron concentration in fresh weight basis of the storage root	RtFlsFeFw
+CO_331:0004026	Boiled root smoothness	Geometrical attribute associated with the overall degree of absence of particles within sample	SweetpotatMthSmooth
+CO_331:0004027	Boiled root fibrousness	Geometrical attribute of product associated with presence of particles after chewing and feeling the sample between the tongue and the palate	SweetpotatMthFibr
+CO_331:0004028	Boiled root rate of breakdown	Mechanical textural attribute related to length of time or number of chews required to masticate a product into a state ready for swallowing	SweetpotatMthBreak
+CO_331:0004029	Boiled root surface uniformity of color	Evenness of the distribution of the colour across entire sample surface	BoiSweetpotatColUnif
+CO_331:0004030	Boiled root fibrous appearance	Geometrical attribute of product associated with presence of long string like particles on the product surface	BoiSweetpotatFibr
+CO_331:0004031	Boiled root color intensity	Description of predominant color of sweetpotato and its relative intensity	BoiSweetpotatColor-int
+CO_331:0004032	Boiled root translucency	Attribute of object that allows light to pass through it but not images to be distinguished	BoiSweetpotatTrans
+CO_331:0004033	Boiled root fracturability	Mechanical textural attribute related to the force necessary to break product into crumbs or pieces	SweetpotatFract
+CO_331:0004034	Boiled root hardness in mouth	Mechanical textural attribute related to the force necessary to achieve a certain deformation	SweetpotatHard
+CO_331:0004035	Boiled root mealiness	An attribute associated with gumminess characterized by powdery mouthfeel	SweetpotatHdMeal
+CO_331:0004036	Boiled root moisture release	Textural attribute related to release of moisture from a product when pressure is applied	SweetpotatHdMois
+CO_331:0004037	Boiled root cohesiveness	Textural attribute relating to degree to which a substance can be deformed before it breaks	SweetpotatHdMold
+CO_331:0004038	Boiled root sweet potato-like aroma	Distinct aroma of cooked sweetpotato	BoiSweetpotatAroma
+CO_331:0004039	Boiled root pumpkin-like aroma	Distinct aroma of cooked pumpkin	BoiSweetpotatPumpAroma
+CO_331:0004040	Boiled root cooked carrot-like aroma	Distinct aroma of cooked carrot	BoiSweetpotatCarrAroma
+CO_331:0004041	Boiled root floral-like aroma	Distinct aroma of flowers associated with poor quality boiled sweetpotato	BoiSweetpotatFlorAroma
+CO_331:0004042	Boiled root bitterness	Basic tastes produced by solutions of dilute aqueous solutions of various substances such as quinine and caffeine	BoiSweetpotatTastBit
+CO_331:0004043	Boiled root sourness	Basic tastes produced by solutions of dilute aqueous solutions of acid substances including citric acid and tartaric acid	BoiSweetpotatTastSour
+CO_331:0004044	Boiled root sweetness	Basic taste produced by solutions of various substances such as sucrose	BoiSweetpotatTastSweet
+CO_331:0004045	Boiled root caramel-like odor	Odor of caramel (molten sugar)	BoiSweetpotatCarOdor
+CO_331:0004046	Boiled root cooked sweet potato-like odor	Odor of cooked sweet potato	BoiSweetpotatOdor
+CO_331:0004047	Boiled root off-odor	A typical odor associated with transformation or deterioration of boiled sweet potato	BoiSweetpotatOff-odor
+CO_331:0004048	Boiled root pumpkin-like odor	Odor of cooked pumpkin	BoiSweetpotatPumpOdor
+CO_331:0004049	Boiled root adhessiveness	Textural attribute relating force required to remove material that adheres to the mouth or to a substrate	SweetpotatMthAdh
+CO_331:0004050	Boiled root crunchness	Attribute of product to produce low pitched sound during rupturing	SweetpotatCrun
+CO_331:0004051	Boiled root moisture in the mass	Textural attribute which describes amount of water present in the sample mass	SweetpotatMthMois
+
+[Term]
+id: CO_331:0005002
+name: vine diameter
+namespace: SweetpotatoTrait
+def: "Diameter of main vine/stem at the base of the plant" []
+synonym: "VnD" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+
+[Term]
+id: CO_331:0006009
+name: cooked storage root likability
+namespace: SweetpotatoTrait
+def: "The overall likability of the cooked storage root based on appearance and taste" []
+synonym: "RtFlsLike" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0006014
+name: storage root pithiness severity
+namespace: SweetpotatoTrait
+def: "The severity of pithiness in stored storage roots" []
+synonym: "RtPthSev" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0006016
+name: storage root internal necrosis severity
+namespace: SweetpotatoTrait
+def: "The severity of internal necrosis in stored storage roots." []
+synonym: "RtINSev" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0006025
+name: genotype fatal defects
+namespace: SweetpotatoTrait
+def: "The defects observed that disqualify a genotype from advancement in the breeding program." []
+synonym: "WhyDrop" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0006027
+name: genotype disadvantages
+namespace: SweetpotatoTrait
+def: "Disadvantages or defects of a genotype that is being advanced in the breeding program." []
+synonym: "KeepDefects" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:0006029
+name: genotype advantages
+namespace: SweetpotatoTrait
+def: "Advantages of a genotype that is being advanced in the breeding program." []
+synonym: "KeepAdvantages" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+
+
+
+[Term]
+id: CO_331:2000001
+name: plant uniformity
+namespace: SweetpotatoTrait
+def: "The uniformity of the plant. Estimation of height uniformity of newly emerging vines" []
+synonym: "PltUni" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:2000006
+name: plant production
+namespace: SweetpotatoTrait
+def: "The production of the plant" []
+synonym: "PltProd" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:2000010
+name: plant earliness
+namespace: SweetpotatoTrait
+def: "The earliness of the plant" []
+synonym: "PltEar" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:2000014
+name: total vine production
+namespace: SweetpotatoTrait
+def: "The total vine production of the plant. Total vine production in estimated number of plants" []
+synonym: "TtlVnProd" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:2000016
+name: plants available counting number
+namespace: SweetpotatoTrait
+def: "Plants available for planting measured in number of plants counted" []
+synonym: "PltsAvail" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+[Term]
+id: CO_331:2000022
+name: vine length
+namespace: SweetpotatoTrait
+def: "Length of the main vine" []
+synonym: "VnLg" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:2000029
+name: canopy temperature
+namespace: SweetpotatoTrait
+def: "The canopy temperature by plot" []
+synonym: "CnpTp" EXACT []
+is_a: CO_331:1000004 ! Abiotic_stress_trait
+
+[Term]
+id: CO_331:2000034
+name: leaf area
+namespace: SweetpotatoTrait
+def: "Leaf area" []
+synonym: "LfArea" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:2000038
+name: weight of pencil type roots
+namespace: SweetpotatoTrait
+synonym: "RtPnW" EXACT []
+is_a: CO_331:1000008 ! Agronomic_trait
+
+
+
+
+
+
+
+
 
 [Typedef]
 id: method_of
