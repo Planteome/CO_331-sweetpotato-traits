@@ -7,7 +7,7 @@ id: CO_331:0000001
 name: sweetpotato plant type trait
 def: "The growth habit of the plant" [CO:curators]
 synonym: "PtTyp" EXACT []
-is_a: TO:0000576 ! stem length
+is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_331:0000002
@@ -59,7 +59,7 @@ relationship: scale_of CO_331:0000008 ! sweetpotato observation of twining metho
 [Term]
 id: CO_331:0000010
 name: sweetpotato predominant vine color trait
-def: "Anthocyanin (purple) pigmentation present in the predominant vine besides the green color" [CO:curators]
+def: "The predominant color of the vine. The predominant color should be evaluated considering the whole vine from base to tip." [CO:curators]
 synonym: "VnColP" EXACT []
 is_a: TO:0000056 ! stem color
 
@@ -77,7 +77,7 @@ relationship: scale_of CO_331:0000011 ! sweetpotato observation of predominant v
 [Term]
 id: CO_331:0000013
 name: sweetpotato secondary vine color trait
-def: "Anthocyanin (purple) pigmentation present in the secondary vine besides the green color" [CO:curators]
+def: "The secondary color of the vine. The secondary color is more easily evaluated using younger vines." [CO:curators]
 synonym: "VnColS" EXACT []
 is_a: TO:0000056 ! stem color
 
@@ -95,7 +95,7 @@ relationship: scale_of CO_331:0000014 ! sweetpotato observation of secondary vin
 [Term]
 id: CO_331:0000016
 name: sweetpotato vine tips pubescence trait
-def: "Degree of hairiness of immature leaves recorded at the apex of the vines" [CO:curators]
+def: "The pubescence of the vine apex or tips." [CO:curators]
 synonym: "VnTipP" EXACT []
 is_a: TO:0000879 ! stem hairiness
 
@@ -113,7 +113,7 @@ relationship: scale_of CO_331:0000017 ! sweetpotato observation of vine tips pub
 [Term]
 id: CO_331:0000019
 name: sweetpotato general outline of the leaf trait
-def: "Outline i.e., shape of a leaf located in the middle section of the vine" [CO:curators]
+def: "The general outline of the leaf." [CO:curators]
 synonym: "LfOut" EXACT []
 is_a: TO:0000492 ! leaf shape
 
@@ -1117,12 +1117,6 @@ relationship: variable_of CO_331:0000077 ! sweetpotato storage root size - metho
 relationship: variable_of CO_331:0000078 ! sweetpotato rtsize 5 pt. scale
 
 [Term]
-id: CO_331:0000189
-name: sweetpotato number of plants established
-def: "Number of plants established" [CO:curators]
-synonym: "PltEst" EXACT []
-
-[Term]
 id: CO_331:0000190
 name: sweetpotato evaluation of plant vine establishment method
 def: "Counting of established plants." [CO:curators]
@@ -1195,7 +1189,7 @@ id: CO_331:0000199
 name: sweetpotato storage root form trait
 def: "Overall assessment of storage root form" [CO:curators]
 synonym: "RtFrm" EXACT []
-is_a: TO:0002710 ! root shape
+is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000200
@@ -1884,18 +1878,6 @@ relationship: variable_of CO_331:0000086 ! sweetpotato harvest index evaluation 
 relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 
 [Term]
-id: CO_331:0000303
-name: sweetpotato number of plants planted
-def: "Number of plants planted" [CO:curators]
-synonym: "PltPld" EXACT []
-
-[Term]
-id: CO_331:0000304
-name: sweetpotato number of plants harvested
-def: "Number of plants harvested" [CO:curators]
-synonym: "PtHrv" EXACT []
-
-[Term]
 id: CO_331:0000305
 name: sweetpotato evaluation of plants method
 def: "Visual estimation" [CO:curators]
@@ -2111,7 +2093,7 @@ id: CO_331:0000341
 name: sweetpotato storage root formation trait
 def: "Arrangement of the storage roots on the underground stems." [CO:curators]
 synonym: "RtFrm" EXACT []
-is_a: TO:1000007 ! tuberous root tuber morphology trait
+is_a: TO:0000656 ! root development trait
 
 [Term]
 id: CO_331:0000342
@@ -2341,7 +2323,7 @@ is_a: TO:0000439 ! fungal disease response
 [Term]
 id: CO_331:0000374
 name: sweetpotato reaction to root lesion nematode trait
-def: "Reaction to Root lesion nematode" [CO:curators]
+def: "Reaction to root lesion nematode" [CO:curators]
 synonym: "RnRLN" EXACT []
 is_a: TO:0000384 ! nematode damage response
 
@@ -2530,7 +2512,7 @@ is_a: TO:0000315 ! bacterial disease resistance
 [Term]
 id: CO_331:0000401
 name: sweetpotato reaction to other mycoplasma trait
-def: "Reaction to Other mycoplasma" [CO:curators]
+def: "Reaction to other mycoplasma" [CO:curators]
 synonym: "RnOM" EXACT []
 is_a: TO:0000315 ! bacterial disease resistance
 
@@ -2585,9 +2567,9 @@ is_a: TO:0000737 ! plant aspect
 
 [Term]
 id: CO_331:0000409
-name: sweetpotato appearance of plant organs trait
-def: "Appearance of plant organs" [CO:curators]
-synonym: "PtOrg" EXACT []
+name: sweetpotato storage root shape uniformity trait
+def: "The shape uniformity of the storage root." [CO:curators]
+synonym: "RtShpU" EXACT []
 is_a: TO:0000736 ! plant organ morphology trait
 
 [Term]
@@ -2708,12 +2690,6 @@ name: sweetpotato storage root appearance trait
 def: "Overall visual assessment of storage root yield appearance" [CO:curators]
 synonym: "RtApr" EXACT []
 is_a: TO:1000007 ! tuberous root tuber morphology trait
-
-[Term]
-id: CO_331:0000427
-name: sweetpotato growing season
-def: "Overall visual assessment of storage root size relative to harvest date and/or total growing season" [CO:curators]
-synonym: "PtMtSs" EXACT []
 
 [Term]
 id: CO_331:0000428
@@ -3711,77 +3687,67 @@ relationship: scale_of CO_331:0000481 ! sweetpotato visual estimation of the pla
 id: CO_331:0000600
 name: sweetpotato rcspwf 5 pt. scale
 relationship: scale_of CO_331:0000482 ! sweetpotato visual estimation of the plant response to sweet potato white fly method
-_______________________________
+
 [Term]
 id: CO_331:0000601
-name: weight of total storage roots
-namespace: SweetpotatoTrait
+name: sweetpotato weight of total storage roots trait
 def: "The weight of total US no. 1 storage roots" []
 synonym: "RtUS1W" EXACT []
-is_a: CO_331:1000008 ! Agronomic_trait
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000602
-name: weight of canner storage roots
-namespace: SweetpotatoTrait
+name: sweetpotato weight of canner storage roots trait
 def: "The weight of canner storage roots" []
 synonym: "RtCanW" EXACT []
-is_a: CO_331:1000008 ! Agronomic_trait
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000603
-name: weight of jumbo storage roots
-namespace: SweetpotatoTrait
-def: "The roots that exceed the diameter, length and weight requirements of US. No 1 and canner storage roots, but are of marketable quality" []
+name: sweetpotato weight of jumbo storage roots trait
+def: "The roots that exceed the diameter, length and weight requirements of US. No 1 and canner storage roots, but are of marketable quality" 
 synonym: "RtJumW" EXACT []
-is_a: CO_331:1000008 ! Agronomic_trait
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000604
-name: weight of cull storage roots
-namespace: SweetpotatoTrait
+name: sweetpotato weight of cull storage roots trait
 def: "The roots must be 1 or larger in diameter and so misshapen or unattractive that they can not fit as marketable roots in the no. 1, Canner, or Jumbo grades" []
 synonym: "RtCulW" EXACT []
-is_a: CO_331:1000008 ! Agronomic_trait
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000605
-name: weight of 90 count us no. 1 storage roots
+name: sweetpotato weight of 90 count us no. 1 storage roots trait
 namespace: SweetpotatoTrait
 def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 5.0 - 9.4 oz. Should take roughly 90 to fill a 40lb box." []
 synonym: "Rt90ctW" EXACT []
-is_a: CO_331:1000008 ! Agronomic_trait
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000606
-name: weight of 55 count us no. 1 storage roots
+name: sweetpotato weight of 55 count us no. 1 storage roots trait
 namespace: SweetpotatoTrait
 def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 9.5 - 14 oz. Should take roughly 55 to fill a 40lb box" []
 synonym: "Rt55ctW" EXACT []
-is_a: CO_331:1000008 ! Agronomic_trait
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000607
-name: weight of 40 count us no. 1 storage roots
+name: sweetpotato weight of 40 count us no. 1 storage roots trait
 namespace: SweetpotatoTrait
 def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 14.1 - 18 oz. Should take roughly 40 to fill a 40lb box" []
 synonym: "Rt40ctW" EXACT []
-is_a: CO_331:1000008 ! Agronomic_trait
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000608
-name: weight of 32 count us no. 1 storage roots
+name: weight of 32 count us no. 1 storage roots trait
 namespace: SweetpotatoTrait
 def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 18.1 - 22 oz. Should take roughly 32 to fill a 40lb box" []
 synonym: "Rt32ctW" EXACT []
-is_a: CO_331:1000008 ! Agronomic_trait
+is_a: TO:0003009 ! tuberous root tuber weight
 
-
-
-
-
-
-_______________________________
 [Term]
 id: CO_331:0000609
 name: sweetpotato rcon 5 pt. scale
