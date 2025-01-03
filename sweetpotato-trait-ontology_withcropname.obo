@@ -1117,29 +1117,6 @@ relationship: variable_of CO_331:0000077 ! sweetpotato storage root size - metho
 relationship: variable_of CO_331:0000078 ! sweetpotato rtsize 5 pt. scale
 
 [Term]
-id: CO_331:0000190
-name: sweetpotato evaluation of plant vine establishment method
-def: "Counting of established plants." [CO:curators]
-relationship: method_of CO_331:0000189 ! sweetpotato number of plants established trait
-relationship: method_of CO_331:0000303 ! sweetpotato number of plants planted trait
-
-[Term]
-id: CO_331:0000191
-name: sweetpotato plants/plot scale
-relationship: scale_of CO_331:0000190 ! sweetpotato evaluation of plant vine establishment method
-relationship: scale_of CO_331:0000209 ! sweetpotato evaluation of plants method
-relationship: scale_of CO_331:0000305 ! sweetpotato evaluation of plants method
-
-[Term]
-id: CO_331:0000192
-name: sweetpotato pltest_ct_plplot variable
-synonym: "NOPE" EXACT [CO:curators]
-is_a: CO_331:0000189 ! sweetpotato number of plants established trait
-relationship: variable_of CO_331:0000189 ! sweetpotato number of plants established trait
-relationship: variable_of CO_331:0000190 ! sweetpotato evaluation of plant vine establishment method
-relationship: variable_of CO_331:0000191 ! sweetpotato plants/plot scale
-
-[Term]
 id: CO_331:0000193
 name: sweetpotato rnvir_et_1to9 variable
 synonym: "VIR1" EXACT [CO:curators]
@@ -1259,15 +1236,6 @@ id: CO_331:0000209
 name: sweetpotato evaluation of plants method
 def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000208 ! sweetpotato number of plants with storage roots trait
-
-[Term]
-id: CO_331:0000211
-name: sweetpotato ptrt_ct_plplot variable
-synonym: "NOPR" EXACT [CO:curators]
-is_a: CO_331:0000208 ! sweetpotato number of plants with storage roots trait
-relationship: variable_of CO_331:0000191 ! sweetpotato plants/plot scale
-relationship: variable_of CO_331:0000208 ! sweetpotato number of plants with storage roots trait
-relationship: variable_of CO_331:0000209 ! sweetpotato evaluation of plants method
 
 [Term]
 id: CO_331:0000212
@@ -1878,12 +1846,6 @@ relationship: variable_of CO_331:0000086 ! sweetpotato harvest index evaluation 
 relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 
 [Term]
-id: CO_331:0000305
-name: sweetpotato evaluation of plants method
-def: "Visual estimation" [CO:curators]
-relationship: method_of CO_331:0000304 ! sweetpotato number of plants harvested trait
-
-[Term]
 id: CO_331:0000307
 name: sweetpotato marketable root yield trait
 def: "Marketable root yield" [CO:curators]
@@ -1950,24 +1912,12 @@ def: "Number of non-commercial roots/Total number of root after harvest*100" [CO
 relationship: method_of CO_331:0000310 ! sweetpotato percentage of marketable roots trait
 
 [Term]
-id: CO_331:0000317
-name: method of co_331:0000311
-relationship: method_of CO_331:0000311 ! sweetpotato biomass yield trait
-
-[Term]
-id: CO_331:0000318
-name: method of co_331:0000312
-relationship: method_of CO_331:0000312 ! sweetpotato foliage total yield trait
-
-[Term]
 id: CO_331:0000319
 name: sweetpotato t/ha scale
 relationship: scale_of CO_331:0000083 ! sweetpotato estimated yield per hectare - method
 relationship: scale_of CO_331:0000313 ! sweetpotato estimated marketable yield per hectare - method
 relationship: scale_of CO_331:0000314 ! sweetpotato estimated marketable yield per hectare - method
 relationship: scale_of CO_331:0000315 ! sweetpotato estimated yield of total roots per hectare - method
-relationship: scale_of CO_331:0000317 ! method of co_331:0000311
-relationship: scale_of CO_331:0000318 ! method of co_331:0000312
 
 [Term]
 id: CO_331:0000322
@@ -3400,20 +3350,9 @@ name: sweetpotato observation of an average or all storage roots within a single
 relationship: method_of CO_331:0000424 ! sweetpotato relative storage root yield trait
 
 [Term]
-id: CO_331:0000544
-name: method of co_331:0000425
-is_a: CO:331
-relationship: method_of CO_331:0000425 ! sweetpotato storage root yield relative to check trait
-
-[Term]
 id: CO_331:0000545
 name: sweetpotato observation of an average or all storage roots within a single plant or plot method
 relationship: method_of CO_331:0000426 ! sweetpotato storage root appearance trait
-
-[Term]
-id: CO_331:0000546
-name: sweetpotato observation of an average or all storage roots within a single plant or plot method
-relationship: method_of CO_331:0000427 ! sweetpotato growing season trait
 
 [Term]
 id: CO_331:0000547
@@ -3945,7 +3884,6 @@ relationship: scale_of CO_331:0000530 ! sweetpotato observation of an average or
 id: CO_331:0000649
 name: sweetpotato scale_of co_331:0000531 scale
 relationship: scale_of CO_331:0000531 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-relationship: scale_of CO_331:0000544 ! method of co_331:0000425
 
 [Term]
 id: CO_331:0000650
@@ -4013,11 +3951,6 @@ name: sweetpotato rtapr 9 pt. scale
 relationship: scale_of CO_331:0000545 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
 
 [Term]
-id: CO_331:0000664
-name: sweetpotato ptmtss 5 pt. scale
-relationship: scale_of CO_331:0000546 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
 id: CO_331:0000665
 name: sweetpotato g/100 g fw scale
 relationship: scale_of CO_331:0000547 ! sweetpotato amylose - method
@@ -4063,24 +3996,6 @@ name: sweetpotato rtsinsdam 5 pt. scale
 relationship: scale_of CO_331:0000559 ! sweetpotato soils insect evaluation method
 
 [Term]
-id: CO_331:0000678
-name: sweetpotato pltpld_ct_plplot variable
-synonym: "NOPS" EXACT [CO:curators]
-is_a: CO_331:0000303 ! sweetpotato number of plants planted trait
-relationship: variable_of CO_331:0000190 ! sweetpotato evaluation of plant vine establishment method
-relationship: variable_of CO_331:0000191 ! sweetpotato plants/plot scale
-relationship: variable_of CO_331:0000303 ! sweetpotato number of plants planted trait
-
-[Term]
-id: CO_331:0000679
-name: sweetpotato pthrv_ct_plplot variable
-synonym: "NOPH" EXACT [CO:curators]
-is_a: CO_331:0000304 ! sweetpotato number of plants harvested trait
-relationship: variable_of CO_331:0000191 ! sweetpotato plants/plot scale
-relationship: variable_of CO_331:0000304 ! sweetpotato number of plants harvested trait
-relationship: variable_of CO_331:0000305 ! sweetpotato evaluation of plants method
-
-[Term]
 id: CO_331:0000680
 name: sweetpotato rtacrw_cp_g variable
 synonym: "ACRW" EXACT [CO:curators]
@@ -4113,7 +4028,6 @@ name: sweetpotato bioyld_cp variable
 synonym: "BIOM" EXACT [CO:curators]
 is_a: CO_331:0000311 ! sweetpotato biomass yield trait
 relationship: variable_of CO_331:0000311 ! sweetpotato biomass yield trait
-relationship: variable_of CO_331:0000317 ! method of co_331:0000311
 relationship: variable_of CO_331:0000319 ! sweetpotato t/ha scale
 
 [Term]
@@ -4122,7 +4036,6 @@ name: sweetpotato vnfolyld_cp_tha variable
 synonym: "FYTHA" EXACT [CO:curators]
 is_a: CO_331:0000312 ! sweetpotato foliage total yield trait
 relationship: variable_of CO_331:0000312 ! sweetpotato foliage total yield trait
-relationship: variable_of CO_331:0000318 ! method of co_331:0000312
 relationship: variable_of CO_331:0000319 ! sweetpotato t/ha scale
 
 [Term]
@@ -5094,7 +5007,6 @@ name: sweetpotato rtyldchk_cp_pct variable
 synonym: "RTYLDPCT" EXACT [CO:curators]
 is_a: CO_331:0000425 ! sweetpotato storage root yield relative to check trait
 relationship: variable_of CO_331:0000425 ! sweetpotato storage root yield relative to check trait
-relationship: variable_of CO_331:0000544 ! method of co_331:0000425
 relationship: variable_of CO_331:0000649 ! sweetpotato scale_of co_331:0000531 scale
 
 [Term]
@@ -5105,15 +5017,6 @@ is_a: CO_331:0000426 ! sweetpotato storage root appearance trait
 relationship: variable_of CO_331:0000426 ! sweetpotato storage root appearance trait
 relationship: variable_of CO_331:0000545 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
 relationship: variable_of CO_331:0000663 ! sweetpotato rtapr 9 pt. scale
-
-[Term]
-id: CO_331:0000794
-name: sweetpotato ptmtss_et_0to4 variable
-synonym: "SEASON" EXACT [CO:curators]
-is_a: CO_331:0000427 ! sweetpotato growing season trait
-relationship: variable_of CO_331:0000427 ! sweetpotato growing season trait
-relationship: variable_of CO_331:0000546 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-relationship: variable_of CO_331:0000664 ! sweetpotato ptmtss 5 pt. scale
 
 [Term]
 id: CO_331:0000795
@@ -5261,14 +5164,12 @@ relationship: variable_of CO_331:0000307 ! sweetpotato marketable root yield tra
 relationship: variable_of CO_331:0000313 ! sweetpotato estimated marketable yield per hectare - method
 relationship: variable_of CO_331:0000319 ! sweetpotato t/ha scale
 
-___________________________________________________________
 [Term]
 id: CO_331:0001056
 name: sweetpotato biomass yield adjusted trait
 def: "The adjusted yield of the biomass" [CO:curators]
 synonym: "BioYldA" EXACT []
 is_a: TO:0000457 ! total biomass yield
-
 
 [Term]
 id: CO_331:0001057
@@ -5672,7 +5573,7 @@ is_a: TO:0001069 ! cooking quality trait
 [Term]
 id: CO_331:0004028
 name: sweetpotato boiled root rate of breakdown trait
-def: "Mechanical textural attribute related to length of time or number of chews required to masticate a product into a state ready for swallowing"" [CO:curators]
+def: "Mechanical textural attribute related to length of time or number of chews required to masticate a product into a state ready for swallowing" [CO:curators]
 synonym: "SweetpotatMthBreak" EXACT []
 is_a: TO:0001069 ! cooking quality trait
 
@@ -5713,7 +5614,7 @@ is_a: TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0004034
-sweetpotato boiled root hardness in mouth trait
+name: sweetpotato boiled root hardness in mouth trait
 def: "Mechanical textural attribute related to the force necessary to achieve a certain deformation" [CO:curators]
 synonym: "SweetpotatHard" EXACT []
 is_a: TO:0001069 ! cooking quality trait
@@ -5911,7 +5812,7 @@ id: CO_331:2000014
 name: sweetpotato total vine production trait
 def: "The total vine production of the plant. Total vine production in estimated number of plants" [CO:curators]
 synonym: "TtlVnProd" EXACT []
-is_a: TO:0000953 stem number
+is_a: TO:0000953 ! stem number
 
 [Term]
 id: CO_331:2000022
