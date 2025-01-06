@@ -1,15 +1,13 @@
 format-version: 1.2
-auto-generated-by: java
 default-namespace: CO_331_sweetpotato
 ontology: co_331
 
 [Term]
 id: CO_331:0000001
 name: sweetpotato plant type trait
-def: "Length of the main vines" [CO:curators]
-synonym: "Main vine length" EXACT []
-synonym: "PtTyp" EXACT []
-is_a: TO:0000576 ! stem length
+def: "The growth habit of the plant" [CO:curators]
+synonym: "PtTyp" EXACT [CO:curators]
+is_a: TO:0000947 ! whole plant growth and development trait
 
 [Term]
 id: CO_331:0000002
@@ -26,7 +24,7 @@ relationship: scale_of CO_331:0000002 ! sweetpotato observation of plant type me
 id: CO_331:0000004
 name: sweetpotato ground cover trait
 def: "Soil area covered by plant canopy" [CO:curators]
-synonym: "VnFolGRnv" EXACT []
+synonym: "VnFolGRnv" EXACT [CO:curators]
 is_a: TO:1000012 ! whole plant size"
 
 [Term]
@@ -44,7 +42,7 @@ relationship: scale_of CO_331:0000005 ! sweetpotato observation of ground cover 
 id: CO_331:0000007
 name: sweetpotato twining trait
 def: "Ability of vines to climb adjacent stakes placed in those accessions showing twining characteristics" [CO:curators]
-synonym: "PtTwg" EXACT []
+synonym: "PtTwg" EXACT [CO:curators]
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
@@ -61,8 +59,8 @@ relationship: scale_of CO_331:0000008 ! sweetpotato observation of twining metho
 [Term]
 id: CO_331:0000010
 name: sweetpotato predominant vine color trait
-def: "Anthocyanin (purple) pigmentation present in the predominant vine besides the green color" [CO:curators]
-synonym: "VnColP" EXACT []
+def: "The predominant color of the vine. The predominant color should be evaluated considering the whole vine from base to tip." [CO:curators]
+synonym: "VnColP" EXACT [CO:curators]
 is_a: TO:0000056 ! stem color
 
 [Term]
@@ -79,8 +77,8 @@ relationship: scale_of CO_331:0000011 ! sweetpotato observation of predominant v
 [Term]
 id: CO_331:0000013
 name: sweetpotato secondary vine color trait
-def: "Anthocyanin (purple) pigmentation present in the secondary vine besides the green color" [CO:curators]
-synonym: "VnColS" EXACT []
+def: "The secondary color of the vine. The secondary color is more easily evaluated using younger vines." [CO:curators]
+synonym: "VnColS" EXACT [CO:curators]
 is_a: TO:0000056 ! stem color
 
 [Term]
@@ -97,8 +95,8 @@ relationship: scale_of CO_331:0000014 ! sweetpotato observation of secondary vin
 [Term]
 id: CO_331:0000016
 name: sweetpotato vine tips pubescence trait
-def: "Degree of hairiness of immature leaves recorded at the apex of the vines" [CO:curators]
-synonym: "VnTipP" EXACT []
+def: "The pubescence of the vine apex or tips." [CO:curators]
+synonym: "VnTipP" EXACT [CO:curators]
 is_a: TO:0000879 ! stem hairiness
 
 [Term]
@@ -115,8 +113,8 @@ relationship: scale_of CO_331:0000017 ! sweetpotato observation of vine tips pub
 [Term]
 id: CO_331:0000019
 name: sweetpotato general outline of the leaf trait
-def: "Outline i.e., shape of a leaf located in the middle section of the vine" [CO:curators]
-synonym: "LfOut" EXACT []
+def: "The general outline of the leaf." [CO:curators]
+synonym: "LfOut" EXACT [CO:curators]
 is_a: TO:0000492 ! leaf shape
 
 [Term]
@@ -134,7 +132,7 @@ relationship: scale_of CO_331:0000020 ! sweetpotato observation of general outli
 id: CO_331:0000022
 name: sweetpotato leaf lobe type trait
 def: "Type of the lobe of a leaf located in the middle section of the vine" [CO:curators]
-synonym: "LfLbT" EXACT []
+synonym: "LfLbT" EXACT [CO:curators]
 is_a: TO:1000013 ! leaf lamina lobe morphology trait
 
 [Term]
@@ -152,7 +150,7 @@ relationship: scale_of CO_331:0000023 ! sweetpotato observation of leaf lobes ty
 id: CO_331:0000025
 name: sweetpotato leaf lobe number trait
 def: "Number of lateral and central leaf lobes of leaves located in the middle section of the vine" [CO:curators]
-synonym: "LfLbN" EXACT []
+synonym: "LfLbN" EXACT [CO:curators]
 is_a: TO:0000748 ! leaf morphology trait
 
 [Term]
@@ -170,7 +168,7 @@ relationship: scale_of CO_331:0000026 ! sweetpotato observation of leaf lobe num
 id: CO_331:0000028
 name: sweetpotato shape of central leaf lobe trait
 def: "Shape of the central leaf lobe of a leaf located in the middle section of the vine" [CO:curators]
-synonym: "LfLCS" EXACT []
+synonym: "LfLCS" EXACT [CO:curators]
 is_a: TO:1000013 ! leaf lamina lobe morphology trait
 
 [Term]
@@ -188,7 +186,7 @@ relationship: scale_of CO_331:0000029 ! sweetpotato observation of shape of cent
 id: CO_331:0000031
 name: sweetpotato mature leaf size trait
 def: "Length of the leaf defined as the distance between the basal lobes and the tip of the leave." [CO:curators]
-synonym: "LfLMS" EXACT []
+synonym: "LfLMS" EXACT [CO:curators]
 is_a: TO:0000135 ! leaf length
 
 [Term]
@@ -206,7 +204,7 @@ relationship: scale_of CO_331:0000032 ! sweetpotato observation of mature leaf s
 id: CO_331:0000034
 name: sweetpotato abaxial leaf vein pigmentation trait
 def: "Distribution of anthocyanin (purple) pigmentation shown in the veins of the lower surface of a leaf" [CO:curators]
-synonym: "LfAVP" EXACT []
+synonym: "LfAVP" EXACT [CO:curators]
 is_a: TO:0000822 ! leaf midvein morphology trait
 
 [Term]
@@ -224,7 +222,7 @@ relationship: scale_of CO_331:0000035 ! sweetpotato observation of abaxial leaf 
 id: CO_331:0000037
 name: sweetpotato mature leaf color trait
 def: "Describe the overall foliage color considering the color of fully expanded mature leaves of several plants." [CO:curators]
-synonym: "LfCMt" EXACT []
+synonym: "LfCMt" EXACT [CO:curators]
 is_a: TO:0000326 ! leaf color
 
 [Term]
@@ -242,7 +240,7 @@ relationship: scale_of CO_331:0000038 ! sweetpotato observation of mature leaf c
 id: CO_331:0000040
 name: sweetpotato immature leaf color trait
 def: "Describe the overall foliage color considering the color of fully expanded immature leaves of several plants." [CO:curators]
-synonym: "LfColI" EXACT []
+synonym: "LfColI" EXACT [CO:curators]
 is_a: TO:0000326 ! leaf color
 
 [Term]
@@ -260,7 +258,7 @@ relationship: scale_of CO_331:0000041 ! sweetpotato observation of immature leaf
 id: CO_331:0000043
 name: sweetpotato petiole pigmentation trait
 def: "Distribution of anthocyanin (purple) pigmentation in the petioles of leaves. Indicate the most predominant color first." [CO:curators]
-synonym: "FrPtP" EXACT []
+synonym: "FrPtP" EXACT [CO:curators]
 is_a: TO:0002707 ! petiole color
 
 [Term]
@@ -278,7 +276,7 @@ relationship: scale_of CO_331:0000044 ! sweetpotato observation of petiole pigme
 id: CO_331:0000046
 name: sweetpotato flower color trait
 def: "The most representative color in the flowers" [CO:curators]
-synonym: "FRnol" EXACT []
+synonym: "FRnol" EXACT [CO:curators]
 is_a: TO:0000537 ! flower color
 
 [Term]
@@ -296,7 +294,7 @@ relationship: scale_of CO_331:0000047 ! sweetpotato observation of newly opened 
 id: CO_331:0000049
 name: sweetpotato predominant skin color trait
 def: "The most representative skin color of the root" [CO:curators]
-synonym: "RtSknColP" EXACT []
+synonym: "RtSknColP" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -314,7 +312,7 @@ relationship: scale_of CO_331:0000050 ! sweetpotato observation of predominant s
 id: CO_331:0000052
 name: sweetpotato intensity of predominant skin color trait
 def: "Intensity of Predominant Skin color of the root" [CO:curators]
-synonym: "RtSknColPI" EXACT []
+synonym: "RtSknColPI" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -332,7 +330,7 @@ relationship: scale_of CO_331:0000053 ! sweetpotato observation of intensity of 
 id: CO_331:0000055
 name: sweetpotato secondary skin color trait
 def: "The less representative skin color of the root" [CO:curators]
-synonym: "RtSknColS" EXACT []
+synonym: "RtSknColS" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -350,7 +348,7 @@ relationship: scale_of CO_331:0000056 ! sweetpotato observation of secondary ski
 id: CO_331:0000058
 name: sweetpotato predominant flesh color trait
 def: "The most representative flesh color of the root" [CO:curators]
-synonym: "RtFlsColP" EXACT []
+synonym: "RtFlsColP" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -368,7 +366,7 @@ relationship: scale_of CO_331:0000059 ! sweetpotato observation of predominant f
 id: CO_331:0000061
 name: sweetpotato secondary flesh color trait
 def: "The less representative flesh color of the root" [CO:curators]
-synonym: "RtFlsColS" EXACT []
+synonym: "RtFlsColS" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -386,7 +384,7 @@ relationship: scale_of CO_331:0000062 ! sweetpotato observation of secondary fle
 id: CO_331:0000064
 name: sweetpotato distribution of secondary flesh color trait
 def: "Distribution of Secondary Flesh color of the root" [CO:curators]
-synonym: "RtFlsColSD" EXACT []
+synonym: "RtFlsColSD" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -404,7 +402,7 @@ relationship: scale_of CO_331:0000065 ! sweetpotato observation of distribution 
 id: CO_331:0000067
 name: sweetpotato storage root shape trait
 def: "Overall assessment of storage root shape" [CO:curators]
-synonym: "RtShp" EXACT []
+synonym: "RtShp" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -417,14 +415,14 @@ relationship: method_of CO_331:0000067 ! sweetpotato storage root shape trait
 id: CO_331:0000069
 name: sweetpotato storage root shape (primary) trait
 def: "Storage Root Shape described from longitudinal sections made about the middle of freshly harvested storage roots" [CO:curators]
-synonym: "RtShpP" EXACT []
+synonym: "RtShpP" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000070
 name: sweetpotato latex production in storage roots trait
 def: "Amount of latex observed after cross sectioning medium-sized storage roots" [CO:curators]
-synonym: "RtLxP" EXACT []
+synonym: "RtLxP" EXACT [CO:curators]
 is_a: TO:0001042 ! root quality trait
 
 [Term]
@@ -442,7 +440,7 @@ relationship: scale_of CO_331:0000071 ! sweetpotato observation of latex product
 id: CO_331:0000073
 name: sweetpotato oxidation in storage roots trait
 def: "Amount of browning due to oxidation" [CO:curators]
-synonym: "RtOxi" EXACT []
+synonym: "RtOxi" EXACT [CO:curators]
 is_a: TO:0001042 ! root quality trait
 
 [Term]
@@ -460,7 +458,7 @@ relationship: scale_of CO_331:0000074 ! sweetpotato observation of oxidation in 
 id: CO_331:0000076
 name: sweetpotato storage root size trait
 def: "Overall assessment of storage root size based on inspection of the harvested roots" [CO:curators]
-synonym: "RtSiz" EXACT []
+synonym: "RtSiz" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -478,14 +476,14 @@ relationship: scale_of CO_331:0000077 ! sweetpotato storage root size - method
 id: CO_331:0000079
 name: sweetpotato total number of root trait
 def: "Total number of root after harvest" [CO:curators]
-synonym: "RtTtN" EXACT []
+synonym: "RtTtN" EXACT [CO:curators]
 is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_331:0000082
 name: sweetpotato yield of total roots trait
 def: "Yield evaluated in the harvest" [CO:curators]
-synonym: "RtYld" EXACT []
+synonym: "RtYld" EXACT [CO:curators]
 is_a: TO:0001041 ! root yield
 
 [Term]
@@ -498,7 +496,7 @@ relationship: method_of CO_331:0000082 ! sweetpotato yield of total roots trait
 id: CO_331:0000085
 name: sweetpotato harvest index trait
 def: "Harvest index" [CO:curators]
-synonym: "IxHrv" EXACT []
+synonym: "IxHrv" EXACT [CO:curators]
 is_a: TO:0000128 ! harvest index
 
 [Term]
@@ -511,7 +509,7 @@ relationship: method_of CO_331:0000085 ! sweetpotato harvest index trait
 id: CO_331:0000088
 name: sweetpotato reaction to sweet potato weevil trait
 def: "Overall assessment of weevil damage based on inspection of the harvested roots; early." [CO:curators]
-synonym: "RnWvl" EXACT []
+synonym: "RnWvl" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
@@ -529,7 +527,7 @@ relationship: scale_of CO_331:0000089 ! sweetpotato weevil damage evaluation met
 id: CO_331:0000091
 name: sweetpotato reaction to early blight: (Alternaria spp.) trait
 def: "Alternaria symptoms evaluation" [CO:curators, NCBITaxon:5598]
-synonym: "RnAlt" EXACT []
+synonym: "RnAlt" EXACT [CO:curators]
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
@@ -547,7 +545,7 @@ relationship: scale_of CO_331:0000092 ! sweetpotato early blight evaluation: (al
 id: CO_331:0000094
 name: sweetpotato virus symptoms trait
 def: "Virus symptoms evaluation" [CO:curators]
-synonym: "RnVir" EXACT []
+synonym: "RnVir" EXACT [CO:curators]
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
@@ -565,7 +563,7 @@ relationship: scale_of CO_331:0000095 ! sweetpotato virus symptoms evaluation me
 id: CO_331:0000097
 name: sweetpotato storage root cracking trait
 def: "Storage root cracking" [CO:curators]
-synonym: "RtCrk" EXACT []
+synonym: "RtCrk" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -577,7 +575,7 @@ relationship: scale_of CO_331:0000238 ! sweetpotato estimation of craking roots 
 id: CO_331:0000100
 name: sweetpotato protein content trait
 def: "Protein content of the root" [CO:curators]
-synonym: "RtFlsPrt" EXACT []
+synonym: "RtFlsPrt" EXACT [CO:curators]
 is_a: TO:0000598 ! protein content
 
 [Term]
@@ -590,7 +588,7 @@ relationship: method_of CO_331:0000100 ! sweetpotato protein content trait
 id: CO_331:0000103
 name: sweetpotato iron content trait
 def: "Content of iron on dry weight basis of the root" [CO:curators]
-synonym: "RtFlsFe" EXACT []
+synonym: "RtFlsFe" EXACT [CO:curators]
 is_a: TO:1000034 ! root sytem iron content trait
 
 [Term]
@@ -613,7 +611,7 @@ relationship: scale_of CO_331:0000286 ! sweetpotato content of magnesium in dry 
 id: CO_331:0000106
 name: sweetpotato zinc content trait
 def: "Content of zinc on dry weight basis of the root" [CO:curators]
-synonym: "RtFlsZn" EXACT []
+synonym: "RtFlsZn" EXACT [CO:curators]
 is_a: TO:1000050  ! root system zinc content
 
 [Term]
@@ -626,7 +624,7 @@ relationship: method_of CO_331:0000106 ! sweetpotato zinc content trait
 id: CO_331:0000109
 name: sweetpotato beta-carotene content trait
 def: "Beta carotene content of the root" [CO:curators]
-synonym: "RtFlsBC" EXACT []
+synonym: "RtFlsBC" EXACT [CO:curators]
 is_a: TO:0002695 ! beta-carotene content
 
 [Term]
@@ -639,7 +637,7 @@ relationship: method_of CO_331:0000109 ! sweetpotato beta-carotene content trait
 id: CO_331:0000112
 name: sweetpotato total carotenoids trait
 def: "Total carotenoids content of the root" [CO:curators]
-synonym: "RtFlsTC" EXACT []
+synonym: "RtFlsTC" EXACT [CO:curators]
 is_a: TO:0000496  ! carotenoid content
 
 [Term]
@@ -652,7 +650,7 @@ relationship: method_of CO_331:0000112 ! sweetpotato total carotenoids trait
 id: CO_331:0000115
 name: sweetpotato storage root starch content trait
 def: "Storage root starch content evaluated in percentage dry weight" [CO:curators]
-synonym: "RtFlsSta" EXACT []
+synonym: "RtFlsSta" EXACT [CO:curators]
 is_a: TO:0000696 ! starch content
 
 [Term]
@@ -665,7 +663,7 @@ relationship: method_of CO_331:0000115 ! sweetpotato storage root starch content
 id: CO_331:0000118
 name: sweetpotato fructose content trait
 def: "Fructose content of the root" [CO:curators]
-synonym: "RtFlsFru" EXACT []
+synonym: "RtFlsFru" EXACT [CO:curators]
 is_a: TO:0006005 ! fructose content
 
 [Term]
@@ -678,7 +676,7 @@ relationship: method_of CO_331:0000118 ! sweetpotato fructose content trait
 id: CO_331:0000121
 name: sweetpotato glucose content trait
 def: "Glucose content of the root" [CO:curators]
-synonym: "RtFlsGlu" EXACT []
+synonym: "RtFlsGlu" EXACT [CO:curators]
 is_a: TO:0000300 ! glucose content
 
 [Term]
@@ -691,7 +689,7 @@ relationship: method_of CO_331:0000121 ! sweetpotato glucose content trait
 id: CO_331:0000124
 name: sweetpotato sucrose content trait
 def: "Sucrose content of the root" [CO:curators]
-synonym: "RtFlsSuc" EXACT []
+synonym: "RtFlsSuc" EXACT [CO:curators]
 is_a: TO:0000328 ! sucrose content
 
 [Term]
@@ -704,7 +702,7 @@ relationship: method_of CO_331:0000124 ! sweetpotato sucrose content trait
 id: CO_331:0000127
 name: sweetpotato maltose content trait
 def: "Maltose content of the root" [CO:curators]
-synonym: "RtFlsMal" EXACT []
+synonym: "RtFlsMal" EXACT [CO:curators]
 is_a: TO:0000300 ! glucose content
 
 [Term]
@@ -717,7 +715,7 @@ relationship: method_of CO_331:0000127 ! sweetpotato maltose content trait
 id: CO_331:0000130
 name: sweetpotato fiber content trait
 def: "Fiber content in fresh samples" [CO:curators]
-synonym: "RtFlsFf" EXACT []
+synonym: "RtFlsFf" EXACT [CO:curators]
 is_a: TO:0002642 ! dietary fiber related trait
 
 [Term]
@@ -730,7 +728,7 @@ relationship: method_of CO_331:0000130 ! sweetpotato fiber content trait
 id: CO_331:0000133
 name: sweetpotato color of boiled roots trait
 def: "Color of boiled roots" [CO:curators]
-synonym: "RtCb" EXACT []
+synonym: "RtCb" EXACT [CO:curators]
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
@@ -748,7 +746,7 @@ relationship: scale_of CO_331:0000134 ! sweetpotato estimation of color of cooke
 id: CO_331:0000136
 name: sweetpotato texture of boiled storage root flesh trait
 def: "Storage root texture after boiled" [CO:curators]
-synonym: "RtFlsTxH" EXACT []
+synonym: "RtFlsTxH" EXACT [CO:curators]
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
@@ -761,8 +759,8 @@ relationship: method_of CO_331:0000136 ! sweetpotato texture of boiled storage r
 id: CO_331:0000139
 name: sweetpotato sweetness of boiled storage root flesh trait
 def: "Sweetness of boiled root" [CO:curators]
-synonym: "RtFlsSwt" EXACT []
-synonym: "Storage root sweetness" EXACT []
+synonym: "RtFlsSwt" EXACT [CO:curators]
+synonym: "Storage root sweetness" EXACT [CO:curators]
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
@@ -780,7 +778,7 @@ relationship: scale_of CO_331:0000140 ! sweetpotato evaluation of cooked samples
 id: CO_331:0000142
 name: sweetpotato storage root dry matter content trait
 def: "Storage root dry matter content" [CO:curators]
-synonym: "RtDMC" EXACT []
+synonym: "RtDMC" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -806,7 +804,7 @@ relationship: method_of CO_331:0000221 ! sweetpotato weight of non-commercial st
 [Term]
 id: CO_331:0000147
 name: sweetpotato pttyp_et_3to9 variable
-synonym: "PLANT" EXACT []
+synonym: "PLANT" EXACT [CO:curators]
 is_a: CO_331:0000001 ! sweetpotato plant type trait
 relationship: variable_of CO_331:0000001 ! sweetpotato plant type trait
 relationship: variable_of CO_331:0000002 ! sweetpotato observation of plant type method
@@ -815,7 +813,7 @@ relationship: variable_of CO_331:0000003 ! sweetpotato plttyp 4 pt. scale
 [Term]
 id: CO_331:0000148
 name: sweetpotato vnfolgrnv_et_3to9 variable
-synonym: "GRNDCOVR" EXACT []
+synonym: "GRNDCOVR" EXACT [CO:curators]
 is_a: CO_331:0000004 ! sweetpotato ground cover trait
 relationship: variable_of CO_331:0000004 ! sweetpotato ground cover trait
 relationship: variable_of CO_331:0000005 ! sweetpotato observation of ground cover method
@@ -824,7 +822,7 @@ relationship: variable_of CO_331:0000006 ! sweetpotato pltcov 4 pt. scale
 [Term]
 id: CO_331:0000149
 name: sweetpotato pttwg_et_0to9 variable
-synonym: "TWING" EXACT []
+synonym: "TWING" EXACT [CO:curators]
 is_a: CO_331:0000007 ! sweetpotato twining trait
 relationship: variable_of CO_331:0000007 ! sweetpotato twining trait
 relationship: variable_of CO_331:0000008 ! sweetpotato observation of twining method
@@ -833,7 +831,7 @@ relationship: variable_of CO_331:0000009 ! sweetpotato plttwg 5 pt. scale
 [Term]
 id: CO_331:0000150
 name: sweetpotato vncolp_et_1to9 variable
-synonym: "VINCO1" EXACT []
+synonym: "VINCO1" EXACT [CO:curators]
 is_a: CO_331:0000010 ! sweetpotato predominant vine color trait
 relationship: variable_of CO_331:0000010 ! sweetpotato predominant vine color trait
 relationship: variable_of CO_331:0000011 ! sweetpotato observation of predominant vine color method
@@ -842,7 +840,7 @@ relationship: variable_of CO_331:0000012 ! sweetpotato vinclp 9 pt. scale
 [Term]
 id: CO_331:0000151
 name: sweetpotato vncols_et_0to9 variable
-synonym: "VINCO2" EXACT []
+synonym: "VINCO2" EXACT [CO:curators]
 is_a: CO_331:0000013 ! sweetpotato secondary vine color trait
 relationship: variable_of CO_331:0000013 ! sweetpotato secondary vine color trait
 relationship: variable_of CO_331:0000014 ! sweetpotato observation of secondary vine color method
@@ -851,7 +849,7 @@ relationship: variable_of CO_331:0000015 ! sweetpotato vincls 8 pt. scale
 [Term]
 id: CO_331:0000152
 name: sweetpotato vntipp_et_0to9 variable
-synonym: "VINPUBS" EXACT []
+synonym: "VINPUBS" EXACT [CO:curators]
 is_a: CO_331:0000016 ! sweetpotato vine tips pubescence trait
 relationship: variable_of CO_331:0000016 ! sweetpotato vine tips pubescence trait
 relationship: variable_of CO_331:0000017 ! sweetpotato observation of vine tips pubescence method
@@ -861,7 +859,7 @@ relationship: variable_of CO_331:0000018 ! sweetpotato vintpp 8 pt. scale
 id: CO_331:0000153
 name: sweetpotato vine internode length trait
 def: "Measurement of the vine internode length" [CO:curators]
-synonym: "VnInLg" EXACT []
+synonym: "VnInLg" EXACT [CO:curators]
 is_a: TO:0000145 ! shoot axis internode length
 
 [Term]
@@ -878,7 +876,7 @@ relationship: scale_of CO_331:0000154 ! sweetpotato average length of at least t
 [Term]
 id: CO_331:0000156
 name: sweetpotato vninlg_et_1to9 variable
-synonym: "VINLG" EXACT []
+synonym: "VINLG" EXACT [CO:curators]
 is_a: CO_331:0000153 ! sweetpotato vine internode length trait
 relationship: variable_of CO_331:0000153 ! sweetpotato vine internode length trait
 relationship: variable_of CO_331:0000154 ! sweetpotato average length of at least three internodes located in the middle section of the vine method
@@ -888,7 +886,7 @@ relationship: variable_of CO_331:0000155 ! sweetpotato vininlg 5 pt. scale
 id: CO_331:0000157
 name: sweetpotato vine internode diameter trait
 def: "Measurement of the vine internode diameter" [CO:curators]
-synonym: "VnInD" EXACT []
+synonym: "VnInD" EXACT [CO:curators]
 is_a: TO:0020083 ! stem diameter
 
 [Term]
@@ -905,7 +903,7 @@ relationship: scale_of CO_331:0000158 ! sweetpotato average diameter of at least
 [Term]
 id: CO_331:0000160
 name: sweetpotato vnind_et_1to9 variable
-synonym: "VINDIA" EXACT []
+synonym: "VINDIA" EXACT [CO:curators]
 is_a: CO_331:0000157 ! sweetpotato vine internode diameter trait
 relationship: variable_of CO_331:0000157 ! sweetpotato vine internode diameter trait
 relationship: variable_of CO_331:0000158 ! sweetpotato average diameter of at least three internodes located in the middle section of the vine method
@@ -914,7 +912,7 @@ relationship: variable_of CO_331:0000159 ! sweetpotato vinind 5 pt. scale
 [Term]
 id: CO_331:0000161
 name: sweetpotato lfout_et_1to7 variable
-synonym: "LEAFSHAP1" EXACT []
+synonym: "LEAFSHAP1" EXACT [CO:curators]
 is_a: CO_331:0000019 ! sweetpotato general outline of the leaf trait
 relationship: variable_of CO_331:0000019 ! sweetpotato general outline of the leaf trait
 relationship: variable_of CO_331:0000020 ! sweetpotato observation of general outline of the leaf method
@@ -923,7 +921,7 @@ relationship: variable_of CO_331:0000021 ! sweetpotato lefout 7 pt. scale
 [Term]
 id: CO_331:0000162
 name: sweetpotato lflbt_et_0to9 variable
-synonym: "LEAFSHAP2" EXACT []
+synonym: "LEAFSHAP2" EXACT [CO:curators]
 is_a: CO_331:0000022 ! sweetpotato leaf lobe type trait
 relationship: variable_of CO_331:0000022 ! sweetpotato leaf lobe type trait
 relationship: variable_of CO_331:0000023 ! sweetpotato observation of leaf lobes type method
@@ -932,7 +930,7 @@ relationship: variable_of CO_331:0000024 ! sweetpotato leflbt 6 pt. scale
 [Term]
 id: CO_331:0000163
 name: sweetpotato lflbn_et_1to9 variable
-synonym: "LEAFSHAP3" EXACT []
+synonym: "LEAFSHAP3" EXACT [CO:curators]
 is_a: CO_331:0000025 ! sweetpotato leaf lobe number trait
 relationship: variable_of CO_331:0000025 ! sweetpotato leaf lobe number trait
 relationship: variable_of CO_331:0000026 ! sweetpotato observation of leaf lobe number method
@@ -941,7 +939,7 @@ relationship: variable_of CO_331:0000027 ! sweetpotato leflbn 5 pt. scale
 [Term]
 id: CO_331:0000164
 name: sweetpotato lflcs_et_0to9 variable
-synonym: "LEAFSHAP4" EXACT []
+synonym: "LEAFSHAP4" EXACT [CO:curators]
 is_a: CO_331:0000028 ! sweetpotato shape of central leaf lobe trait
 relationship: variable_of CO_331:0000028 ! sweetpotato shape of central leaf lobe trait
 relationship: variable_of CO_331:0000029 ! sweetpotato observation of shape of central leaf lobe method
@@ -950,7 +948,7 @@ relationship: variable_of CO_331:0000030 ! sweetpotato leflcs 10 pt. scale
 [Term]
 id: CO_331:0000165
 name: sweetpotato lflms_et_3to9 variable
-synonym: "LFSIZE" EXACT []
+synonym: "LFSIZE" EXACT [CO:curators]
 is_a: CO_331:0000031 ! sweetpotato mature leaf size trait
 relationship: variable_of CO_331:0000031 ! sweetpotato mature leaf size trait
 relationship: variable_of CO_331:0000032 ! sweetpotato observation of mature leaf size method
@@ -959,7 +957,7 @@ relationship: variable_of CO_331:0000033 ! sweetpotato leflms 9 pt. scale
 [Term]
 id: CO_331:0000166
 name: sweetpotato lfavp_et_1to9 variable
-synonym: "LFVEIN" EXACT []
+synonym: "LFVEIN" EXACT [CO:curators]
 is_a: CO_331:0000034 ! sweetpotato abaxial leaf vein pigmentation trait
 relationship: variable_of CO_331:0000034 ! sweetpotato abaxial leaf vein pigmentation trait
 relationship: variable_of CO_331:0000035 ! sweetpotato observation of abaxial leaf vein pigmentation method
@@ -968,7 +966,7 @@ relationship: variable_of CO_331:0000036 ! sweetpotato lefavp 9 pt. scale
 [Term]
 id: CO_331:0000167
 name: sweetpotato lfcmt_et_1to9 variable
-synonym: "LFMATCO" EXACT []
+synonym: "LFMATCO" EXACT [CO:curators]
 is_a: CO_331:0000037 ! sweetpotato mature leaf color trait
 relationship: variable_of CO_331:0000037 ! sweetpotato mature leaf color trait
 relationship: variable_of CO_331:0000038 ! sweetpotato observation of mature leaf color method
@@ -977,7 +975,7 @@ relationship: variable_of CO_331:0000039 ! sweetpotato lefcmt 9 pt. scale
 [Term]
 id: CO_331:0000168
 name: sweetpotato lfcoli_et_1to9 variable
-synonym: "LFINMCO" EXACT []
+synonym: "LFINMCO" EXACT [CO:curators]
 is_a: CO_331:0000040 ! sweetpotato immature leaf color trait
 relationship: variable_of CO_331:0000040 ! sweetpotato immature leaf color trait
 relationship: variable_of CO_331:0000041 ! sweetpotato observation of immature leaf color method
@@ -986,7 +984,7 @@ relationship: variable_of CO_331:0000042 ! sweetpotato lefcim 9 pt. scale
 [Term]
 id: CO_331:0000169
 name: sweetpotato frptp_et_1to9 variable
-synonym: "PTIOPG" EXACT []
+synonym: "PTIOPG" EXACT [CO:curators]
 is_a: CO_331:0000043 ! sweetpotato petiole pigmentation trait
 relationship: variable_of CO_331:0000043 ! sweetpotato petiole pigmentation trait
 relationship: variable_of CO_331:0000044 ! sweetpotato observation of petiole pigmentation method
@@ -996,7 +994,7 @@ relationship: variable_of CO_331:0000045 ! sweetpotato flrptp 9 pt. scale
 id: CO_331:0000170
 name: sweetpotato petiole length trait
 def: "Petiole length from the base to the insertion with the blade" [CO:curators]
-synonym: "FrPtL" EXACT []
+synonym: "FrPtL" EXACT [CO:curators]
 is_a: TO:0000766 ! petiole length
 
 [Term]
@@ -1013,7 +1011,7 @@ relationship: scale_of CO_331:0000171 ! sweetpotato average petiole length, from
 [Term]
 id: CO_331:0000173
 name: sweetpotato frptl_et_1to9 variable
-synonym: "PETIOL" EXACT []
+synonym: "PETIOL" EXACT [CO:curators]
 is_a: CO_331:0000170 ! sweetpotato petiole length trait
 relationship: variable_of CO_331:0000170 ! sweetpotato petiole length trait
 relationship: variable_of CO_331:0000171 ! sweetpotato average petiole length, from the base to the insertion with the blade, of at least three leaves in the middle portion of a main vine method
@@ -1022,7 +1020,7 @@ relationship: variable_of CO_331:0000172 ! sweetpotato flrptl 5 pt. scale
 [Term]
 id: CO_331:0000174
 name: sweetpotato frnol_et_1to6 variable
-synonym: "FLORCOL" EXACT []
+synonym: "FLORCOL" EXACT [CO:curators]
 is_a: CO_331:0000046 ! sweetpotato flower color trait
 relationship: variable_of CO_331:0000046 ! sweetpotato flower color trait
 relationship: variable_of CO_331:0000047 ! sweetpotato observation of newly opened flowers method
@@ -1031,7 +1029,7 @@ relationship: variable_of CO_331:0000048 ! sweetpotato flrcol 6 pt. scale
 [Term]
 id: CO_331:0000175
 name: sweetpotato rtskncolp_et_1to9 variable
-synonym: "RTSKN1, SCOL" EXACT []
+synonym: "RTSKN1, SCOL" EXACT [CO:curators]
 is_a: CO_331:0000049 ! sweetpotato predominant skin color trait
 relationship: variable_of CO_331:0000049 ! sweetpotato predominant skin color trait
 relationship: variable_of CO_331:0000050 ! sweetpotato observation of predominant skin color, many freshly harvested storage roots should be washed and dried prior to evaluation. method
@@ -1040,7 +1038,7 @@ relationship: variable_of CO_331:0000051 ! sweetpotato prdskncol 9 pt. scale
 [Term]
 id: CO_331:0000176
 name: sweetpotato rtskncolpi_et_1to3 variable
-synonym: "RTSKN2" EXACT []
+synonym: "RTSKN2" EXACT [CO:curators]
 is_a: CO_331:0000052 ! sweetpotato intensity of predominant skin color trait
 relationship: variable_of CO_331:0000052 ! sweetpotato intensity of predominant skin color trait
 relationship: variable_of CO_331:0000053 ! sweetpotato observation of intensity of predominant skin color method
@@ -1049,7 +1047,7 @@ relationship: variable_of CO_331:0000054 ! sweetpotato skncpi 3 pt. scale
 [Term]
 id: CO_331:0000177
 name: sweetpotato rtskncols_et_1to10 variable
-synonym: "RTSKN3" EXACT []
+synonym: "RTSKN3" EXACT [CO:curators]
 is_a: CO_331:0000055 ! sweetpotato secondary skin color trait
 relationship: variable_of CO_331:0000055 ! sweetpotato secondary skin color trait
 relationship: variable_of CO_331:0000056 ! sweetpotato observation of secondary skin color method
@@ -1058,7 +1056,7 @@ relationship: variable_of CO_331:0000057 ! sweetpotato skncsc 10 pt. scale
 [Term]
 id: CO_331:0000178
 name: sweetpotato rtflscolp_et_1to9 variable
-synonym: "RTFSH1, FCOL" EXACT []
+synonym: "RTFSH1, FCOL" EXACT [CO:curators]
 is_a: CO_331:0000058 ! sweetpotato predominant flesh color trait
 relationship: variable_of CO_331:0000058 ! sweetpotato predominant flesh color trait
 relationship: variable_of CO_331:0000059 ! sweetpotato observation of predominant flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots method
@@ -1067,7 +1065,7 @@ relationship: variable_of CO_331:0000060 ! sweetpotato prdflshcol 9 pt. scale
 [Term]
 id: CO_331:0000179
 name: sweetpotato rtflscols_et_0to9 variable
-synonym: "RTFSH2" EXACT []
+synonym: "RTFSH2" EXACT [CO:curators]
 is_a: CO_331:0000061 ! sweetpotato secondary flesh color trait
 relationship: variable_of CO_331:0000061 ! sweetpotato secondary flesh color trait
 relationship: variable_of CO_331:0000062 ! sweetpotato observation of secondary flesh color method
@@ -1076,7 +1074,7 @@ relationship: variable_of CO_331:0000063 ! sweetpotato flscsc 10 pt. scale
 [Term]
 id: CO_331:0000180
 name: sweetpotato rtflscolsd_et_1to9 variable
-synonym: "RTFSH3" EXACT []
+synonym: "RTFSH3" EXACT [CO:curators]
 is_a: CO_331:0000064 ! sweetpotato distribution of secondary flesh color trait
 relationship: variable_of CO_331:0000064 ! sweetpotato distribution of secondary flesh color trait
 relationship: variable_of CO_331:0000065 ! sweetpotato observation of distribution of secondary flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots method
@@ -1085,7 +1083,7 @@ relationship: variable_of CO_331:0000066 ! sweetpotato flscsd 10 pt. scale
 [Term]
 id: CO_331:0000181
 name: sweetpotato rtshp_et_1to9 variable
-synonym: "RTSHP" EXACT []
+synonym: "RTSHP" EXACT [CO:curators]
 is_a: CO_331:0000067 ! sweetpotato storage root shape trait
 relationship: variable_of CO_331:0000067 ! sweetpotato storage root shape trait
 relationship: variable_of CO_331:0000068 ! sweetpotato observation of storage root shape described from longitudinal sections made about the middle of freshly harvested storage roots method
@@ -1094,7 +1092,7 @@ relationship: variable_of CO_331:0000812 ! sweetpotato rtshp 9 pt. scale
 [Term]
 id: CO_331:0000182
 name: sweetpotato rtlxp_et_3to7 variable
-synonym: "RTLATX" EXACT []
+synonym: "RTLATX" EXACT [CO:curators]
 is_a: CO_331:0000070 ! sweetpotato latex production in storage roots trait
 relationship: variable_of CO_331:0000070 ! sweetpotato latex production in storage roots trait
 relationship: variable_of CO_331:0000071 ! sweetpotato observation of latex production in storage roots method
@@ -1103,7 +1101,7 @@ relationship: variable_of CO_331:0000072 ! sweetpotato rtlat 3 pt. scale
 [Term]
 id: CO_331:0000183
 name: sweetpotato rtoxi_et_3to7 variable
-synonym: "RTOXID" EXACT []
+synonym: "RTOXID" EXACT [CO:curators]
 is_a: CO_331:0000073 ! sweetpotato oxidation in storage roots trait
 relationship: variable_of CO_331:0000073 ! sweetpotato oxidation in storage roots trait
 relationship: variable_of CO_331:0000074 ! sweetpotato observation of oxidation in storage roots 5-10 seconds after storage roots are cut in cross section. method
@@ -1112,45 +1110,16 @@ relationship: variable_of CO_331:0000075 ! sweetpotato rtoxi 3 pt. scale
 [Term]
 id: CO_331:0000184
 name: sweetpotato rtsiz_et_1to9 variable
-synonym: "RS" EXACT []
+synonym: "RS" EXACT [CO:curators]
 is_a: CO_331:0000076 ! sweetpotato storage root size trait
 relationship: variable_of CO_331:0000076 ! sweetpotato storage root size trait
 relationship: variable_of CO_331:0000077 ! sweetpotato storage root size - method
 relationship: variable_of CO_331:0000078 ! sweetpotato rtsize 5 pt. scale
 
 [Term]
-id: CO_331:0000189
-name: sweetpotato number of plants established
-def: "Number of plants established" [CO:curators]
-synonym: "PltEst" EXACT []
-
-[Term]
-id: CO_331:0000190
-name: sweetpotato evaluation of plant vine establishment method
-def: "Counting of established plants." [CO:curators]
-relationship: method_of CO_331:0000189 ! sweetpotato number of plants established trait
-relationship: method_of CO_331:0000303 ! sweetpotato number of plants planted trait
-
-[Term]
-id: CO_331:0000191
-name: sweetpotato plants/plot scale
-relationship: scale_of CO_331:0000190 ! sweetpotato evaluation of plant vine establishment method
-relationship: scale_of CO_331:0000209 ! sweetpotato evaluation of plants method
-relationship: scale_of CO_331:0000305 ! sweetpotato evaluation of plants method
-
-[Term]
-id: CO_331:0000192
-name: sweetpotato pltest_ct_plplot variable
-synonym: "NOPE" EXACT []
-is_a: CO_331:0000189 ! sweetpotato number of plants established trait
-relationship: variable_of CO_331:0000189 ! sweetpotato number of plants established trait
-relationship: variable_of CO_331:0000190 ! sweetpotato evaluation of plant vine establishment method
-relationship: variable_of CO_331:0000191 ! sweetpotato plants/plot scale
-
-[Term]
 id: CO_331:0000193
 name: sweetpotato rnvir_et_1to9 variable
-synonym: "VIR1" EXACT []
+synonym: "VIR1" EXACT [CO:curators]
 is_a: CO_331:0000094 ! sweetpotato virus symptoms trait
 relationship: variable_of CO_331:0000094 ! sweetpotato virus symptoms trait
 relationship: variable_of CO_331:0000095 ! sweetpotato virus symptoms evaluation method
@@ -1160,7 +1129,7 @@ relationship: variable_of CO_331:0000096 ! sweetpotato virsym 9 pt. scale
 id: CO_331:0000194
 name: sweetpotato vine vigor trait
 def: "Vine vigor evaluation" [CO:curators]
-synonym: "VnVg" EXACT []
+synonym: "VnVg" EXACT [CO:curators]
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
@@ -1177,7 +1146,7 @@ relationship: scale_of CO_331:0000195 ! sweetpotato observation of plant vigour 
 [Term]
 id: CO_331:0000197
 name: sweetpotato vnvg_et_1to9 variable
-synonym: "VV1" EXACT []
+synonym: "VV1" EXACT [CO:curators]
 is_a: CO_331:0000194 ! sweetpotato vine vigor trait
 relationship: variable_of CO_331:0000194 ! sweetpotato vine vigor trait
 relationship: variable_of CO_331:0000195 ! sweetpotato observation of plant vigour method
@@ -1186,7 +1155,7 @@ relationship: variable_of CO_331:0000196 ! sweetpotato vinvgr 9 pt. scale
 [Term]
 id: CO_331:0000198
 name: sweetpotato rnalt_et_1to9 variable
-synonym: "ALT1, AS1" EXACT []
+synonym: "ALT1, AS1" EXACT [CO:curators]
 is_a: CO_331:0000091 ! sweetpotato reaction to early blight: (alternaria spp) trait
 relationship: variable_of CO_331:0000091 ! sweetpotato reaction to early blight: (alternaria spp) trait
 relationship: variable_of CO_331:0000092 ! sweetpotato early blight evaluation: (alternaria) method
@@ -1196,8 +1165,8 @@ relationship: variable_of CO_331:0000093 ! sweetpotato altsm 9 pt. scale
 id: CO_331:0000199
 name: sweetpotato storage root form trait
 def: "Overall assessment of storage root form" [CO:curators]
-synonym: "RtFrm" EXACT []
-is_a: TO:0002710 ! root shape
+synonym: "RtFrm" EXACT [CO:curators]
+is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000200
@@ -1213,7 +1182,7 @@ relationship: scale_of CO_331:0000200 ! sweetpotato storage root form - method
 [Term]
 id: CO_331:0000202
 name: sweetpotato rtfrm_et_1to9 variable
-synonym: "RF" EXACT []
+synonym: "RF" EXACT [CO:curators]
 is_a: CO_331:0000199 ! sweetpotato storage root form trait
 relationship: variable_of CO_331:0000199 ! sweetpotato storage root form trait
 relationship: variable_of CO_331:0000200 ! sweetpotato storage root form - method
@@ -1223,7 +1192,7 @@ relationship: variable_of CO_331:0000201 ! sweetpotato rtform 9 pt. scale
 id: CO_331:0000203
 name: sweetpotato number of storage root damages trait
 def: "Root with structural damages" [CO:curators]
-synonym: "RtDam" EXACT []
+synonym: "RtDam" EXACT [CO:curators]
 is_a: TO:0001042 ! root quality trait
 
 [Term]
@@ -1240,7 +1209,7 @@ relationship: scale_of CO_331:0000204 ! sweetpotato storage root damage method
 [Term]
 id: CO_331:0000206
 name: sweetpotato rtdam_et_1to9 variable
-synonym: "DAMR" EXACT []
+synonym: "DAMR" EXACT [CO:curators]
 is_a: CO_331:0000203 ! sweetpotato number of storage root damages trait
 relationship: variable_of CO_331:0000203 ! sweetpotato number of storage root damages trait
 relationship: variable_of CO_331:0000204 ! sweetpotato storage root damage method
@@ -1249,7 +1218,7 @@ relationship: variable_of CO_331:0000205 ! sweetpotato rtsdam 9 pt. scale
 [Term]
 id: CO_331:0000207
 name: sweetpotato rnwvl_et_1to9 variable
-synonym: "WED1, WED" EXACT []
+synonym: "WED1, WED" EXACT [CO:curators]
 is_a: CO_331:0000088 ! sweetpotato reaction to sweet potato weevil trait
 relationship: variable_of CO_331:0000088 ! sweetpotato reaction to sweet potato weevil trait
 relationship: variable_of CO_331:0000089 ! sweetpotato weevil damage evaluation method
@@ -1259,7 +1228,7 @@ relationship: variable_of CO_331:0000090 ! sweetpotato rtdam 9 pt. scale
 id: CO_331:0000208
 name: sweetpotato number of plants with storage roots
 def: "Number of plants with storage roots" [CO:curators]
-synonym: "PtRt" EXACT []
+synonym: "PtRt" EXACT [CO:curators]
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
@@ -1269,19 +1238,10 @@ def: "Visual estimation" [CO:curators]
 relationship: method_of CO_331:0000208 ! sweetpotato number of plants with storage roots trait
 
 [Term]
-id: CO_331:0000211
-name: sweetpotato ptrt_ct_plplot variable
-synonym: "NOPR" EXACT []
-is_a: CO_331:0000208 ! sweetpotato number of plants with storage roots trait
-relationship: variable_of CO_331:0000191 ! sweetpotato plants/plot scale
-relationship: variable_of CO_331:0000208 ! sweetpotato number of plants with storage roots trait
-relationship: variable_of CO_331:0000209 ! sweetpotato evaluation of plants method
-
-[Term]
 id: CO_331:0000212
 name: sweetpotato number of commercial storage roots trait
 def: "Number of root that are 12 to 20 cm long and at least 10 cm in diameter" [CO:curators]
-synonym: "PtCRt" EXACT []
+synonym: "PtCRt" EXACT [CO:curators]
 is_a: TO:0000084 ! root number
 
 [Term]
@@ -1292,7 +1252,7 @@ relationship: scale_of CO_331:0000145 ! sweetpotato evaluation of roots method
 [Term]
 id: CO_331:0000214
 name: sweetpotato ptcrt_ct_plplot variable
-synonym: "NOCR" EXACT []
+synonym: "NOCR" EXACT [CO:curators]
 is_a: CO_331:0000212 ! sweetpotato number of commercial storage roots trait
 relationship: variable_of CO_331:0000145 ! sweetpotato evaluation of roots method
 relationship: variable_of CO_331:0000212 ! sweetpotato number of commercial storage roots trait
@@ -1302,13 +1262,13 @@ relationship: variable_of CO_331:0000213 ! sweetpotato roots/plot scale
 id: CO_331:0000215
 name: sweetpotato number of non-commercial storage roots trait
 def: "Number of root shorter than 10 cm long and greater than 20 cm long." [CO:curators]
-synonym: "PtNCR" EXACT []
+synonym: "PtNCR" EXACT [CO:curators]
 is_a: TO:0000084 ! root number
 
 [Term]
 id: CO_331:0000217
 name: sweetpotato ptncr_ct_plplot variable
-synonym: "NONC" EXACT []
+synonym: "NONC" EXACT [CO:curators]
 is_a: CO_331:0000215 ! sweetpotato number of non-commercial storage roots trait
 relationship: variable_of CO_331:0000145 ! sweetpotato evaluation of roots method
 relationship: variable_of CO_331:0000213 ! sweetpotato roots/plot scale
@@ -1318,7 +1278,7 @@ relationship: variable_of CO_331:0000215 ! sweetpotato number of non-commercial 
 id: CO_331:0000218
 name: sweetpotato weight of commercial storage roots trait
 def: "Weight of root that are 12 to 20 cm long and at least 10 cm in diameter" [CO:curators]
-synonym: "RtCmW" EXACT []
+synonym: "RtCmW" EXACT [CO:curators]
 is_a: TO:0000279 ! root weight
 
 [Term]
@@ -1331,7 +1291,7 @@ relationship: scale_of CO_331:0000235 ! sweetpotato estimated weight per plot - 
 [Term]
 id: CO_331:0000220
 name: sweetpotato rtcmw_ms_kgplot variable
-synonym: "CRW" EXACT []
+synonym: "CRW" EXACT [CO:curators]
 is_a: CO_331:0000218 ! sweetpotato weight of commercial storage roots trait
 relationship: variable_of CO_331:0000146 ! sweetpotato measurements of root mass method
 relationship: variable_of CO_331:0000218 ! sweetpotato weight of commercial storage roots trait
@@ -1341,13 +1301,13 @@ relationship: variable_of CO_331:0000219 ! sweetpotato kg/plot scale
 id: CO_331:0000221
 name: sweetpotato weight of non-commercial storage roots trait
 def: "Weight of root shorter than 10 cm long and greater than 20 cm long." [CO:curators]
-synonym: "RtNCmW" EXACT []
+synonym: "RtNCmW" EXACT [CO:curators]
 is_a: TO:0000279 ! root weight
 
 [Term]
 id: CO_331:0000223
 name: sweetpotato rtncmw_ms_kgplot variable
-synonym: "NCRW" EXACT []
+synonym: "NCRW" EXACT [CO:curators]
 is_a: CO_331:0000221 ! sweetpotato weight of non-commercial storage roots trait
 relationship: variable_of CO_331:0000146 ! sweetpotato measurements of root mass method
 relationship: variable_of CO_331:0000219 ! sweetpotato kg/plot scale
@@ -1357,7 +1317,7 @@ relationship: variable_of CO_331:0000221 ! sweetpotato weight of non-commercial 
 id: CO_331:0000224
 name: sweetpotato weight of vines trait
 def: "Weight of vines" [CO:curators]
-synonym: "VnW" EXACT []
+synonym: "VnW" EXACT [CO:curators]
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
@@ -1369,7 +1329,7 @@ relationship: method_of CO_331:0000224 ! sweetpotato weight of vines trait
 [Term]
 id: CO_331:0000227
 name: sweetpotato vnw_ms_kgplot variable
-synonym: "VW" EXACT []
+synonym: "VW" EXACT [CO:curators]
 is_a: CO_331:0000224 ! sweetpotato weight of vines trait
 relationship: variable_of CO_331:0000219 ! sweetpotato kg/plot scale
 relationship: variable_of CO_331:0000224 ! sweetpotato weight of vines trait
@@ -1389,7 +1349,7 @@ relationship: scale_of CO_331:0000228 ! sweetpotato estimated number per plant -
 [Term]
 id: CO_331:0000230
 name: sweetpotato rtttn_ct_rtplant variable
-synonym: "TNROOT,NRPP" EXACT []
+synonym: "TNROOT,NRPP" EXACT [CO:curators]
 is_a: CO_331:0000079 ! sweetpotato total number of root trait
 relationship: variable_of CO_331:0000079 ! sweetpotato total number of root trait
 relationship: variable_of CO_331:0000228 ! sweetpotato estimated number per plant - method
@@ -1409,7 +1369,7 @@ relationship: scale_of CO_331:0000231 ! sweetpotato estimated number per plot - 
 [Term]
 id: CO_331:0000233
 name: sweetpotato rtttn_ct_rtplot variable
-synonym: "TNRPLOT" EXACT []
+synonym: "TNRPLOT" EXACT [CO:curators]
 is_a: CO_331:0000079 ! sweetpotato total number of root trait
 relationship: variable_of CO_331:0000079 ! sweetpotato total number of root trait
 relationship: variable_of CO_331:0000231 ! sweetpotato estimated number per plot - method
@@ -1419,7 +1379,7 @@ relationship: variable_of CO_331:0000232 ! sweetpotato roots/ plot scale
 id: CO_331:0000234
 name: sweetpotato total root weight trait
 def: "Total weight of root after harvest" [CO:curators]
-synonym: "RtTWt" EXACT []
+synonym: "RtTWt" EXACT [CO:curators]
 is_a: TO:0000279 ! root weight
 
 [Term]
@@ -1431,7 +1391,7 @@ relationship: method_of CO_331:0000234 ! sweetpotato total root weight trait
 [Term]
 id: CO_331:0000237
 name: sweetpotato rttwt_cp_plot variable
-synonym: "TRW" EXACT []
+synonym: "TRW" EXACT [CO:curators]
 is_a: CO_331:0000234 ! sweetpotato total root weight trait
 relationship: variable_of CO_331:0000219 ! sweetpotato kg/plot scale
 relationship: variable_of CO_331:0000234 ! sweetpotato total root weight trait
@@ -1446,7 +1406,7 @@ relationship: method_of CO_331:0000097 ! sweetpotato storage root cracking trait
 [Term]
 id: CO_331:0000239
 name: sweetpotato rtcrk_et_0to7 variable
-synonym: "SGROOT" EXACT []
+synonym: "SGROOT" EXACT [CO:curators]
 is_a: CO_331:0000097 ! sweetpotato storage root cracking trait
 relationship: variable_of CO_331:0000097 ! sweetpotato storage root cracking trait
 relationship: variable_of CO_331:0000099 ! sweetpotato rtscr 4 pt. scale
@@ -1456,7 +1416,7 @@ relationship: variable_of CO_331:0000238 ! sweetpotato estimation of craking roo
 id: CO_331:0000240
 name: sweetpotato weight of storage root trait
 def: "Weight of storage root samples" [CO:curators]
-synonym: "RtFWt" EXACT []
+synonym: "RtFWt" EXACT [CO:curators]
 is_a: TO:0000279 ! root weight
 
 [Term]
@@ -1476,7 +1436,7 @@ relationship: scale_of CO_331:0000253 ! sweetpotato measurements of dry vine mas
 [Term]
 id: CO_331:0000243
 name: sweetpotato rtfwt_ms_g variable
-synonym: "DMF" EXACT []
+synonym: "DMF" EXACT [CO:curators]
 is_a: CO_331:0000240 ! sweetpotato weight of storage root trait
 relationship: variable_of CO_331:0000240 ! sweetpotato weight of storage root trait
 relationship: variable_of CO_331:0000241 ! sweetpotato measurements of fresh root mass method
@@ -1486,7 +1446,7 @@ relationship: variable_of CO_331:0000242 ! sweetpotato g scale
 id: CO_331:0000244
 name: sweetpotato weight of storage root trait
 def: "Weight of storage root samples" [CO:curators]
-synonym: "RtDWt" EXACT []
+synonym: "RtDWt" EXACT [CO:curators]
 is_a: TO:0000279 ! root weight
 
 [Term]
@@ -1498,7 +1458,7 @@ relationship: method_of CO_331:0000244 ! sweetpotato weight of storage root trai
 [Term]
 id: CO_331:0000247
 name: sweetpotato rtdwt_ms_g variable
-synonym: "DMD" EXACT []
+synonym: "DMD" EXACT [CO:curators]
 is_a: CO_331:0000244 ! sweetpotato weight of storage root trait
 relationship: variable_of CO_331:0000242 ! sweetpotato g scale
 relationship: variable_of CO_331:0000244 ! sweetpotato weight of storage root trait
@@ -1508,7 +1468,7 @@ relationship: variable_of CO_331:0000245 ! sweetpotato measurements of dry root 
 id: CO_331:0000248
 name: sweetpotato weight of vines trait
 def: "Weight of vines samples" [CO:curators]
-synonym: "VnFWt" EXACT []
+synonym: "VnFWt" EXACT [CO:curators]
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
@@ -1520,7 +1480,7 @@ relationship: method_of CO_331:0000248 ! sweetpotato weight of vines trait
 [Term]
 id: CO_331:0000251
 name: sweetpotato vnfwt_et_g variable
-synonym: "DMFV" EXACT []
+synonym: "DMFV" EXACT [CO:curators]
 is_a: CO_331:0000248 ! sweetpotato weight of vines trait
 relationship: variable_of CO_331:0000242 ! sweetpotato g scale
 relationship: variable_of CO_331:0000248 ! sweetpotato weight of vines trait
@@ -1530,7 +1490,7 @@ relationship: variable_of CO_331:0000249 ! sweetpotato measurements of fresh vin
 id: CO_331:0000252
 name: sweetpotato weight of vines trait
 def: "Weight of vines samples" [CO:curators]
-synonym: "VnDWt" EXACT []
+synonym: "VnDWt" EXACT [CO:curators]
 is_a: TO:0000077 ! shoot system morphology trait
 
 [Term]
@@ -1542,7 +1502,7 @@ relationship: method_of CO_331:0000252 ! sweetpotato weight of vines trait
 [Term]
 id: CO_331:0000255
 name: sweetpotato vndwt_ms_g variable
-synonym: "DMDV" EXACT []
+synonym: "DMDV" EXACT [CO:curators]
 is_a: CO_331:0000252 ! sweetpotato weight of vines trait
 relationship: variable_of CO_331:0000242 ! sweetpotato g scale
 relationship: variable_of CO_331:0000252 ! sweetpotato weight of vines trait
@@ -1552,7 +1512,7 @@ relationship: variable_of CO_331:0000253 ! sweetpotato measurements of dry vine 
 id: CO_331:0000256
 name: sweetpotato fiber cooked trait
 def: "Fiber content in cooked samples" [CO:curators]
-synonym: "RtFlsFbC" EXACT []
+synonym: "RtFlsFbC" EXACT [CO:curators]
 is_a: TO:0002642 ! dietary fiber related trait
 
 [Term]
@@ -1569,7 +1529,7 @@ relationship: scale_of CO_331:0000257 ! sweetpotato evaluation of cooked samples
 [Term]
 id: CO_331:0000259
 name: sweetpotato rtflsfbc_et_1to9 variable
-synonym: "COOF" EXACT []
+synonym: "COOF" EXACT [CO:curators]
 is_a: CO_331:0000256 ! sweetpotato fiber cooked trait
 relationship: variable_of CO_331:0000256 ! sweetpotato fiber cooked trait
 relationship: variable_of CO_331:0000257 ! sweetpotato evaluation of cooked samples for fibers method
@@ -1578,7 +1538,7 @@ relationship: variable_of CO_331:0000258 ! sweetpotato rtfbr 9 pt. scale
 [Term]
 id: CO_331:0000260
 name: sweetpotato rtflsff_ms_pct variable
-synonym: "FIBER" EXACT []
+synonym: "FIBER" EXACT [CO:curators]
 is_a: CO_331:0000130 ! sweetpotato fiber content trait
 relationship: variable_of CO_331:0000130 ! sweetpotato fiber content trait
 relationship: variable_of CO_331:0000131 ! sweetpotato storage root fibers content evaluated in percentage fresh weight method
@@ -1587,7 +1547,7 @@ relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 [Term]
 id: CO_331:0000261
 name: sweetpotato rtflsswt_et_1to9 variable
-synonym: "TASTE, COOSU" EXACT []
+synonym: "TASTE, COOSU" EXACT [CO:curators]
 is_a: CO_331:0000139 ! sweetpotato sweetness of boiled storage root flesh trait
 relationship: variable_of CO_331:0000139 ! sweetpotato sweetness of boiled storage root flesh trait
 relationship: variable_of CO_331:0000140 ! sweetpotato evaluation of cooked samples for sweetness method
@@ -1601,7 +1561,7 @@ relationship: scale_of CO_331:0000137 ! sweetpotato evaluation of cooked samples
 [Term]
 id: CO_331:0000263
 name: sweetpotato rtflstxh_et_1to9 variable
-synonym: "RTTEXT" EXACT []
+synonym: "RTTEXT" EXACT [CO:curators]
 is_a: CO_331:0000136 ! sweetpotato texture of boiled storage root flesh trait
 relationship: variable_of CO_331:0000136 ! sweetpotato texture of boiled storage root flesh trait
 relationship: variable_of CO_331:0000137 ! sweetpotato evaluation of cooked samples for texture method
@@ -1615,7 +1575,7 @@ relationship: scale_of CO_331:0000137 ! sweetpotato evaluation of cooked samples
 [Term]
 id: CO_331:0000265
 name: sweetpotato rtflstxg_et_1to9 variable
-synonym: "TEXTBR" EXACT []
+synonym: "TEXTBR" EXACT [CO:curators]
 is_a: CO_331:0000136 ! sweetpotato texture of boiled storage root flesh trait
 relationship: variable_of CO_331:0000136 ! sweetpotato texture of boiled storage root flesh trait
 relationship: variable_of CO_331:0000137 ! sweetpotato evaluation of cooked samples for texture method
@@ -1625,7 +1585,7 @@ relationship: variable_of CO_331:0000264 ! sweetpotato flstxcg 9 pt. scale
 id: CO_331:0000266
 name: sweetpotato overall taste of cooked sample trait
 def: "Overall taste of cooked sample" [CO:curators]
-synonym: "RtFlsTs" EXACT []
+synonym: "RtFlsTs" EXACT [CO:curators]
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
@@ -1642,7 +1602,7 @@ relationship: scale_of CO_331:0000267 ! sweetpotato evaluation of cooked samples
 [Term]
 id: CO_331:0000269
 name: sweetpotato rtflsts_et_1to9 variable
-synonym: "COOT" EXACT []
+synonym: "COOT" EXACT [CO:curators]
 is_a: CO_331:0000266 ! sweetpotato overall taste of cooked sample trait
 relationship: variable_of CO_331:0000266 ! sweetpotato overall taste of cooked sample trait
 relationship: variable_of CO_331:0000267 ! sweetpotato evaluation of cooked samples for taste method
@@ -1652,7 +1612,7 @@ relationship: variable_of CO_331:0000268 ! sweetpotato rttst 9 pt. scale
 id: CO_331:0000270
 name: sweetpotato overall appearance of cooked sample trait
 def: "Appearance of cooked sample" [CO:curators]
-synonym: "RtFlsAp" EXACT []
+synonym: "RtFlsAp" EXACT [CO:curators]
 is_a: TO:0001069 ! cooking quality trait
 
 [Term]
@@ -1669,7 +1629,7 @@ relationship: scale_of CO_331:0000271 ! sweetpotato evaluation of cooked samples
 [Term]
 id: CO_331:0000273
 name: sweetpotato rtflsap_et_1to9 variable
-synonym: "COOAP" EXACT []
+synonym: "COOAP" EXACT [CO:curators]
 is_a: CO_331:0000270 ! sweetpotato overall appearance of cooked sample trait
 relationship: variable_of CO_331:0000270 ! sweetpotato overall appearance of cooked sample trait
 relationship: variable_of CO_331:0000271 ! sweetpotato evaluation of cooked samples for appearance method
@@ -1679,7 +1639,7 @@ relationship: variable_of CO_331:0000272 ! sweetpotato rtapr 9 pt. scale
 id: CO_331:0000274
 name: sweetpotato sprouting ability trait
 def: "ability to produce new sprout" [CO:curators]
-synonym: "RtSpA" EXACT []
+synonym: "RtSpA" EXACT [CO:curators]
 is_a: TO:0000250 ! plant vigor trait
 
 [Term]
@@ -1696,7 +1656,7 @@ relationship: scale_of CO_331:0000275 ! sweetpotato evaluation of roots for spro
 [Term]
 id: CO_331:0000277
 name: sweetpotato rtspa_et_1to9 variable
-synonym: "RSPR" EXACT []
+synonym: "RSPR" EXACT [CO:curators]
 is_a: CO_331:0000274 ! sweetpotato sprouting ability trait
 relationship: variable_of CO_331:0000274 ! sweetpotato sprouting ability trait
 relationship: variable_of CO_331:0000275 ! sweetpotato evaluation of roots for sprouting ability method
@@ -1705,7 +1665,7 @@ relationship: variable_of CO_331:0000276 ! sweetpotato rtsprt 9 pt. scale
 [Term]
 id: CO_331:0000278
 name: sweetpotato rtflsprt_ms_pct variable
-synonym: "PRO, PROTEIN" EXACT []
+synonym: "PRO, PROTEIN" EXACT [CO:curators]
 is_a: CO_331:0000100 ! sweetpotato protein content trait
 relationship: variable_of CO_331:0000100 ! sweetpotato protein content trait
 relationship: variable_of CO_331:0000101 ! sweetpotato protein content - method
@@ -1714,7 +1674,7 @@ relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 [Term]
 id: CO_331:0000279
 name: sweetpotato rtflsfe_ms_mg100gdw variable
-synonym: "FeDW" EXACT []
+synonym: "FeDW" EXACT [CO:curators]
 is_a: CO_331:0000103 ! sweetpotato iron content trait
 relationship: variable_of CO_331:0000103 ! sweetpotato iron content trait
 relationship: variable_of CO_331:0000104 ! sweetpotato content of iron in dry weight basis - method
@@ -1723,7 +1683,7 @@ relationship: variable_of CO_331:0000105 ! sweetpotato mg/100g scale
 [Term]
 id: CO_331:0000280
 name: sweetpotato rtflszn_ms_mg100gdw variable
-synonym: "ZnDW" EXACT []
+synonym: "ZnDW" EXACT [CO:curators]
 is_a: CO_331:0000106 ! sweetpotato zinc content trait
 relationship: variable_of CO_331:0000105 ! sweetpotato mg/100g scale
 relationship: variable_of CO_331:0000106 ! sweetpotato zinc content trait
@@ -1733,7 +1693,7 @@ relationship: variable_of CO_331:0000107 ! sweetpotato content of zinc in dry we
 id: CO_331:0000281
 name: sweetpotato calcium content trait
 def: "Content of calcium on dry weight basis of the root" [CO:curators]
-synonym: "RtFlsCa" EXACT []
+synonym: "RtFlsCa" EXACT [CO:curators]
 is_a: TO:1000029 ! oot system calcium content
 
 [Term]
@@ -1745,7 +1705,7 @@ relationship: method_of CO_331:0000281 ! sweetpotato calcium content trait
 [Term]
 id: CO_331:0000284
 name: sweetpotato rtflsca_ms_mg100gdw variable
-synonym: "CaDW" EXACT []
+synonym: "CaDW" EXACT [CO:curators]
 is_a: CO_331:0000281 ! sweetpotato calcium content trait
 relationship: variable_of CO_331:0000105 ! sweetpotato mg/100g scale
 relationship: variable_of CO_331:0000281 ! sweetpotato calcium content trait
@@ -1755,7 +1715,7 @@ relationship: variable_of CO_331:0000282 ! sweetpotato content of calcium in dry
 id: CO_331:0000285
 name: sweetpotato magnesium content trait
 def: "Content of magnesium on dry weight basis of the root" [CO:curators]
-synonym: "RtFlsMg" EXACT []
+synonym: "RtFlsMg" EXACT [CO:curators]
 is_a: TO:1000038 ! root system magnesium content
 
 [Term]
@@ -1767,7 +1727,7 @@ relationship: method_of CO_331:0000285 ! sweetpotato magnesium content trait
 [Term]
 id: CO_331:0000288
 name: sweetpotato rtflsmg_ms_mg100gdw variable
-synonym: "MgDW" EXACT []
+synonym: "MgDW" EXACT [CO:curators]
 is_a: CO_331:0000285 ! sweetpotato magnesium content trait
 relationship: variable_of CO_331:0000105 ! sweetpotato mg/100g scale
 relationship: variable_of CO_331:0000285 ! sweetpotato magnesium content trait
@@ -1776,7 +1736,7 @@ relationship: variable_of CO_331:0000286 ! sweetpotato content of magnesium in d
 [Term]
 id: CO_331:0000289
 name: sweetpotato rtflsbc_ms_mg100gdw variable
-synonym: "BCDW" EXACT []
+synonym: "BCDW" EXACT [CO:curators]
 is_a: CO_331:0000109 ! sweetpotato beta-carotene content trait
 relationship: variable_of CO_331:0000105 ! sweetpotato mg/100g scale
 relationship: variable_of CO_331:0000109 ! sweetpotato beta-carotene content trait
@@ -1785,7 +1745,7 @@ relationship: variable_of CO_331:0000110 ! sweetpotato beta carotene content - m
 [Term]
 id: CO_331:0000290
 name: sweetpotato rtflstc_ms_mg100gdw variable
-synonym: "TCDW" EXACT []
+synonym: "TCDW" EXACT [CO:curators]
 is_a: CO_331:0000112 ! sweetpotato total carotenoids trait
 relationship: variable_of CO_331:0000105 ! sweetpotato mg/100g scale
 relationship: variable_of CO_331:0000112 ! sweetpotato total carotenoids trait
@@ -1794,7 +1754,7 @@ relationship: variable_of CO_331:0000113 ! sweetpotato total carotenoids - metho
 [Term]
 id: CO_331:0000291
 name: sweetpotato rtflssta_ms_pct variable
-synonym: "STAR" EXACT []
+synonym: "STAR" EXACT [CO:curators]
 is_a: CO_331:0000115 ! sweetpotato storage root starch content trait
 relationship: variable_of CO_331:0000115 ! sweetpotato storage root starch content trait
 relationship: variable_of CO_331:0000116 ! sweetpotato storage root starch content - method
@@ -1803,7 +1763,7 @@ relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 [Term]
 id: CO_331:0000292
 name: sweetpotato rtflsfru_ms_pct variable
-synonym: "FRUC" EXACT []
+synonym: "FRUC" EXACT [CO:curators]
 is_a: CO_331:0000118 ! sweetpotato fructose content trait
 relationship: variable_of CO_331:0000118 ! sweetpotato fructose content trait
 relationship: variable_of CO_331:0000119 ! sweetpotato fructose content - method
@@ -1812,7 +1772,7 @@ relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 [Term]
 id: CO_331:0000293
 name: sweetpotato rtflsglu_ms_pct variable
-synonym: "GLUC" EXACT []
+synonym: "GLUC" EXACT [CO:curators]
 is_a: CO_331:0000121 ! sweetpotato glucose content trait
 relationship: variable_of CO_331:0000121 ! sweetpotato glucose content trait
 relationship: variable_of CO_331:0000122 ! sweetpotato glucose content - method
@@ -1821,7 +1781,7 @@ relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 [Term]
 id: CO_331:0000294
 name: sweetpotato rtflssuc_ms_pct variable
-synonym: "SUCR" EXACT []
+synonym: "SUCR" EXACT [CO:curators]
 is_a: CO_331:0000124 ! sweetpotato sucrose content trait
 relationship: variable_of CO_331:0000124 ! sweetpotato sucrose content trait
 relationship: variable_of CO_331:0000125 ! sweetpotato sucrose content - method
@@ -1830,7 +1790,7 @@ relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 [Term]
 id: CO_331:0000295
 name: sweetpotato rtflsmal_ms_pct variable
-synonym: "MALT" EXACT []
+synonym: "MALT" EXACT [CO:curators]
 is_a: CO_331:0000127 ! sweetpotato maltose content trait
 relationship: variable_of CO_331:0000127 ! sweetpotato maltose content trait
 relationship: variable_of CO_331:0000128 ! sweetpotato maltose content - method
@@ -1839,7 +1799,7 @@ relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 [Term]
 id: CO_331:0000296
 name: sweetpotato rtyld_cp_tha variable
-synonym: "RYTHA" EXACT []
+synonym: "RYTHA" EXACT [CO:curators]
 is_a: CO_331:0000082 ! sweetpotato yield of total roots trait
 relationship: variable_of CO_331:0000082 ! sweetpotato yield of total roots trait
 relationship: variable_of CO_331:0000083 ! sweetpotato estimated yield per hectare - method
@@ -1848,7 +1808,7 @@ relationship: variable_of CO_331:0000319 ! sweetpotato t/ha scale
 [Term]
 id: CO_331:0000297
 name: sweetpotato rtdmc_cp_pct variable
-synonym: "DM" EXACT []
+synonym: "DM" EXACT [CO:curators]
 is_a: CO_331:0000142 ! sweetpotato storage root dry matter content trait
 relationship: variable_of CO_331:0000142 ! sweetpotato storage root dry matter content trait
 relationship: variable_of CO_331:0000143 ! sweetpotato storage root dry matter content - method
@@ -1858,7 +1818,7 @@ relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 id: CO_331:0000298
 name: sweetpotato survival index trait
 def: "Survival index" [CO:curators]
-synonym: "IxSrv" EXACT []
+synonym: "IxSrv" EXACT [CO:curators]
 is_a: TO:0000597 ! plant vigor trait
 
 [Term]
@@ -1870,7 +1830,7 @@ relationship: method_of CO_331:0000298 ! sweetpotato survival index trait
 [Term]
 id: CO_331:0000301
 name: sweetpotato ixsrv_cp_pct variable
-synonym: "SHI" EXACT []
+synonym: "SHI" EXACT [CO:curators]
 is_a: CO_331:0000298 ! sweetpotato survival index trait
 relationship: variable_of CO_331:0000298 ! sweetpotato survival index trait
 relationship: variable_of CO_331:0000299 ! sweetpotato survival index - method
@@ -1879,70 +1839,52 @@ relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 [Term]
 id: CO_331:0000302
 name: sweetpotato ixhrv_cp_pct variable
-synonym: "HI" EXACT []
+synonym: "HI" EXACT [CO:curators]
 is_a: CO_331:0000085 ! sweetpotato harvest index trait
 relationship: variable_of CO_331:0000085 ! sweetpotato harvest index trait
 relationship: variable_of CO_331:0000086 ! sweetpotato harvest index evaluation - method
 relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 
 [Term]
-id: CO_331:0000303
-name: sweetpotato number of plants planted
-def: "Number of plants planted" [CO:curators]
-synonym: "PltPld" EXACT []
-
-[Term]
-id: CO_331:0000304
-name: sweetpotato number of plants harvested
-def: "Number of plants harvested" [CO:curators]
-synonym: "PtHrv" EXACT []
-
-[Term]
-id: CO_331:0000305
-name: sweetpotato evaluation of plants method
-def: "Visual estimation" [CO:curators]
-relationship: method_of CO_331:0000304 ! sweetpotato number of plants harvested trait
-
-[Term]
 id: CO_331:0000307
 name: sweetpotato marketable root yield trait
 def: "Marketable root yield" [CO:curators]
-synonym: "RtCYld" EXACT []
+synonym: "RtCYld" EXACT [CO:curators]
 is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000308
 name: sweetpotato average commercial root weight trait
 def: "Average commercial root weight evaluated in the harvest" [CO:curators]
-synonym: "RtACRW" EXACT []
+synonym: "RtACRW" EXACT [CO:curators]
 is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000309
 name: sweetpotato yield of total roots trait
 def: "Yield of total roots calculated after harvest" [CO:curators]
-synonym: "RtYPP" EXACT []
+synonym: "RtYPP" EXACT [CO:curators]
 is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000310
 name: sweetpotato percentage of marketable roots trait
 def: "Percentage of marketable roots after harvest" [CO:curators]
-synonym: "RtCI" EXACT []
+synonym: "RtCI" EXACT [CO:curators]
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_331:0000311
 name: sweetpotato biomass yield trait
 def: "Biomass yield" [CO:curators]
-synonym: "BioYld" EXACT []
+synonym: "BioYld" EXACT [CO:curators]
 is_a: TO:0000457 ! total biomass yield
 
 [Term]
 id: CO_331:0000312
 name: sweetpotato foliage total yield trait
 def: "Foliage total yield" [CO:curators]
-synonym: "VnFolYld" EXACT []
+synonym: "VnFolYld" EXACT [CO:curators]
 is_a: TO:0000870 ! leaf yield trait
 
 [Term]
@@ -1970,24 +1912,12 @@ def: "Number of non-commercial roots/Total number of root after harvest*100" [CO
 relationship: method_of CO_331:0000310 ! sweetpotato percentage of marketable roots trait
 
 [Term]
-id: CO_331:0000317
-name: method of co_331:0000311
-relationship: method_of CO_331:0000311 ! sweetpotato biomass yield trait
-
-[Term]
-id: CO_331:0000318
-name: method of co_331:0000312
-relationship: method_of CO_331:0000312 ! sweetpotato foliage total yield trait
-
-[Term]
 id: CO_331:0000319
 name: sweetpotato t/ha scale
 relationship: scale_of CO_331:0000083 ! sweetpotato estimated yield per hectare - method
 relationship: scale_of CO_331:0000313 ! sweetpotato estimated marketable yield per hectare - method
 relationship: scale_of CO_331:0000314 ! sweetpotato estimated marketable yield per hectare - method
 relationship: scale_of CO_331:0000315 ! sweetpotato estimated yield of total roots per hectare - method
-relationship: scale_of CO_331:0000317 ! method of co_331:0000311
-relationship: scale_of CO_331:0000318 ! method of co_331:0000312
 
 [Term]
 id: CO_331:0000322
@@ -2008,811 +1938,806 @@ relationship: scale_of CO_331:0000316 ! sweetpotato percentage of marketable - m
 id: CO_331:0000326
 name: sweetpotato storage root surface defects trait
 def: "Storage Root Surface Defects" [CO:curators]
-synonym: "RtSDef" EXACT []
+synonym: "RtSDef" EXACT [CO:curators]
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_331:0000327
 name: sweetpotato storage root cortex thickness trait
 def: "Storage Root Cortex Thickness" [CO:curators]
-synonym: "RtCThk" EXACT []
+synonym: "RtCThk" EXACT [CO:curators]
+is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000328
 name: sweetpotato flowering habit trait
 def: "An behavior pattern of the plant to produce flowers" [CO:curators]
-synonym: "FrHab" EXACT []
+synonym: "FrHab" EXACT [CO:curators]
 is_a: TO:0002736 ! flower number trait
 
 [Term]
 id: CO_331:0000329
 name: sweetpotato flower size trait
 def: "Flower size" [CO:curators]
-synonym: "FrSiz" EXACT []
+synonym: "FrSiz" EXACT [CO:curators]
 is_a: TO:0000499 ! flower morphology trait
 
 [Term]
 id: CO_331:0000330
 name: sweetpotato shape of limb trait
 def: "Shape of limb" [CO:curators]
-synonym: "FrShL" EXACT []
+synonym: "FrShL" EXACT [CO:curators]
 is_a: TO:0000863 ! petal morphology trait
 
 [Term]
 id: CO_331:0000331
 name: sweetpotato equality of sepal length trait
 def: "Equality of sepal length" [CO:curators]
-synonym: "FrSepEql" EXACT []
+synonym: "FrSepEql" EXACT [CO:curators]
 is_a: TO:0002607 ! sepal length
 
 [Term]
 id: CO_331:0000332
 name: sweetpotato number of sepal veins trait
 def: "Number of veins observed in the sepals" [CO:curators]
-synonym: "FrSepNVn" EXACT []
+synonym: "FrSepNVn" EXACT [CO:curators]
 is_a: TO:0000864 ! sepal morphology trait
 
 [Term]
 id: CO_331:0000333
 name: sweetpotato sepal shape trait
 def: "Sepal shape" [CO:curators]
-synonym: "FrSepShp" EXACT []
+synonym: "FrSepShp" EXACT [CO:curators]
 is_a: TO:0000864 ! sepal morphology trait
 
 [Term]
 id: CO_331:0000334
 name: sweetpotato sepal apex trait
 def: "Sepal apex" [CO:curators]
-synonym: "FrSepApx" EXACT []
+synonym: "FrSepApx" EXACT [CO:curators]
 is_a: TO:0000864 ! sepal morphology trait
 
 [Term]
 id: CO_331:0000335
 name: sweetpotato sepal pubescence trait
 def: "Degree of hairiness registered in the sepals" [CO:curators]
-synonym: "FrSepPub" EXACT []
+synonym: "FrSepPub" EXACT [CO:curators]
 is_a: TO:0000864 ! sepal morphology trait
 
 [Term]
 id: CO_331:0000336
 name: sweetpotato sepal color trait
 def: "Anthocyanin (purple) pigmentation present in the sepal" [CO:curators]
-synonym: "FrSepCol" EXACT []
+synonym: "FrSepCol" EXACT [CO:curators]
 is_a: TO:0000573 ! sepal color
 
 [Term]
 id: CO_331:0000337
 name: sweetpotato color of stigma trait
 def: "Color of stigma" [CO:curators]
-synonym: "FrStgCol" EXACT []
+synonym: "FrStgCol" EXACT [CO:curators]
 is_a: TO:0000185 ! stigma color
 
 [Term]
 id: CO_331:0000338
 name: sweetpotato color of style trait
 def: "Color of style" [CO:curators]
-synonym: "FrStyCol" EXACT []
+synonym: "FrStyCol" EXACT [CO:curators]
 is_a: TO:0000676 ! style color
 
 [Term]
 id: CO_331:0000339
 name: sweetpotato stigma exertion trait
 def: "The relative position of the stigma as compared to the highest anther." [CO:curators]
-synonym: "FrStgExt" EXACT []
+synonym: "FrStgExt" EXACT [CO:curators]
 is_a: TO:0000499 ! flower morphology trait
 
 [Term]
 id: CO_331:0000340
 name: sweetpotato seed capsule set trait
 def: "Seed capsule set" [CO:curators]
-synonym: "FrSdCp" EXACT []
+synonym: "FrSdCp" EXACT [CO:curators]
 is_a: TO:0000852 ! fruit set trait
 
 [Term]
 id: CO_331:0000341
 name: sweetpotato storage root formation trait
 def: "Arrangement of the storage roots on the underground stems." [CO:curators]
-synonym: "RtFrm" EXACT []
-is_a: TO:1000007 ! tuberous root tuber morphology trait
+synonym: "RtFrm" EXACT [CO:curators]
+is_a: TO:0000656 ! root development trait
 
 [Term]
 id: CO_331:0000342
 name: sweetpotato storage root stalk trait
 def: "Length of stalk joining the storage roots to the stems" [CO:curators]
-synonym: "RtStk" EXACT []
+synonym: "RtStk" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000343
 name: sweetpotato variability of storage root shape trait
 def: "Variability of storage root shape" [CO:curators]
-synonym: "RtShV" EXACT []
+synonym: "RtShV" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000344
 name: sweetpotato variability of storage root size trait
 def: "Variability of storage root size" [CO:curators]
-synonym: "RtSzV" EXACT []
+synonym: "RtSzV" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000345
 name: sweetpotato keeping quality of storage roots trait
 def: "Keeping quality of storage roots" [CO:curators]
-synonym: "RtKQl" EXACT []
+synonym: "RtKQl" EXACT [CO:curators]
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_331:0000346
 name: sweetpotato consistency of boiled storage root trait
 def: "Consistency of boiled storage root" [CO:curators]
-synonym: "RtBlCu" EXACT []
+synonym: "RtBlCu" EXACT [CO:curators]
 is_a:  TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000347
 name: sweetpotato undesirable color of boiled storage root trait
 def: "Undesirable color of boiled storage root" [CO:curators]
-synonym: "RtBlCd" EXACT []
+synonym: "RtBlCd" EXACT [CO:curators]
 is_a:  TO:0001069 ! cooking quality trait
 
 [Term]
 id: CO_331:0000348
 name: sweetpotato reaction to drought trait
 def: "Response to damage by water restriction." [CO:curators]
-synonym: "RnDrt" EXACT []
+synonym: "RnDrt" EXACT [CO:curators]
 is_a: TO:0000276 ! drought tolerance
 
 [Term]
 id: CO_331:0000349
 name: sweetpotato reaction to flooding trait
 def: "Response of plant to inundation by water of all or part of the plant" [CO:curators]
-synonym: "RnFld" EXACT []
-synonym: "waterlogging response" EXACT []
+synonym: "RnFld" EXACT [CO:curators]
+synonym: "waterlogging response" EXACT [CO:curators]
 is_a: TO:0000114 ! flooding related trait
 
 [Term]
 id: CO_331:0000350
 name: sweetpotato reaction to heat trait
 def: "Response of a plant or plant part to damage by higher than normal temperatures" [CO:curators]
-synonym: "RnHeat" EXACT []
+synonym: "RnHeat" EXACT [CO:curators]
 is_a: TO:0000259 ! heat tolerance
 
 [Term]
 id: CO_331:0000351
 name: sweetpotato reaction to salinity trait
 def: "Response of a plant to damage by high concentration salt" [CO:curators]
-synonym: "RnSlt" EXACT []
+synonym: "RnSlt" EXACT [CO:curators]
 is_a: TO:0006001 ! salt tolerance
 
 [Term]
 id: CO_331:0000352
 name: sweetpotato reaction to shade trait
 def: "Response of plant to damage by shade" [CO:curators]
-synonym: "RnShd" EXACT []
+synonym: "RnShd" EXACT [CO:curators]
 is_a: TO:0000075 ! light sensitivity
 
 [Term]
 id: CO_331:0000353
 name: sweetpotato reaction to soil trait
 def: "Response of plant to damage by pH soil" [CO:curators]
-synonym: "RnSph" EXACT []
+synonym: "RnSph" EXACT [CO:curators]
 is_a: TO:0000254 ! growth media pH sensitivity
 
 [Term]
 id: CO_331:0000354
 name: sweetpotato reaction to high soil temperature trait
 def: "Response of a plant to damage by high concentration salt" [CO:curators]
-synonym: "RnSTp" EXACT []
+synonym: "RnSTp" EXACT [CO:curators]
 is_a: TO:0000259 ! heat tolerance
 
 [Term]
 id: CO_331:0000355
-name: sweetpotato reaction to west indian sweet potato weevil trait
+name: sweetpotato reaction to West Indian sweetpotato weevil trait
 def: "Reaction to West Indian sweet potato weevil" [CO:curators]
-synonym: "RnWISPW" EXACT []
+synonym: "RnWISPW" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000356
-name: sweetpotato reaction to striped sweet potato weevil trait
+name: sweetpotato reaction to striped sweetpotato weevil trait
 def: "The reaction of the plant or plant part to damage caused by Striped sweet potato weevil" [CO:curators]
-synonym: "RnSSPW" EXACT []
+synonym: "RnSSPW" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000357
-name: sweetpotato reaction to sweet potato wire worms trait
+name: sweetpotato reaction to sweetpotato wire worms trait
 def: "Reaction to Sweet potato wire worms" [CO:curators]
-synonym: "RnSPWW" EXACT []
+synonym: "RnSPWW" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000358
 name: sweetpotato reaction to wire worms trait
 def: "Reaction to Wire worms" [CO:curators]
-synonym: "RnWW" EXACT []
+synonym: "RnWW" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000359
 name: sweetpotato reaction to sweet potato flea beetles trait
 def: "Reaction to Sweet potato flea beetles" [CO:curators]
-synonym: "RnSPFB" EXACT []
+synonym: "RnSPFB" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000360
 name: sweetpotato reaction to flea beetles trait
 def: "Reaction to flea beetles" [CO:curators]
-synonym: "RnFB" EXACT []
+synonym: "RnFB" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000361
 name: sweetpotato reaction to sweet potato leaf beetles trait
 def: "Reaction to Sweet potato leaf beetles" [CO:curators]
-synonym: "RnSPLB" EXACT []
+synonym: "RnSPLB" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000362
 name: sweetpotato reaction to beetles trait
 def: "Reaction to Beetles" [CO:curators]
-synonym: "RnBTL" EXACT []
+synonym: "RnBTL" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000363
 name: sweetpotato reaction to grubworm trait
 def: "The reaction of the root to damage caused by Grub worm" [CO:curators]
-synonym: "RnGrbW" EXACT []
+synonym: "RnGrbW" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000364
 name: sweetpotato reaction to hornworm trait
 def: "The reaction of the root to damage caused by Hornworm" [CO:curators]
-synonym: "RnHrnw" EXACT []
+synonym: "RnHrnw" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000365
 name: sweetpotato reaction to aphids trait
 def: "The reaction of the plant or plant part to damage caused by Aphis" [CO:curators]
-synonym: "RnAph" EXACT []
+synonym: "RnAph" EXACT [CO:curators]
 is_a: TO:0006067 ! aphid resistance
 
 [Term]
 id: CO_331:0000366
 name: sweetpotato reaction to sweet potato white fly trait
 def: "The reaction of the plant or plant part to damage caused by Sweet potato white fly" [CO:curators]
-synonym: "RnSPWF" EXACT []
+synonym: "RnSPWF" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000367
 name: sweetpotato reaction to sweet potato moth trait
 def: "Reaction to Sweet potato moth" [CO:curators]
-synonym: "RnSPMth" EXACT []
+synonym: "RnSPMth" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_331:0000368
 name: sweetpotato reaction to moth trait
 def: "Reaction to Moth" [CO:curators]
-synonym: "RnMth" EXACT []
+synonym: "RnMth" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_331:0000369
 name: sweetpotato reaction to sweet potato stem borer trait
 def: "Reaction to Sweet potato stem borer (Omphisa anastomosalis)." [CO:curators]
-synonym: "RnSPSB" EXACT []
+synonym: "RnSPSB" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_331:0000370
 name: sweetpotato reaction to other insects trait
-def: "Reaction to Other insects" [CO:curators]
-synonym: "RnIns" EXACT []
+def: "Reaction to other insects" [CO:curators]
+synonym: "RnIns" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage response
 
 [Term]
 id: CO_331:0000371
 name: sweetpotato reaction to reniform nematode trait
 def: "Reaction to Reniform nematode" [CO:curators]
-synonym: "RnRFN" EXACT []
+synonym: "RnRFN" EXACT [CO:curators]
 is_a: TO:0000384 ! nematode damage response
 
 [Term]
 id: CO_331:0000372
 name: sweetpotato reaction to sting nematode trait
 def: "Reaction to Sting nematode" [CO:curators]
-synonym: "RnStN" EXACT []
+synonym: "RnStN" EXACT [CO:curators]
 is_a: TO:0000384 ! nematode damage response
 
 [Term]
 id: CO_331:0000373
 name: sweetpotato reaction to brown ring rot trait
 def: "Reaction to Brown ring rot" [CO:curators]
-synonym: "RnBRR" EXACT []
+synonym: "RnBRR" EXACT [CO:curators]
 is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_331:0000374
 name: sweetpotato reaction to root lesion nematode trait
-def: "Reaction to Root lesion nematode" [CO:curators]
-synonym: "RnRLN" EXACT []
+def: "Reaction to root lesion nematode" [CO:curators]
+synonym: "RnRLN" EXACT [CO:curators]
 is_a: TO:0000384 ! nematode damage response
 
 [Term]
 id: CO_331:0000375
 name: sweetpotato reaction to other nematodes trait
 def: "Reaction to other nematodes" [CO:curators]
-synonym: "RnON" EXACT []
+synonym: "RnON" EXACT [CO:curators]
 is_a: TO:0000384 ! nematode damage response
 
 [Term]
 id: CO_331:0000376
 name: sweetpotato reaction to wilt rot trait
 def: "Reaction to Wilt rot" [CO:curators]
-synonym: "RnWR" EXACT []
+synonym: "RnWR" EXACT [CO:curators]
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_331:0000377
 name: sweetpotato reaction to fusarium surface rot trait
 def: "Reaction to Fusarium surface rot (Fusarium oxysporum)." [CO:curators, NCBITaxon:5507]
-synonym: "RnFRS" EXACT []
+synonym: "RnFRS" EXACT [CO:curators]
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000378
 name: sweetpotato reaction to fusarium root rot trait
 def: "Reaction to Fusarium root rot (Fusarium solani)." [CO:curators, NCBITaxon:169388]
-synonym: "RnFRR" EXACT []
+synonym: "RnFRR" EXACT [CO:curators]
 is_a: TO:0001147 ! Fusarium solani disease response
 
 [Term]
 id: CO_331:0000379
 name: sweetpotato reaction to sclerotial blight and circular spot trait
-def: "Reaction to Sclerotial blight and circular spot (Sclerotium rolfsii, Agroathelia rolfsii)" [CO:curators, TO:0001146]
-synonym: "RnSBC" EXACT []
+def: "Reaction to Sclerotial blight and circular spot (Sclerotium rolfsii, Agroathelia rolfsii)" [CO:curators]
+synonym: "RnSBC" EXACT [CO:curators]
 is_a: TO:0001146 ! Basidiomycete fungal disease response
 
 [Term]
 id: CO_331:0000380
 name: sweetpotato reaction to black rot trait
-def: "Reaction to Black rot (Ceratocystis fimbriata)." [CO:curators, NCBITaxon:5158]
-synonym: "RnBR" EXACT []
+def: "Reaction to black rot (Ceratocystis fimbriata)." [CO:curators, NCBITaxon:5158]
+synonym: "RnBR" EXACT [CO:curators]
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000381
 name: sweetpotato reaction to scurf trait
-def: "Reaction to Scurf (Monilochaetes infuscans)." [CO:curators, TO:0001145]
-synonym: "RnScrf" EXACT []
+def: "Reaction to Scurf (Monilochaetes infuscans)." [CO:curators, NCBITaxon:593267]
+synonym: "RnScrf" EXACT [CO:curators]
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000382
 name: sweetpotato reaction to soft rot trait
 def: "Reaction to Soft rot (Rhizopus oryzae, Rhizopus arrhizus)." [CO:curators, NCBITaxon:64495]
-synonym: "RnSR" EXACT []
+synonym: "RnSR" EXACT [CO:curators]
 is_a: TO:0000439 ! fungal disease response
 
 [Term]
 id: CO_331:0000383
 name: sweetpotato reaction to java black rot trait
 def: "Reaction to Java black rot (Lasiodiplodia theobromae)" [CO:curators, NCBITaxon:45133]
-synonym: "RnJBR" EXACT []
+synonym: "RnJBR" EXACT [CO:curators]
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000384
 name: sweetpotato reaction to diaporthe dry rot trait
 def: "Reaction to Diaporthe dry rot Diaporthe phaseolorum (syns. D. batatatis; Phomopsis phaseoli)." [CO:curators, NCBITaxon:36923]
-synonym: "RnDDR" EXACT []
+synonym: "RnDDR" EXACT [CO:curators]
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000385
 name: sweetpotato reaction to scab trait
 def: "Reaction to Scab" [CO:curators]
-synonym: "RnScb" EXACT []
+synonym: "RnScb" EXACT [CO:curators]
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000386
 name: sweetpotato reaction to leaf spot trait
 def: "Reaction to leaf spot" [CO:curators]
-synonym: "RnLS" EXACT []
+synonym: "RnLS" EXACT [CO:curators]
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_331:0000387
 name: sweetpotato reaction to white rust trait
 def: "Reaction to White rust (Albugo ipomoeae-panduratae)." [CO:curators, NCBITaxon:295094]
-synonym: "RnWR" EXACT []
+synonym: "RnWR" EXACT [CO:curators]
 is_a: TO:0001144 ! Oomycete disease response
 
 [Term]
 id: CO_331:0000388
 name: sweetpotato reaction to foot rot trait
 def: "Reaction to Foot rot (Plenodomus destruens, Diaporthe destruens)." [CO:curators, NCBITaxon:748119]
-synonym: "RnFR" EXACT []
+synonym: "RnFR" EXACT [CO:curators]
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000389
 name: sweetpotato reaction to charcoal rot trait
 def: "Reaction to Charcoal rot (Macrophomina phaseolina)." [CO:curators, NCBITaxon:35725]
-synonym: "RnCR" EXACT []
+synonym: "RnCR" EXACT [CO:curators]
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000390
 name: sweetpotato reaction to other fungi trait
 def: "Reaction to Other fungi" [CO:curators, NCBITaxon:4751]
-synonym: "RnOF" EXACT []
+synonym: "RnOF" EXACT [CO:curators]
 is_a: TO:0000439 ! fungal disease resistance
 
 [Term]
 id: CO_331:0000391
 name: sweetpotato reaction to pox or soil rot trait
 def: "Reaction to Pox or soil rot (Streptomyces ipomoeae)." [CO:curators, NCBITaxon:103232]
-synonym: "RnPSR" EXACT []
+synonym: "RnPSR" EXACT [CO:curators]
 is_a: TO:0000315 ! bacterial disease response
 
 [Term]
 id: CO_331:0000392
 name: sweetpotato reaction to bacterial stem and root rot trait
 def: "Reaction to Bacterial stem and root rot" [CO:curators]
-synonym: "RnBSRt" EXACT []
+synonym: "RnBSRt" EXACT [CO:curators]
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000393
 name: sweetpotato reaction to bacterial wilt trait
 def: "Reaction to Bacterial wilt" [CO:curators]
-synonym: "RnBW" EXACT []
+synonym: "RnBW" EXACT [CO:curators]
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000394
 name: sweetpotato reaction to other bacteria trait
 def: "Reaction to Other bacteria" [CO:curators]
-synonym: "RnOB" EXACT []
+synonym: "RnOB" EXACT [CO:curators]
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000395
 name: sweetpotato reaction to sweet potato feathery mottle virus (spmv) trait
 def: "Reaction to Sweet potato feathery mottle virus (SPMV)" [CO:curators]
-synonym: "RnSPMV" EXACT []
+synonym: "RnSPMV" EXACT [CO:curators]
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_331:0000396
 name: sweetpotato reaction to sweet potato mild mottle virus (spmmv) trait
 def: "Reaction to Sweet potato mild mottle virus (SPMMV)" [CO:curators]
-synonym: "RnSPMMV" EXACT []
+synonym: "RnSPMMV" EXACT [CO:curators]
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_331:0000397
 name: sweetpotato reaction to sweet potato vein mottle virus (spvmv) trait
 def: "Reaction to Sweet potato vein mottle virus (SPVMV)" [CO:curators]
-synonym: "RnSPVMV" EXACT []
+synonym: "RnSPVMV" EXACT [CO:curators]
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_331:0000398
 name: sweetpotato reaction to sweet potato virus disease complex (spvd complex) trait
 def: "Reaction to Sweet potato virus disease complex (SPVD complex)" [CO:curators]
-synonym: "RnSPVD" EXACT []
+synonym: "RnSPVD" EXACT [CO:curators]
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_331:0000399
 name: sweetpotato reaction to other virus trait
 def: "Reaction to Other virus" [CO:curators]
-synonym: "RnOV" EXACT []
+synonym: "RnOV" EXACT [CO:curators]
 is_a: TO:0000148 ! viral disease resistance
 
 [Term]
 id: CO_331:0000400
 name: sweetpotato reaction to witches broom trait
 def: "Reaction to Witches broom" [CO:curators]
-synonym: "RnWB" EXACT []
+synonym: "RnWB" EXACT [CO:curators]
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000401
 name: sweetpotato reaction to other mycoplasma trait
-def: "Reaction to Other mycoplasma" [CO:curators]
-synonym: "RnOM" EXACT []
+def: "Reaction to other mycoplasma" [CO:curators]
+synonym: "RnOM" EXACT [CO:curators]
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000402
 name: sweetpotato total sugar content trait
 def: "Total sugar content" [CO:curators]
-synonym: "RtTSgC" EXACT []
+synonym: "RtTSgC" EXACT [CO:curators]
 is_a: TO:0000333 ! sugar content
 
 [Term]
 id: CO_331:0000403
 name: sweetpotato appearance of plant trait
 def: "Appearance of plant" [CO:curators]
-synonym: "PtHbt" EXACT []
+synonym: "PtHbt" EXACT [CO:curators]
 is_a: TO:0000737 ! plant aspect
 
 [Term]
 id: CO_331:0000404
 name: sweetpotato appearance of flower trait
 def: "Appearance of flower" [CO:curators]
-synonym: "FrCol" EXACT []
+synonym: "FrCol" EXACT [CO:curators]
 is_a: TO:0000499 ! flower morphology trait
 
 [Term]
 id: CO_331:0000405
 name: sweetpotato appearance of roots trait
 def: "Appearance of roots" [CO:curators]
-synonym: "RtCol" EXACT []
+synonym: "RtCol" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000406
 name: sweetpotato appearance of seeds trait
 def: "Appearance of seeds" [CO:curators]
-synonym: "FrSds" EXACT []
+synonym: "FrSds" EXACT [CO:curators]
 is_a: TO:0000184 ! seed morphology trait
 
 [Term]
 id: CO_331:0000407
 name: sweetpotato appearance of leaves trait
 def: "Appearance of leaves" [CO:curators]
-synonym: "Lf" EXACT []
+synonym: "Lf" EXACT [CO:curators]
 is_a:  TO:0000748 ! leaf morphology trait
 
 [Term]
 id: CO_331:0000408
 name: sweetpotato appearance of hearbarium trait
 def: "Appearance of hearbarium" [CO:curators]
-synonym: "PtHrb" EXACT []
+synonym: "PtHrb" EXACT [CO:curators]
 is_a: TO:0000737 ! plant aspect
 
 [Term]
 id: CO_331:0000409
-name: sweetpotato appearance of plant organs trait
-def: "Appearance of plant organs" [CO:curators]
-synonym: "PtOrg" EXACT []
+name: sweetpotato storage root shape uniformity trait
+def: "The shape uniformity of the storage root." [CO:curators]
+synonym: "RtShpU" EXACT [CO:curators]
 is_a: TO:0000736 ! plant organ morphology trait
 
 [Term]
 id: CO_331:0000410
 name: sweetpotato storage root stalk trait
 def: "Length of stalk joining the storage roots to the stems" [CO:curators]
-synonym: "RtStlk" EXACT []
+synonym: "RtStlk" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000411
 name: sweetpotato storage root attachment trait
 def: "Ability of storage roots to remain attached to stem after digging and forcible shaking roots off" [CO:curators]
-synonym: "RtAtt" EXACT []
+synonym: "RtAtt" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000412
 name: sweetpotato length to diameter ratio of roots trait
 def: "Ratio of the length of a storage root to its diameter of the average of all storage roots in a single plant or plot" [CO:curators]
-synonym: "RtLDR" EXACT []
+synonym: "RtLDR" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000413
 name: sweetpotato skin color of roots trait
 def: "The most representative skin color observed is recorded" [CO:curators]
-synonym: "RtSknCol" EXACT []
+synonym: "RtSknCol" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000414
 name: sweetpotato skin texture of roots trait
 def: "Storage root skin feel, appearance, or consistency by visual observation and touch" [CO:curators]
-synonym: "RtSknTxt" EXACT []
+synonym: "RtSknTxt" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000415
 name: sweetpotato flesh color (carotenoids) trait
 def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots" [CO:curators]
-synonym: "RtFlsColC" EXACT []
+synonym: "RtFlsColC" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000416
 name: sweetpotato flesh color (anthocyanins) trait
 def: "Observation of predominant Flesh color described from cross and longitudinal sections made about the middle of freshly harvested storage roots" [CO:curators]
-synonym: "RtFlsColA" EXACT []
+synonym: "RtFlsColA" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000417
 name: sweetpotato deep of eyes of roots trait
 def: "Observation of how deep or shallow predominant eyes or adventitious buds are at the storage root skin interface" [CO:curators]
-synonym: "RtAdvB" EXACT []
+synonym: "RtAdvB" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
 id: CO_331:0000418
 name: sweetpotato number of lenticels trait
 def: "Overall assessment of visible lenticels at the storage root interface" [CO:curators]
-synonym: "RtLtcl" EXACT []
+synonym: "RtLtcl" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
  
 [Term]
 id: CO_331:0000419
 name: sweetpotato reaction to streptomyces soil rot trait
 def: "Streptomyces ipomoeae symptom evaluation" [CO:curators]
-synonym: "RnPSR" EXACT []
+synonym: "RnPSR" EXACT [CO:curators]
 is_a: TO:0000315 ! bacterial disease resistance
 
 [Term]
 id: CO_331:0000420
 name: sweetpotato reaction to root knot nematode meloidogyne spp trait
 def: "Reaction to Root-knot nematode Meloidogyne spp. symptom evaluation" [CO:curators]
-synonym: "RnMgRKN" EXACT []
+synonym: "RnMgRKN" EXACT [CO:curators]
 is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_331:0000421
 name: sweetpotato reaction to root knot nematode meloidogyne incognita trait
 def: "Reaction to Root-knot nematode Meloidogyne incognita symptom evaluation" [CO:curators]
-synonym: "RnMgIRKN" EXACT []
+synonym: "RnMgIRKN" EXACT [CO:curators]
 is_a: TO:0000384 ! nematode damage resistance
 
 [Term]
 id: CO_331:0000422
 name: sweetpotato reaction to fusarium oxysporum trait
 def: "Reaction to Fusarium oxysporum batatas symptom evaluation (Fusarium oxysporum f. sp. batatas)" [CO:curators, NCBITaxon:61364]
-synonym: "RnFR" EXACT []
+synonym: "RnFR" EXACT [CO:curators]
 is_a: TO:0001145 ! Ascomycete fungal disease response
 
 [Term]
 id: CO_331:0000423
 name: sweetpotato storage root defects trait
 def: "Type and/or name of visible storage root defect" [CO:curators]
-synonym: "RtDam" EXACT []
+synonym: "RtDam" EXACT [CO:curators]
 is_a: TO:0001042 ! root quality trait
 
 [Term]
 id: CO_331:0000424
 name: sweetpotato relative storage root yield trait
 def: "Overall visual assessment of storage root yield" [CO:curators]
-synonym: "RtYldR" EXACT []
+synonym: "RtYldR" EXACT [CO:curators]
 is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000425
 name: sweetpotato storage root yield relative to check trait
 def: "Overall calculation of relative root yield" [CO:curators]
-synonym: "RtYldChk" EXACT []
+synonym: "RtYldChk" EXACT [CO:curators]
 is_a: TO:0001041 ! root yield
 
 [Term]
 id: CO_331:0000426
 name: sweetpotato storage root appearance trait
 def: "Overall visual assessment of storage root yield appearance" [CO:curators]
-synonym: "RtApr" EXACT []
+synonym: "RtApr" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
-
-[Term]
-id: CO_331:0000427
-name: sweetpotato growing season
-def: "Overall visual assessment of storage root size relative to harvest date and/or total growing season" [CO:curators]
-synonym: "PtMtSs" EXACT []
 
 [Term]
 id: CO_331:0000428
 name: sweetpotato amylose content trait
 def: "Amylose content in sweetpotato" [CO:curators]
-synonym: "RtFlsAmy" EXACT []
+synonym: "RtFlsAmy" EXACT [CO:curators]
 is_a: TO:0000196 ! amylose content
 
 [Term]
 id: CO_331:0000429
 name: sweetpotato asparagine content trait
 def: "peonidin content of purple flesh sweetpotato" [CO:curators]
-synonym: "RtFlsAsp" EXACT []
+synonym: "RtFlsAsp" EXACT [CO:curators]
 is_a: TO:0002673 ! amino acid content
 
 [Term]
 id: CO_331:0000430
 name: sweetpotato cyanidin content trait
 def: "Cyanidin content, it is a pigment found in the purple flesh sweetpotato (PFSP)." [CO:curators]
-synonym: "RtFlsCya" EXACT []
+synonym: "RtFlsCya" EXACT [CO:curators]
 is_a: TO:0000494 ! pigment content trait
 
 [Term]
 id: CO_331:0000431
 name: sweetpotato total monomeric anthocyanin content trait
 def: "Total Monomeric Anthocyanins content of purple flesh sweetpotato" [CO:curators]
-synonym: "RtFlsAntM" EXACT []
+synonym: "RtFlsAntM" EXACT [CO:curators]
 is_a: TO:0000071 ! anthocyanin content
 
 [Term]
 id: CO_331:0000432
 name: sweetpotato peonidin content trait
 def: "Peonidin content of purple flesh sweetpotato" [CO:curators]
-synonym: "RtFlsPeo" EXACT []
+synonym: "RtFlsPeo" EXACT [CO:curators]
 is_a: TO:0000071 ! anthocyanin content
 
 [Term]
 id: CO_331:0000433
 name: sweetpotato anthocyanin content trait
 def: "Anthocyanin content of purple flesh sweetpotato" [CO:curators]
-synonym: "RtFlsAnt" EXACT []
+synonym: "RtFlsAnt" EXACT [CO:curators]
 is_a: TO:0000071 ! anthocyanin content
 
 [Term]
 id: CO_331:0000434
 name: sweetpotato phenol content trait
 def: "Phenol content of purple flesh sweetpotato" [CO:curators]
-synonym: "RtFlsPhe" EXACT []
+synonym: "RtFlsPhe" EXACT [CO:curators]
 is_a: TO:0020076 ! phenolic compound content
 
 [Term]
 id: CO_331:0000435
 name: sweetpotato nodes per vine trait
 def: "Nodes per vine" [CO:curators]
-synonym: "VnNds" EXACT []
+synonym: "VnNds" EXACT [CO:curators]
 is_a: TO:0000634 ! stem node number
 
 [Term]
 id: CO_331:0000436
 name: sweetpotato leaves per plant trait
 def: "Leaves per plant" [CO:curators]
-synonym: "PtLvs" EXACT []
+synonym: "PtLvs" EXACT [CO:curators]
 is_a: TO:0000241 ! leaf number
 
 [Term]
 id: CO_331:0000437
 name: sweetpotato color of leave trait
 def: "Color of leave" [CO:curators]
-synonym: "LfCol" EXACT []
+synonym: "LfCol" EXACT [CO:curators]
 is_a: TO:0000326 ! leaf color
 
 [Term]
 id: CO_331:0000438
 name: sweetpotato millipede damage trait
 def: "Observation of damage caused by Millipede in roots" [CO:curators]
-synonym: "RtMillDam" EXACT []
+synonym: "RtMillDam" EXACT [CO:curators]
 is_a: TO:0000054 ! animal damage resistance
 
 [Term]
 id: CO_331:0000439
 name: sweetpotato alcidodes sp. damage trait
 def: "Observation of damage caused by Alcidodes sp, causes crown enlargement/galling or death by girdling" [CO:curators]
-synonym: "RtAlcDam" EXACT []
+synonym: "RtAlcDam" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000440
 name: sweetpotato soil insect damage trait
 def: "Observation of damage caused by soil insect" [CO:curators]
-synonym: "RtSInsDam" EXACT []
+synonym: "RtSInsDam" EXACT [CO:curators]
 is_a: TO:0000261 ! insect damage resistance
 
 [Term]
 id: CO_331:0000441
 name: sweetpotato storage root shape (secondary) trait
 def: "Storage Root Shape described from latitudinal sections made about the middle of freshly harvested storage roots" [CO:curators]
-synonym: "RtShpS" EXACT []
+synonym: "RtShpS" EXACT [CO:curators]
 is_a: TO:1000007 ! tuberous root tuber morphology trait
 
 [Term]
@@ -3425,20 +3350,9 @@ name: sweetpotato observation of an average or all storage roots within a single
 relationship: method_of CO_331:0000424 ! sweetpotato relative storage root yield trait
 
 [Term]
-id: CO_331:0000544
-name: method of co_331:0000425
-is_a: CO:331
-relationship: method_of CO_331:0000425 ! sweetpotato storage root yield relative to check trait
-
-[Term]
 id: CO_331:0000545
 name: sweetpotato observation of an average or all storage roots within a single plant or plot method
 relationship: method_of CO_331:0000426 ! sweetpotato storage root appearance trait
-
-[Term]
-id: CO_331:0000546
-name: sweetpotato observation of an average or all storage roots within a single plant or plot method
-relationship: method_of CO_331:0000427 ! sweetpotato growing season trait
 
 [Term]
 id: CO_331:0000547
@@ -3716,43 +3630,63 @@ relationship: scale_of CO_331:0000482 ! sweetpotato visual estimation of the pla
 
 [Term]
 id: CO_331:0000601
-name: sweetpotato rcspmth 5 pt. scale
-relationship: scale_of CO_331:0000483 ! sweetpotato visual estimation of the plant response to sweet potato moth method
+name: sweetpotato weight of total storage roots trait
+def: "The weight of total US no. 1 storage roots" [CO:curators]
+synonym: "RtUS1W" EXACT [CO:curators]
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000602
-name: sweetpotato rcmth 5 pt. scale
-relationship: scale_of CO_331:0000484 ! sweetpotato visual estimation of the plant response to moth method
+name: sweetpotato weight of canner storage roots trait
+def: "The weight of canner storage roots" [CO:curators]
+synonym: "RtCanW" EXACT [CO:curators]
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000603
-name: sweetpotato rcspsb 5 pt. scale
-relationship: scale_of CO_331:0000485 ! sweetpotato visual estimation of the plant response to sweet potato stem borer method
+name: sweetpotato weight of jumbo storage roots trait
+def: "The roots that exceed the diameter, length and weight requirements of US. No 1 and canner storage roots, but are of marketable quality" 
+synonym: "RtJumW" EXACT [CO:curators]
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000604
-name: sweetpotato rcins 5 pt. scale
-relationship: scale_of CO_331:0000486 ! sweetpotato visual estimation of the plant response to other insects method
+name: sweetpotato weight of cull storage roots trait
+def: "The roots must be 1 or larger in diameter and so misshapen or unattractive that they can not fit as marketable roots in the no. 1, Canner, or Jumbo grades" [CO:curators]
+synonym: "RtCulW" EXACT [CO:curators]
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000605
-name: sweetpotato rcrfn 5 pt. scale
-relationship: scale_of CO_331:0000487 ! sweetpotato visual estimation of the root response to reniform nematode method
+name: sweetpotato weight of 90 count us no. 1 storage roots trait
+
+def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 5.0 - 9.4 oz. Should take roughly 90 to fill a 40lb box." [CO:curators]
+synonym: "Rt90ctW" EXACT [CO:curators]
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000606
-name: sweetpotato rcstn 5 pt. scale
-relationship: scale_of CO_331:0000488 ! sweetpotato visual estimation of the root response to sting nematode method
+name: sweetpotato weight of 55 count us no. 1 storage roots trait
+
+def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 9.5 - 14 oz. Should take roughly 55 to fill a 40lb box" [CO:curators]
+synonym: "Rt55ctW" EXACT [CO:curators]
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000607
-name: sweetpotato rcbrr 5 pt. scale
-relationship: scale_of CO_331:0000489 ! sweetpotato visual estimation of the root response to brown ring rot method
+name: sweetpotato weight of 40 count us no. 1 storage roots trait
+
+def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 14.1 - 18 oz. Should take roughly 40 to fill a 40lb box" [CO:curators]
+synonym: "Rt40ctW" EXACT [CO:curators]
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000608
-name: sweetpotato rcrln 5 pt. scale
-relationship: scale_of CO_331:0000490 ! sweetpotato visual estimation of the root response to nematode method
+name: weight of 32 count us no. 1 storage roots trait
+
+def: "The roots 2 to 3 1/2 diameter, length of 3 to 9, must be well shaped and free of defects that weigh between 18.1 - 22 oz. Should take roughly 32 to fill a 40lb box" [CO:curators]
+synonym: "Rt32ctW" EXACT [CO:curators]
+is_a: TO:0003009 ! tuberous root tuber weight
 
 [Term]
 id: CO_331:0000609
@@ -3950,7 +3884,6 @@ relationship: scale_of CO_331:0000530 ! sweetpotato observation of an average or
 id: CO_331:0000649
 name: sweetpotato scale_of co_331:0000531 scale
 relationship: scale_of CO_331:0000531 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-relationship: scale_of CO_331:0000544 ! method of co_331:0000425
 
 [Term]
 id: CO_331:0000650
@@ -4018,11 +3951,6 @@ name: sweetpotato rtapr 9 pt. scale
 relationship: scale_of CO_331:0000545 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
 
 [Term]
-id: CO_331:0000664
-name: sweetpotato ptmtss 5 pt. scale
-relationship: scale_of CO_331:0000546 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-
-[Term]
 id: CO_331:0000665
 name: sweetpotato g/100 g fw scale
 relationship: scale_of CO_331:0000547 ! sweetpotato amylose - method
@@ -4068,27 +3996,9 @@ name: sweetpotato rtsinsdam 5 pt. scale
 relationship: scale_of CO_331:0000559 ! sweetpotato soils insect evaluation method
 
 [Term]
-id: CO_331:0000678
-name: sweetpotato pltpld_ct_plplot variable
-synonym: "NOPS" EXACT []
-is_a: CO_331:0000303 ! sweetpotato number of plants planted trait
-relationship: variable_of CO_331:0000190 ! sweetpotato evaluation of plant vine establishment method
-relationship: variable_of CO_331:0000191 ! sweetpotato plants/plot scale
-relationship: variable_of CO_331:0000303 ! sweetpotato number of plants planted trait
-
-[Term]
-id: CO_331:0000679
-name: sweetpotato pthrv_ct_plplot variable
-synonym: "NOPH" EXACT []
-is_a: CO_331:0000304 ! sweetpotato number of plants harvested trait
-relationship: variable_of CO_331:0000191 ! sweetpotato plants/plot scale
-relationship: variable_of CO_331:0000304 ! sweetpotato number of plants harvested trait
-relationship: variable_of CO_331:0000305 ! sweetpotato evaluation of plants method
-
-[Term]
 id: CO_331:0000680
 name: sweetpotato rtacrw_cp_g variable
-synonym: "ACRW" EXACT []
+synonym: "ACRW" EXACT [CO:curators]
 is_a: CO_331:0000308 ! sweetpotato average commercial root weight trait
 relationship: variable_of CO_331:0000308 ! sweetpotato average commercial root weight trait
 relationship: variable_of CO_331:0000314 ! sweetpotato estimated marketable yield per hectare - method
@@ -4097,7 +4007,7 @@ relationship: variable_of CO_331:0000319 ! sweetpotato t/ha scale
 [Term]
 id: CO_331:0000681
 name: sweetpotato rtypp_cp_kpl variable
-synonym: "YPP" EXACT []
+synonym: "YPP" EXACT [CO:curators]
 is_a: CO_331:0000309 ! sweetpotato yield of total roots trait
 relationship: variable_of CO_331:0000309 ! sweetpotato yield of total roots trait
 relationship: variable_of CO_331:0000315 ! sweetpotato estimated yield of total roots per hectare - method
@@ -4106,7 +4016,7 @@ relationship: variable_of CO_331:0000319 ! sweetpotato t/ha scale
 [Term]
 id: CO_331:0000682
 name: sweetpotato rtci_cp_pct variable
-synonym: "CI" EXACT []
+synonym: "CI" EXACT [CO:curators]
 is_a: CO_331:0000310 ! sweetpotato percentage of marketable roots trait
 relationship: variable_of CO_331:0000310 ! sweetpotato percentage of marketable roots trait
 relationship: variable_of CO_331:0000316 ! sweetpotato percentage of marketable - method
@@ -4115,25 +4025,23 @@ relationship: variable_of CO_331:0000322 ! sweetpotato % scale
 [Term]
 id: CO_331:0000683
 name: sweetpotato bioyld_cp variable
-synonym: "BIOM" EXACT []
+synonym: "BIOM" EXACT [CO:curators]
 is_a: CO_331:0000311 ! sweetpotato biomass yield trait
 relationship: variable_of CO_331:0000311 ! sweetpotato biomass yield trait
-relationship: variable_of CO_331:0000317 ! method of co_331:0000311
 relationship: variable_of CO_331:0000319 ! sweetpotato t/ha scale
 
 [Term]
 id: CO_331:0000684
 name: sweetpotato vnfolyld_cp_tha variable
-synonym: "FYTHA" EXACT []
+synonym: "FYTHA" EXACT [CO:curators]
 is_a: CO_331:0000312 ! sweetpotato foliage total yield trait
 relationship: variable_of CO_331:0000312 ! sweetpotato foliage total yield trait
-relationship: variable_of CO_331:0000318 ! method of co_331:0000312
 relationship: variable_of CO_331:0000319 ! sweetpotato t/ha scale
 
 [Term]
 id: CO_331:0000685
 name: sweetpotato rtflsfe_ms_mgkgdw variable
-synonym: "FeDW" EXACT []
+synonym: "FeDW" EXACT [CO:curators]
 is_a: CO_331:0000103 ! sweetpotato iron content trait
 relationship: variable_of CO_331:0000103 ! sweetpotato iron content trait
 relationship: variable_of CO_331:0000104 ! sweetpotato content of iron in dry weight basis - method
@@ -4142,7 +4050,7 @@ relationship: variable_of CO_331:0000808 ! sweetpotato mg/kg scale
 [Term]
 id: CO_331:0000686
 name: sweetpotato rtflszn_ms_mgkgdw variable
-synonym: "FeDW" EXACT []
+synonym: "FeDW" EXACT [CO:curators]
 is_a: CO_331:0000106 ! sweetpotato zinc content trait
 relationship: variable_of CO_331:0000106 ! sweetpotato zinc content trait
 relationship: variable_of CO_331:0000107 ! sweetpotato content of zinc in dry weight basis - method
@@ -4151,7 +4059,7 @@ relationship: variable_of CO_331:0000808 ! sweetpotato mg/kg scale
 [Term]
 id: CO_331:0000687
 name: sweetpotato rtflsca_ms_mgkgdw variable
-synonym: "CaDW" EXACT []
+synonym: "CaDW" EXACT [CO:curators]
 is_a: CO_331:0000281 ! sweetpotato calcium content trait
 relationship: variable_of CO_331:0000281 ! sweetpotato calcium content trait
 relationship: variable_of CO_331:0000282 ! sweetpotato content of calcium in dry weight basis - method
@@ -4160,7 +4068,7 @@ relationship: variable_of CO_331:0000808 ! sweetpotato mg/kg scale
 [Term]
 id: CO_331:0000688
 name: sweetpotato rtflsmg_ms_mgkgdw variable
-synonym: "MgDW" EXACT []
+synonym: "MgDW" EXACT [CO:curators]
 is_a: CO_331:0000285 ! sweetpotato magnesium content trait
 relationship: variable_of CO_331:0000285 ! sweetpotato magnesium content trait
 relationship: variable_of CO_331:0000286 ! sweetpotato content of magnesium in dry weight basis - method
@@ -4169,7 +4077,7 @@ relationship: variable_of CO_331:0000808 ! sweetpotato mg/kg scale
 [Term]
 id: CO_331:0000689
 name: sweetpotato rtcb_et_0to3 variable
-synonym: "COLBR" EXACT []
+synonym: "COLBR" EXACT [CO:curators]
 is_a: CO_331:0000133 ! sweetpotato color of boiled roots trait
 relationship: variable_of CO_331:0000133 ! sweetpotato color of boiled roots trait
 relationship: variable_of CO_331:0000134 ! sweetpotato estimation of color of cooked roots immediately after cooking method
@@ -4178,7 +4086,7 @@ relationship: variable_of CO_331:0000135 ! sweetpotato rtscb 3 pt. scale
 [Term]
 id: CO_331:0000690
 name: sweetpotato rtsdef_et_1to9 variable
-synonym: "RTSUR" EXACT []
+synonym: "RTSUR" EXACT [CO:curators]
 is_a: CO_331:0000326 ! sweetpotato storage root surface defects trait
 relationship: variable_of CO_331:0000326 ! sweetpotato storage root surface defects trait
 relationship: variable_of CO_331:0000442 ! sweetpotato observation of storage root surface defects method
@@ -4187,7 +4095,7 @@ relationship: variable_of CO_331:0000560 ! sweetpotato rtssdef 9 pt. scale
 [Term]
 id: CO_331:0000691
 name: sweetpotato rtcthk_et_1to9 variable
-synonym: "RTCOR" EXACT []
+synonym: "RTCOR" EXACT [CO:curators]
 is_a: CO_331:0000327 ! sweetpotato storage root cortex thickness trait
 relationship: variable_of CO_331:0000327 ! sweetpotato storage root cortex thickness trait
 relationship: variable_of CO_331:0000443 ! sweetpotato observation of storage root cortex thickness method
@@ -4196,7 +4104,7 @@ relationship: variable_of CO_331:0000561 ! sweetpotato rtscthi 5 pt. scale
 [Term]
 id: CO_331:0000692
 name: sweetpotato frhab_et_0to7 variable
-synonym: "FLWHAB" EXACT []
+synonym: "FLWHAB" EXACT [CO:curators]
 is_a: CO_331:0000328 ! sweetpotato flowering habit trait
 relationship: variable_of CO_331:0000328 ! sweetpotato flowering habit trait
 relationship: variable_of CO_331:0000444 ! sweetpotato observation of number flowers in the inflorescence method
@@ -4205,7 +4113,7 @@ relationship: variable_of CO_331:0000562 ! sweetpotato flrhab 4 pt. scale
 [Term]
 id: CO_331:0000693
 name: sweetpotato frsiz_ms_cm variable
-synonym: "FLESIZ" EXACT []
+synonym: "FLESIZ" EXACT [CO:curators]
 is_a: CO_331:0000329 ! sweetpotato flower size trait
 relationship: variable_of CO_331:0000329 ! sweetpotato flower size trait
 relationship: variable_of CO_331:0000445 ! sweetpotato measurement of flower length and width in cm method
@@ -4214,7 +4122,7 @@ relationship: variable_of CO_331:0000563 ! sweetpotato cm scale
 [Term]
 id: CO_331:0000694
 name: sweetpotato frshl_et_3to7 variable
-synonym: "FLLMB" EXACT []
+synonym: "FLLMB" EXACT [CO:curators]
 is_a: CO_331:0000330 ! sweetpotato shape of limb trait
 relationship: variable_of CO_331:0000330 ! sweetpotato shape of limb trait
 relationship: variable_of CO_331:0000446 ! sweetpotato observation of shape limb in the flowers in the inflorescence method
@@ -4223,7 +4131,7 @@ relationship: variable_of CO_331:0000564 ! sweetpotato flrshl 3 pt. scale
 [Term]
 id: CO_331:0000695
 name: sweetpotato frsepeql_et_1to2 variable
-synonym: "SEPLEQ" EXACT []
+synonym: "SEPLEQ" EXACT [CO:curators]
 is_a: CO_331:0000331 ! sweetpotato equality of sepal length trait
 relationship: variable_of CO_331:0000331 ! sweetpotato equality of sepal length trait
 relationship: variable_of CO_331:0000447 ! sweetpotato equality of sepal length method
@@ -4232,7 +4140,7 @@ relationship: variable_of CO_331:0000565 ! sweetpotato sepeql 2 pt. scale
 [Term]
 id: CO_331:0000696
 name: sweetpotato frsepnvn_ct_perspl variable
-synonym: "SEPVNM" EXACT []
+synonym: "SEPVNM" EXACT [CO:curators]
 is_a: CO_331:0000332 ! sweetpotato number of sepal veins trait
 relationship: variable_of CO_331:0000332 ! sweetpotato number of sepal veins trait
 relationship: variable_of CO_331:0000448 ! sweetpotato record the most frequent number in ten typical flowers method
@@ -4241,7 +4149,7 @@ relationship: variable_of CO_331:0000566 ! sweetpotato number scale
 [Term]
 id: CO_331:0000697
 name: sweetpotato frsepshp_et_1to9 variable
-synonym: "SEPSHP" EXACT []
+synonym: "SEPSHP" EXACT [CO:curators]
 is_a: CO_331:0000333 ! sweetpotato sepal shape trait
 relationship: variable_of CO_331:0000333 ! sweetpotato sepal shape trait
 relationship: variable_of CO_331:0000449 ! sweetpotato observation of sepal shape method
@@ -4250,7 +4158,7 @@ relationship: variable_of CO_331:0000567 ! sweetpotato sepshp 5 pt. scale
 [Term]
 id: CO_331:0000698
 name: sweetpotato frsepapx_et_1to7 variable
-synonym: "SEPAPX" EXACT []
+synonym: "SEPAPX" EXACT [CO:curators]
 is_a: CO_331:0000334 ! sweetpotato sepal apex trait
 relationship: variable_of CO_331:0000334 ! sweetpotato sepal apex trait
 relationship: variable_of CO_331:0000450 ! sweetpotato observation of sepal apex method
@@ -4259,7 +4167,7 @@ relationship: variable_of CO_331:0000568 ! sweetpotato sepapx 4 pt. scale
 [Term]
 id: CO_331:0000699
 name: sweetpotato frseppub_et_0to7 variable
-synonym: "SEPPUB" EXACT []
+synonym: "SEPPUB" EXACT [CO:curators]
 is_a: CO_331:0000335 ! sweetpotato sepal pubescence trait
 relationship: variable_of CO_331:0000335 ! sweetpotato sepal pubescence trait
 relationship: variable_of CO_331:0000451 ! sweetpotato observation of sepal pubescence method
@@ -4268,7 +4176,7 @@ relationship: variable_of CO_331:0000569 ! sweetpotato seppub 4 pt. scale
 [Term]
 id: CO_331:0000700
 name: sweetpotato frsepcol_et_3to7 variable
-synonym: "SEPCOL" EXACT []
+synonym: "SEPCOL" EXACT [CO:curators]
 is_a: CO_331:0000336 ! sweetpotato sepal color trait
 relationship: variable_of CO_331:0000336 ! sweetpotato sepal color trait
 relationship: variable_of CO_331:0000452 ! sweetpotato observation of sepal color method
@@ -4277,7 +4185,7 @@ relationship: variable_of CO_331:0000570 ! sweetpotato sepcol 7 pt. scale
 [Term]
 id: CO_331:0000701
 name: sweetpotato frstgcol_et_1to9 variable
-synonym: "STGCOL" EXACT []
+synonym: "STGCOL" EXACT [CO:curators]
 is_a: CO_331:0000337 ! sweetpotato color of stigma trait
 relationship: variable_of CO_331:0000337 ! sweetpotato color of stigma trait
 relationship: variable_of CO_331:0000453 ! sweetpotato observation of stigma color method
@@ -4286,7 +4194,7 @@ relationship: variable_of CO_331:0000571 ! sweetpotato stgcol 3 pt. scale
 [Term]
 id: CO_331:0000702
 name: sweetpotato frstycol_et_1to9 variable
-synonym: "STYCOL" EXACT []
+synonym: "STYCOL" EXACT [CO:curators]
 is_a: CO_331:0000338 ! sweetpotato color of style trait
 relationship: variable_of CO_331:0000338 ! sweetpotato color of style trait
 relationship: variable_of CO_331:0000454 ! sweetpotato observation of style color method
@@ -4295,7 +4203,7 @@ relationship: variable_of CO_331:0000572 ! sweetpotato stycol 5 pt. scale
 [Term]
 id: CO_331:0000703
 name: sweetpotato frstgext_et_1to7 variable
-synonym: "STGEXT" EXACT []
+synonym: "STGEXT" EXACT [CO:curators]
 is_a: CO_331:0000339 ! sweetpotato stigma exertion trait
 relationship: variable_of CO_331:0000339 ! sweetpotato stigma exertion trait
 relationship: variable_of CO_331:0000455 ! sweetpotato observation of stigma exertion method
@@ -4304,7 +4212,7 @@ relationship: variable_of CO_331:0000573 ! sweetpotato stgext 4 pt. scale
 [Term]
 id: CO_331:0000704
 name: sweetpotato frsdcp_et_0to7 variable
-synonym: "SEDCAP" EXACT []
+synonym: "SEDCAP" EXACT [CO:curators]
 is_a: CO_331:0000340 ! sweetpotato seed capsule set trait
 relationship: variable_of CO_331:0000340 ! sweetpotato seed capsule set trait
 relationship: variable_of CO_331:0000456 ! sweetpotato observation of seed capsule set method
@@ -4313,7 +4221,7 @@ relationship: variable_of CO_331:0000574 ! sweetpotato sedcap 5 pt. scale
 [Term]
 id: CO_331:0000705
 name: sweetpotato rtfrm_et_1to7 variable
-synonym: "RTFORM" EXACT []
+synonym: "RTFORM" EXACT [CO:curators]
 is_a: CO_331:0000341 ! sweetpotato storage root formation trait
 relationship: variable_of CO_331:0000341 ! sweetpotato storage root formation trait
 relationship: variable_of CO_331:0000457 ! sweetpotato observation of storage root formation method
@@ -4322,7 +4230,7 @@ relationship: variable_of CO_331:0000575 ! sweetpotato strfor 4 pt. scale
 [Term]
 id: CO_331:0000706
 name: sweetpotato rtstk_et_0to9 variable
-synonym: "RTSTFM" EXACT []
+synonym: "RTSTFM" EXACT [CO:curators]
 is_a: CO_331:0000342 ! sweetpotato storage root stalk trait
 relationship: variable_of CO_331:0000342 ! sweetpotato storage root stalk trait
 relationship: variable_of CO_331:0000458 ! sweetpotato observation of storage root stalk method
@@ -4331,7 +4239,7 @@ relationship: variable_of CO_331:0000576 ! sweetpotato strstk 6 pt. scale
 [Term]
 id: CO_331:0000707
 name: sweetpotato rtshv_et_3to7 variable
-synonym: "RTSHPV" EXACT []
+synonym: "RTSHPV" EXACT [CO:curators]
 is_a: CO_331:0000343 ! sweetpotato variability of storage root shape trait
 relationship: variable_of CO_331:0000343 ! sweetpotato variability of storage root shape trait
 relationship: variable_of CO_331:0000459 ! sweetpotato observation of variability of storage root shape method
@@ -4340,7 +4248,7 @@ relationship: variable_of CO_331:0000577 ! sweetpotato vrtssh 3 pt. scale
 [Term]
 id: CO_331:0000708
 name: sweetpotato rtszv_et_3to7 variable
-synonym: "RTSIZV" EXACT []
+synonym: "RTSIZV" EXACT [CO:curators]
 is_a: CO_331:0000344 ! sweetpotato variability of storage root size trait
 relationship: variable_of CO_331:0000344 ! sweetpotato variability of storage root size trait
 relationship: variable_of CO_331:0000460 ! sweetpotato observation of variability of storage root size method
@@ -4349,7 +4257,7 @@ relationship: variable_of CO_331:0000578 ! sweetpotato vrtssiz 3 pt. scale
 [Term]
 id: CO_331:0000709
 name: sweetpotato rtkql_et_3to7 variable
-synonym: "RTKQL" EXACT []
+synonym: "RTKQL" EXACT [CO:curators]
 is_a: CO_331:0000345 ! sweetpotato keeping quality of storage roots trait
 relationship: variable_of CO_331:0000345 ! sweetpotato keeping quality of storage roots trait
 relationship: variable_of CO_331:0000461 ! sweetpotato observation of keeping quality of storage roots method
@@ -4358,7 +4266,7 @@ relationship: variable_of CO_331:0000579 ! sweetpotato kqtyrts 3 pt. scale
 [Term]
 id: CO_331:0000710
 name: sweetpotato rtblcu_et_1to9 variable
-synonym: "RTBCOLD" EXACT []
+synonym: "RTBCOLD" EXACT [CO:curators]
 is_a: CO_331:0000346 ! sweetpotato consistency of boiled storage root trait
 relationship: variable_of CO_331:0000346 ! sweetpotato consistency of boiled storage root trait
 relationship: variable_of CO_331:0000462 ! sweetpotato observation of consistency of boiled storage root method
@@ -4367,7 +4275,7 @@ relationship: variable_of CO_331:0000580 ! sweetpotato cbolrts 9 pt. scale
 [Term]
 id: CO_331:0000711
 name: sweetpotato rtblcd_et_0to9 variable
-synonym: "RTBCOLU" EXACT []
+synonym: "RTBCOLU" EXACT [CO:curators]
 is_a: CO_331:0000347 ! sweetpotato undesirable color of boiled storage root trait
 relationship: variable_of CO_331:0000347 ! sweetpotato undesirable color of boiled storage root trait
 relationship: variable_of CO_331:0000463 ! sweetpotato observation of undesirable color of boiled storage root method
@@ -4376,7 +4284,7 @@ relationship: variable_of CO_331:0000581 ! sweetpotato ucolbrts 10 pt. scale
 [Term]
 id: CO_331:0000712
 name: sweetpotato rndrt_et_1to9 variable
-synonym: "DROUGHT" EXACT []
+synonym: "DROUGHT" EXACT [CO:curators]
 is_a: CO_331:0000348 ! sweetpotato reaction to drought trait
 relationship: variable_of CO_331:0000348 ! sweetpotato reaction to drought trait
 relationship: variable_of CO_331:0000464 ! sweetpotato visual estimation of the plant response to limited water availability method
@@ -4385,7 +4293,7 @@ relationship: variable_of CO_331:0000582 ! sweetpotato rctdro 5 pt. scale
 [Term]
 id: CO_331:0000713
 name: sweetpotato rnfld_et_1to9 variable
-synonym: "FLOOD" EXACT []
+synonym: "FLOOD" EXACT [CO:curators]
 is_a: CO_331:0000349 ! sweetpotato reaction to flooding trait
 relationship: variable_of CO_331:0000349 ! sweetpotato reaction to flooding trait
 relationship: variable_of CO_331:0000465 ! sweetpotato visual estimation of the plant response to flooding (watering saturated soil) method
@@ -4394,7 +4302,7 @@ relationship: variable_of CO_331:0000583 ! sweetpotato rctflo 5 pt. scale
 [Term]
 id: CO_331:0000714
 name: sweetpotato rnheat_et_1to9 variable
-synonym: "HEAT" EXACT []
+synonym: "HEAT" EXACT [CO:curators]
 is_a: CO_331:0000350 ! sweetpotato reaction to heat trait
 relationship: variable_of CO_331:0000350 ! sweetpotato reaction to heat trait
 relationship: variable_of CO_331:0000466 ! sweetpotato visual estimation of the plant response to hot season with night temperatures of more than 22°c method
@@ -4403,7 +4311,7 @@ relationship: variable_of CO_331:0000584 ! sweetpotato rctheat 5 pt. scale
 [Term]
 id: CO_331:0000715
 name: sweetpotato rnslt_et_1to9 variable
-synonym: "SALINITY" EXACT []
+synonym: "SALINITY" EXACT [CO:curators]
 is_a: CO_331:0000351 ! sweetpotato reaction to salinity trait
 relationship: variable_of CO_331:0000351 ! sweetpotato reaction to salinity trait
 relationship: variable_of CO_331:0000467 ! sweetpotato visual estimation of the plant response to soil with salinity levels of more 8 mm/cm method
@@ -4412,7 +4320,7 @@ relationship: variable_of CO_331:0000585 ! sweetpotato rctsty 5 pt. scale
 [Term]
 id: CO_331:0000716
 name: sweetpotato rnshd_et_1to9 variable
-synonym: "SHADE" EXACT []
+synonym: "SHADE" EXACT [CO:curators]
 is_a: CO_331:0000352 ! sweetpotato reaction to shade trait
 relationship: variable_of CO_331:0000352 ! sweetpotato reaction to shade trait
 relationship: variable_of CO_331:0000468 ! sweetpotato visual estimation of the plant response to shape method
@@ -4421,7 +4329,7 @@ relationship: variable_of CO_331:0000586 ! sweetpotato rctshd 5 pt. scale
 [Term]
 id: CO_331:0000717
 name: sweetpotato rnsph_et_1to9 variable
-synonym: "SOILPH" EXACT []
+synonym: "SOILPH" EXACT [CO:curators]
 is_a: CO_331:0000353 ! sweetpotato reaction to soil trait
 relationship: variable_of CO_331:0000353 ! sweetpotato reaction to soil trait
 relationship: variable_of CO_331:0000469 ! sweetpotato visual estimation of the plant response to acid and heavy ph soil below 5 method
@@ -4430,7 +4338,7 @@ relationship: variable_of CO_331:0000587 ! sweetpotato rctsph 5 pt. scale
 [Term]
 id: CO_331:0000718
 name: sweetpotato rnstp_et_1to9 variable
-synonym: "SOILTEMP" EXACT []
+synonym: "SOILTEMP" EXACT [CO:curators]
 is_a: CO_331:0000354 ! sweetpotato reaction to high soil temperature trait
 relationship: variable_of CO_331:0000354 ! sweetpotato reaction to high soil temperature trait
 relationship: variable_of CO_331:0000470 ! sweetpotato visual estimation of the plant response to hight soil temperature (40 °c) method
@@ -4439,7 +4347,7 @@ relationship: variable_of CO_331:0000588 ! sweetpotato rctstp 5 pt. scale
 [Term]
 id: CO_331:0000719
 name: sweetpotato rnwispw_et_1to9 variable
-synonym: "WISPWV" EXACT []
+synonym: "WISPWV" EXACT [CO:curators]
 is_a: CO_331:0000355 ! sweetpotato reaction to west indian sweet potato weevil trait
 relationship: variable_of CO_331:0000355 ! sweetpotato reaction to west indian sweet potato weevil trait
 relationship: variable_of CO_331:0000471 ! sweetpotato visual estimation of the plant response to west indian sweet potato weevil method
@@ -4448,7 +4356,7 @@ relationship: variable_of CO_331:0000589 ! sweetpotato rcwispw 5 pt. scale
 [Term]
 id: CO_331:0000720
 name: sweetpotato rnsspw_et_1to9 variable
-synonym: "STSPWV" EXACT []
+synonym: "STSPWV" EXACT [CO:curators]
 is_a: CO_331:0000356 ! sweetpotato reaction to striped sweet potato weevil trait
 relationship: variable_of CO_331:0000356 ! sweetpotato reaction to striped sweet potato weevil trait
 relationship: variable_of CO_331:0000472 ! sweetpotato visual estimation of the plant response to striped sweet potato weevil method
@@ -4457,7 +4365,7 @@ relationship: variable_of CO_331:0000590 ! sweetpotato rcsspw 5 pt. scale
 [Term]
 id: CO_331:0000721
 name: sweetpotato rnspww_et_1to9 variable
-synonym: "SPWW" EXACT []
+synonym: "SPWW" EXACT [CO:curators]
 is_a: CO_331:0000357 ! sweetpotato reaction to sweet potato wire worms trait
 relationship: variable_of CO_331:0000357 ! sweetpotato reaction to sweet potato wire worms trait
 relationship: variable_of CO_331:0000473 ! sweetpotato visual estimation of the plant response to sweet potato wire worms method
@@ -4466,7 +4374,7 @@ relationship: variable_of CO_331:0000591 ! sweetpotato rcspww 5 pt. scale
 [Term]
 id: CO_331:0000722
 name: sweetpotato rnww_et_1to9 variable
-synonym: "WIREWORMS" EXACT []
+synonym: "WIREWORMS" EXACT [CO:curators]
 is_a: CO_331:0000358 ! sweetpotato reaction to wire worms trait
 relationship: variable_of CO_331:0000358 ! sweetpotato reaction to wire worms trait
 relationship: variable_of CO_331:0000474 ! sweetpotato visual estimation of the plant response to wire worms method
@@ -4475,7 +4383,7 @@ relationship: variable_of CO_331:0000592 ! sweetpotato rcww 5 pt. scale
 [Term]
 id: CO_331:0000723
 name: sweetpotato rnspfb_et_1to9 variable
-synonym: "SPFB" EXACT []
+synonym: "SPFB" EXACT [CO:curators]
 is_a: CO_331:0000359 ! sweetpotato reaction to sweet potato flea beetles trait
 relationship: variable_of CO_331:0000359 ! sweetpotato reaction to sweet potato flea beetles trait
 relationship: variable_of CO_331:0000475 ! sweetpotato visual estimation of the plant response to sweet potato flea beetles method
@@ -4484,7 +4392,7 @@ relationship: variable_of CO_331:0000593 ! sweetpotato rcspfb 5 pt. scale
 [Term]
 id: CO_331:0000724
 name: sweetpotato rnfb_et_1to9 variable
-synonym: "FLEABEETLE" EXACT []
+synonym: "FLEABEETLE" EXACT [CO:curators]
 is_a: CO_331:0000360 ! sweetpotato reaction to flea beetles trait
 relationship: variable_of CO_331:0000360 ! sweetpotato reaction to flea beetles trait
 relationship: variable_of CO_331:0000476 ! sweetpotato visual estimation of the plant response to flea beetles method
@@ -4493,7 +4401,7 @@ relationship: variable_of CO_331:0000594 ! sweetpotato rcfb 5 pt. scale
 [Term]
 id: CO_331:0000725
 name: sweetpotato rnsplb_et_1to9 variable
-synonym: "SPFB" EXACT []
+synonym: "SPFB" EXACT [CO:curators]
 is_a: CO_331:0000361 ! sweetpotato reaction to sweet potato leaf beetles trait
 relationship: variable_of CO_331:0000361 ! sweetpotato reaction to sweet potato leaf beetles trait
 relationship: variable_of CO_331:0000477 ! sweetpotato visual estimation of the plant response to sweet potato leaf beetles method
@@ -4502,7 +4410,7 @@ relationship: variable_of CO_331:0000595 ! sweetpotato rcsplb 5 pt. scale
 [Term]
 id: CO_331:0000726
 name: sweetpotato rnbtl_et_1to9 variable
-synonym: "BEETLES" EXACT []
+synonym: "BEETLES" EXACT [CO:curators]
 is_a: CO_331:0000362 ! sweetpotato reaction to beetles trait
 relationship: variable_of CO_331:0000362 ! sweetpotato reaction to beetles trait
 relationship: variable_of CO_331:0000478 ! sweetpotato visual estimation of the plant response to beetles method
@@ -4511,7 +4419,7 @@ relationship: variable_of CO_331:0000596 ! sweetpotato rcbtl 5 pt. scale
 [Term]
 id: CO_331:0000727
 name: sweetpotato rngrbw_et_1to9 variable
-synonym: "GRUBW" EXACT []
+synonym: "GRUBW" EXACT [CO:curators]
 is_a: CO_331:0000363 ! sweetpotato reaction to grubworm trait
 relationship: variable_of CO_331:0000363 ! sweetpotato reaction to grubworm trait
 relationship: variable_of CO_331:0000479 ! sweetpotato visual estimation of the root response to grub worm method
@@ -4520,7 +4428,7 @@ relationship: variable_of CO_331:0000597 ! sweetpotato rcgrbw 5 pt. scale
 [Term]
 id: CO_331:0000728
 name: sweetpotato rnhrnw_et_1to9 variable
-synonym: "HORNW" EXACT []
+synonym: "HORNW" EXACT [CO:curators]
 is_a: CO_331:0000364 ! sweetpotato reaction to hornworm trait
 relationship: variable_of CO_331:0000364 ! sweetpotato reaction to hornworm trait
 relationship: variable_of CO_331:0000480 ! sweetpotato visual estimation of the root response to hornworm method
@@ -4529,7 +4437,7 @@ relationship: variable_of CO_331:0000598 ! sweetpotato rchrnw 5 pt. scale
 [Term]
 id: CO_331:0000729
 name: sweetpotato rnaph_et_1to9 variable
-synonym: "APHIDS" EXACT []
+synonym: "APHIDS" EXACT [CO:curators]
 is_a: CO_331:0000365 ! sweetpotato reaction to aphids trait
 relationship: variable_of CO_331:0000365 ! sweetpotato reaction to aphids trait
 relationship: variable_of CO_331:0000481 ! sweetpotato visual estimation of the plant response to aphis method
@@ -4538,7 +4446,7 @@ relationship: variable_of CO_331:0000599 ! sweetpotato rcaph 5 pt. scale
 [Term]
 id: CO_331:0000730
 name: sweetpotato rnspwf_et_1to9 variable
-synonym: "SPWF" EXACT []
+synonym: "SPWF" EXACT [CO:curators]
 is_a: CO_331:0000366 ! sweetpotato reaction to sweet potato white fly trait
 relationship: variable_of CO_331:0000366 ! sweetpotato reaction to sweet potato white fly trait
 relationship: variable_of CO_331:0000482 ! sweetpotato visual estimation of the plant response to sweet potato white fly method
@@ -4547,7 +4455,7 @@ relationship: variable_of CO_331:0000600 ! sweetpotato rcspwf 5 pt. scale
 [Term]
 id: CO_331:0000731
 name: sweetpotato rnspmth_et_1to9 variable
-synonym: "SPMOTH" EXACT []
+synonym: "SPMOTH" EXACT [CO:curators]
 is_a: CO_331:0000367 ! sweetpotato reaction to sweet potato moth trait
 relationship: variable_of CO_331:0000367 ! sweetpotato reaction to sweet potato moth trait
 relationship: variable_of CO_331:0000483 ! sweetpotato visual estimation of the plant response to sweet potato moth method
@@ -4556,7 +4464,7 @@ relationship: variable_of CO_331:0000601 ! sweetpotato rcspmth 5 pt. scale
 [Term]
 id: CO_331:0000732
 name: sweetpotato rnmth_et_1to9 variable
-synonym: "MOTH" EXACT []
+synonym: "MOTH" EXACT [CO:curators]
 is_a: CO_331:0000368 ! sweetpotato reaction to moth trait
 relationship: variable_of CO_331:0000368 ! sweetpotato reaction to moth trait
 relationship: variable_of CO_331:0000484 ! sweetpotato visual estimation of the plant response to moth method
@@ -4565,7 +4473,7 @@ relationship: variable_of CO_331:0000602 ! sweetpotato rcmth 5 pt. scale
 [Term]
 id: CO_331:0000733
 name: sweetpotato rnspsb_et_1to9 variable
-synonym: "SPSB" EXACT []
+synonym: "SPSB" EXACT [CO:curators]
 is_a: CO_331:0000369 ! sweetpotato reaction to sweet potato stem borer trait
 relationship: variable_of CO_331:0000369 ! sweetpotato reaction to sweet potato stem borer trait
 relationship: variable_of CO_331:0000485 ! sweetpotato visual estimation of the plant response to sweet potato stem borer method
@@ -4574,7 +4482,7 @@ relationship: variable_of CO_331:0000603 ! sweetpotato rcspsb 5 pt. scale
 [Term]
 id: CO_331:0000734
 name: sweetpotato rnins_et_1to9 variable
-synonym: "INSECTS" EXACT []
+synonym: "INSECTS" EXACT [CO:curators]
 is_a: CO_331:0000370 ! sweetpotato reaction to other insects trait
 relationship: variable_of CO_331:0000370 ! sweetpotato reaction to other insects trait
 relationship: variable_of CO_331:0000486 ! sweetpotato visual estimation of the plant response to other insects method
@@ -4583,7 +4491,7 @@ relationship: variable_of CO_331:0000604 ! sweetpotato rcins 5 pt. scale
 [Term]
 id: CO_331:0000735
 name: sweetpotato rnrfn_et_1to9 variable
-synonym: "RENIN" EXACT []
+synonym: "RENIN" EXACT [CO:curators]
 is_a: CO_331:0000371 ! sweetpotato reaction to reniform nematode trait
 relationship: variable_of CO_331:0000371 ! sweetpotato reaction to reniform nematode trait
 relationship: variable_of CO_331:0000487 ! sweetpotato visual estimation of the root response to reniform nematode method
@@ -4592,7 +4500,7 @@ relationship: variable_of CO_331:0000605 ! sweetpotato rcrfn 5 pt. scale
 [Term]
 id: CO_331:0000736
 name: sweetpotato rnstn_et_1to9 variable
-synonym: "STINGN" EXACT []
+synonym: "STINGN" EXACT [CO:curators]
 is_a: CO_331:0000372 ! sweetpotato reaction to sting nematode trait
 relationship: variable_of CO_331:0000372 ! sweetpotato reaction to sting nematode trait
 relationship: variable_of CO_331:0000488 ! sweetpotato visual estimation of the root response to sting nematode method
@@ -4601,7 +4509,7 @@ relationship: variable_of CO_331:0000606 ! sweetpotato rcstn 5 pt. scale
 [Term]
 id: CO_331:0000737
 name: sweetpotato rnbrr_et_1to9 variable
-synonym: "BRROT" EXACT []
+synonym: "BRROT" EXACT [CO:curators]
 is_a: CO_331:0000373 ! sweetpotato reaction to brown ring rot trait
 relationship: variable_of CO_331:0000373 ! sweetpotato reaction to brown ring rot trait
 relationship: variable_of CO_331:0000489 ! sweetpotato visual estimation of the root response to brown ring rot method
@@ -4610,7 +4518,7 @@ relationship: variable_of CO_331:0000607 ! sweetpotato rcbrr 5 pt. scale
 [Term]
 id: CO_331:0000738
 name: sweetpotato rnrln_et_1to9 variable
-synonym: "ROOTLN" EXACT []
+synonym: "ROOTLN" EXACT [CO:curators]
 is_a: CO_331:0000374 ! sweetpotato reaction to root lesion nematode trait
 relationship: variable_of CO_331:0000374 ! sweetpotato reaction to root lesion nematode trait
 relationship: variable_of CO_331:0000490 ! sweetpotato visual estimation of the root response to nematode method
@@ -4619,7 +4527,7 @@ relationship: variable_of CO_331:0000608 ! sweetpotato rcrln 5 pt. scale
 [Term]
 id: CO_331:0000739
 name: sweetpotato rnon_et_1to9 variable
-synonym: "NEMATODS" EXACT []
+synonym: "NEMATODS" EXACT [CO:curators]
 is_a: CO_331:0000375 ! sweetpotato reaction to other nematodes trait
 relationship: variable_of CO_331:0000375 ! sweetpotato reaction to other nematodes trait
 relationship: variable_of CO_331:0000491 ! sweetpotato visual estimation of the root response to nematode method
@@ -4628,7 +4536,7 @@ relationship: variable_of CO_331:0000609 ! sweetpotato rcon 5 pt. scale
 [Term]
 id: CO_331:0000740
 name: sweetpotato rnwr_et_1to9 variable
-synonym: "WILT" EXACT []
+synonym: "WILT" EXACT [CO:curators]
 is_a: CO_331:0000376 ! sweetpotato reaction to wilt rot trait
 relationship: variable_of CO_331:0000376 ! sweetpotato reaction to wilt rot trait
 relationship: variable_of CO_331:0000492 ! sweetpotato visual estimation of the root response to wilt rot method
@@ -4637,7 +4545,7 @@ relationship: variable_of CO_331:0000610 ! sweetpotato rcwr 5 pt. scale
 [Term]
 id: CO_331:0000741
 name: sweetpotato rnfrs_et_1to9 variable
-synonym: "FUSSURF" EXACT []
+synonym: "FUSSURF" EXACT [CO:curators]
 is_a: CO_331:0000377 ! sweetpotato reaction to fusarium surface rot trait
 relationship: variable_of CO_331:0000377 ! sweetpotato reaction to fusarium surface rot trait
 relationship: variable_of CO_331:0000493 ! sweetpotato visual estimation of the root response to fusarium surface rot method
@@ -4646,7 +4554,7 @@ relationship: variable_of CO_331:0000611 ! sweetpotato rcfrs 5 pt. scale
 [Term]
 id: CO_331:0000742
 name: sweetpotato rnfrr_et_1to9 variable
-synonym: "FUSROOT" EXACT []
+synonym: "FUSROOT" EXACT [CO:curators]
 is_a: CO_331:0000378 ! sweetpotato reaction to fusarium root rot trait
 relationship: variable_of CO_331:0000378 ! sweetpotato reaction to fusarium root rot trait
 relationship: variable_of CO_331:0000494 ! sweetpotato visual estimation of the root response to fusarium root rot method
@@ -4655,7 +4563,7 @@ relationship: variable_of CO_331:0000612 ! sweetpotato rcfrr 5 pt. scale
 [Term]
 id: CO_331:0000743
 name: sweetpotato rnsbc_et_1to9 variable
-synonym: "SCLBLT" EXACT []
+synonym: "SCLBLT" EXACT [CO:curators]
 is_a: CO_331:0000379 ! sweetpotato reaction to sclerotial blight and circular spot trait
 relationship: variable_of CO_331:0000379 ! sweetpotato reaction to sclerotial blight and circular spot trait
 relationship: variable_of CO_331:0000495 ! sweetpotato visual estimation of the root response to sclerotial blight and circular spot method
@@ -4664,7 +4572,7 @@ relationship: variable_of CO_331:0000613 ! sweetpotato rcsbc 5 pt. scale
 [Term]
 id: CO_331:0000744
 name: sweetpotato rnbr_et_1to9 variable
-synonym: "BLACKROT" EXACT []
+synonym: "BLACKROT" EXACT [CO:curators]
 is_a: CO_331:0000380 ! sweetpotato reaction to black rot trait
 relationship: variable_of CO_331:0000380 ! sweetpotato reaction to black rot trait
 relationship: variable_of CO_331:0000496 ! sweetpotato visual estimation of the root response to black rot method
@@ -4673,7 +4581,7 @@ relationship: variable_of CO_331:0000614 ! sweetpotato rcbr 5 pt. scale
 [Term]
 id: CO_331:0000745
 name: sweetpotato rnscrf_et_1to9 variable
-synonym: "SCURF" EXACT []
+synonym: "SCURF" EXACT [CO:curators]
 is_a: CO_331:0000381 ! sweetpotato reaction to scurf trait
 relationship: variable_of CO_331:0000381 ! sweetpotato reaction to scurf trait
 relationship: variable_of CO_331:0000497 ! sweetpotato visual estimation of the root response to scurf method
@@ -4682,7 +4590,7 @@ relationship: variable_of CO_331:0000615 ! sweetpotato rcscrf 5 pt. scale
 [Term]
 id: CO_331:0000746
 name: sweetpotato rnsr_et_1to9 variable
-synonym: "SOFTROT" EXACT []
+synonym: "SOFTROT" EXACT [CO:curators]
 is_a: CO_331:0000382 ! sweetpotato reaction to soft rot trait
 relationship: variable_of CO_331:0000382 ! sweetpotato reaction to soft rot trait
 relationship: variable_of CO_331:0000498 ! sweetpotato appearance of roots in response soft rot method
@@ -4691,7 +4599,7 @@ relationship: variable_of CO_331:0000616 ! sweetpotato rcsr 5 pt. scale
 [Term]
 id: CO_331:0000747
 name: sweetpotato rnjbr_et_1to9 variable
-synonym: "JAVABR" EXACT []
+synonym: "JAVABR" EXACT [CO:curators]
 is_a: CO_331:0000383 ! sweetpotato reaction to java black rot trait
 relationship: variable_of CO_331:0000383 ! sweetpotato reaction to java black rot trait
 relationship: variable_of CO_331:0000499 ! sweetpotato appearance of roots in response java black rot method
@@ -4700,7 +4608,7 @@ relationship: variable_of CO_331:0000617 ! sweetpotato rcjbr 5 pt. scale
 [Term]
 id: CO_331:0000748
 name: sweetpotato rnddr_et_1to9 variable
-synonym: "DIAPORTHE" EXACT []
+synonym: "DIAPORTHE" EXACT [CO:curators]
 is_a: CO_331:0000384 ! sweetpotato reaction to diaporthe dry rot trait
 relationship: variable_of CO_331:0000384 ! sweetpotato reaction to diaporthe dry rot trait
 relationship: variable_of CO_331:0000500 ! sweetpotato appearance of roots in response diaporthe dry rot method
@@ -4709,7 +4617,7 @@ relationship: variable_of CO_331:0000618 ! sweetpotato rcddr 5 pt. scale
 [Term]
 id: CO_331:0000749
 name: sweetpotato rnscb_et_1to9 variable
-synonym: "SCAB" EXACT []
+synonym: "SCAB" EXACT [CO:curators]
 is_a: CO_331:0000385 ! sweetpotato reaction to scab trait
 relationship: variable_of CO_331:0000385 ! sweetpotato reaction to scab trait
 relationship: variable_of CO_331:0000501 ! sweetpotato visual estimation of the plant response to scab method
@@ -4718,7 +4626,7 @@ relationship: variable_of CO_331:0000619 ! sweetpotato rcscb 5 pt. scale
 [Term]
 id: CO_331:0000750
 name: sweetpotato rnls_et_1to9 variable
-synonym: "LEAFSPOT" EXACT []
+synonym: "LEAFSPOT" EXACT [CO:curators]
 is_a: CO_331:0000386 ! sweetpotato reaction to leaf spot trait
 relationship: variable_of CO_331:0000386 ! sweetpotato reaction to leaf spot trait
 relationship: variable_of CO_331:0000502 ! sweetpotato visual estimation of the plant response to leaf spot method
@@ -4727,7 +4635,7 @@ relationship: variable_of CO_331:0000620 ! sweetpotato rcls 5 pt. scale
 [Term]
 id: CO_331:0000751
 name: sweetpotato rnwr_et_1to9 variable
-synonym: "WHITERUST" EXACT []
+synonym: "WHITERUST" EXACT [CO:curators]
 is_a: CO_331:0000387 ! sweetpotato reaction to white rust trait
 relationship: variable_of CO_331:0000387 ! sweetpotato reaction to white rust trait
 relationship: variable_of CO_331:0000503 ! sweetpotato visual estimation of the plant response to white rust method
@@ -4736,7 +4644,7 @@ relationship: variable_of CO_331:0000621 ! sweetpotato rcwr 5 pt. scale
 [Term]
 id: CO_331:0000752
 name: sweetpotato rnfr_et_1to9 variable
-synonym: "FOOTROT" EXACT []
+synonym: "FOOTROT" EXACT [CO:curators]
 is_a: CO_331:0000388 ! sweetpotato reaction to foot rot trait
 relationship: variable_of CO_331:0000388 ! sweetpotato reaction to foot rot trait
 relationship: variable_of CO_331:0000504 ! sweetpotato visual estimation of the plant response to foot rot method
@@ -4745,7 +4653,7 @@ relationship: variable_of CO_331:0000622 ! sweetpotato rcfr 5 pt. scale
 [Term]
 id: CO_331:0000753
 name: sweetpotato rncr_et_1to9 variable
-synonym: "CHARCROT" EXACT []
+synonym: "CHARCROT" EXACT [CO:curators]
 is_a: CO_331:0000389 ! sweetpotato reaction to charcoal rot trait
 relationship: variable_of CO_331:0000389 ! sweetpotato reaction to charcoal rot trait
 relationship: variable_of CO_331:0000505 ! sweetpotato visual estimation of the plant response to charcoal rot method
@@ -4754,7 +4662,7 @@ relationship: variable_of CO_331:0000623 ! sweetpotato rccr 5 pt. scale
 [Term]
 id: CO_331:0000754
 name: sweetpotato rnof_et_1to9 variable
-synonym: "FUNGI" EXACT []
+synonym: "FUNGI" EXACT [CO:curators]
 is_a: CO_331:0000390 ! sweetpotato reaction to other fungi trait
 relationship: variable_of CO_331:0000390 ! sweetpotato reaction to other fungi trait
 relationship: variable_of CO_331:0000506 ! sweetpotato visual estimation of the plant response to other fungi method
@@ -4763,7 +4671,7 @@ relationship: variable_of CO_331:0000624 ! sweetpotato rcof 5 pt. scale
 [Term]
 id: CO_331:0000755
 name: sweetpotato rnpsr_et_1to9 variable
-synonym: "POXROT" EXACT []
+synonym: "POXROT" EXACT [CO:curators]
 is_a: CO_331:0000391 ! sweetpotato reaction to pox or soil rot trait
 relationship: variable_of CO_331:0000391 ! sweetpotato reaction to pox or soil rot trait
 relationship: variable_of CO_331:0000507 ! sweetpotato visual estimation of the plant response to pox or soil rot method
@@ -4772,7 +4680,7 @@ relationship: variable_of CO_331:0000625 ! sweetpotato rcpsr 5 pt. scale
 [Term]
 id: CO_331:0000756
 name: sweetpotato rnbsrt_et_1to9 variable
-synonym: "STEMROT" EXACT []
+synonym: "STEMROT" EXACT [CO:curators]
 is_a: CO_331:0000392 ! sweetpotato reaction to bacterial stem and root rot trait
 relationship: variable_of CO_331:0000392 ! sweetpotato reaction to bacterial stem and root rot trait
 relationship: variable_of CO_331:0000508 ! sweetpotato visual estimation of the plant response to bacterial stem and root rot method
@@ -4781,7 +4689,7 @@ relationship: variable_of CO_331:0000626 ! sweetpotato rcbsrt 5 pt. scale
 [Term]
 id: CO_331:0000757
 name: sweetpotato rnbw_et_1to9 variable
-synonym: "BACWILT" EXACT []
+synonym: "BACWILT" EXACT [CO:curators]
 is_a: CO_331:0000393 ! sweetpotato reaction to bacterial wilt trait
 relationship: variable_of CO_331:0000393 ! sweetpotato reaction to bacterial wilt trait
 relationship: variable_of CO_331:0000509 ! sweetpotato visual estimation of the plant response to bacterial wilt method
@@ -4790,7 +4698,7 @@ relationship: variable_of CO_331:0000627 ! sweetpotato rcbw 5 pt. scale
 [Term]
 id: CO_331:0000758
 name: sweetpotato rnob_et_1to9 variable
-synonym: "BACTERIA" EXACT []
+synonym: "BACTERIA" EXACT [CO:curators]
 is_a: CO_331:0000394 ! sweetpotato reaction to other bacteria trait
 relationship: variable_of CO_331:0000394 ! sweetpotato reaction to other bacteria trait
 relationship: variable_of CO_331:0000510 ! sweetpotato visual estimation of the plant response to other bacteria method
@@ -4799,7 +4707,7 @@ relationship: variable_of CO_331:0000628 ! sweetpotato rcob 5 pt. scale
 [Term]
 id: CO_331:0000759
 name: sweetpotato rnspmv_et_1to9 variable
-synonym: "SPMV" EXACT []
+synonym: "SPMV" EXACT [CO:curators]
 is_a: CO_331:0000395 ! sweetpotato reaction to sweet potato feathery mottle virus (spmv) trait
 relationship: variable_of CO_331:0000395 ! sweetpotato reaction to sweet potato feathery mottle virus (spmv) trait
 relationship: variable_of CO_331:0000511 ! sweetpotato visual estimation of the plant response to sweet potato feathery mottle virus method
@@ -4808,7 +4716,7 @@ relationship: variable_of CO_331:0000629 ! sweetpotato rcspmv 5 pt. scale
 [Term]
 id: CO_331:0000760
 name: sweetpotato rnspmmv_et_1to9 variable
-synonym: "SPMMV" EXACT []
+synonym: "SPMMV" EXACT [CO:curators]
 is_a: CO_331:0000396 ! sweetpotato reaction to sweet potato mild mottle virus (spmmv) trait
 relationship: variable_of CO_331:0000396 ! sweetpotato reaction to sweet potato mild mottle virus (spmmv) trait
 relationship: variable_of CO_331:0000512 ! sweetpotato visual estimation of the plant response to sweet potato mild mottle virus method
@@ -4817,7 +4725,7 @@ relationship: variable_of CO_331:0000630 ! sweetpotato rcspmmv 5 pt. scale
 [Term]
 id: CO_331:0000761
 name: sweetpotato rnspvmv_et_1to9 variable
-synonym: "SPVMV" EXACT []
+synonym: "SPVMV" EXACT [CO:curators]
 is_a: CO_331:0000397 ! sweetpotato reaction to sweet potato vein mottle virus (spvmv) trait
 relationship: variable_of CO_331:0000397 ! sweetpotato reaction to sweet potato vein mottle virus (spvmv) trait
 relationship: variable_of CO_331:0000513 ! sweetpotato visual estimation of the plant response to sweet potato vein mottle virus method
@@ -4826,7 +4734,7 @@ relationship: variable_of CO_331:0000631 ! sweetpotato rcspvmv 5 pt. scale
 [Term]
 id: CO_331:0000762
 name: sweetpotato rnspvd_et_1to9 variable
-synonym: "SPVD" EXACT []
+synonym: "SPVD" EXACT [CO:curators]
 is_a: CO_331:0000398 ! sweetpotato reaction to sweet potato virus disease complex (spvd complex) trait
 relationship: variable_of CO_331:0000398 ! sweetpotato reaction to sweet potato virus disease complex (spvd complex) trait
 relationship: variable_of CO_331:0000514 ! sweetpotato visual estimation of the plant response to sweet potato virus disease complex method
@@ -4835,7 +4743,7 @@ relationship: variable_of CO_331:0000632 ! sweetpotato rcspvd 5 pt. scale
 [Term]
 id: CO_331:0000763
 name: sweetpotato rnov_et_1to9 variable
-synonym: "VIRUS" EXACT []
+synonym: "VIRUS" EXACT [CO:curators]
 is_a: CO_331:0000399 ! sweetpotato reaction to other virus trait
 relationship: variable_of CO_331:0000399 ! sweetpotato reaction to other virus trait
 relationship: variable_of CO_331:0000515 ! sweetpotato visual estimation of the plant response to other virus method
@@ -4844,7 +4752,7 @@ relationship: variable_of CO_331:0000633 ! sweetpotato rcov 5 pt. scale
 [Term]
 id: CO_331:0000764
 name: sweetpotato rnwb_et_1to9 variable
-synonym: "BROOM" EXACT []
+synonym: "BROOM" EXACT [CO:curators]
 is_a: CO_331:0000400 ! sweetpotato reaction to witches broom trait
 relationship: variable_of CO_331:0000400 ! sweetpotato reaction to witches broom trait
 relationship: variable_of CO_331:0000516 ! sweetpotato visual estimation of the plant response to witches broom method
@@ -4853,7 +4761,7 @@ relationship: variable_of CO_331:0000634 ! sweetpotato rcwb 5 pt. scale
 [Term]
 id: CO_331:0000765
 name: sweetpotato rnom_et_1to9 variable
-synonym: "MYCOPLASMA" EXACT []
+synonym: "MYCOPLASMA" EXACT [CO:curators]
 is_a: CO_331:0000401 ! sweetpotato reaction to other mycoplasma trait
 relationship: variable_of CO_331:0000401 ! sweetpotato reaction to other mycoplasma trait
 relationship: variable_of CO_331:0000517 ! sweetpotato visual estimation of the plant response to to other mycoplasma method
@@ -4862,7 +4770,7 @@ relationship: variable_of CO_331:0000635 ! sweetpotato rcom 5 pt. scale
 [Term]
 id: CO_331:0000766
 name: sweetpotato rttsgc_et_1to9 variable
-synonym: "TOTSUG" EXACT []
+synonym: "TOTSUG" EXACT [CO:curators]
 is_a: CO_331:0000402 ! sweetpotato total sugar content trait
 relationship: variable_of CO_331:0000402 ! sweetpotato total sugar content trait
 relationship: variable_of CO_331:0000518 ! sweetpotato taking standardized photo method
@@ -4871,7 +4779,7 @@ relationship: variable_of CO_331:0000636 ! sweetpotato rttsgc scale
 [Term]
 id: CO_331:0000767
 name: sweetpotato pthbt_ms_img variable
-synonym: "FOTHAB" EXACT []
+synonym: "FOTHAB" EXACT [CO:curators]
 is_a: CO_331:0000403 ! sweetpotato appearance of plant trait
 relationship: variable_of CO_331:0000403 ! sweetpotato appearance of plant trait
 relationship: variable_of CO_331:0000519 ! sweetpotato taking standardized photo method
@@ -4880,7 +4788,7 @@ relationship: variable_of CO_331:0000637 ! sweetpotato flower picture scale
 [Term]
 id: CO_331:0000768
 name: sweetpotato frcol_ms_img variable
-synonym: "FOTFLW" EXACT []
+synonym: "FOTFLW" EXACT [CO:curators]
 is_a: CO_331:0000404 ! sweetpotato appearance of flower trait
 relationship: variable_of CO_331:0000404 ! sweetpotato appearance of flower trait
 relationship: variable_of CO_331:0000520 ! sweetpotato taking standardized photo method
@@ -4889,7 +4797,7 @@ relationship: variable_of CO_331:0000638 ! sweetpotato root picture scale
 [Term]
 id: CO_331:0000769
 name: sweetpotato rtcol_ms_img variable
-synonym: "FOTROT" EXACT []
+synonym: "FOTROT" EXACT [CO:curators]
 is_a: CO_331:0000405 ! sweetpotato appearance of roots trait
 relationship: variable_of CO_331:0000405 ! sweetpotato appearance of roots trait
 relationship: variable_of CO_331:0000521 ! sweetpotato taking standardized photo method
@@ -4898,7 +4806,7 @@ relationship: variable_of CO_331:0000639 ! sweetpotato seeds picture scale
 [Term]
 id: CO_331:0000770
 name: sweetpotato frsds_ms_img variable
-synonym: "FOTSDS" EXACT []
+synonym: "FOTSDS" EXACT [CO:curators]
 is_a: CO_331:0000406 ! sweetpotato appearance of seeds trait
 relationship: variable_of CO_331:0000406 ! sweetpotato appearance of seeds trait
 relationship: variable_of CO_331:0000522 ! sweetpotato taking standardized photo method
@@ -4907,7 +4815,7 @@ relationship: variable_of CO_331:0000640 ! sweetpotato leaf picture scale
 [Term]
 id: CO_331:0000771
 name: sweetpotato lf_ms_img variable
-synonym: "FOTLEA" EXACT []
+synonym: "FOTLEA" EXACT [CO:curators]
 is_a: CO_331:0000407 ! sweetpotato appearance of leaves trait
 relationship: variable_of CO_331:0000407 ! sweetpotato appearance of leaves trait
 relationship: variable_of CO_331:0000523 ! sweetpotato taking standardized photo method
@@ -4916,7 +4824,7 @@ relationship: variable_of CO_331:0000640 ! sweetpotato leaf picture scale
 [Term]
 id: CO_331:0000772
 name: sweetpotato pthrb_ms_img variable
-synonym: "FOTHRB" EXACT []
+synonym: "FOTHRB" EXACT [CO:curators]
 is_a: CO_331:0000408 ! sweetpotato appearance of hearbarium trait
 relationship: variable_of CO_331:0000408 ! sweetpotato appearance of hearbarium trait
 relationship: variable_of CO_331:0000524 ! sweetpotato taking standardized photo method
@@ -4925,7 +4833,7 @@ relationship: variable_of CO_331:0000642 ! sweetpotato plant picture scale
 [Term]
 id: CO_331:0000773
 name: sweetpotato ptorg_ms_img variable
-synonym: "FOTPLT" EXACT []
+synonym: "FOTPLT" EXACT [CO:curators]
 is_a: CO_331:0000409 ! sweetpotato appearance of plant organs trait
 relationship: variable_of CO_331:0000409 ! sweetpotato appearance of plant organs trait
 relationship: variable_of CO_331:0000525 ! sweetpotato taking standardized photo method
@@ -4934,7 +4842,7 @@ relationship: variable_of CO_331:0000642 ! sweetpotato plant picture scale
 [Term]
 id: CO_331:0000774
 name: sweetpotato rtshpp_et_1to8 variable
-synonym: "RTSHP1" EXACT []
+synonym: "RTSHP1" EXACT [CO:curators]
 is_a: CO_331:0000069 ! sweetpotato storage root shape (primary) trait
 relationship: variable_of CO_331:0000069 ! sweetpotato storage root shape (primary) trait
 relationship: variable_of CO_331:0000526 ! sweetpotato observation of most frequennt storage root shape method
@@ -4943,7 +4851,7 @@ relationship: variable_of CO_331:0000644 ! sweetpotato rtshpp 8 pt. scale
 [Term]
 id: CO_331:0000775
 name: sweetpotato rtshps_et_1to8 variable
-synonym: "RTSHP2" EXACT []
+synonym: "RTSHP2" EXACT [CO:curators]
 is_a: CO_331:0000441 ! sweetpotato storage root shape (secondary) trait
 relationship: variable_of CO_331:0000441 ! sweetpotato storage root shape (secondary) trait
 relationship: variable_of CO_331:0000527 ! sweetpotato observation of 2nd most frequent storage root shape method
@@ -4952,7 +4860,7 @@ relationship: variable_of CO_331:0000645 ! sweetpotato rtshps 8 pt. scale
 [Term]
 id: CO_331:0000776
 name: sweetpotato rtshpu_et_1to9 variable
-synonym: "RTSHPU" EXACT []
+synonym: "RTSHPU" EXACT [CO:curators]
 is_a: CO_331:0000409 ! sweetpotato appearance of plant organs trait
 relationship: variable_of CO_331:0000409 ! sweetpotato appearance of plant organs trait
 relationship: variable_of CO_331:0000528 ! sweetpotato observation of an average or all storage roots within a single plant or plot (for example: if a single plant or plot presents several storage root shapes, it would be considered very poor shape uniformity and would receive a score of 1 method
@@ -4961,7 +4869,7 @@ relationship: variable_of CO_331:0000646 ! sweetpotato rtshpu 9 pt. scale
 [Term]
 id: CO_331:0000777
 name: sweetpotato rtstlk_et_1to9 variable
-synonym: "RTSTALK" EXACT []
+synonym: "RTSTALK" EXACT [CO:curators]
 is_a: CO_331:0000410 ! sweetpotato storage root stalk trait
 relationship: variable_of CO_331:0000410 ! sweetpotato storage root stalk trait
 relationship: variable_of CO_331:0000529 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
@@ -4970,7 +4878,7 @@ relationship: variable_of CO_331:0000647 ! sweetpotato rtstlk 6 pt. scale
 [Term]
 id: CO_331:0000778
 name: sweetpotato rtatt_et_1to9 variable
-synonym: "RTATTACH" EXACT []
+synonym: "RTATTACH" EXACT [CO:curators]
 is_a: CO_331:0000411 ! sweetpotato storage root attachement trait
 relationship: variable_of CO_331:0000411 ! sweetpotato storage root attachement trait
 relationship: variable_of CO_331:0000530 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
@@ -4979,7 +4887,7 @@ relationship: variable_of CO_331:0000648 ! sweetpotato rtatt 9 pt. scale
 [Term]
 id: CO_331:0000779
 name: sweetpotato rtldr_cp_ratio variable
-synonym: "LDR" EXACT []
+synonym: "LDR" EXACT [CO:curators]
 is_a: CO_331:0000412 ! sweetpotato length to diameter ratio of roots trait
 relationship: variable_of CO_331:0000412 ! sweetpotato length to diameter ratio of roots trait
 relationship: variable_of CO_331:0000531 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
@@ -4988,7 +4896,7 @@ relationship: variable_of CO_331:0000649 ! sweetpotato scale_of co_331:0000531 s
 [Term]
 id: CO_331:0000780
 name: sweetpotato rtskncol_et_1to12 variable
-synonym: "SKINCOLOR" EXACT []
+synonym: "SKINCOLOR" EXACT [CO:curators]
 is_a: CO_331:0000413 ! sweetpotato skin color of roots trait
 relationship: variable_of CO_331:0000413 ! sweetpotato skin color of roots trait
 relationship: variable_of CO_331:0000532 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
@@ -4997,7 +4905,7 @@ relationship: variable_of CO_331:0000650 ! sweetpotato rtskncol 12 pt. scale
 [Term]
 id: CO_331:0000781
 name: sweetpotato rtskntxt_et_1to9 variable
-synonym: "RTSKNTEX" EXACT []
+synonym: "RTSKNTEX" EXACT [CO:curators]
 is_a: CO_331:0000414 ! sweetpotato skin texture of roots trait
 relationship: variable_of CO_331:0000414 ! sweetpotato skin texture of roots trait
 relationship: variable_of CO_331:0000533 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
@@ -5006,7 +4914,7 @@ relationship: variable_of CO_331:0000651 ! sweetpotato rtskntxt 9 pt. scale
 [Term]
 id: CO_331:0000782
 name: sweetpotato rtflscolc_et_0to4 variable
-synonym: "RTFLESH1" EXACT []
+synonym: "RTFLESH1" EXACT [CO:curators]
 is_a: CO_331:0000415 ! sweetpotato flesh color (carotenoids) trait
 relationship: variable_of CO_331:0000415 ! sweetpotato flesh color (carotenoids) trait
 relationship: variable_of CO_331:0000534 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
@@ -5015,7 +4923,7 @@ relationship: variable_of CO_331:0000652 ! sweetpotato rtflscolc 9 pt. scale
 [Term]
 id: CO_331:0000783
 name: sweetpotato rtflscola_et_0to4 variable
-synonym: "RTFLESH2" EXACT []
+synonym: "RTFLESH2" EXACT [CO:curators]
 is_a: CO_331:0000416 ! sweetpotato flesh color (anthocyanins) trait
 relationship: variable_of CO_331:0000416 ! sweetpotato flesh color (anthocyanins) trait
 relationship: variable_of CO_331:0000535 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
@@ -5024,7 +4932,7 @@ relationship: variable_of CO_331:0000653 ! sweetpotato rtflscola 9 pt. scale
 [Term]
 id: CO_331:0000784
 name: sweetpotato rtadvb_et_1to9 variable
-synonym: "EYES" EXACT []
+synonym: "EYES" EXACT [CO:curators]
 is_a: CO_331:0000417 ! sweetpotato deep of eyes of roots trait
 relationship: variable_of CO_331:0000417 ! sweetpotato deep of eyes of roots trait
 relationship: variable_of CO_331:0000536 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
@@ -5033,7 +4941,7 @@ relationship: variable_of CO_331:0000654 ! sweetpotato rtadvb 5 pt. scale
 [Term]
 id: CO_331:0000785
 name: sweetpotato rtltcl_et_1to9 variable
-synonym: "LENTS" EXACT []
+synonym: "LENTS" EXACT [CO:curators]
 is_a: CO_331:0000418 ! sweetpotato number of lenticels trait
 relationship: variable_of CO_331:0000418 ! sweetpotato number of lenticels trait
 relationship: variable_of CO_331:0000537 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
@@ -5042,7 +4950,7 @@ relationship: variable_of CO_331:0000655 ! sweetpotato ses 9 pt. scale
 [Term]
 id: CO_331:0000786
 name: sweetpotato rnpsr_et_0to5 variable
-synonym: "SSR" EXACT []
+synonym: "SSR" EXACT [CO:curators]
 is_a: CO_331:0000419 ! sweetpotato reaction to streptomyces soil rot trait
 relationship: variable_of CO_331:0000419 ! sweetpotato reaction to streptomyces soil rot trait
 relationship: variable_of CO_331:0000538 ! sweetpotato observation of an average or all storage roots within a single plant or plot (greenhouse screen and field screen) method
@@ -5051,7 +4959,7 @@ relationship: variable_of CO_331:0000656 ! sweetpotato ses 6 pt. scale
 [Term]
 id: CO_331:0000787
 name: sweetpotato rnmgrkn_et_0to5 variable
-synonym: "RKN" EXACT []
+synonym: "RKN" EXACT [CO:curators]
 is_a: CO_331:0000420 ! sweetpotato reaction to root knot nematode meloidogyne spp trait
 relationship: variable_of CO_331:0000420 ! sweetpotato reaction to root knot nematode meloidogyne spp trait
 relationship: variable_of CO_331:0000539 ! sweetpotato visual estimation of the roots response to root-knot nematode method
@@ -5060,7 +4968,7 @@ relationship: variable_of CO_331:0000657 ! sweetpotato rcmgrkn 6 pt. scale
 [Term]
 id: CO_331:0000788
 name: sweetpotato rnmgirkn_et_0to7 variable
-synonym: "RKN, MELOI" EXACT []
+synonym: "RKN, MELOI" EXACT [CO:curators]
 is_a: CO_331:0000421 ! sweetpotato reaction to root knot nematode meloidogyne incognita trait
 relationship: variable_of CO_331:0000421 ! sweetpotato reaction to root knot nematode meloidogyne incognita trait
 relationship: variable_of CO_331:0000540 ! sweetpotato visual estimation of the roots response to root-knot nematode method
@@ -5069,7 +4977,7 @@ relationship: variable_of CO_331:0000658 ! sweetpotato rcmigrkn 5 pt. scale
 [Term]
 id: CO_331:0000789
 name: sweetpotato rnfr_et_0to5 variable
-synonym: "FWILT" EXACT []
+synonym: "FWILT" EXACT [CO:curators]
 is_a: CO_331:0000422 ! sweetpotato reaction to fusarium oxysporum trait
 relationship: variable_of CO_331:0000422 ! sweetpotato reaction to fusarium oxysporum trait
 relationship: variable_of CO_331:0000541 ! sweetpotato visual estimation of the roots response to fusarium oxysporum method
@@ -5078,7 +4986,7 @@ relationship: variable_of CO_331:0000659 ! sweetpotato rnfr 6 pt. scale
 [Term]
 id: CO_331:0000790
 name: sweetpotato rtdam_et_1to14 variable
-synonym: "RTDEF" EXACT []
+synonym: "RTDEF" EXACT [CO:curators]
 is_a: CO_331:0000423 ! sweetpotato storage root defects trait
 relationship: variable_of CO_331:0000423 ! sweetpotato storage root defects trait
 relationship: variable_of CO_331:0000542 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
@@ -5087,7 +4995,7 @@ relationship: variable_of CO_331:0000660 ! sweetpotato rtdam 14 pt. scale
 [Term]
 id: CO_331:0000791
 name: sweetpotato rtyldr_et_1to9 variable
-synonym: "RTRYIELD" EXACT []
+synonym: "RTRYIELD" EXACT [CO:curators]
 is_a: CO_331:0000424 ! sweetpotato relative storage root yield trait
 relationship: variable_of CO_331:0000424 ! sweetpotato relative storage root yield trait
 relationship: variable_of CO_331:0000543 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
@@ -5096,34 +5004,24 @@ relationship: variable_of CO_331:0000661 ! sweetpotato rtyldr 5 pt. scale
 [Term]
 id: CO_331:0000792
 name: sweetpotato rtyldchk_cp_pct variable
-synonym: "RTYLDPCT" EXACT []
+synonym: "RTYLDPCT" EXACT [CO:curators]
 is_a: CO_331:0000425 ! sweetpotato storage root yield relative to check trait
 relationship: variable_of CO_331:0000425 ! sweetpotato storage root yield relative to check trait
-relationship: variable_of CO_331:0000544 ! method of co_331:0000425
 relationship: variable_of CO_331:0000649 ! sweetpotato scale_of co_331:0000531 scale
 
 [Term]
 id: CO_331:0000793
 name: sweetpotato rtapr_et_1to9 variable
-synonym: "RTAPPEAR" EXACT []
+synonym: "RTAPPEAR" EXACT [CO:curators]
 is_a: CO_331:0000426 ! sweetpotato storage root appearance trait
 relationship: variable_of CO_331:0000426 ! sweetpotato storage root appearance trait
 relationship: variable_of CO_331:0000545 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
 relationship: variable_of CO_331:0000663 ! sweetpotato rtapr 9 pt. scale
 
 [Term]
-id: CO_331:0000794
-name: sweetpotato ptmtss_et_0to4 variable
-synonym: "SEASON" EXACT []
-is_a: CO_331:0000427 ! sweetpotato growing season trait
-relationship: variable_of CO_331:0000427 ! sweetpotato growing season trait
-relationship: variable_of CO_331:0000546 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
-relationship: variable_of CO_331:0000664 ! sweetpotato ptmtss 5 pt. scale
-
-[Term]
 id: CO_331:0000795
 name: sweetpotato rtflsamy_ms_mgpergdw variable
-synonym: "AMY" EXACT []
+synonym: "AMY" EXACT [CO:curators]
 is_a: CO_331:0000428 ! sweetpotato amylose content trait
 relationship: variable_of CO_331:0000428 ! sweetpotato amylose content trait
 relationship: variable_of CO_331:0000547 ! sweetpotato amylose - method
@@ -5132,7 +5030,7 @@ relationship: variable_of CO_331:0000665 ! sweetpotato g/100 g fw scale
 [Term]
 id: CO_331:0000796
 name: sweetpotato rtflsasp_ms_mgpergdw variable
-synonym: "ASP" EXACT []
+synonym: "ASP" EXACT [CO:curators]
 is_a: CO_331:0000429 ! sweetpotato asparagine content trait
 relationship: variable_of CO_331:0000429 ! sweetpotato asparagine content trait
 relationship: variable_of CO_331:0000548 ! sweetpotato asparagine - method
@@ -5141,7 +5039,7 @@ relationship: variable_of CO_331:0000666 ! sweetpotato mg/g dw scale
 [Term]
 id: CO_331:0000797
 name: sweetpotato rtflscya_ms_mgpergdw variable
-synonym: "CYAN" EXACT []
+synonym: "CYAN" EXACT [CO:curators]
 is_a: CO_331:0000430 ! sweetpotato cyanidin content trait
 relationship: variable_of CO_331:0000430 ! sweetpotato cyanidin content trait
 relationship: variable_of CO_331:0000549 ! sweetpotato cyanidin - method
@@ -5150,7 +5048,7 @@ relationship: variable_of CO_331:0000666 ! sweetpotato mg/g dw scale
 [Term]
 id: CO_331:0000798
 name: sweetpotato rtflsantm_ms_mgpergdw variable
-synonym: "TMA" EXACT []
+synonym: "TMA" EXACT [CO:curators]
 is_a: CO_331:0000431 ! sweetpotato total monomeric anthocyanin content trait
 relationship: variable_of CO_331:0000431 ! sweetpotato total monomeric anthocyanin content trait
 relationship: variable_of CO_331:0000550 ! sweetpotato total monomeric anthocyanins - method
@@ -5159,7 +5057,7 @@ relationship: variable_of CO_331:0000666 ! sweetpotato mg/g dw scale
 [Term]
 id: CO_331:0000799
 name: sweetpotato rtflspeo_ms_mgpergdw variable
-synonym: "PEO" EXACT []
+synonym: "PEO" EXACT [CO:curators]
 is_a: CO_331:0000432 ! sweetpotato peonidin content trait
 relationship: variable_of CO_331:0000432 ! sweetpotato peonidin content trait
 relationship: variable_of CO_331:0000551 ! sweetpotato peonidin - method
@@ -5168,7 +5066,7 @@ relationship: variable_of CO_331:0000666 ! sweetpotato mg/g dw scale
 [Term]
 id: CO_331:0000800
 name: sweetpotato rtflsant_ms_mgpergdw variable
-synonym: "ANTHO" EXACT []
+synonym: "ANTHO" EXACT [CO:curators]
 is_a: CO_331:0000433 ! sweetpotato anthocyanin content trait
 relationship: variable_of CO_331:0000433 ! sweetpotato anthocyanin content trait
 relationship: variable_of CO_331:0000552 ! sweetpotato anthocyanin - method
@@ -5177,7 +5075,7 @@ relationship: variable_of CO_331:0000666 ! sweetpotato mg/g dw scale
 [Term]
 id: CO_331:0000801
 name: sweetpotato rtflsphe_ms_mgpergdw variable
-synonym: "PHEN" EXACT []
+synonym: "PHEN" EXACT [CO:curators]
 is_a: CO_331:0000434 ! sweetpotato phenol content trait
 relationship: variable_of CO_331:0000434 ! sweetpotato phenol content trait
 relationship: variable_of CO_331:0000553 ! sweetpotato phenol - method
@@ -5186,7 +5084,7 @@ relationship: variable_of CO_331:0000666 ! sweetpotato mg/g dw scale
 [Term]
 id: CO_331:0000802
 name: sweetpotato vnnds_ct_pervine variable
-synonym: "VINTND" EXACT []
+synonym: "VINTND" EXACT [CO:curators]
 is_a: CO_331:0000435 ! sweetpotato nodes per vine trait
 relationship: variable_of CO_331:0000435 ! sweetpotato nodes per vine trait
 relationship: variable_of CO_331:0000554 ! sweetpotato nodes per vine evaluation method
@@ -5195,7 +5093,7 @@ relationship: variable_of CO_331:0000672 ! sweetpotato nodes/plant scale
 [Term]
 id: CO_331:0000803
 name: sweetpotato ptlvs_ct_perplant variable
-synonym: "LEFTPP" EXACT []
+synonym: "LEFTPP" EXACT [CO:curators]
 is_a: CO_331:0000436 ! sweetpotato leaves per plant trait
 relationship: variable_of CO_331:0000436 ! sweetpotato leaves per plant trait
 relationship: variable_of CO_331:0000555 ! sweetpotato leaves per plant evaluation method
@@ -5204,7 +5102,7 @@ relationship: variable_of CO_331:0000673 ! sweetpotato leaf/plant scale
 [Term]
 id: CO_331:0000804
 name: sweetpotato lfcol_ms_image variable
-synonym: "LEFCPC" EXACT []
+synonym: "LEFCPC" EXACT [CO:curators]
 is_a: CO_331:0000437 ! sweetpotato color of leave trait
 relationship: variable_of CO_331:0000437 ! sweetpotato color of leave trait
 relationship: variable_of CO_331:0000556 ! sweetpotato color of leave picture method
@@ -5213,7 +5111,7 @@ relationship: variable_of CO_331:0000674 ! sweetpotato picture scale
 [Term]
 id: CO_331:0000805
 name: sweetpotato rtsmilldam_et_1to9 variable
-synonym: "MILLDAM" EXACT []
+synonym: "MILLDAM" EXACT [CO:curators]
 is_a: CO_331:0000438 ! sweetpotato millipede damage trait
 relationship: variable_of CO_331:0000438 ! sweetpotato millipede damage trait
 relationship: variable_of CO_331:0000557 ! sweetpotato observation of an average or all storage roots within a single plant or plot method
@@ -5222,7 +5120,7 @@ relationship: variable_of CO_331:0000675 ! sweetpotato rtsmilldam 5 pt. scale
 [Term]
 id: CO_331:0000806
 name: sweetpotato rtalcdam_et_1to9 variable
-synonym: "ALCDAM" EXACT []
+synonym: "ALCDAM" EXACT [CO:curators]
 is_a: CO_331:0000439 ! sweetpotato alcidodes sp. damage trait
 relationship: variable_of CO_331:0000439 ! sweetpotato alcidodes sp. damage trait
 relationship: variable_of CO_331:0000558 ! sweetpotato weevil damage evaluation method
@@ -5231,7 +5129,7 @@ relationship: variable_of CO_331:0000676 ! sweetpotato rtalcdam 5 pt. scale
 [Term]
 id: CO_331:0000807
 name: sweetpotato rtsinsdam_et_1to9 variable
-synonym: "INSDAM" EXACT []
+synonym: "INSDAM" EXACT [CO:curators]
 is_a: CO_331:0000440 ! sweetpotato soil insect damage trait
 relationship: variable_of CO_331:0000440 ! sweetpotato soil insect damage trait
 relationship: variable_of CO_331:0000559 ! sweetpotato soils insect evaluation method
@@ -5246,6 +5144,13 @@ relationship: scale_of CO_331:0000282 ! sweetpotato content of calcium in dry we
 relationship: scale_of CO_331:0000286 ! sweetpotato content of magnesium in dry weight basis - method
 
 [Term]
+id: CO_331:0000811
+name: sweetpotato storage root surface secondary defects trait
+def: "Storage root surface secondary defects" [CO:curators]
+synonym: "RtSSDef" EXACT [CO:curators]
+is_a: TO:1000007 ! tuberous root tuber morphology trait
+
+[Term]
 id: CO_331:0000812
 name: sweetpotato rtshp 9 pt. scale
 relationship: scale_of CO_331:0000068 ! sweetpotato observation of storage root shape described from longitudinal sections made about the middle of freshly harvested storage roots method
@@ -5253,11 +5158,688 @@ relationship: scale_of CO_331:0000068 ! sweetpotato observation of storage root 
 [Term]
 id: CO_331:0000813
 name: sweetpotato rtcyld_cp_tha variable
-synonym: "RYTHA" EXACT []
+synonym: "RYTHA" EXACT [CO:curators]
 is_a: CO_331:0000307 ! sweetpotato marketable root yield trait
 relationship: variable_of CO_331:0000307 ! sweetpotato marketable root yield trait
 relationship: variable_of CO_331:0000313 ! sweetpotato estimated marketable yield per hectare - method
 relationship: variable_of CO_331:0000319 ! sweetpotato t/ha scale
+
+[Term]
+id: CO_331:0001056
+name: sweetpotato biomass yield adjusted trait
+def: "The adjusted yield of the biomass" [CO:curators]
+synonym: "BioYldA" EXACT []
+is_a: TO:0000457 ! total biomass yield
+
+[Term]
+id: CO_331:0001057
+name: sweetpotato biomass yield adjusted in dry weight basis trait
+def: "The adjusted yield of the biomass in dry weight basis" [CO:curators]
+synonym: "BioYldAD" EXACT []
+is_a: TO:0000457 ! total biomass yield
+
+[Term]
+id: CO_331:0001058
+name: sweetpotato biomass yield in dry weight basis trait
+def: "The yield of the biomass in dry weight basis" [CO:curators]
+synonym: "BioYldD" EXACT []
+is_a: TO:0000457 ! total biomass yield
+
+[Term]
+id: CO_331:0001059
+name: sweetpotato commercial storage root yield adjusted trait
+def: "The adjusted yield of the commercial storage roots" [CO:curators]
+synonym: "RtCYldA" EXACT []
+is_a: TO:0001041 ! root yield
+
+[Term]
+id: CO_331:0001060
+name: sweetpotato flower length trait
+def: "The length of the flower" [CO:curators]
+synonym: "FrLg" EXACT []
+is_a: TO:0000860 ! flower length
+
+[Term]
+id: CO_331:0001061
+name: sweetpotato flower width trait
+def: "The width of the flower" [CO:curators]
+synonym: "FrWd" EXACT []
+is_a: TO:0000499 ! flower morphology trait
+
+[Term]
+id: CO_331:0001062
+name: sweetpotato plant height trait
+def: "The height of the plant" [CO:curators]
+synonym: "Ptlng" EXACT []
+is_a: TO:0000207 ! plant height
+
+[Term]
+id: CO_331:0001063
+name: sweetpotato root foliage ratio trait
+def: "The ratio between root and foliage" [CO:curators]
+synonym: "RtFl" EXACT []
+is_a: TO:0001041 ! root yield
+
+[Term]
+id: CO_331:0001064
+name: sweetpotato storage root cooking time trait
+def: "The cooking time of storage root" [CO:curators]
+synonym: "Cootime" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0001065
+name: sweetpotato storage root dry matter content yield trait
+def: "The dry matter content of the storage root yield" [CO:curators]
+synonym: "RtDMCY" EXACT []
+is_a: TO:0001041 ! root yield
+
+[Term]
+id: CO_331:0001066
+name: sweetpotato storage root dry matter content yield adjusted trait
+def: "The dry matter content of the storage root yield adjusted" [CO:curators]
+synonym: "RtDMCYA" EXACT []
+is_a: TO:0001041 ! root yield
+
+[Term]
+id: CO_331:0001068
+name: sweetpotato storage root fructose content in fresh weight basis trait
+def: "Fructose content in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtFruFw" EXACT []
+is_a: TO:0006005 ! fructose content
+
+[Term]
+id: CO_331:0001069
+name: sweetpotato storage root glucose content in dry weight basis trait
+def: "Glucose content in dry weight basis of the storage root" [CO:curators]
+synonym: "RtGluDw" EXACT []
+is_a: TO:0000300 ! glucose content
+
+[Term]
+id: CO_331:0001070
+name: sweetpotato storage root glucose content in fresh weight basis trait
+def: "Glucose content in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtGluFw" EXACT []
+is_a: TO:0000300 ! glucose content
+
+[Term]
+id: CO_331:0001071
+name: sweetpotato storage root maltose content in dry weight basis trait
+def: "Maltose content in dry weight basis of the storage root" [CO:curators]
+synonym: "RtMalDw" EXACT []
+is_a: TO:0006003 ! oligosaccharide content
+
+[Term]
+id: CO_331:0001072
+name: sweetpotato storage root maltose content in fresh weight basis trait
+def: "Maltose content in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtMalFw" EXACT []
+is_a: TO:0006003 ! oligosaccharide content
+
+[Term]
+id: CO_331:0001073
+name: sweetpotato storage root starch content trait
+def: "Starch content in raw storage root" [CO:curators]
+synonym: "RwRtSta" EXACT []
+is_a: TO:0000696 ! starch content
+
+[Term]
+id: CO_331:0001074
+name: sweetpotato storage root sucrose content in dry weight basis trait
+def: "Sucrose content in dry weight basis of the storage root" [CO:curators]
+synonym: "RtSucDw" EXACT []
+is_a: TO:0000328 ! sucrose content
+
+[Term]
+id: CO_331:0001075
+name: sweetpotato storage root sucrose content in fresh weight basis trait
+def: "Sucrose content in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtSucFw" EXACT []
+is_a: TO:0000328 ! sucrose content
+
+[Term]
+id: CO_331:0001076
+name: sweetpotato storage root total sugar content in dry weight basis trait
+def: "The total sugar content in dry weight basis of the storage root" [CO:curators]
+synonym: "RtTSgDw" EXACT []
+is_a: TO:0000333 ! sugar content
+
+[Term]
+id: CO_331:0001077
+name: sweetpotato storage root total sugar content in fresh weight basis trait
+def: "The total sugar content in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtTSgFw" EXACT []
+is_a: TO:0000333 ! sugar content
+
+[Term]
+id: CO_331:0001078
+name: sweetpotato total foliage yield adjusted trait
+def: "The adjusted yield of the total vine or foliage" [CO:curators]
+synonym: "VnFolYldA" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_331:0001079
+name: sweetpotato total number of storage roots trait
+def: "The total number of storage roots" [CO:curators]
+synonym: "RtTN" EXACT [CO:curators]
+is_a: TO:0000084 ! root number
+
+[Term]
+id: CO_331:0001080
+name: sweetpotato total storage root dry weight trait
+def: "The total dry weight of the storage roots" [CO:curators]
+synonym: "RtTDWt" EXACT [CO:curators]
+is_a: TO:0000279 ! root weight
+
+[Term]
+id: CO_331:0001081
+name: sweetpotato total storage roots yield adjusted trait
+def: "The adjusted yield of the total storage roots" [CO:curators]
+synonym: "RtYldA" EXACT [CO:curators]
+is_a: TO:0001041 ! root yield
+
+[Term]
+id: CO_331:0001082
+name: sweetpotato vine apex color trait
+def: "The apex color of the vine" [CO:curators]
+synonym: "VnACol" EXACT []
+is_a: TO:0000056 ! stem color
+
+[Term]
+id: CO_331:0001083
+name: sweetpotato vine base color trait
+def: "The base color of the vine" [CO:curators]
+synonym: "VnBCol" EXACT []
+is_a: TO:0000056 ! stem color
+
+[Term]
+id: CO_331:0001084
+name: sweetpotato vine dry matter content trait
+def: "The dry matter content of the vine" [CO:curators]
+synonym: "VnDMC" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_331:0001085
+name: sweetpotato vine dry matter content yield trait
+def: "The dry matter content of the vine yield" [CO:curators]
+synonym: "VnDMCY" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_331:0001086
+name: sweetpotato vine dry matter content yield adjusted trait
+def: "The dry matter content of the vine yield adjusted" [CO:curators]
+synonym: "VnDMCYA" EXACT []
+is_a: TO:0000327 ! shoot system yield trait
+
+[Term]
+id: CO_331:0001087
+name: sweetpotato vine dry weight trait
+def: "The dry weight of the vines" [CO:curators]
+synonym: "VnDW" EXACT []
+is_a: TO:0003001 ! stem dry weight
+
+[Term]
+id: CO_331:0001088
+name: sweetpotato vine node color trait
+def: "The node color of the vine" [CO:curators]
+synonym: "VnNCol" EXACT []
+is_a: TO:0000059 ! node color
+
+[Term]
+id: CO_331:0001105
+name: sweetpotato leaf area index trait
+def: "Defined as total surface area of foliage per unit ground area." [CO:curators]
+synonym: "LfAInd" EXACT []
+is_a: TO:0012001 ! leaf area index
+
+[Term]
+id: CO_331:0001106
+name: sweetpotato stomatal conductance trait
+def: "Stomatal conductance is the rate of passage of CO2 entering or water vapor exiting through the stomata of a leaf." [CO:curators]
+synonym: "LfSt" EXACT []
+is_a: TO:0000522 ! stomatal conductance
+
+[Term]
+id: CO_331:0001107
+name: sweetpotato stomatal density trait
+def: "The number of stomata per leaf area.
+synonym: "LfStDn" EXACT []
+is_a: TO:0000566 ! leaf stomatal complex frequency
+
+[Term]
+id: CO_331:0001108
+name: sweetpotato canopy temperature trait
+def: "The temperature of the canopy by plot with a thermal image taken for a infrared thermografic camera
+synonym: "CT" EXACT []
+is_a: TO:0000157 ! canopy temperature
+
+[Term]
+id: CO_331:0001109
+name: sweetpotato Canopy temperature depression trait
+def: "Deviation of temperature of plant canopies from the ambient temperature
+synonym: "CTD" EXACT []
+is_a: TO:0000157 ! canopy temperature
+
+[Term]
+id: CO_331:0002041
+name: sweetpotato average non-commercial storage root weight trait
+def: "The average non-commercial weight of storage roots" [CO:curators]
+synonym: "RtANCRW" EXACT []
+is_a: TO:0000279 ! root weight
+
+[Term]
+id: CO_331:0002042
+name: sweetpotato average total storage root weight trait
+def: "The average total weight of storage roots" [CO:curators]
+synonym: "RtATRW" EXACT []
+is_a: TO:0000279 ! root weight
+
+[Term]
+id: CO_331:0002051
+name: sweetpotato storage root beta-carotene concentration in dry weight basis trait
+def: "The beta-carotene concentration in dry weight basis of the storage root" [CO:curators]
+synonym: "RtBCDw" EXACT []
+is_a: TO:0000289 ! carotene content
+
+[Term]
+id: CO_331:0002052
+name: sweetpotato storage root total carotenoid concentration in dry weight basis trait
+def: "The total carotenoid concentration in dry weight basis of the storage root" [CO:curators]
+synonym: "RtTCDw" EXACT []
+is_a:TO:0000496 ! carotenoid content
+
+[Term]
+id: CO_331:0002053
+name: sweetpotato storage root calcium concentration in fresh weight basis trait
+def: "The calcium concentration in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtFlsCaFw" EXACT []
+is_a: TO:1000029 ! root system calcium content
+
+[Term]
+id: CO_331:0002054
+name: sweetpotato storage root zinc concentration in fresh weight basis trait
+def: "The zinc concentration in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtFlsZnFw" EXACT []
+is_a: TO:0006053 ! zinc concentration
+
+[Term]
+id: CO_331:0002055
+name: sweetpotato storage root starch content in fresh weight basis trait
+def: "Starch content in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtStaFw" EXACT []
+is_a: TO:0000696 ! starch content
+
+[Term]
+id: CO_331:0002056
+name: sweetpotato overall disease symptoms of the storage root trait
+def: "The overall disease symptoms of the storage root" [CO:curators]
+synonym: "RtDSm" EXACT []
+is_a: TO:0000112 ! microbial disease response
+
+[Term]
+id: CO_331:0002057
+name: sweetpotato storage root magnesium concentration in fresh weight basis trait
+def: "Content of magnesium in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtFlsMgFw" EXACT []
+is_a: TO:1000038 ! root system magnesium content
+
+[Term]
+id: CO_331:0002064
+name: sweetpotato leaf texture trait
+def: "The texture of the leaf" [CO:curators]
+synonym: "BlLfTex" EXACT []
+is_a: TO:0000419 ! vascular leaf morphology trait
+
+[Term]
+id: CO_331:0002065
+name: sweetpotato leaf appearance trait
+def: "The visual aspect of leaves" [CO:curators]
+synonym: "BlLfAp" EXACT []
+is_a: TO:0000419 ! vascular leaf morphology trait
+
+[Term]
+id: CO_331:0002066
+name: sweetpotato leaf flavor trait
+def: "The flavor of the leaves" [CO:curators]
+synonym: "BlLfTs" EXACT []
+is_a: TO:0000419 ! vascular leaf morphology trait
+
+[Term]
+id: CO_331:0002067
+name: sweetpotato pest damage tolerant trait
+def: "The pest damage tolerant of the plant" [CO:curators]
+synonym: "PlPdt" EXACT []
+is_a: TO:0000112 ! microbial disease response
+
+[Term]
+id: CO_331:0002068
+name: sweetpotato yielding ability trait
+def: "Yielding ability of the plant" [CO:curators]
+synonym: "PlYlAb" EXACT []
+is_a: TO:0001041 ! root yield
+
+[Term]
+id: CO_331:0002069
+name: sweetpotato attractiveness of the storage-root skin color trait
+def: "Attractiveness of the storage-root skin color  of a variety with respect to their local variety  at harvest" [CO:curators]
+synonym: "SrSkACol" EXACT []
+is_a: TO:0000065 ! root color
+
+[Term]
+id: CO_331:0002070
+name: sweetpotato attractiveness of the storage-root flesh color trait
+def: "Attractiveness of the storage-root flesh color of a variety with respect to their local variety at harvest" [CO:curators]
+synonym: "SrFlACol" EXACT []
+is_a: TO:0000065 ! root color
+
+[Term]
+id: CO_331:0002078
+name: sweetpotato storage root protein content in fresh weight basis trait
+def: "Protein content in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtPrtFw" EXACT []
+is_a: TO:0000598 ! protein content
+
+[Term]
+id: CO_331:0002079
+name: sweetpotato storage root iron concentration in fresh weight basis trait
+def: "The iron concentration in fresh weight basis of the storage root" [CO:curators]
+synonym: "RtFlsFeFw" EXACT []
+is_a: TO:0006049 ! iron concentration
+
+[Term]
+id: CO_331:0002079
+name: sweetpotato storage root iron concentration in fresh weight basis trait
+def: "The iron concentration in fresh weight basis of the storage root." [CO:curators]
+synonym: "RtFlsFeFw" EXACT []
+is_a: TO:0006049 ! iron concentration
+
+[Term]
+id: CO_331:0004026
+name: sweetpotato boiled root smoothness trait
+def: "Geometrical attribute associated with the overall degree of absence of particles within sample." [CO:curators]
+synonym: "SweetpotatMthSmooth" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004027
+name: sweetpotato boiled root fibrousness trait
+def: "Geometrical attribute of product associated with presence of particles after chewing and feeling the sample between the tongue and the palate." [CO:curators]
+synonym: "SweetpotatMthFibr" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004028
+name: sweetpotato boiled root rate of breakdown trait
+def: "Mechanical textural attribute related to length of time or number of chews required to masticate a product into a state ready for swallowing" [CO:curators]
+synonym: "SweetpotatMthBreak" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004029
+name: sweetpotato boiled root surface uniformity of color trait" [CO:curators]
+def: "Evenness of the distribution of the colour across entire sample surface
+synonym: "BoiSweetpotatColUnif" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004030
+name: sweetpotato boiled root fibrous appearance trait
+def: "Geometrical attribute of product associated with presence of long string like particles on the product surface" [CO:curators]
+synonym: "BoiSweetpotatFibr" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004031
+name: sweetpotato boiled root color intensity trait
+def: "Description of predominant color of sweetpotato and its relative intensity" [CO:curators]
+synonym: "BoiSweetpotatColor-int" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004032
+name: sweetpotato boiled root translucency trait
+def: "Attribute of object that allows light to pass through it but not images to be distinguished" [CO:curators]
+synonym: "BoiSweetpotatTrans" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004033 
+name: sweetpotato boiled root fracturability trait
+def: "Mechanical textural attribute related to the force necessary to break product into crumbs or pieces" [CO:curators]
+synonym: "SweetpotatFract" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004034
+name: sweetpotato boiled root hardness in mouth trait
+def: "Mechanical textural attribute related to the force necessary to achieve a certain deformation" [CO:curators]
+synonym: "SweetpotatHard" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004035
+name: sweetpotato boiled root mealiness trait
+def: "An attribute associated with gumminess characterized by powdery mouthfeel" [CO:curators]
+synonym: "SweetpotatHdMeal" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004036
+name: sweetpotato boiled root moisture release trait
+def: "Textural attribute related to release of moisture from a product when pressure is applied" [CO:curators]
+synonym: "SweetpotatHdMois" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004037
+name: sweetpotato boiled root cohesiveness trait
+def: "Textural attribute relating to degree to which a substance can be deformed before it breaks" [CO:curators]
+synonym: "SweetpotatHdMold" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004038
+name: sweetpotato boiled root sweet potato-like aroma trait
+def: "Distinct aroma of cooked sweetpotato" [CO:curators]
+synonym: "BoiSweetpotatAroma" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004039
+name: sweetpotato boiled root pumpkin-like aroma trait
+def: "Distinct aroma of cooked pumpkin" [CO:curators]
+synonym: "BoiSweetpotatPumpAroma" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004040
+name: sweetpotato boiled root cooked carrot-like aroma trait
+def: "Distinct aroma of cooked carrot" [CO:curators]
+synonym: "BoiSweetpotatCarrAroma" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004041
+name: sweetpotato boiled root floral-like aroma trait
+def: "Distinct aroma of flowers associated with poor quality boiled sweetpotato" [CO:curators]
+synonym: "BoiSweetpotatFlorAroma" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004042
+name: sweetpotato boiled root bitterness trait
+def: "Basic tastes produced by solutions of dilute aqueous solutions of various substances such as quinine and caffeine" [CO:curators]
+synonym: "BoiSweetpotatTastBit" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004043
+name: sweetpotato boiled root sourness trait
+def: "Basic tastes produced by solutions of dilute aqueous solutions of acid substances including citric acid and tartaric acid" [CO:curators]
+synonym: "BoiSweetpotatTastSour" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004044
+name: sweetpotato boiled root sweetness trait
+def: "Basic taste produced by solutions of various substances such as sucrose" [CO:curators]
+synonym: "BoiSweetpotatTastSweet" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004045
+name: sweetpotato boiled root caramel-like odor trait
+def: "Odor of caramel (molten sugar)" [CO:curators]
+synonym: "BoiSweetpotatCarOdor" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004046
+name: sweetpotato boiled root cooked sweet potato-like odor trait
+def: "Odor of cooked sweet potato" [CO:curators]
+synonym: "BoiSweetpotatOdor" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004047
+name: sweetpotato boiled root off-odor trait
+def: "A typical odor associated with transformation or deterioration of boiled sweet potato" [CO:curators]
+synonym: "BoiSweetpotatOff-odor" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004048
+name: sweetpotato boiled root pumpkin-like odor trait
+def: "Odor of cooked pumpkin" [CO:curators]
+synonym: "BoiSweetpotatPumpOdor" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004049
+name: sweetpotato boiled root adhesiveness trait
+def: "Textural attribute relating force required to remove material that adheres to the mouth or to a substrate" [CO:curators]
+synonym: "SweetpotatMthAdh" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+[Term]
+id: CO_331:0004050
+name: sweetpotato boiled root crunchness trait
+def: "Attribute of product to produce low pitched sound during rupturing" [CO:curators]
+synonym: "SweetpotatCrun" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0004051
+name: sweetpotato boiled root moisture in the mass trait
+def: "Textural attribute which describes amount of water present in the sample mass" [CO:curators]
+synonym: "SweetpotatMthMois" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0005002
+name: sweetpotato vine diameter trait
+def: "Diameter of main vine/stem at the base of the plant" [CO:curators]
+synonym: "VnD" EXACT []
+is_a: TO:0020083 ! stem diameter
+
+[Term]
+id: CO_331:0006009
+name: sweetpotato cooked storage root likability trait
+def: "The overall likability of the cooked storage root based on appearance and taste" [CO:curators]
+synonym: "RtFlsLike" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0006014
+name: sweetpotato storage root pithiness severity trait
+def: "The severity of pithiness in stored storage roots" [CO:curators]
+synonym: "RtPthSev" EXACT []
+is_a: TO:0001069 ! cooking quality trait
+
+[Term]
+id: CO_331:0006016
+name: sweetpotato storage root internal necrosis severity trait
+def: "The severity of internal necrosis in stored storage roots." [CO:curators]
+synonym: "RtINSev" EXACT []
+is_a: TO:1000007 ! tuberous root tuber morphology trait
+
+[Term]
+id: CO_331:0006025
+name: sweetpotato genotype fatal defects trait
+def: "The defects observed that disqualify a genotype from advancement in the breeding program." [CO:curators]
+synonym: "WhyDrop" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
+
+[Term]
+id: CO_331:0006027
+name: sweetpotato genotype disadvantages trait
+def: "Disadvantages or defects of a genotype that is being advanced in the breeding program." [CO:curators]
+synonym: "KeepDefects" EXACT []
+is_a: TO:0000322 ! phenotypic acceptability
+
+[Term]
+id: CO_331:0006029
+name: sweetpotato genotype advantages trait
+def: "Advantages of a genotype that is being advanced in the breeding program." [CO:curators]
+synonym: "KeepAdvantages" EXACT []
+is_a: TO:1000007 ! tuberous root tuber morphology trait
+
+[Term]
+id: CO_331:2000001
+name: sweetpotato plant uniformity trait
+def: "The uniformity of the plant. Estimation of height uniformity of newly emerging vines" [CO:curators]
+synonym: "PltUni" EXACT []
+is_a: TO:0001003 ! plant height uniformity
+
+[Term]
+id: CO_331:2000006
+name: sweetpotato plant production trait
+def: "The production of the plant" [CO:curators]
+synonym: "PltProd" EXACT []
+is_a: TO:0000250 ! plant vigor trait
+
+[Term]
+id: CO_331:2000010
+name: sweetpotato plant earliness trait
+def: "The earliness of the plant" [CO:curators]
+synonym: "PltEar" EXACT []
+is_a: TO:0000250 ! plant vigor trait
+
+[Term]
+id: CO_331:2000014
+name: sweetpotato total vine production trait
+def: "The total vine production of the plant. Total vine production in estimated number of plants" [CO:curators]
+synonym: "TtlVnProd" EXACT []
+is_a: TO:0000953 ! stem number
+
+[Term]
+id: CO_331:2000022
+name: sweetpotato vine length trait
+def: "Length of the main vine" [CO:curators]
+synonym: "VnLg" EXACT []
+is_a: TO:0000576 ! stem length
+
+[Term]
+id: CO_331:2000029
+name: sweetpotato canopy temperature trait
+def: "The canopy temperature by plot" [CO:curators]
+synonym: "CnpTp" EXACT []
+is_a: TO:0000157 ! canopy temperature
+
+[Term]
+id: CO_331:2000034
+name: sweetpotato leaf area trait
+def: "Leaf area" [CO:curators]
+synonym: "LfArea" EXACT []
+is_a: TO:0000540 ! leaf area trait
+
+[Term]
+id: CO_331:2000038
+name: sweetpotato weight of pencil type roots trait
+synonym: "RtPnW" EXACT []
+is_a: TO:0000279 ! root weight
 
 [Typedef]
 id: method_of
