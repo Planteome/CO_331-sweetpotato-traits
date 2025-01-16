@@ -5449,7 +5449,7 @@ id: CO_331:0002052
 name: sweetpotato storage root total carotenoid concentration in dry weight basis trait
 def: "The total carotenoid concentration in dry weight basis of the storage root" [CO:curators]
 synonym: "RtTCDw" EXACT []
-is_a:TO:0000496 ! carotenoid content
+is_a: TO:0000496 ! carotenoid content
 
 [Term]
 id: CO_331:0002053
