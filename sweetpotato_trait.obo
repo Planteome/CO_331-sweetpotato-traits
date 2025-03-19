@@ -10273,6 +10273,188 @@ relationship: variable_of CO_331:0006029 ! genotype advantages
 relationship: variable_of CO_331:0014016 ! visual estimation - genotype advantages
 relationship: variable_of CO_331:0014015 ! genotype advantages multi-category scale
 
+[Term]
+id: CO_331:0004000
+name: Boiled sweet potato smoothness scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004001
+name: Boiled sweet potato in mouth fibrousness scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004002
+name: Boiled sweet potato rate of breakdown scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004003
+name: Boiled sweet potato surface color uniformity scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004004
+name: Boiled sweet potato fibrousness scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004005
+name: Boiled sweet potato color intensity scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004006
+name: Boiled sweet potato translucency 2 pt scale
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004007
+name: Boiled sweet potato fracturability scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004008
+name: Boiled sweet potato hardness scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004009
+name: Boiled sweet potato mealiness scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004010
+name: Boiled sweet potato moisture release 2 pt scale
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004011
+name: Boiled sweet potato moldability scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004012
+name: Boiled sweet potato sweet potato-like aroma scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004013
+name: Boiled sweet potato pumpkin-like aroma scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004014
+name: Boiled sweet potato cooked carrot-like aroma scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004015
+name: Boiled sweet potato floral-like aroma scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004016
+name: Boiled sweet potato bitter taste 2 pt scale
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004017
+name: Boiled sweet potato sour taste 2 pt scale
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004018
+name: Boiled sweet potato taste scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004019
+name: Boiled sweet potato caramel-like odor scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004020
+name: Boiled sweet potato odor scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004021
+name: Boiled sweet potato off-odour 2 pt scale
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004022
+name: Boiled sweet potato pumpkin-like odor scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004023
+name: Boiled sweet potato adhesiveness scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004024
+name: Boiled sweet potato crunchness 2 pt scale
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0004025
+name: Boiled sweet potato moisture scale 0-10
+namespace: SweetpotatoTrait
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:1000007 ! Quality_trait
+
 [Typedef]
 id: method_of
 name: method_of
