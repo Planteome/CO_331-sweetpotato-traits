@@ -3,565 +3,15 @@ date: 03:06:2026 10:50
 saved-by: Naama
 namespace-id-rule: * CO_331:$sequence(7,0000000,0009999)$
 ontology: CO_331
+default-namespace: SweetpotatoTrait
 
 [Term]
-id: CO:331:0003001
-name: sweetpotato fry color intensity
+id: CO_331:0003068
+name: Fry toughness
 namespace: SweetpotatoTrait
-def: "color intensity of fried sweetpotato fry measured visually on a 0(least intense) to 9(most intense) scale." []
-synonym: "RtBFryCol" EXACT []
+def: "The toughness of the fry estimating from 0 = Not tough to 9 = Very tough" []
+synonym: "RtBFryT" EXACT []
 is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003002
-name: Color Intensity of Fried Sweetpotato fry 0-9
-namespace: SweetpotatoTrait
-def: "color intensity of fried sweetpotato fry measured visually on a 0(least intense) to 9(most intense) scale." []
-synonym: "Color intensity" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003001 ! sweetpotato fry color intensity
-relationship: variable_of CO:331:0003003 ! visual estimation - color intensity
-relationship: variable_of CO:331:0003004 ! color intensity 0-9 scale
-
-[Term]
-id: CO:331:0003003
-name: visual estimation - color intensity
-namespace: SweetpotatoMethod
-def: "visual rating of color intensity" []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003002 ! Color Intensity of Fried Sweetpotato fry 0-9
-relationship: variable_of CO:331:0003046 ! Fry color estimating 0-9
-
-[Term]
-id: CO:331:0003004
-name: color intensity 0-9 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003003 ! visual estimation - color intensity
-
-[Term]
-id: CO:331:0003005
-name: Chip color intensity
-namespace: SweetpotatoTrait
-def: "The color intensity of the chip estimating from 0 = Light orange or yellow to 15 = Dark orange or yellow" []
-synonym: "RtBChipCol" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003006
-name: Chip color intensity estimating 0-15
-namespace: SweetpotatoTrait
-def: "The color intensity of the chip estimating from 0 = Light orange or yellow to 15 = Dark orange or yellow" []
-synonym: "CHIPCOLINT" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003005 ! Chip color intensity
-relationship: variable_of CO:331:0003007 ! visual estimation - chip color intensity
-relationship: variable_of CO:331:0003008 ! chip color intensity 0-15 scale
-
-[Term]
-id: CO:331:0003007
-name: visual estimation - chip color intensity
-namespace: SweetpotatoMethod
-def: "visual rating of chip color intensity" []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003006 ! Chip color intensity estimating 0-15
-
-[Term]
-id: CO:331:0003008
-name: chip color intensity 0-15 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003007 ! visual estimation - chip color intensity
-
-[Term]
-id: CO:331:0003009
-name: Chip browning estimating
-namespace: SweetpotatoTrait
-def: "The browning of the chip estimating from 1 to 5" []
-synonym: "RtBChipBe" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003010
-name: Chip browning estimating by half points 1-5
-namespace: SweetpotatoTrait
-def: "The browning of the chip estimating from 1 = No browning to 5 = Extreme browning" []
-synonym: "CHIPBRWN" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003009 ! Chip browning estimating
-relationship: variable_of CO:331:0003011 ! visual estimation - chip brownness
-relationship: variable_of CO:331:0003012 ! chip browning intensity 1-5 scale
-
-[Term]
-id: CO:331:0003011
-name: visual estimation - chip brownness
-namespace: SweetpotatoMethod
-def: "Visual rating of chip brownness." []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003010 ! Chip browning estimating by half points 1-5
-
-[Term]
-id: CO:331:0003012
-name: chip browning intensity 1-5 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003011 ! visual estimation - chip brownness
-
-[Term]
-id: CO:331:0003013
-name: Chip overall appearance
-namespace: SweetpotatoTrait
-def: "The overall appearance of the chip estimating from 0 = Poor overall appearance to 15 = Excellent overall appearance" []
-synonym: "RtBChipApp" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003014
-name: Chip overall appearance estimating 0-15
-namespace: SweetpotatoTrait
-def: "The overall appearance of the chip estimating from 0 = Poor overall appearance to 15 = Excellent overall appearance" []
-synonym: "CHIPOVAPP" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003013 ! Chip overall appearance
-relationship: variable_of CO:331:0003015 ! visual estimation - overall appearances of chips
-relationship: variable_of CO:331:0003016 ! overall appearances of chips 0-15 scale
-
-[Term]
-id: CO:331:0003015
-name: visual estimation - overall appearances of chips
-namespace: SweetpotatoMathod
-def: "Visual rating of overall appearances of chips." []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003014 ! Chip overall appearance estimating 0-15
-
-[Term]
-id: CO:331:0003016
-name: overall appearances of chips 0-15 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003015 ! visual estimation - overall appearances of chips
-
-[Term]
-id: CO:331:0003017
-name: Chip crunchiness estimating
-namespace: SweetpotatoTrait
-def: "The crunchiness of the chip estimating from 0 = Not crunchy to 15 = Very crunchy" []
-synonym: "RtBChipCE" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003018
-name: Chip crunchiness estimating 0-15
-namespace: SweetpotatoTrait
-def: "The crunchiness of the chip estimating from 0 = Not crunchy to 15 = Very crunchy" []
-synonym: "CHIPCRUNCH" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003017 ! Chip crunchiness estimating
-relationship: variable_of CO:331:0003019 ! estimation - chip crunchiness
-relationship: variable_of CO:331:0003020 ! chip crunchiness 0-15 scale
-
-[Term]
-id: CO:331:0003019
-name: estimation - chip crunchiness
-namespace: SweetpotatoMethod
-def: "Rating the chip crunchiness by tasting it." []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003018 ! Chip crunchiness estimating 0-15
-
-[Term]
-id: CO:331:0003020
-name: chip crunchiness 0-15 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003019 ! estimation - chip crunchiness
-
-[Term]
-id: CO:331:0003021
-name: Chip hardness
-namespace: SweetpotatoTrait
-def: "The hardness of the chip estimating from 0 = Not hard to 15 = Very hard" []
-synonym: "RtBChipH" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003022
-name: Chip hardness estimating 0-15
-namespace: SweetpotatoTrait
-def: "The hardness of the chip estimating from 0 = Not hard to 15 = Very hard" []
-synonym: "CHIPHARD" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003021 ! Chip hardness
-
-[Term]
-id: CO:331:0003023
-name: estimation - chip hardness
-namespace: SweetpotatoMethod
-def: "Rating the chips hardness by tasting it." []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003022 ! Chip hardness estimating 0-15
-
-[Term]
-id: CO:331:0003024
-name: chip hardnes 0-15 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003023 ! estimation - chip hardness
-
-[Term]
-id: CO:331:0003025
-name: Chip sweetness
-namespace: SweetpotatoTrait
-def: "The sweetness of the chip estimating from 0 = No sweetness to 15 = Very sweet" []
-synonym: "RtBChipS" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003026
-name: Chip sweetness estimating 0-15
-namespace: SweetpotatoTrait
-def: "The sweetness of the chip estimating from 0 = No sweetness to 15 = Very sweet" []
-synonym: "CHIPSWEET" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003025 ! Chip sweetness
-relationship: variable_of CO:331:0003027 ! estimation - sweetness of chips
-relationship: variable_of CO:331:0003028 ! chip sweetness 0-15 scale
-
-[Term]
-id: CO:331:0003027
-name: estimation - sweetness of chips
-namespace: SweetpotatoMethod
-def: "Rating the sweetness of chips by tasting it." []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003026 ! Chip sweetness estimating 0-15
-
-[Term]
-id: CO:331:0003028
-name: chip sweetness 0-15 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003027 ! estimation - sweetness of chips
-
-[Term]
-id: CO:331:0003029
-name: Chip flavor estimating
-namespace: SweetpotatoTrait
-def: "The flavor of the chip estimating from 0 = Extremely dislike to 15 = Extremely like" []
-synonym: "RtBChipFE" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003030
-name: Chip flavor estimating 0-15
-namespace: SweetpotatoTrait
-def: "The flavor of the chip estimating from 0 = Extremely dislike to 15 = Extremely like" []
-synonym: "CHIPFLVR" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003029 ! Chip flavor estimating
-relationship: variable_of CO:331:0003031 ! estimation - chip flavor
-relationship: variable_of CO:331:0003033 ! Chip flavor 0-15 scale
-
-[Term]
-id: CO:331:0003031
-name: estimation - chip flavor
-namespace: SweetpotatoMethod
-def: "Flavor of chips rating by tasting it." []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003030 ! Chip flavor estimating 0-15
-
-[Term]
-id: CO:331:0003032
-name: Chip burnt flavor
-namespace: SweetpotatoTrait
-def: "The burnt flavor of the chip estimating from 0 = No burnt flavor to 15 = Excessive burnt flavor" []
-synonym: "RtBChipBF" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003033
-name: Chip flavor 0-15 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003031 ! estimation - chip flavor
-
-[Term]
-id: CO:331:0003034
-name: Chip burnt flavor estimating 0-15
-namespace: SweetpotatoTrait
-def: "The burnt flavor of the chip estimating from 0 = No burnt flavor to 15 = Excessive burnt flavor" []
-synonym: "CHIPBRNTFLVR" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003032 ! Chip burnt flavor
-relationship: variable_of CO:331:0003035 ! estimation - chip burnt flavor
-relationship: variable_of CO:331:0003036 ! Chip burnt flavor 0-15 scale
-
-[Term]
-id: CO:331:0003035
-name: estimation - chip burnt flavor
-namespace: SweetpotatoMethod
-def: "Rate the chip burnt flavor by tasting it." []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003034 ! Chip burnt flavor estimating 0-15
-
-[Term]
-id: CO:331:0003036
-name: Chip burnt flavor 0-15 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003035 ! estimation - chip burnt flavor
-
-[Term]
-id: CO:331:0003037
-name: Chip overall taste
-namespace: SweetpotatoTrait
-def: "The overall taste of the chip estimating from 0 = Extremely dislike to 15 = Extremely like" []
-synonym: "RtBChipOT" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003038
-name: Chip overall taste estimating 0-15
-namespace: SweetpotatoTrait
-def: "The overall taste of the chip estimating from 0 = Extremely dislike to 15 = Extremely like" []
-synonym: "CHIPOVTASTE" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003037 ! Chip overall taste
-relationship: variable_of CO:331:0003039 ! estimtion - overall taste of the chip
-relationship: variable_of CO:331:0003040 ! Chip overall taste 0-15 scale
-
-[Term]
-id: CO:331:0003039
-name: estimtion - overall taste of the chip
-namespace: SweetpotatoMethod
-def: "Rating the overall taste of the chip by tasting it." []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003038 ! Chip overall taste estimating 0-15
-
-[Term]
-id: CO:331:0003040
-name: Chip overall taste 0-15 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003039 ! estimtion - overall taste of the chip
-
-[Term]
-id: CO:331:0003041
-name: Chip overall  defects
-namespace: SweetpotatoTrait
-def: "The defects of the chip. VB= Vascular bundles, P=Pithiness, CB=Cortical browning , SP=Skin peeling, B=Excessive bubbling" []
-synonym: "RtBChipD" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003042
-name: Chip defects
-namespace: SweetpotatoTrait
-def: "The defects of the chip. VB= Vascular bundles, P=Pithiness, CB=Cortical browning , SP=Skin peeling, B=Excessive bubbling" []
-synonym: "CHIPDEF" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003041 ! Chip overall  defects
-
-[Term]
-id: CO:331:0003043
-name: visual estimation - chip defects
-namespace: SweetpotatoMethod
-def: "Rating the chip defects visually." []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003042 ! Chip defects
-
-[Term]
-id: CO:331:0003044
-name: chip defects visually scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000030 ! Nominal
-relationship: method_of CO:331:0003043 ! visual estimation - chip defects
-
-[Term]
-id: CO:331:0003045
-name: Fry color
-namespace: SweetpotatoTrait
-def: "The color intensity of the fry estimating from 0 = White to 9 = Dark orange, dark yellow" []
-synonym: "RtBFryC" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003046
-name: Fry color estimating 0-9
-namespace: SweetpotatoTrait
-def: "The color intensity of the fry estimating from 0 = White to 9 = Dark orange, dark yellow" []
-synonym: "FRYCOL" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003003 ! visual estimation - color intensity
-relationship: variable_of CO:331:0003004 ! color intensity 0-9 scale
-relationship: variable_of CO:331:0003045 ! Fry color
-
-[Term]
-id: CO:331:0003047
-name: Fry hue
-namespace: SweetpotatoTrait
-def: "The color of the fry. O = Orange, OB = Orange brown, B = Brown, Y = Yellow" []
-synonym: "RtBHue" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003048
-name: Fry color hue
-namespace: SweetpotatoTrait
-def: "The color of the fry. O = Orange, OB = Orange brown, B = Brown, Y = Yellow" []
-synonym: "FRYCOLHUE" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003047 ! Fry hue
-relationship: variable_of CO:331:0003049 ! visual estimation - color hue
-relationship: variable_of CO:331:0003050 ! Fry color hue scale
-
-[Term]
-id: CO:331:0003049
-name: visual estimation - color hue
-namespace: SweetpotatoMethod
-def: "Observe the fry color and identify it" []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003048 ! Fry color hue
-
-[Term]
-id: CO:331:0003050
-name: Fry color hue scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000030 ! Nominal
-relationship: scale_of CO:331:0003049 ! visual estimation - color hue
-
-[Term]
-id: CO:331:0003051
-name: Fry flesh color
-namespace: SweetpotatoTrait
-def: "The color intensity of the fry flesh estimating from 0 = White to 9 = Dark orange, dark yellow" []
-synonym: "RtBFryFCS" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003052
-name: Fry flesh color estimating 0-9
-namespace: SweetpotatoTrait
-def: "The color intensity of the fry flesh estimating from 0 = White to 9 = Dark orange, dark yellow" []
-synonym: "FRYFLESHCOL" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003051 ! Fry flesh color
-relationship: variable_of CO:331:0003053 ! visual estimation - fry flesh color
-relationship: variable_of CO:331:0003054 ! Fry flesh color 0-9 scale
-
-[Term]
-id: CO:331:0003053
-name: visual estimation - fry flesh color
-namespace: SweetpotatoMethod
-def: "Observe the fry flesh color intensity and rate it" []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003052 ! Fry flesh color estimating 0-9
-
-[Term]
-id: CO:331:0003054
-name: Fry flesh color 0-9 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003053 ! visual estimation - fry flesh color
-
-[Term]
-id: CO:331:0003055
-name: Fry flesh hue
-namespace: SweetpotatoTrait
-def: "The color of the fry flesh. O = Orange, OB = Orange brown, B = Brown, Y = Yellow" []
-synonym: "RtBFryFH" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003056
-name: Fry flesh color hue
-namespace: SweetpotatoTrait
-def: "The color of the fry flesh. O = Orange, OB = Orange brown, B = Brown, Y = Yellow" []
-synonym: "FRYFLESHCOLHUE" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003055 ! Fry flesh hue
-relationship: variable_of CO:331:0003057 ! visual estimation - fry flesh color hue
-relationship: variable_of CO:331:0003058 ! Fry flesh color hue scale
-
-[Term]
-id: CO:331:0003057
-name: visual estimation - fry flesh color hue
-namespace: SweetpotatoMethod
-def: "Observe the fry flesh color and identify it" []
-is_a: CO_331:1000014 ! Estimation
-
-[Term]
-id: CO:331:0003058
-name: Fry flesh color hue scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000030 ! Nominal
-relationship: scale_of CO:331:0003057 ! visual estimation - fry flesh color hue
-
-[Term]
-id: CO:331:0003060
-name: Fry appearance defects
-namespace: SweetpotatoTrait
-def: "The appearance defects of the fry estimating from 0 = No appearance defects to 9 = Excessive appearance defects" []
-synonym: "RtBFryAD" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003061
-name: Fry appearance defects estimating 0-9
-namespace: SweetpotatoTrait
-def: "The appearance defects of the fry estimating from 0 = No appearance defects to 9 = Excessive appearance defects" []
-synonym: "FRYAPPDEF" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003060 ! Fry appearance defects
-relationship: variable_of CO:331:0003062 ! visual estimation - appearance defects
-relationship: variable_of CO:331:0003063 ! Fry appearance defects 0-9 scale
-
-[Term]
-id: CO:331:0003062
-name: visual estimation - appearance defects
-namespace: SweetpotatoMethod
-def: "Observe the fry appearance defects and rate it" []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003061 ! Fry appearance defects estimating 0-9
-
-[Term]
-id: CO:331:0003063
-name: Fry appearance defects 0-9 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003062 ! visual estimation - appearance defects
-
-[Term]
-id: CO:331:0003064
-name: Fry crispness
-namespace: SweetpotatoTrait
-def: "The crispness of the fry estimating from 0 = Not crispy to 9 = Very crispy" []
-synonym: "RtBFryCr" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
-id: CO:331:0003065
-name: Fry crispness estimating 0-9
-namespace: SweetpotatoTrait
-def: "The crispness of the fry estimating from 0 = Not crispy to 9 = Very crispy" []
-synonym: "FRYCRISP" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO:331:0003064 ! Fry crispness
-relationship: variable_of CO:331:0003066 ! estimation - fry crispness
-relationship: variable_of CO:331:0003067 ! Fry crispness 0-9 scale
-
-[Term]
-id: CO:331:0003066
-name: estimation - fry crispness
-namespace: SweetpotatoMethod
-def: "Taste the fry crispness and rate it" []
-is_a: CO_331:1000014 ! Estimation
-relationship: method_of CO:331:0003065 ! Fry crispness estimating 0-9
-
-[Term]
-id: CO:331:0003067
-name: Fry crispness 0-9 scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000015 ! Ordinal
-relationship: scale_of CO:331:0003066 ! estimation - fry crispness
 
 [Term]
 id: CO_331:0000000
@@ -7054,7 +6504,7 @@ id: CO_331:0000933
 name: measurement - fructose content of the raw storage root
 namespace: SweetpotatoMethod
 def: "Compute the fructose content of the raw storage root in percentage using the formula" []
-is_a: CO_331:1000013 ! Computation
+is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0000118 ! storage root fructose content
 
 [Term]
@@ -7062,7 +6512,7 @@ id: CO_331:0000934
 name: measurement - glucose content of the raw storage root
 namespace: SweetpotatoMethod
 def: "Compute the glucose content of the raw storage root in percentage using the formula" []
-is_a: CO_331:1000013 ! Computation
+is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0000121 ! storage root glucose content
 
 [Term]
@@ -7070,7 +6520,7 @@ id: CO_331:0000935
 name: measurement - sucrose content of the raw storage root
 namespace: SweetpotatoMethod
 def: "Compute the sucrose content of the raw storage root in percentage using the formula" []
-is_a: CO_331:1000013 ! Computation
+is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0000124 ! storage root sucrose content
 
 [Term]
@@ -7078,7 +6528,7 @@ id: CO_331:0000936
 name: measurement - maltose content of the raw storage root
 namespace: SweetpotatoMethod
 def: "Compute the maltose content of the raw storage root in percentage using the formula" []
-is_a: CO_331:1000013 ! Computation
+is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0000127 ! storage root maltose content
 
 [Term]
@@ -8609,7 +8059,7 @@ id: CO_331:0002022
 name: measurement - weight of vines per plant harvested method
 namespace: SweetpotatoMethod
 def: "Compute the weight of vines per plant harvested within net plot using the formula" []
-is_a: CO_331:1000013 ! Computation
+is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0000224 ! vine weight
 
 [Term]
@@ -8617,7 +8067,7 @@ id: CO_331:0002023
 name: measurement - weight of vines per plant planted method
 namespace: SweetpotatoMethod
 def: "Compute the weight of vines per plant planted within the net plot using the formula" []
-is_a: CO_331:1000013 ! Computation
+is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0000224 ! vine weight
 
 [Term]
@@ -9691,6 +9141,978 @@ name: PltsAvail
 namespace: SweetpotatoScale
 is_a: CO_331:1000019 ! Numerical
 relationship: scale_of CO_331:0000885 ! counting - number of plants available
+
+[Term]
+id: CO_331:0003001
+name: sweetpotato fry color intensity
+namespace: SweetpotatoTrait
+def: "color intensity of fried sweetpotato fry measured visually on a 0(least intense) to 9(most intense) scale." []
+synonym: "RtBFryCol" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003002
+name: Color Intensity of Fried Sweetpotato fry 0-9
+namespace: SweetpotatoTrait
+def: "color intensity of fried sweetpotato fry measured visually on a 0(least intense) to 9(most intense) scale." []
+synonym: "Color intensity" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003001 ! sweetpotato fry color intensity
+relationship: variable_of CO_331:0003003 ! visual estimation - color intensity
+relationship: variable_of CO_331:0003004 ! color intensity 0-9 scale
+
+[Term]
+id: CO_331:0003003
+name: visual estimation - color intensity
+namespace: SweetpotatoMethod
+def: "visual rating of color intensity" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003002 ! Color Intensity of Fried Sweetpotato fry 0-9
+relationship: variable_of CO_331:0003046 ! Fry color estimating 0-9
+
+[Term]
+id: CO_331:0003004
+name: color intensity 0-9 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003003 ! visual estimation - color intensity
+
+[Term]
+id: CO_331:0003005
+name: Chip color intensity
+namespace: SweetpotatoTrait
+def: "The color intensity of the chip estimating from 0 = Light orange or yellow to 15 = Dark orange or yellow" []
+synonym: "RtBChipCol" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003006
+name: Chip color intensity estimating 0-15
+namespace: SweetpotatoTrait
+def: "The color intensity of the chip estimating from 0 = Light orange or yellow to 15 = Dark orange or yellow" []
+synonym: "CHIPCOLINT" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003005 ! Chip color intensity
+relationship: variable_of CO_331:0003007 ! visual estimation - chip color intensity
+relationship: variable_of CO_331:0003008 ! chip color intensity 0-15 scale
+
+[Term]
+id: CO_331:0003007
+name: visual estimation - chip color intensity
+namespace: SweetpotatoMethod
+def: "visual rating of chip color intensity" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003006 ! Chip color intensity estimating 0-15
+
+[Term]
+id: CO_331:0003008
+name: chip color intensity 0-15 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003007 ! visual estimation - chip color intensity
+
+[Term]
+id: CO_331:0003009
+name: Chip browning estimating
+namespace: SweetpotatoTrait
+def: "The browning of the chip estimating from 1 to 5" []
+synonym: "RtBChipBe" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003010
+name: Chip browning estimating by half points 1-5
+namespace: SweetpotatoTrait
+def: "The browning of the chip estimating from 1 = No browning to 5 = Extreme browning" []
+synonym: "CHIPBRWN" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003009 ! Chip browning estimating
+relationship: variable_of CO_331:0003011 ! visual estimation - chip brownness
+relationship: variable_of CO_331:0003012 ! chip browning intensity 1-5 scale
+
+[Term]
+id: CO_331:0003011
+name: visual estimation - chip brownness
+namespace: SweetpotatoMethod
+def: "Visual rating of chip brownness." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003010 ! Chip browning estimating by half points 1-5
+
+[Term]
+id: CO_331:0003012
+name: chip browning intensity 1-5 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003011 ! visual estimation - chip brownness
+
+[Term]
+id: CO_331:0003013
+name: Chip overall appearance
+namespace: SweetpotatoTrait
+def: "The overall appearance of the chip estimating from 0 = Poor overall appearance to 15 = Excellent overall appearance" []
+synonym: "RtBChipApp" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003014
+name: Chip overall appearance estimating 0-15
+namespace: SweetpotatoTrait
+def: "The overall appearance of the chip estimating from 0 = Poor overall appearance to 15 = Excellent overall appearance" []
+synonym: "CHIPOVAPP" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003013 ! Chip overall appearance
+relationship: variable_of CO_331:0003015 ! visual estimation - overall appearances of chips
+relationship: variable_of CO_331:0003016 ! overall appearances of chips 0-15 scale
+
+[Term]
+id: CO_331:0003015
+name: visual estimation - overall appearances of chips
+namespace: SweetpotatoMathod
+def: "Visual rating of overall appearances of chips." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003014 ! Chip overall appearance estimating 0-15
+
+[Term]
+id: CO_331:0003016
+name: overall appearances of chips 0-15 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003015 ! visual estimation - overall appearances of chips
+
+[Term]
+id: CO_331:0003017
+name: Chip crunchiness estimating
+namespace: SweetpotatoTrait
+def: "The crunchiness of the chip estimating from 0 = Not crunchy to 15 = Very crunchy" []
+synonym: "RtBChipCE" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003018
+name: Chip crunchiness estimating 0-15
+namespace: SweetpotatoTrait
+def: "The crunchiness of the chip estimating from 0 = Not crunchy to 15 = Very crunchy" []
+synonym: "CHIPCRUNCH" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003017 ! Chip crunchiness estimating
+relationship: variable_of CO_331:0003019 ! estimation - chip crunchiness
+relationship: variable_of CO_331:0003020 ! chip crunchiness 0-15 scale
+
+[Term]
+id: CO_331:0003019
+name: estimation - chip crunchiness
+namespace: SweetpotatoMethod
+def: "Rating the chip crunchiness by tasting it." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003018 ! Chip crunchiness estimating 0-15
+
+[Term]
+id: CO_331:0003020
+name: chip crunchiness 0-15 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003019 ! estimation - chip crunchiness
+
+[Term]
+id: CO_331:0003021
+name: Chip hardness
+namespace: SweetpotatoTrait
+def: "The hardness of the chip estimating from 0 = Not hard to 15 = Very hard" []
+synonym: "RtBChipH" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003022
+name: Chip hardness estimating 0-15
+namespace: SweetpotatoTrait
+def: "The hardness of the chip estimating from 0 = Not hard to 15 = Very hard" []
+synonym: "CHIPHARD" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003021 ! Chip hardness
+
+[Term]
+id: CO_331:0003023
+name: estimation - chip hardness
+namespace: SweetpotatoMethod
+def: "Rating the chips hardness by tasting it." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003022 ! Chip hardness estimating 0-15
+
+[Term]
+id: CO_331:0003024
+name: chip hardnes 0-15 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003023 ! estimation - chip hardness
+
+[Term]
+id: CO_331:0003025
+name: Chip sweetness
+namespace: SweetpotatoTrait
+def: "The sweetness of the chip estimating from 0 = No sweetness to 15 = Very sweet" []
+synonym: "RtBChipS" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003026
+name: Chip sweetness estimating 0-15
+namespace: SweetpotatoTrait
+def: "The sweetness of the chip estimating from 0 = No sweetness to 15 = Very sweet" []
+synonym: "CHIPSWEET" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003025 ! Chip sweetness
+relationship: variable_of CO_331:0003027 ! estimation - sweetness of chips
+relationship: variable_of CO_331:0003028 ! chip sweetness 0-15 scale
+
+[Term]
+id: CO_331:0003027
+name: estimation - sweetness of chips
+namespace: SweetpotatoMethod
+def: "Rating the sweetness of chips by tasting it." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003026 ! Chip sweetness estimating 0-15
+
+[Term]
+id: CO_331:0003028
+name: chip sweetness 0-15 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003027 ! estimation - sweetness of chips
+
+[Term]
+id: CO_331:0003029
+name: Chip flavor estimating
+namespace: SweetpotatoTrait
+def: "The flavor of the chip estimating from 0 = Extremely dislike to 15 = Extremely like" []
+synonym: "RtBChipFE" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003030
+name: Chip flavor estimating 0-15
+namespace: SweetpotatoTrait
+def: "The flavor of the chip estimating from 0 = Extremely dislike to 15 = Extremely like" []
+synonym: "CHIPFLVR" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003029 ! Chip flavor estimating
+relationship: variable_of CO_331:0003031 ! estimation - chip flavor
+relationship: variable_of CO_331:0003033 ! Chip flavor 0-15 scale
+
+[Term]
+id: CO_331:0003031
+name: estimation - chip flavor
+namespace: SweetpotatoMethod
+def: "Flavor of chips rating by tasting it." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003030 ! Chip flavor estimating 0-15
+
+[Term]
+id: CO_331:0003032
+name: Chip burnt flavor
+namespace: SweetpotatoTrait
+def: "The burnt flavor of the chip estimating from 0 = No burnt flavor to 15 = Excessive burnt flavor" []
+synonym: "RtBChipBF" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003033
+name: Chip flavor 0-15 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003031 ! estimation - chip flavor
+
+[Term]
+id: CO_331:0003034
+name: Chip burnt flavor estimating 0-15
+namespace: SweetpotatoTrait
+def: "The burnt flavor of the chip estimating from 0 = No burnt flavor to 15 = Excessive burnt flavor" []
+synonym: "CHIPBRNTFLVR" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003032 ! Chip burnt flavor
+relationship: variable_of CO_331:0003035 ! estimation - chip burnt flavor
+relationship: variable_of CO_331:0003036 ! Chip burnt flavor 0-15 scale
+
+[Term]
+id: CO_331:0003035
+name: estimation - chip burnt flavor
+namespace: SweetpotatoMethod
+def: "Rate the chip burnt flavor by tasting it." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003034 ! Chip burnt flavor estimating 0-15
+
+[Term]
+id: CO_331:0003036
+name: Chip burnt flavor 0-15 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003035 ! estimation - chip burnt flavor
+
+[Term]
+id: CO_331:0003037
+name: Chip overall taste
+namespace: SweetpotatoTrait
+def: "The overall taste of the chip estimating from 0 = Extremely dislike to 15 = Extremely like" []
+synonym: "RtBChipOT" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003038
+name: Chip overall taste estimating 0-15
+namespace: SweetpotatoTrait
+def: "The overall taste of the chip estimating from 0 = Extremely dislike to 15 = Extremely like" []
+synonym: "CHIPOVTASTE" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003037 ! Chip overall taste
+relationship: variable_of CO_331:0003039 ! estimtion - overall taste of the chip
+relationship: variable_of CO_331:0003040 ! Chip overall taste 0-15 scale
+
+[Term]
+id: CO_331:0003039
+name: estimtion - overall taste of the chip
+namespace: SweetpotatoMethod
+def: "Rating the overall taste of the chip by tasting it." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003038 ! Chip overall taste estimating 0-15
+
+[Term]
+id: CO_331:0003040
+name: Chip overall taste 0-15 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003039 ! estimtion - overall taste of the chip
+
+[Term]
+id: CO_331:0003041
+name: Chip overall  defects
+namespace: SweetpotatoTrait
+def: "The defects of the chip. VB= Vascular bundles, P=Pithiness, CB=Cortical browning , SP=Skin peeling, B=Excessive bubbling" []
+synonym: "RtBChipD" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003042
+name: Chip defects
+namespace: SweetpotatoTrait
+def: "The defects of the chip. VB= Vascular bundles, P=Pithiness, CB=Cortical browning , SP=Skin peeling, B=Excessive bubbling" []
+synonym: "CHIPDEF" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003041 ! Chip overall  defects
+
+[Term]
+id: CO_331:0003043
+name: visual estimation - chip defects
+namespace: SweetpotatoMethod
+def: "Rating the chip defects visually." []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003042 ! Chip defects
+
+[Term]
+id: CO_331:0003044
+name: chip defects visually scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000030 ! Nominal
+relationship: method_of CO_331:0003043 ! visual estimation - chip defects
+
+[Term]
+id: CO_331:0003045
+name: Fry color
+namespace: SweetpotatoTrait
+def: "The color intensity of the fry estimating from 0 = White to 9 = Dark orange, dark yellow" []
+synonym: "RtBFryC" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003046
+name: Fry color estimating 0-9
+namespace: SweetpotatoTrait
+def: "The color intensity of the fry estimating from 0 = White to 9 = Dark orange, dark yellow" []
+synonym: "FRYCOL" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003003 ! visual estimation - color intensity
+relationship: variable_of CO_331:0003004 ! color intensity 0-9 scale
+relationship: variable_of CO_331:0003045 ! Fry color
+
+[Term]
+id: CO_331:0003047
+name: Fry hue
+namespace: SweetpotatoTrait
+def: "The color of the fry. O = Orange, OB = Orange brown, B = Brown, Y = Yellow" []
+synonym: "RtBHue" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003048
+name: Fry color hue
+namespace: SweetpotatoTrait
+def: "The color of the fry. O = Orange, OB = Orange brown, B = Brown, Y = Yellow" []
+synonym: "FRYCOLHUE" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003047 ! Fry hue
+relationship: variable_of CO_331:0003049 ! visual estimation - color hue
+relationship: variable_of CO_331:0003050 ! Fry color hue scale
+
+[Term]
+id: CO_331:0003049
+name: visual estimation - color hue
+namespace: SweetpotatoMethod
+def: "Observe the fry color and identify it" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003048 ! Fry color hue
+
+[Term]
+id: CO_331:0003050
+name: Fry color hue scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000030 ! Nominal
+relationship: scale_of CO_331:0003049 ! visual estimation - color hue
+
+[Term]
+id: CO_331:0003051
+name: Fry flesh color
+namespace: SweetpotatoTrait
+def: "The color intensity of the fry flesh estimating from 0 = White to 9 = Dark orange, dark yellow" []
+synonym: "RtBFryFCS" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003052
+name: Fry flesh color estimating 0-9
+namespace: SweetpotatoTrait
+def: "The color intensity of the fry flesh estimating from 0 = White to 9 = Dark orange, dark yellow" []
+synonym: "FRYFLESHCOL" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003051 ! Fry flesh color
+relationship: variable_of CO_331:0003053 ! visual estimation - fry flesh color
+relationship: variable_of CO_331:0003054 ! Fry flesh color 0-9 scale
+
+[Term]
+id: CO_331:0003053
+name: visual estimation - fry flesh color
+namespace: SweetpotatoMethod
+def: "Observe the fry flesh color intensity and rate it" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003052 ! Fry flesh color estimating 0-9
+
+[Term]
+id: CO_331:0003054
+name: Fry flesh color 0-9 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003053 ! visual estimation - fry flesh color
+
+[Term]
+id: CO_331:0003055
+name: Fry flesh hue
+namespace: SweetpotatoTrait
+def: "The color of the fry flesh. O = Orange, OB = Orange brown, B = Brown, Y = Yellow" []
+synonym: "RtBFryFH" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003056
+name: Fry flesh color hue
+namespace: SweetpotatoTrait
+def: "The color of the fry flesh. O = Orange, OB = Orange brown, B = Brown, Y = Yellow" []
+synonym: "FRYFLESHCOLHUE" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003055 ! Fry flesh hue
+relationship: variable_of CO_331:0003057 ! visual estimation - fry flesh color hue
+relationship: variable_of CO_331:0003058 ! Fry flesh color hue scale
+
+[Term]
+id: CO_331:0003057
+name: visual estimation - fry flesh color hue
+namespace: SweetpotatoMethod
+def: "Observe the fry flesh color and identify it" []
+is_a: CO_331:1000014 ! Estimation
+
+[Term]
+id: CO_331:0003058
+name: Fry flesh color hue scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000030 ! Nominal
+relationship: scale_of CO_331:0003057 ! visual estimation - fry flesh color hue
+
+[Term]
+id: CO_331:0003060
+name: Fry appearance defects
+namespace: SweetpotatoTrait
+def: "The appearance defects of the fry estimating from 0 = No appearance defects to 9 = Excessive appearance defects" []
+synonym: "RtBFryAD" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003061
+name: Fry appearance defects estimating 0-9
+namespace: SweetpotatoTrait
+def: "The appearance defects of the fry estimating from 0 = No appearance defects to 9 = Excessive appearance defects" []
+synonym: "FRYAPPDEF" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003060 ! Fry appearance defects
+relationship: variable_of CO_331:0003062 ! visual estimation - appearance defects
+relationship: variable_of CO_331:0003063 ! Fry appearance defects 0-9 scale
+
+[Term]
+id: CO_331:0003062
+name: visual estimation - appearance defects
+namespace: SweetpotatoMethod
+def: "Observe the fry appearance defects and rate it" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003061 ! Fry appearance defects estimating 0-9
+
+[Term]
+id: CO_331:0003063
+name: Fry appearance defects 0-9 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003062 ! visual estimation - appearance defects
+
+[Term]
+id: CO_331:0003064
+name: Fry crispness
+namespace: SweetpotatoTrait
+def: "The crispness of the fry estimating from 0 = Not crispy to 9 = Very crispy" []
+synonym: "RtBFryCr" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003065
+name: Fry crispness estimating 0-9
+namespace: SweetpotatoTrait
+def: "The crispness of the fry estimating from 0 = Not crispy to 9 = Very crispy" []
+synonym: "FRYCRISP" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003064 ! Fry crispness
+relationship: variable_of CO_331:0003066 ! estimation - fry crispness
+relationship: variable_of CO_331:0003067 ! Fry crispness 0-9 scale
+
+[Term]
+id: CO_331:0003066
+name: estimation - fry crispness
+namespace: SweetpotatoMethod
+def: "Taste the fry crispness and rate it" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003065 ! Fry crispness estimating 0-9
+
+[Term]
+id: CO_331:0003067
+name: Fry crispness 0-9 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003066 ! estimation - fry crispness
+
+[Term]
+id: CO_331:0003070
+name: Fry toughness estimating 0-9
+namespace: SweetpotatoTrait
+def: "The toughness of the fry estimating from 0 = Not tough to 9 = Very tough" []
+synonym: "FRYTOUGH" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003068 ! Fry toughness
+relationship: variable_of CO_331:0003071 ! estimation - fry toughness
+relationship: variable_of CO_331:0003072 ! fry toughness 0-9 scale
+
+[Term]
+id: CO_331:0003071
+name: estimation - fry toughness
+namespace: SweetpotatoMethod
+def: "Taste the fry toughness and rate it" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003070 ! Fry toughness estimating 0-9
+
+[Term]
+id: CO_331:0003072
+name: fry toughness 0-9 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003071 ! estimation - fry toughness
+
+[Term]
+id: CO_331:0003073
+name: Fry hardness
+namespace: SweetpotatoTrait
+def: "The hardness of the fry estimating from 0 = Not hard to 9 = Very hard" []
+synonym: "RtBFryHar" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003074
+name: Fry hardness estimating 0-9
+namespace: SweetpotatoTrait
+def: "The hardness of the fry estimating from 0 = Not hard to 9 = Very hard" []
+synonym: "FRYHARD" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003073 ! Fry hardness
+relationship: variable_of CO_331:0003075 ! estimation - fry hardness
+relationship: variable_of CO_331:0003076 ! fry hardness 0-9 scale
+
+[Term]
+id: CO_331:0003075
+name: estimation - fry hardness
+namespace: SweetpotatoMethod
+def: "Taste the fry hardness and rate it" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003074 ! Fry hardness estimating 0-9
+
+[Term]
+id: CO_331:0003076
+name: fry hardness 0-9 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003075 ! estimation - fry hardness
+
+[Term]
+id: CO_331:0003077
+name: Fry smoothness
+namespace: SweetpotatoTrait
+def: "The smoothness of the fry estimating from 0 = Not smooth to 9 = Very smooth" []
+synonym: "RtBFrySm" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003078
+name: Fry smoothness estimating 0-9
+namespace: SweetpotatoTrait
+def: "The smoothness of the fry estimating from 0 = Not smooth to 9 = Very smooth" []
+synonym: "FRYSMOOTH" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003077 ! Fry smoothness
+relationship: variable_of CO_331:0003079 ! estimation - fry smoothness
+relationship: variable_of CO_331:0003080 ! fry smoothness 0-9 scale
+
+[Term]
+id: CO_331:0003079
+name: estimation - fry smoothness
+namespace: SweetpotatoMethod
+def: "Taste the fry smoothness and rate it" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003078 ! Fry smoothness estimating 0-9
+
+[Term]
+id: CO_331:0003080
+name: fry smoothness 0-9 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003079 ! estimation - fry smoothness
+
+[Term]
+id: CO_331:0003081
+name: Fry moistness
+namespace: SweetpotatoTrait
+def: "The moistness of the fry estimating from 0 = Not moist to 9 = Very moist" []
+synonym: "RtBFryMoi" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003082
+name: Fry moistness estimating 0-9
+namespace: SweetpotatoTrait
+def: "The moistness of the fry estimating from 0 = Not moist to 9 = Very moist" []
+synonym: "FRYMOIST" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003081 ! Fry moistness
+relationship: variable_of CO_331:0003082 ! Fry moistness estimating 0-9
+relationship: variable_of CO_331:0003084 ! fry moitness 0-9 scale
+
+[Term]
+id: CO_331:0003083
+name: estimation - fry moistness
+namespace: SweetpotatoMethod
+def: "Taste the fry moistness and rate it" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003082 ! Fry moistness estimating 0-9
+
+[Term]
+id: CO_331:0003084
+name: fry moitness 0-9 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003083 ! estimation - fry moistness
+
+[Term]
+id: CO_331:0003085
+name: Fry fibrousness
+namespace: SweetpotatoTrait
+def: "The fibrousness of the fry estimating from 0 = Not fibrous to 9 = Very fibrous" []
+synonym: "RtBFryFiber" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003086
+name: Fry fibrousness estimating 0-9
+namespace: SweetpotatoTrait
+def: "The fibrousness of the fry estimating from 0 = Not fibrous to 9 = Very fibrous" []
+synonym: "FRYFIBER" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003085 ! Fry fibrousness
+relationship: variable_of CO_331:0003087 ! estimation - fry fibrousness
+relationship: variable_of CO_331:0003088 ! fry fibrousness 0-9 scale
+
+[Term]
+id: CO_331:0003087
+name: estimation - fry fibrousness
+namespace: SweetpotatoMethod
+def: "Taste the fry fibrousness and rate it" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003086 ! Fry fibrousness estimating 0-9
+
+[Term]
+id: CO_331:0003088
+name: fry fibrousness 0-9 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003087 ! estimation - fry fibrousness
+
+[Term]
+id: CO_331:0003089
+name: Fry critical texture defects
+namespace: SweetpotatoTrait
+def: "The critical texture defects of the fry estimating from 0 = No critical texture defects to 9 = Many critical texture defects" []
+synonym: "RtBFryTextDef" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003090
+name: Fry critical texture defects estimating 0-9
+namespace: SweetpotatoTrait
+def: "The critical texture defects of the fry estimating from 0 = No critical texture defects to 9 = Many critical texture defects" []
+synonym: "FRYTEXTDEF" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003089 ! Fry critical texture defects
+relationship: variable_of CO_331:0003091 ! estimation - fry critical texture defects
+relationship: variable_of CO_331:0003092 ! fry critical texture defects 0-9 scale
+
+[Term]
+id: CO_331:0003091
+name: estimation - fry critical texture defects
+namespace: SweetpotatoMethod
+def: "Taste the fry texture defects and rate it" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003090 ! Fry critical texture defects estimating 0-9
+
+[Term]
+id: CO_331:0003092
+name: fry critical texture defects 0-9 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003091 ! estimation - fry critical texture defects
+
+[Term]
+id: CO_331:0003093
+name: Fry flavor baked
+namespace: SweetpotatoTrait
+def: "The baked sweetpotato flavor of the fry estimating from 0 = No baked sweetpotato flavor to 9 = Excellent baked sweetpotato flavor" []
+synonym: "RtBFBSE" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003094
+name: Fry flavor baked estimating 0-9
+namespace: SweetpotatoTrait
+def: "The baked sweetpotato flavor of the fry estimating from 0 = No baked sweetpotato flavor to 9 = Excellent baked sweetpotato flavor" []
+synonym: "FRYFLVR_BKDSP" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003093 ! Fry flavor baked
+relationship: variable_of CO_331:0003095 ! estimation - fry flavor baked
+relationship: variable_of CO_331:0003096 ! fry flavor baked 0-9 scale
+
+[Term]
+id: CO_331:0003095
+name: estimation - fry flavor baked
+namespace: SweetpotatoMethod
+def: "Taste the fry baked sweetpotato flavor and rate it" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003094 ! Fry flavor baked estimating 0-9
+
+[Term]
+id: CO_331:0003096
+name: fry flavor baked 0-9 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003095 ! estimation - fry flavor baked
+
+[Term]
+id: CO_331:0003097
+name: Fry overall product quality
+namespace: SweetpotatoTrait
+def: "The overall product quality of the fry estimating from 0 = Poor product quality to 9 = Excellent product quality" []
+synonym: "RtBFryOQP" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
+id: CO_331:0003098
+name: Fry overall product quality estimating 0-9
+namespace: SweetpotatoTrait
+def: "The overall product quality of the fry estimating from 0 = Poor product quality to 9 = Excellent product quality" []
+synonym: "FRYOVPRODQLTY" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003097 ! Fry overall product quality
+relationship: variable_of CO_331:0003099 ! estimation - fry overall product quality
+relationship: variable_of CO_331:0003100 ! fry overall product quality 0-9 scale
+
+[Term]
+id: CO_331:0003099
+name: estimation - fry overall product quality
+namespace: SweetpotatoMethod
+def: "Rate the overall product quality" []
+is_a: CO_331:1000014 ! Estimation
+relationship: method_of CO_331:0003098 ! Fry overall product quality estimating 0-9
+
+[Term]
+id: CO_331:0003100
+name: fry overall product quality 0-9 scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000015 ! Ordinal
+relationship: scale_of CO_331:0003099 ! estimation - fry overall product quality
+
+[Term]
+id: CO_331:0003101
+name: Harvest Photo Trait
+namespace: SweetpotatoTrait
+def: "Photo of 10 Number 1 sized roots arranged in a 2 row by 5 root wide image" []
+synonym: "RtBHP" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:0003102
+name: Harvest Photo
+namespace: SweetpotatoTrait
+def: "Photo of 10 Number 1 sized roots arranged in a 2 row by 5 root wide image" []
+synonym: "HarvestPhoto" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003101 ! Harvest Photo Trait
+relationship: variable_of CO_331:0003104 ! image - harvest photo
+relationship: variable_of CO_331:0003106 ! harvestphoto - scale
+
+[Term]
+id: CO_331:0003103
+name: Images
+namespace: SweetpotatoMethod
+is_a: CO_331:1000001 ! Methods
+
+[Term]
+id: CO_331:0003104
+name: image - harvest photo
+namespace: SweetpotatoMethod
+def: "image of 10 roots" []
+is_a: CO_331:0003103 ! Images
+relationship: method_of CO_331:0003102 ! Harvest Photo
+
+[Term]
+id: CO_331:0003105
+name: harvertphoto scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000030 ! Nominal
+relationship: scale_of CO_331:0003104 ! image - harvest photo
+
+[Term]
+id: CO_331:0003106
+name: harvestphoto - scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000030 ! Nominal
+relationship: scale_of CO_331:0003104 ! image - harvest photo
+
+[Term]
+id: CO_331:0003107
+name: Plot Photo Trait
+namespace: SweetpotatoTrait
+def: "Image of a plot of sweetpotato roots in a harvested plot" []
+synonym: "RtBPlotPhoto" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:0003108
+name: Plot Photo
+namespace: SweetpotatoTrait
+def: "Image of a plot of sweetpotato roots in a harvested plot" []
+synonym: "PlotPhoto" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003107 ! Plot Photo Trait
+relationship: variable_of CO_331:0003109 ! image - plot photo
+relationship: variable_of CO_331:0003110 ! plotphoto - scale
+
+[Term]
+id: CO_331:0003109
+name: image - plot photo
+namespace: SweetpotatoMethod
+def: "Image of sweetpotato roots in harvested plot" []
+is_a: CO_331:0003103 ! Images
+relationship: method_of CO_331:0003108 ! Plot Photo
+
+[Term]
+id: CO_331:0003110
+name: plotphoto - scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000030 ! Nominal
+relationship: scale_of CO_331:0003109 ! image - plot photo
+
+[Term]
+id: CO_331:0003111
+name: Long Term Storage Photo Trait
+namespace: SweetpotatoTrait
+def: "Image of interior of up to 6 roots kept for long term storage evaluation. Arranged in a 2 row by 3 root sample. A center section of each root is cut for pithiness evaluation. An overall average rating would be associated for each image. Image could include any sprouted or rotting roots from the storage sample." []
+synonym: "RtBStorage" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:0003112
+name: Long Term Storage Photo
+namespace: SweetpotatoTrait
+def: "Image of interior of up to 6 roots kept for long term storage evaluation. Arranged in a 2 row by 3 root sample. A center section of each root is cut for pithiness evaluation. An overall average rating would be associated for each image. Image could include any sprouted or rotting roots from the storage sample." []
+synonym: "StoragePhoto" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003111 ! Long Term Storage Photo Trait
+relationship: variable_of CO_331:0003113 ! image - long term storage photo
+relationship: variable_of CO_331:0003114 ! storage photo - scale
+
+[Term]
+id: CO_331:0003113
+name: image - long term storage photo
+namespace: SweetpotatoMethod
+def: "Visual rating of pithiness - pithiness image 1- pithiness image 2." []
+is_a: CO_331:0003103 ! Images
+relationship: method_of CO_331:0003112 ! Long Term Storage Photo
+
+[Term]
+id: CO_331:0003114
+name: storage photo - scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000030 ! Nominal
+relationship: scale_of CO_331:0003113 ! image - long term storage photo
+
+[Term]
+id: CO_331:0003115
+name: Baked Root Photo Trait
+namespace: SweetpotatoTrait
+def: "Image of baked sweetpotato root" []
+synonym: "RtBBakedPhoto" EXACT []
+is_a: CO_331:1000010 ! Morphological_trait
+
+[Term]
+id: CO_331:0003116
+name: Baked Root Photo
+namespace: SweetpotatoTrait
+def: "Image of baked sweetpotato root" []
+synonym: "BakePhoto" EXACT []
+is_a: CO_331:1000003 ! Variables
+relationship: variable_of CO_331:0003115 ! Baked Root Photo Trait
+relationship: variable_of CO_331:0003117 ! image - baked root photo
+relationship: variable_of CO_331:0003118 ! baked root photo scale
+
+[Term]
+id: CO_331:0003117
+name: image - baked root photo
+namespace: SweetpotatoMethod
+def: "Root measuring image - image of baked sweetpotato root" []
+is_a: CO_331:0003103 ! Images
+relationship: method_of CO_331:0003116 ! Baked Root Photo
+
+[Term]
+id: CO_331:0003118
+name: baked root photo scale
+namespace: SweetpotatoScale
+is_a: CO_331:1000030 ! Nominal
+relationship: scale_of CO_331:0003117 ! image - baked root photo
 
 [Term]
 id: CO_331:0004000
@@ -10856,7 +11278,7 @@ id: CO_331:2000020
 name: measurement - glucose content of the boiled storage root
 namespace: SweetpotatoMethod
 def: "Compute the glucose content of the boiled storage root in percentage using the formula" []
-is_a: CO_331:1000013 ! Computation
+is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0000121 ! storage root glucose content
 
 [Term]
@@ -10864,7 +11286,7 @@ id: CO_331:2000021
 name: measurement - fructose content of the boiled storage root
 namespace: SweetpotatoMethod
 def: "Compute the fructose content of the boiled storage root in percentage using the formula" []
-is_a: CO_331:1000013 ! Computation
+is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0000118 ! storage root fructose content
 
 [Term]
@@ -10887,7 +11309,7 @@ id: CO_331:2000024
 name: measurement - sucrose content of the boiled storage root
 namespace: SweetpotatoMethod
 def: "Compute the sucrose content of the boiled storage root in percentage using the formula" []
-is_a: CO_331:1000013 ! Computation
+is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0000124 ! storage root sucrose content
 
 [Term]
@@ -10895,7 +11317,7 @@ id: CO_331:2000025
 name: measurement - maltose content of the boiled storage root
 namespace: SweetpotatoMethod
 def: "Compute the maltose content of the boiled storage root in percentage using the formula" []
-is_a: CO_331:1000013 ! Computation
+is_a: CO_331:1000011 ! Measurement
 relationship: method_of CO_331:0000127 ! storage root maltose content
 
 [Term]
