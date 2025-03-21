@@ -3,7 +3,7 @@ date: 03:06:2026 10:50
 saved-by: Naama
 namespace-id-rule: * CO_331:$sequence(7,0000000,0009999)$
 ontology: CO_331
-default-namespace: SweetpotatoTrait
+default-namespace: sweetpotato
 
 
 [Term]
