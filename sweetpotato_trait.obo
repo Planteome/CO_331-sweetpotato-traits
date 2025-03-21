@@ -6,14 +6,6 @@ ontology: CO_331
 default-namespace: SweetpotatoTrait
 
 [Term]
-id: CO_331:0003068
-name: Fry toughness
-namespace: SweetpotatoTrait
-def: "The toughness of the fry estimating from 0 = Not tough to 9 = Very tough" []
-synonym: "RtBFryT" EXACT []
-is_a: CO_331:1000007 ! Quality_trait
-
-[Term]
 id: CO_331:0000000
 name: CGIAR sweetpotato trait ontology
 namespace: SweetpotatoTrait
@@ -9702,6 +9694,14 @@ is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0003066 ! estimation - fry crispness
 
 [Term]
+id: CO_331:0003068
+name: Fry toughness
+namespace: SweetpotatoTrait
+def: "The toughness of the fry estimating from 0 = Not tough to 9 = Very tough" []
+synonym: "RtBFryT" EXACT []
+is_a: CO_331:1000007 ! Quality_trait
+
+[Term]
 id: CO_331:0003070
 name: Fry toughness estimating 0-9
 namespace: SweetpotatoTrait
@@ -9964,155 +9964,6 @@ name: fry overall product quality 0-9 scale
 namespace: SweetpotatoScale
 is_a: CO_331:1000015 ! Ordinal
 relationship: scale_of CO_331:0003099 ! estimation - fry overall product quality
-
-[Term]
-id: CO_331:0003101
-name: Harvest Photo Trait
-namespace: SweetpotatoTrait
-def: "Photo of 10 Number 1 sized roots arranged in a 2 row by 5 root wide image" []
-synonym: "RtBHP" EXACT []
-is_a: CO_331:1000010 ! Morphological_trait
-
-[Term]
-id: CO_331:0003102
-name: Harvest Photo
-namespace: SweetpotatoTrait
-def: "Photo of 10 Number 1 sized roots arranged in a 2 row by 5 root wide image" []
-synonym: "HarvestPhoto" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0003101 ! Harvest Photo Trait
-relationship: variable_of CO_331:0003104 ! image - harvest photo
-relationship: variable_of CO_331:0003106 ! harvestphoto - scale
-
-[Term]
-id: CO_331:0003103
-name: Images
-namespace: SweetpotatoMethod
-is_a: CO_331:1000001 ! Methods
-
-[Term]
-id: CO_331:0003104
-name: image - harvest photo
-namespace: SweetpotatoMethod
-def: "image of 10 roots" []
-is_a: CO_331:0003103 ! Images
-relationship: method_of CO_331:0003102 ! Harvest Photo
-
-[Term]
-id: CO_331:0003105
-name: harvertphoto scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000030 ! Nominal
-relationship: scale_of CO_331:0003104 ! image - harvest photo
-
-[Term]
-id: CO_331:0003106
-name: harvestphoto - scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000030 ! Nominal
-relationship: scale_of CO_331:0003104 ! image - harvest photo
-
-[Term]
-id: CO_331:0003107
-name: Plot Photo Trait
-namespace: SweetpotatoTrait
-def: "Image of a plot of sweetpotato roots in a harvested plot" []
-synonym: "RtBPlotPhoto" EXACT []
-is_a: CO_331:1000010 ! Morphological_trait
-
-[Term]
-id: CO_331:0003108
-name: Plot Photo
-namespace: SweetpotatoTrait
-def: "Image of a plot of sweetpotato roots in a harvested plot" []
-synonym: "PlotPhoto" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0003107 ! Plot Photo Trait
-relationship: variable_of CO_331:0003109 ! image - plot photo
-relationship: variable_of CO_331:0003110 ! plotphoto - scale
-
-[Term]
-id: CO_331:0003109
-name: image - plot photo
-namespace: SweetpotatoMethod
-def: "Image of sweetpotato roots in harvested plot" []
-is_a: CO_331:0003103 ! Images
-relationship: method_of CO_331:0003108 ! Plot Photo
-
-[Term]
-id: CO_331:0003110
-name: plotphoto - scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000030 ! Nominal
-relationship: scale_of CO_331:0003109 ! image - plot photo
-
-[Term]
-id: CO_331:0003111
-name: Long Term Storage Photo Trait
-namespace: SweetpotatoTrait
-def: "Image of interior of up to 6 roots kept for long term storage evaluation. Arranged in a 2 row by 3 root sample. A center section of each root is cut for pithiness evaluation. An overall average rating would be associated for each image. Image could include any sprouted or rotting roots from the storage sample." []
-synonym: "RtBStorage" EXACT []
-is_a: CO_331:1000010 ! Morphological_trait
-
-[Term]
-id: CO_331:0003112
-name: Long Term Storage Photo
-namespace: SweetpotatoTrait
-def: "Image of interior of up to 6 roots kept for long term storage evaluation. Arranged in a 2 row by 3 root sample. A center section of each root is cut for pithiness evaluation. An overall average rating would be associated for each image. Image could include any sprouted or rotting roots from the storage sample." []
-synonym: "StoragePhoto" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0003111 ! Long Term Storage Photo Trait
-relationship: variable_of CO_331:0003113 ! image - long term storage photo
-relationship: variable_of CO_331:0003114 ! storage photo - scale
-
-[Term]
-id: CO_331:0003113
-name: image - long term storage photo
-namespace: SweetpotatoMethod
-def: "Visual rating of pithiness - pithiness image 1- pithiness image 2." []
-is_a: CO_331:0003103 ! Images
-relationship: method_of CO_331:0003112 ! Long Term Storage Photo
-
-[Term]
-id: CO_331:0003114
-name: storage photo - scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000030 ! Nominal
-relationship: scale_of CO_331:0003113 ! image - long term storage photo
-
-[Term]
-id: CO_331:0003115
-name: Baked Root Photo Trait
-namespace: SweetpotatoTrait
-def: "Image of baked sweetpotato root" []
-synonym: "RtBBakedPhoto" EXACT []
-is_a: CO_331:1000010 ! Morphological_trait
-
-[Term]
-id: CO_331:0003116
-name: Baked Root Photo
-namespace: SweetpotatoTrait
-def: "Image of baked sweetpotato root" []
-synonym: "BakePhoto" EXACT []
-is_a: CO_331:1000003 ! Variables
-relationship: variable_of CO_331:0003115 ! Baked Root Photo Trait
-relationship: variable_of CO_331:0003117 ! image - baked root photo
-relationship: variable_of CO_331:0003118 ! baked root photo scale
-
-[Term]
-id: CO_331:0003117
-name: image - baked root photo
-namespace: SweetpotatoMethod
-def: "Root measuring image - image of baked sweetpotato root" []
-is_a: CO_331:0003103 ! Images
-relationship: method_of CO_331:0003116 ! Baked Root Photo
-
-[Term]
-id: CO_331:0003118
-name: baked root photo scale
-namespace: SweetpotatoScale
-is_a: CO_331:1000030 ! Nominal
-relationship: scale_of CO_331:0003117 ! image - baked root photo
 
 [Term]
 id: CO_331:0004000
