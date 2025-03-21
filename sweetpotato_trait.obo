@@ -5,6 +5,7 @@ namespace-id-rule: * CO_331:$sequence(7,0000000,0009999)$
 ontology: CO_331
 default-namespace: SweetpotatoTrait
 
+
 [Term]
 id: CO_331:0000000
 name: CGIAR sweetpotato trait ontology
